@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compassionate_Leave_Taken__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of days of compassionate leave taken this year</inlineHelpText>
+    <label>Compassionate Leave Taken</label>
+    <summarizedField>Absence__c.Number_of_Days__c</summarizedField>
+    <summaryFilterItems>
+        <field>Absence__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Compassionate Leave</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Absence__c.IsThis_Year__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Absence__c.Employee_Record__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>License_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>License Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ALC</fullName>
+                <default>false</default>
+                <label>ALC</label>
+            </value>
+            <value>
+                <fullName>YLC</fullName>
+                <default>false</default>
+                <label>YLC</label>
+            </value>
+            <value>
+                <fullName>QLC</fullName>
+                <default>false</default>
+                <label>QLC</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>MX Pro</fullName>
+                <default>false</default>
+                <label>MX Pro</label>
+            </value>
+            <value>
+                <fullName>MX Premium</fullName>
+                <default>false</default>
+                <label>MX Premium</label>
+            </value>
+            <value>
+                <fullName>MX ASR</fullName>
+                <default>false</default>
+                <label>MX ASR</label>
+            </value>
+            <value>
+                <fullName>MX Custom</fullName>
+                <default>false</default>
+                <label>MX Custom</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

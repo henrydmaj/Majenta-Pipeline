@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VAT_Amount_Placeholder__c</fullName>
+    <description>This field will be populated by a workflow rule in order to be rolled up to the quote level and be referenced in an invoice.</description>
+    <externalId>false</externalId>
+    <label>VAT Amount (Placeholder)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>P_BUG_VR2_FixConfirmedDateMustBeProvided</fullName>
+    <active>true</active>
+    <description>User must provide the date the fix was confirmed</description>
+    <errorConditionFormula>AND(ISBLANK(FixConfirmedDate__c), 
+				AND(IsFixConfirmed__c = TRUE))</errorConditionFormula>
+    <errorDisplayField>FixConfirmedDate__c</errorDisplayField>
+    <errorMessage>Please provide date the fix was confirmed.</errorMessage>
+</ValidationRule>

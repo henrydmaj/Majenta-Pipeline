@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Debtor_Category_V2__c</fullName>
+    <externalId>false</externalId>
+    <label>Debtor Category V2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On Time Good Payer</fullName>
+                <default>false</default>
+                <label>On Time Good Payer</label>
+            </value>
+            <value>
+                <fullName>New Customer</fullName>
+                <default>false</default>
+                <label>New Customer</label>
+            </value>
+            <value>
+                <fullName>Intense Persistent Chasing Required</fullName>
+                <default>false</default>
+                <label>Intense Persistent Chasing Required</label>
+            </value>
+            <value>
+                <fullName>90 Day or Above Terms</fullName>
+                <default>false</default>
+                <label>90 Day or Above Terms</label>
+            </value>
+            <value>
+                <fullName>Bad Payers Bad Debt Risk</fullName>
+                <default>false</default>
+                <label>Bad Payers Bad Debt Risk</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

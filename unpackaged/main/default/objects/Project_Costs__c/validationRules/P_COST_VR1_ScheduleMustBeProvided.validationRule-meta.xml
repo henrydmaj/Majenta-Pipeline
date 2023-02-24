@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>P_COST_VR1_ScheduleMustBeProvided</fullName>
+    <active>true</active>
+    <description>If the cost is recurring, the schedule must be provided.</description>
+    <errorConditionFormula>AND(ISPICKVAL( RecurringSchedule__c,""),
+				 RecurringCost__c &lt;&gt; 0)</errorConditionFormula>
+    <errorDisplayField>RecurringSchedule__c</errorDisplayField>
+    <errorMessage>You must provide the recurring schedule for a recurring cost</errorMessage>
+</ValidationRule>

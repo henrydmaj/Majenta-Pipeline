@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Non visible field updated by button distributed flow to GSI team to remove enerjyhub Contacts - this team do not have delete permission to this and related dependent objects</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Do not check manually this will result in contact being deleted by a process</inlineHelpText>
+    <label>Delete?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

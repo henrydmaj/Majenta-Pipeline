@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DQScore__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(DQScorePerc__c == 1, IMAGE("/img/samples/rating5.gif", ""),
+IF(DQScorePerc__c &gt;= 0.5, IMAGE("/img/samples/rating4.gif", ""),
+IMAGE("/img/samples/rating3.gif", "") ))+" "+TEXT((FLOOR((DQScorePerc__c*100))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Data Quality Score out of 100, calculated based on data present in key fields.</inlineHelpText>
+    <label>DQ Score</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

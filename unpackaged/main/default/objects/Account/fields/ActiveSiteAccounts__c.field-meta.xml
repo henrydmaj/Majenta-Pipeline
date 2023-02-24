@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActiveSiteAccounts__c</fullName>
+    <description>Field to count number of active site accounts related to the parent account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of related active site accounts.</inlineHelpText>
+    <label>Active Site Accounts</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

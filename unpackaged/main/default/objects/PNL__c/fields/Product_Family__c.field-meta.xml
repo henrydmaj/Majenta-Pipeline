@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Family__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If you do no see the selection you require please contact your admin for Help and Assistance</inlineHelpText>
+    <label>Product Family</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Autodesk</fullName>
+                <default>false</default>
+                <label>Autodesk</label>
+            </value>
+            <value>
+                <fullName>Consultants - (AH Division Only)</fullName>
+                <default>false</default>
+                <label>Consultants - (AH Division Only)</label>
+            </value>
+            <value>
+                <fullName>Dassault</fullName>
+                <default>false</default>
+                <label>Dassault</label>
+            </value>
+            <value>
+                <fullName>Data Services</fullName>
+                <default>false</default>
+                <label>Data Services</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>JLR iPLM</fullName>
+                <default>false</default>
+                <label>enerjyhub</label>
+            </value>
+            <value>
+                <fullName>Overhead</fullName>
+                <default>false</default>
+                <label>Overhead</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Car_Registration_Number__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please enter any Car Registration numbers that you may drive into work in.</inlineHelpText>
+    <label>Car Registration Number</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

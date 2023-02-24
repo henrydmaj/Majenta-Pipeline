@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Misalignment_Reason__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter a reason if the number of days you have entered does not align with the start - end dates, e.g. bank holiday or half a day</inlineHelpText>
+    <label>Days Misalignment Reason</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

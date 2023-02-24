@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP_VR21_Project_Start_Date_Above_60</fullName>
+    <active>true</active>
+    <description>Project Start Date - Must be ticked in order to move above 60% Probability</description>
+    <errorConditionFormula>ISCHANGED(Probability ) &amp;&amp;
+ISPICKVAL(Division__c, 'Construction') &amp;&amp; 
+Probability &gt; 0.6 &amp;&amp;  
+ISBLANK(Project_Start_Date__c )</errorConditionFormula>
+    <errorDisplayField>Project_Start_Date__c</errorDisplayField>
+    <errorMessage>You must populate a Project Start Date before this Opportunity can be moved beyond 60% [OPP_VR21)</errorMessage>
+</ValidationRule>

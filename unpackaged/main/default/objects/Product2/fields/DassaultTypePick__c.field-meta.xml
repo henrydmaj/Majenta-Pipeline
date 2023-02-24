@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DassaultTypePick__c</fullName>
+    <description>Dassault Type</description>
+    <externalId>false</externalId>
+    <label>Dassault Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add-On</fullName>
+                <default>false</default>
+                <label>Add-On</label>
+            </value>
+            <value>
+                <fullName>Casual Named User</fullName>
+                <default>false</default>
+                <label>Casual Named User</label>
+            </value>
+            <value>
+                <fullName>Configuration</fullName>
+                <default>false</default>
+                <label>Configuration</label>
+            </value>
+            <value>
+                <fullName>Enterprise</fullName>
+                <default>false</default>
+                <label>Enterprise</label>
+            </value>
+            <value>
+                <fullName>Machine Based</fullName>
+                <default>false</default>
+                <label>Machine Based</label>
+            </value>
+            <value>
+                <fullName>Named User</fullName>
+                <default>false</default>
+                <label>Named User</label>
+            </value>
+            <value>
+                <fullName>Offer</fullName>
+                <default>false</default>
+                <label>Offer</label>
+            </value>
+            <value>
+                <fullName>Package</fullName>
+                <default>false</default>
+                <label>Package</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Shareable</fullName>
+                <default>false</default>
+                <label>Shareable</label>
+            </value>
+            <value>
+                <fullName>Single Add-On</fullName>
+                <default>false</default>
+                <label>Single Add-On</label>
+            </value>
+            <value>
+                <fullName>System</fullName>
+                <default>false</default>
+                <label>System</label>
+            </value>
+            <value>
+                <fullName>Token</fullName>
+                <default>false</default>
+                <label>Token</label>
+            </value>
+            <value>
+                <fullName>Type</fullName>
+                <default>false</default>
+                <label>Type</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

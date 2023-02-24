@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Street_Filled_In</fullName>
+    <active>false</active>
+    <errorConditionFormula>LEN( BillingStreet ) &lt; 5</errorConditionFormula>
+    <errorDisplayField>BillingStreet</errorDisplayField>
+    <errorMessage>Billing Street must be completed</errorMessage>
+</ValidationRule>

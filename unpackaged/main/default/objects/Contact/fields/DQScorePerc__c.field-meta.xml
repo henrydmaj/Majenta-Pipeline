@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DQScorePerc__c</fullName>
+    <externalId>false</externalId>
+    <formula>((
+    if(isblank(FirstName),0,0.5)
+  + if(isblank(LastName),0,0.5) 
+  + if(isblank(Title),0,0.5) 
+  + if(isblank(Email),0,2) 
+  + if(EmailBounced__c,-2,0) 
+  + if(isblank(Phone),0,2)
+  + if(isblank(TEXT(Department__c)),0,1)
+  + if(isblank(TEXT(Role__c)),0,1)
+  + if(Marketing_Exclude__c,2,
+        if(or(
+          IT_Marketing__c,
+          Software_Marketing__c,
+          Data_Services_Marketing__c,
+          Academy_Marketing__c,
+          PLM_Marketing__c)
+        ,2,0) 
+     )
+) / 9.5 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Data Quality Score Percentage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

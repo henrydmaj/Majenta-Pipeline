@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Querying_Invoice__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer Querying Invoice</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NO</fullName>
+                <default>true</default>
+                <label>NO</label>
+            </value>
+            <value>
+                <fullName>YES</fullName>
+                <default>false</default>
+                <label>YES</label>
+            </value>
+            <value>
+                <fullName>NOW RESOLVED</fullName>
+                <default>false</default>
+                <label>NOW RESOLVED</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

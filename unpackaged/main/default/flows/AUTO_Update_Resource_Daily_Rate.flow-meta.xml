@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <description>Update the resource booking daily rate from the related training course</description>
+    <interviewLabel>AUTO Update Resource Daily Rate {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>AUTO Update Resource Daily Rate</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Daily_Rate</name>
+        <label>Update Daily Rate</label>
+        <locationX>176</locationX>
+        <locationY>315</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>TrainingCourse__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>DayRate__c</field>
+            <value>
+                <elementReference>$Record.TotalDailyRate__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>ResourceBooking__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Update_Daily_Rate</targetReference>
+        </connector>
+        <object>TrainingCourse__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>ResourceBooking</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>ResourceBooking__c</objectType>
+    </variables>
+</Flow>

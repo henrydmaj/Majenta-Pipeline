@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SolutionsInvoicesHitachi</fullName>
+    <columns>InvocieLink__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Date__c</columns>
+    <columns>TotalAmount__c</columns>
+    <columns>IsPostedToSage2__c</columns>
+    <columns>IsFactored__c</columns>
+    <columns>UploadedToHitachi__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Company__c</field>
+        <operation>equals</operation>
+        <value>SOLUTIONS</value>
+    </filters>
+    <filters>
+        <field>IsInvoice__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>IsFactored__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>N_DAYS_AGO:360</value>
+    </filters>
+    <label>Solutions Invoices - Hitachi</label>
+</ListView>

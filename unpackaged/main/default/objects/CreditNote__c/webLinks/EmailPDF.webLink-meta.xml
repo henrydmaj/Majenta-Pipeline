@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmailPDF</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Email PDF</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/15.0/connection.js")}
+{!REQUIRESCRIPT("/soap/ajax/15.0/apex.js")}
+
+
+var result = sforce.apex.execute('globalEmailPDF' , 'emailPDF', {recordId:'{!CreditNote__c.Id}', pageRef:'/apex/CreditNoteSingle'});
+if(result.length==2) {
+  alert(result[1]);
+}else{
+  alert('A PDF copy of the Credit Note has been emailed to you.');
+}</url>
+</WebLink>

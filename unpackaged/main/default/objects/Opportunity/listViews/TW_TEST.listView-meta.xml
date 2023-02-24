@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TW_TEST</fullName>
+    <booleanFilter>1 AND (2 OR 3) AND 4 AND 5</booleanFilter>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>DS_Sales_Stage__c</columns>
+    <columns>DS_Forecast_Category__c</columns>
+    <columns>Opportunity_Product__c</columns>
+    <columns>Product__c</columns>
+    <columns>SolutionType__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Partner__c</field>
+        <operation>equals</operation>
+        <value>Dassault</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Quoted,Will Renew,Pipeline (Qualified opportunity),Upside (Best case)</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Will Renew,Committed,Order In - Processing</value>
+    </filters>
+    <filters>
+        <field>SolutionType__c</field>
+        <operation>notEqual</operation>
+        <value>Training,Services,IMS,i GET IT,Q-checker,i-PLM,SSA,Other</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>notEqual</operation>
+        <value>KYOUD,JHUN,AHIL,MMEG</value>
+    </filters>
+    <label>TW TEST</label>
+    <sharedTo>
+        <group>Dassault_Admin_Accounts</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsTest__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field used to identify if record is a test record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tick this box if this record is a test record.</inlineHelpText>
+    <label>IsTest</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

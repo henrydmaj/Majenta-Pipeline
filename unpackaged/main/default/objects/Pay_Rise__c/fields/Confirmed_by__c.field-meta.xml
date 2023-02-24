@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Confirmed_by__c</fullName>
+    <externalId>false</externalId>
+    <label>Confirmed by</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>David Downes</fullName>
+                <default>false</default>
+                <label>David Downes</label>
+            </value>
+            <value>
+                <fullName>James Smith</fullName>
+                <default>false</default>
+                <label>James Smith</label>
+            </value>
+            <value>
+                <fullName>Manish Amlani</fullName>
+                <default>false</default>
+                <label>Manish Amlani</label>
+            </value>
+            <value>
+                <fullName>Monty Meghjee</fullName>
+                <default>false</default>
+                <label>Monty Meghjee</label>
+            </value>
+            <value>
+                <fullName>Simon Ordish</fullName>
+                <default>false</default>
+                <label>Simon Ordish</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

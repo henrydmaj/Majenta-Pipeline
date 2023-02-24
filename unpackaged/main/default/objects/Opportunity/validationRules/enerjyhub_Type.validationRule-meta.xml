@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>enerjyhub_Type</fullName>
+    <active>true</active>
+    <description>If enerjyhub Division enerjyhub Type must be populated.</description>
+    <errorConditionFormula>ISPICKVAL($User.UserType, "Standard") &amp;&amp;
+AND(
+    ISBLANK(TEXT(enerjyhub_Type__c )),
+OR(
+    ISPICKVAL(Division__c, 'enerjyhub')
+ 
+))</errorConditionFormula>
+    <errorDisplayField>enerjyhub_Type__c</errorDisplayField>
+    <errorMessage>The enerjyhub Type field cannot be blank if Division equals 'enerjyhub'</errorMessage>
+</ValidationRule>

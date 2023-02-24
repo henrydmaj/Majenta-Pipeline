@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expleo_Account_View</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Customer_Order_Number__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>ContractFinishDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>Expleo</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Order Received,Order In,Order In - Processing,Order In - Processed</value>
+    </filters>
+    <filters>
+        <field>Customer_Order_Number__c</field>
+        <operation>contains</operation>
+        <value>pending</value>
+    </filters>
+    <label>Expleo Account View</label>
+    <sharedTo>
+        <group>AccountsTeam</group>
+    </sharedTo>
+</ListView>

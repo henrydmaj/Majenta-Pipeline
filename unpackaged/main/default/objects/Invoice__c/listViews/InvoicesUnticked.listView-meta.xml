@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InvoicesUnticked</fullName>
+    <columns>InvocieLink__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Division__c</columns>
+    <columns>Date__c</columns>
+    <columns>NetAmount__c</columns>
+    <columns>TaxAmount__c</columns>
+    <columns>TotalAmount__c</columns>
+    <columns>IsInvoice__c</columns>
+    <columns>IsPostedToSage2__c</columns>
+    <columns>IsPostedtoSage__c</columns>
+    <columns>IsFactored__c</columns>
+    <columns>UploadedToHitachi__c</columns>
+    <columns>Print__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Company__c</field>
+        <operation>equals</operation>
+        <value>SOLUTIONS,PLM</value>
+    </filters>
+    <filters>
+        <field>IsInvoice__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Date__c</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2018</value>
+    </filters>
+    <label>Invoices - Unticked</label>
+</ListView>

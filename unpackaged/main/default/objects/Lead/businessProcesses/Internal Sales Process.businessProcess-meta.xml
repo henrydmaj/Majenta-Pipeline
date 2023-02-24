@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal Sales Process</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Chase</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Chase Call</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Dead Lead</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Dialogue</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Meeting Setup</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>No Contact - First Call</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Not Started</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>One Way Info</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Qualified</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

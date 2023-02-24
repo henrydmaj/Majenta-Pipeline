@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACC_VR15_SAMCannotBeSIM</fullName>
+    <active>true</active>
+    <description>Prevent SAM's from being nominated as a SIM.</description>
+    <errorConditionFormula>OR(
+AND(
+!ISBLANK(Site_Super_User_1__c),
+Site_Super_User_1__r.Has_JLR_SAM_profile__c = TRUE) ,
+AND(
+!ISBLANK(Site_Super_User_2__c),
+Site_Super_User_2__r.Has_JLR_SAM_profile__c = TRUE)
+)</errorConditionFormula>
+    <errorMessage>The contact you have selected is the Supplier Account Manager (SAM) and cannot be nominated as a SIM. Please identify a different SIM. [ACC_VR15]</errorMessage>
+</ValidationRule>

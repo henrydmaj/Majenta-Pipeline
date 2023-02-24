@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Event</fullName>
+        <default>false</default>
+        <label>Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Exhibition</fullName>
+        <default>false</default>
+        <label>Exhibition</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Full Campaign</fullName>
+        <default>false</default>
+        <label>Full Campaign</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inside Sales</fullName>
+        <default>false</default>
+        <label>Inside Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>JLR Process</fullName>
+        <default>false</default>
+        <label>JLR Process</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead Generation</fullName>
+        <default>false</default>
+        <label>Lead Generation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nurture</fullName>
+        <default>false</default>
+        <label>Nurture</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pardot</fullName>
+        <default>false</default>
+        <label>Pardot</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Event</fullName>
+        <default>false</default>
+        <label>Partner Event</label>
+    </standardValue>
+</StandardValueSet>

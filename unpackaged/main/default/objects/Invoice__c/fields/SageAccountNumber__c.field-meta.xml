@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SageAccountNumber__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( CompanyAbbr__c == "PLM",
+  CASE( CurrencyIsoCode , 
+    "EUR", BillingAccount__r.SageAccountNumberPLMEUR__c ,
+    "USD", BillingAccount__r.SageAccountNumberPLMUSD__c ,
+    BillingAccount__r.SageAccountNumberPLMGBP__c
+  ),
+  CASE( CurrencyIsoCode , 
+    "EUR", BillingAccount__r.SageAccountNumberSOLEUR__c ,
+    "USD", BillingAccount__r.SageAccountNumberSOLUSD__c ,
+    BillingAccount__r.SageAccountNumberSOLGBP__c
+  )
+)</formula>
+    <label>Sage Account Number</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

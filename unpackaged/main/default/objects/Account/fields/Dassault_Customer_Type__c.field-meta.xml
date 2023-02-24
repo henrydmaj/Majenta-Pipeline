@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dassault_Customer_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Dassault Customer Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Suspect</fullName>
+                <default>false</default>
+                <label>Suspect</label>
+            </value>
+            <value>
+                <fullName>Dead</fullName>
+                <default>false</default>
+                <label>Dead</label>
+            </value>
+            <value>
+                <fullName>Ex-Customer</fullName>
+                <default>false</default>
+                <label>Ex-Customer</label>
+            </value>
+            <value>
+                <fullName>Dormant TOS</fullName>
+                <default>false</default>
+                <label>Dormant TOS</label>
+            </value>
+            <value>
+                <fullName>Dormant STOP</fullName>
+                <default>false</default>
+                <label>Dormant STOP</label>
+            </value>
+            <value>
+                <fullName>Dormant SOS</fullName>
+                <default>false</default>
+                <label>Dormant SOS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

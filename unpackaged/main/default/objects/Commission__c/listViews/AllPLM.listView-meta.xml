@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllPLM</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Company__c</columns>
+    <columns>Month__c</columns>
+    <columns>Period__c</columns>
+    <columns>Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>TotalMargin__c</columns>
+    <columns>TotalCommission__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Company__c</field>
+        <operation>equals</operation>
+        <value>PLM</value>
+    </filters>
+    <label>All PLM Commission Statements</label>
+</ListView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AH Consultants</fullName>
+        <default>false</default>
+        <label>AH Consultants</label>
+    </customValue>
+    <customValue>
+        <fullName>JLR SRV</fullName>
+        <default>false</default>
+        <label>JLR SRV</label>
+    </customValue>
+    <customValue>
+        <fullName>Training Support</fullName>
+        <default>false</default>
+        <label>JLR Supplier Training</label>
+    </customValue>
+    <customValue>
+        <fullName>JLR</fullName>
+        <default>false</default>
+        <label>JLR</label>
+    </customValue>
+    <customValue>
+        <fullName>Generic</fullName>
+        <default>false</default>
+        <label>Generic</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>enerjyhub Subscription</fullName>
+        <default>false</default>
+        <label>enerjyhub Subscription</label>
+    </customValue>
+    <customValue>
+        <fullName>GSI Core Contract</fullName>
+        <default>false</default>
+        <label>GSI Core Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>MX</fullName>
+        <default>false</default>
+        <label>MX</label>
+    </customValue>
+    <customValue>
+        <fullName>GSI Projects</fullName>
+        <default>false</default>
+        <label>GSI Projects</label>
+    </customValue>
+    <customValue>
+        <fullName>enerjyhub projects</fullName>
+        <default>false</default>
+        <label>enerjyhub Projects</label>
+    </customValue>
+    <customValue>
+        <fullName>Ford</fullName>
+        <default>false</default>
+        <label>Ford</label>
+    </customValue>
+    <customValue>
+        <fullName>Lotus</fullName>
+        <default>false</default>
+        <label>Lotus</label>
+    </customValue>
+    <customValue>
+        <fullName>Nissan</fullName>
+        <default>false</default>
+        <label>Nissan</label>
+    </customValue>
+    <masterLabel>enerjyhub Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

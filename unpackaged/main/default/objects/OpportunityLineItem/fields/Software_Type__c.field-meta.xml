@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Software_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(
+CONTAINS(Product_Description__c, "Autodesk"),
+CONTAINS(Product_Description__c, "Monthly")),
+"Autodesk Monthly",
+IF(AND(
+CONTAINS(Product_Description__c, "Autodesk"),
+CONTAINS(Product_Description__c, "Quarterly")),
+"Autodesk Quarterly",
+null
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Software Type</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

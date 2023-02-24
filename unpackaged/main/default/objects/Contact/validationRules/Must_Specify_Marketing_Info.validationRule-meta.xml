@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Specify_Marketing_Info</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF( 
+   AND( $UserRole.Name &lt;&gt; "Executive/Director", $UserRole.Name &lt;&gt; ""),
+   AND( Software_Marketing__c  = FALSE, PLM_Marketing__c = FALSE , IT_Marketing__c  = FALSE ,  Marketing_Exclude__c = FALSE ,  Data_Services_Marketing__c = FALSE ,  Academy_Marketing__c = FALSE ),
+   FALSE 
+)</errorConditionFormula>
+    <errorMessage>You must specify at least one division and or vendor for marketing purposes or select "Exclude from Marketing".</errorMessage>
+</ValidationRule>

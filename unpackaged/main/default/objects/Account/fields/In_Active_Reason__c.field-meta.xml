@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>In_Active_Reason__c</fullName>
+    <description>Reason if In-Active tick box has been ticked</description>
+    <externalId>false</externalId>
+    <label>In-Active Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Currency only</fullName>
+                <default>false</default>
+                <label>Currency only</label>
+            </value>
+            <value>
+                <fullName>Site closed</fullName>
+                <default>false</default>
+                <label>Site closed</label>
+            </value>
+            <value>
+                <fullName>No JLR work</fullName>
+                <default>false</default>
+                <label>No JLR work</label>
+            </value>
+            <value>
+                <fullName>General enerjyhub objection</fullName>
+                <default>false</default>
+                <label>General enerjyhub objection</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TaskHoursCompleted__c</fullName>
+    <externalId>false</externalId>
+    <label>Task Hours Completed</label>
+    <summarizedField>ProjectTask__c.Hours__c</summarizedField>
+    <summaryFilterItems>
+        <field>ProjectTask__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>ProjectTask__c.Project__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Support_Product</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Support Product</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/setup/ui/recordtypeselect.jsp?ent=01I4K000000B7AL&amp;retURL=%2F{!Support_Contracts__c.Id}&amp;save_new_url=%2Fa3O%2Fe%3FCF00N4K00000AN3da%3D{!Support_Contracts__c.Name}%26CF00N4K00000AN43S%3D{!URLENCODE(Support_Contracts__c.Account__c)}%26CF00N4K00000AN3da_lkid%3D{!Support_Contracts__c.Id}%26CF00N4K00000AN43S_lkid%3D{!Support_Contracts__c.AccountId__c}%26retURL%3D%252F{!Support_Contracts__c.Id}</url>
+</WebLink>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TaskHoursPercentComplete__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( TaskHoursTotal__c &lt;= 0, 
+  0,
+  TaskHoursCompleted__c / TaskHoursTotal__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Task Hours Percent Complete</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

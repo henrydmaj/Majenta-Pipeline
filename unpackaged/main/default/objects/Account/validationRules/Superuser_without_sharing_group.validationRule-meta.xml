@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Superuser_without_sharing_group</fullName>
+    <active>true</active>
+    <description>Superuser 1 &amp; Superuser 2 can't be assigned until public sharing group is created.</description>
+    <errorConditionFormula>AND(
+				OR(!ISBLANK(Site_Super_User_1__c),
+				   !ISBLANK(Site_Super_User_2__c)
+						),
+				ISBLANK(SuperUserPublicGroup__c)
+)</errorConditionFormula>
+    <errorDisplayField>Academy_Marketing__pc</errorDisplayField>
+    <errorMessage>Please try again after some time as the sharing is being configured for the site. If it still doesn't work, Please contact Administrator.</errorMessage>
+</ValidationRule>

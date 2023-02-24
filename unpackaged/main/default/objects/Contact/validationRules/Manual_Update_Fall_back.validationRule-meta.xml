@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manual_Update_Fall_back</fullName>
+    <active>true</active>
+    <description>Rule to try and prevent Delete? (Delete__c) being updated manually and resulting in contacts being deleted in error</description>
+    <errorConditionFormula>And(
+IsChanged(Request_to_Delete_Date__c),
+Delete__c = False,
+Not IsBlank(PriorValue(Request_to_Delete_Date__c))
+)</errorConditionFormula>
+    <errorDisplayField>Request_to_Delete_Date__c</errorDisplayField>
+    <errorMessage>delete? field must not be updated manually</errorMessage>
+</ValidationRule>

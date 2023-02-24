@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ShippingAddress__c</fullName>
+    <externalId>false</externalId>
+    <formula>Opportunity__r.Account.ShippingStreet+BR()+
+Opportunity__r.Account.ShippingCity+BR()+
+Opportunity__r.Account.ShippingState+BR()+
+Opportunity__r.Account.ShippingPostalCode+BR()+
+Opportunity__r.Account.ShippingCountry+BR()</formula>
+    <label>Shipping Address</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

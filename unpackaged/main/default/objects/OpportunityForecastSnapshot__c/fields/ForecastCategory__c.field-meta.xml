@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ForecastCategory__c</fullName>
+    <externalId>false</externalId>
+    <label>Forecast Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0% Disengaged</fullName>
+                <default>false</default>
+                <label>0% Disengaged</label>
+            </value>
+            <value>
+                <fullName>10-40% Pipeline</fullName>
+                <default>false</default>
+                <label>10-40% Pipeline</label>
+            </value>
+            <value>
+                <fullName>50-60% Best Case</fullName>
+                <default>false</default>
+                <label>50-60% Best Case</label>
+            </value>
+            <value>
+                <fullName>70-90% Committed</fullName>
+                <default>false</default>
+                <label>70-90% Committed</label>
+            </value>
+            <value>
+                <fullName>100% Won</fullName>
+                <default>false</default>
+                <label>100% Won</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

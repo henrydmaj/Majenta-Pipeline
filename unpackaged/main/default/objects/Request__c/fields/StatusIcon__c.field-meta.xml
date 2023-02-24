@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusIcon__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Status__c,
+  "New",  IMAGE("/servlet/servlet.FileDownload?file=0154K0000009yoe", "New"),
+  "Assigned",  IMAGE("/servlet/servlet.FileDownload?file=0154K0000009yob", "Assigned"),
+  "In Progress",  IMAGE("/servlet/servlet.FileDownload?file=0154K0000009yod", "In Progress"),
+  "On Hold",  IMAGE("/servlet/servlet.FileDownload?file=0154K0000009yof", "On Hold"),
+  "Awaiting Response",  IMAGE("/servlet/servlet.FileDownload?file=0154K0000009yog", "Awaiting Response"),
+  "Updated",  IMAGE("/servlet/servlet.FileDownload?file=0154K0000009yog", "Updated"),
+  "Completed",  IMAGE("/servlet/servlet.FileDownload?file=0154K0000009yoc", "Completed"),
+  "Rejected",  IMAGE("/servlet/servlet.FileDownload?file=0154K0000009yoa", "Rejected"),
+  "Aborted",  IMAGE("/servlet/servlet.FileDownload?file=0154K0000009yoa", "Aborted"),
+  "Roadmap",  IMAGE("/servlet/servlet.FileDownload?file=0154K0000009yof", "Roadmap"),
+  "")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

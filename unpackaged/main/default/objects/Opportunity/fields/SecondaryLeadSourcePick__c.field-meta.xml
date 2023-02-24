@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SecondaryLeadSourcePick__c</fullName>
+    <externalId>false</externalId>
+    <label>Secondary Lead Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BIMobject Lead</fullName>
+                <default>false</default>
+                <label>BIMobject Lead</label>
+            </value>
+            <value>
+                <fullName>Case Study</fullName>
+                <default>false</default>
+                <label>Case Study</label>
+            </value>
+            <value>
+                <fullName>Casey O'Donnell Calling</fullName>
+                <default>false</default>
+                <label>Casey O'Donnell Calling</label>
+            </value>
+            <value>
+                <fullName>Customer Nurture</fullName>
+                <default>false</default>
+                <label>Customer Nurture</label>
+            </value>
+            <value>
+                <fullName>Customer Referral</fullName>
+                <default>false</default>
+                <label>Customer Referral</label>
+            </value>
+            <value>
+                <fullName>Dassault Systemes Lead</fullName>
+                <default>false</default>
+                <label>Dassault Systemes Lead</label>
+            </value>
+            <value>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+                <label>Direct Mail</label>
+            </value>
+            <value>
+                <fullName>enerjyhub</fullName>
+                <default>false</default>
+                <label>enerjyhub</label>
+            </value>
+            <value>
+                <fullName>enerjyhub Partner</fullName>
+                <default>false</default>
+                <label>enerjyhub Partner</label>
+            </value>
+            <value>
+                <fullName>enerjyhub Partner Contechs</fullName>
+                <default>false</default>
+                <label>enerjyhub Partner Contechs</label>
+            </value>
+            <value>
+                <fullName>enerjyhub Partner Majenta</fullName>
+                <default>false</default>
+                <label>enerjyhub Partner Majenta</label>
+            </value>
+            <value>
+                <fullName>Field Sales</fullName>
+                <default>false</default>
+                <label>Field Sales</label>
+            </value>
+            <value>
+                <fullName>Intercom</fullName>
+                <default>false</default>
+                <label>Intercom</label>
+            </value>
+            <value>
+                <fullName>Lead Forensics</fullName>
+                <default>false</default>
+                <label>Lead Forensics</label>
+            </value>
+            <value>
+                <fullName>Majenta Event</fullName>
+                <default>false</default>
+                <label>Majenta Event</label>
+            </value>
+            <value>
+                <fullName>Matt Riley Calling</fullName>
+                <default>false</default>
+                <label>Matt Riley Calling</label>
+            </value>
+            <value>
+                <fullName>MX Free Trial</fullName>
+                <default>false</default>
+                <label>MX Free Trial</label>
+            </value>
+            <value>
+                <fullName>Pardot</fullName>
+                <default>false</default>
+                <label>Pardot</label>
+            </value>
+            <value>
+                <fullName>Partner Event</fullName>
+                <default>false</default>
+                <label>Partner Event</label>
+            </value>
+            <value>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+                <label>Partner Referral</label>
+            </value>
+            <value>
+                <fullName>Referral - other</fullName>
+                <default>false</default>
+                <label>Referral - other</label>
+            </value>
+            <value>
+                <fullName>Role Finder</fullName>
+                <default>false</default>
+                <label>Role Finder</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+                <label>Trade Show</label>
+            </value>
+            <value>
+                <fullName>Web Advert</fullName>
+                <default>false</default>
+                <label>Web Advert</label>
+            </value>
+            <value>
+                <fullName>Web Chat</fullName>
+                <default>false</default>
+                <label>Web Chat</label>
+            </value>
+            <value>
+                <fullName>Web Form</fullName>
+                <default>false</default>
+                <label>Web Form</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

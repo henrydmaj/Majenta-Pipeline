@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Passport_Credits_Used__c</fullName>
+    <externalId>false</externalId>
+    <label>Credits Used</label>
+    <summarizedField>Passport_Credits__c.Credits_Used__c</summarizedField>
+    <summaryForeignKey>Passport_Credits__c.Project__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

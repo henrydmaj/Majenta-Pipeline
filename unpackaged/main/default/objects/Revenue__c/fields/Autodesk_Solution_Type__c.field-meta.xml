@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autodesk_Solution_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Autodesk Solution Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AEC</fullName>
+                <default>false</default>
+                <label>AEC</label>
+            </value>
+            <value>
+                <fullName>PSEB</fullName>
+                <default>false</default>
+                <label>PSEB</label>
+            </value>
+            <value>
+                <fullName>ANIM</fullName>
+                <default>false</default>
+                <label>ANIM</label>
+            </value>
+            <value>
+                <fullName>MFG</fullName>
+                <default>false</default>
+                <label>MFG</label>
+            </value>
+            <value>
+                <fullName>Services</fullName>
+                <default>false</default>
+                <label>Services</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Majenta Support</fullName>
+                <default>false</default>
+                <label>Majenta Support</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

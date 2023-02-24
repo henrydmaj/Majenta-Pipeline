@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Which_OEM_do_you_use_MX_with__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Which OEM do you use MX with?</inlineHelpText>
+    <label>Which OEM do you use MX with?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lotus</fullName>
+                <default>false</default>
+                <label>Lotus</label>
+            </value>
+            <value>
+                <fullName>JLR</fullName>
+                <default>false</default>
+                <label>JLR</label>
+            </value>
+            <value>
+                <fullName>Aston Martin</fullName>
+                <default>false</default>
+                <label>Aston Martin</label>
+            </value>
+            <value>
+                <fullName>Nissan</fullName>
+                <default>false</default>
+                <label>Nissan</label>
+            </value>
+            <value>
+                <fullName>Polestar</fullName>
+                <default>false</default>
+                <label>Polestar</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

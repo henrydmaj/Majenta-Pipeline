@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Create_and_Send_Invoice_to_Quote_Contact</name>
+        <label>Create and Send Invoice to Quote Contact</label>
+        <locationX>379</locationX>
+        <locationY>295</locationY>
+        <actionName>InvoiceProcessor</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Send_Invoice</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>quoteIds</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>49.0</apiVersion>
+    <assignments>
+        <name>Add_Quote_Id_to_Record_Ids</name>
+        <label>Add Quote Id to Record Ids</label>
+        <locationX>192</locationX>
+        <locationY>153</locationY>
+        <assignmentItems>
+            <assignToReference>recordIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_and_Send_Invoice_to_Quote_Contact</targetReference>
+        </connector>
+    </assignments>
+    <interviewLabel>Create and Send Invoice to Quote Contact {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Create and Send Invoice to Quote Contact</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Send_Invoice</name>
+        <label>Send Invoice</label>
+        <locationX>531</locationX>
+        <locationY>427</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Invoice_Sent_Message</name>
+            <fieldText>&lt;p&gt;The invoice has been sent.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>Add_Quote_Id_to_Record_Ids</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>recordIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

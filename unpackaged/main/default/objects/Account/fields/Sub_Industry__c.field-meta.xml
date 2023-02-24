@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Industry__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AEC</fullName>
+                <default>false</default>
+                <label>AEC</label>
+            </value>
+            <value>
+                <fullName>AEC - Architect</fullName>
+                <default>false</default>
+                <label>AEC - Architect</label>
+            </value>
+            <value>
+                <fullName>AEC – Civil</fullName>
+                <default>false</default>
+                <label>AEC – Civil</label>
+            </value>
+            <value>
+                <fullName>AEC - Construction/Contractor</fullName>
+                <default>false</default>
+                <label>AEC - Construction/Contractor</label>
+            </value>
+            <value>
+                <fullName>AEC - Engineering Consultant</fullName>
+                <default>false</default>
+                <label>AEC - Engineering Consultant</label>
+            </value>
+            <value>
+                <fullName>AEC - Estates Management</fullName>
+                <default>false</default>
+                <label>AEC - Estates Management</label>
+            </value>
+            <value>
+                <fullName>AEC - House Builder</fullName>
+                <default>false</default>
+                <label>AEC - House Builder</label>
+            </value>
+            <value>
+                <fullName>AEC - MEP</fullName>
+                <default>false</default>
+                <label>AEC - MEP</label>
+            </value>
+            <value>
+                <fullName>AEC - Owner Operator</fullName>
+                <default>false</default>
+                <label>AEC - Owner Operator</label>
+            </value>
+            <value>
+                <fullName>AEC - Structure</fullName>
+                <default>false</default>
+                <label>AEC - Structure</label>
+            </value>
+            <value>
+                <fullName>Aerospace &amp; Defense</fullName>
+                <default>false</default>
+                <label>Aerospace &amp; Defense</label>
+            </value>
+            <value>
+                <fullName>Aerospace and Defense</fullName>
+                <default>false</default>
+                <label>Aerospace and Defense</label>
+            </value>
+            <value>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+                <label>Automotive</label>
+            </value>
+            <value>
+                <fullName>Building Products</fullName>
+                <default>false</default>
+                <label>Building Products</label>
+            </value>
+            <value>
+                <fullName>Consumer Products</fullName>
+                <default>false</default>
+                <label>Consumer Products</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Engineering &amp; Design Services</fullName>
+                <default>false</default>
+                <label>Engineering &amp; Design Services</label>
+            </value>
+            <value>
+                <fullName>Finance &amp; Legal</fullName>
+                <default>false</default>
+                <label>Finance &amp; Legal</label>
+            </value>
+            <value>
+                <fullName>Furniture &amp; Retail Display</fullName>
+                <default>false</default>
+                <label>Furniture &amp; Retail Display</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>High Tech, Electronics &amp; Communications</fullName>
+                <default>false</default>
+                <label>High Tech, Electronics &amp; Communications</label>
+            </value>
+            <value>
+                <fullName>Machinery</fullName>
+                <default>false</default>
+                <label>Machinery</label>
+            </value>
+            <value>
+                <fullName>Manufacturing (unspecified)</fullName>
+                <default>false</default>
+                <label>Manufacturing (unspecified)</label>
+            </value>
+            <value>
+                <fullName>Marine &amp; Offshore</fullName>
+                <default>false</default>
+                <label>Marine &amp; Offshore</label>
+            </value>
+            <value>
+                <fullName>Mechanical Components</fullName>
+                <default>false</default>
+                <label>Mechanical Components</label>
+            </value>
+            <value>
+                <fullName>Media &amp; Entertainment</fullName>
+                <default>false</default>
+                <label>Media &amp; Entertainment</label>
+            </value>
+            <value>
+                <fullName>Medical &amp; Pharmaceutical</fullName>
+                <default>false</default>
+                <label>Medical &amp; Pharmaceutical</label>
+            </value>
+            <value>
+                <fullName>Nuclear</fullName>
+                <default>false</default>
+                <label>Nuclear</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Production Engineering</fullName>
+                <default>false</default>
+                <label>Production Engineering</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Utilities, Plant &amp; Process</fullName>
+                <default>false</default>
+                <label>Utilities, Plant &amp; Process</label>
+            </value>
+            <value>
+                <fullName>3. Industrial equipment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3. Industrial equipment</label>
+            </value>
+            <value>
+                <fullName>5. Life Sciences</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5. Life Sciences</label>
+            </value>
+            <value>
+                <fullName>6. Engineering Construction &amp; Architectu</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>6. Engineering Construction &amp; Architectu</label>
+            </value>
+            <value>
+                <fullName>AMC Materials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AMC Materials</label>
+            </value>
+            <value>
+                <fullName>Aerospace and Telecommunications Industr</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aerospace and Telecommunications Industr</label>
+            </value>
+            <value>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Agriculture</label>
+            </value>
+            <value>
+                <fullName>Alloys Production of</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Alloys Production of</label>
+            </value>
+            <value>
+                <fullName>Architects</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Architects</label>
+            </value>
+            <value>
+                <fullName>Automotive(supplier)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Automotive(supplier)</label>
+            </value>
+            <value>
+                <fullName>Biotech</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Biotech</label>
+            </value>
+            <value>
+                <fullName>Biotechnology</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Biotechnology</label>
+            </value>
+            <value>
+                <fullName>Bus and Ind Services</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bus and Ind Services</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Computer Services</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Computer Services</label>
+            </value>
+            <value>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Consulting</label>
+            </value>
+            <value>
+                <fullName>Council</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Council</label>
+            </value>
+            <value>
+                <fullName>Craft</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Craft</label>
+            </value>
+            <value>
+                <fullName>DCC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DCC</label>
+            </value>
+            <value>
+                <fullName>Design &amp; Development</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Design &amp; Development</label>
+            </value>
+            <value>
+                <fullName>Design Consultants</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Design Consultants</label>
+            </value>
+            <value>
+                <fullName>Electrical Products (Sales)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Electrical Products (Sales)</label>
+            </value>
+            <value>
+                <fullName>Electronic Equipment (Assembly)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Electronic Equipment (Assembly)</label>
+            </value>
+            <value>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Electronics</label>
+            </value>
+            <value>
+                <fullName>Energy/Electrical</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Energy/Electrical</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Engineers (General)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Engineers (General)</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Fruit and Vegetable (Wholesale)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fruit and Vegetable (Wholesale)</label>
+            </value>
+            <value>
+                <fullName>Furniture</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Furniture</label>
+            </value>
+            <value>
+                <fullName>Furniture/Fixtures</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Furniture/Fixtures</label>
+            </value>
+            <value>
+                <fullName>General Manufacturing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>General Manufacturing</label>
+            </value>
+            <value>
+                <fullName>General Mfrg</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>General Mfrg</label>
+            </value>
+            <value>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hospitality</label>
+            </value>
+            <value>
+                <fullName>Housing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Housing</label>
+            </value>
+            <value>
+                <fullName>Industrial Machinery</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Industrial Machinery</label>
+            </value>
+            <value>
+                <fullName>Manufacture</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Manufacture</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Mech Prod Mfg Eqpt</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mech Prod Mfg Eqpt</label>
+            </value>
+            <value>
+                <fullName>Mechanical Component</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mechanical Component</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>NHS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NHS</label>
+            </value>
+            <value>
+                <fullName>Office Furniture and Equipment Suppliers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Office Furniture and Equipment Suppliers</label>
+            </value>
+            <value>
+                <fullName>Private</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Private</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>Research and Development</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Research and Development</label>
+            </value>
+            <value>
+                <fullName>Sculpture</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sculpture</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Technology</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Technology</label>
+            </value>
+            <value>
+                <fullName>Test &amp; Measurement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Test &amp; Measurement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

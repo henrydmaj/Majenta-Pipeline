@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_New_Requests</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Type__c</columns>
+    <columns>Subject__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>DueDate__c</columns>
+    <columns>AssignedTo__c</columns>
+    <columns>Status__c</columns>
+    <columns>StatusIcon__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>RequestedDateTime__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2017 12:00 AM</value>
+    </filters>
+    <label>All New Requests</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

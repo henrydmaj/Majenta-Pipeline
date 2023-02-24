@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrainingLocationPick__c</fullName>
+    <externalId>false</externalId>
+    <label>Training Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brentwood, Essex</fullName>
+                <default>false</default>
+                <label>Brentwood, Essex</label>
+            </value>
+            <value>
+                <fullName>Whitley, near Coventry</fullName>
+                <default>false</default>
+                <label>Whitley, near Coventry</label>
+            </value>
+            <value>
+                <fullName>At Supplier Site</fullName>
+                <default>false</default>
+                <label>At Supplier Site</label>
+            </value>
+            <value>
+                <fullName>WebEx (online)</fullName>
+                <default>false</default>
+                <label>WebEx (online)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

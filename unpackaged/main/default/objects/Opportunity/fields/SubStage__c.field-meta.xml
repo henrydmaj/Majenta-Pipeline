@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubStage__c</fullName>
+    <externalId>false</externalId>
+    <label>Lost/Disengaged Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Competitive solution</fullName>
+                <default>false</default>
+                <label>Competitive solution</label>
+            </value>
+            <value>
+                <fullName>Competitive price</fullName>
+                <default>false</default>
+                <label>Competitive price</label>
+            </value>
+            <value>
+                <fullName>Competitive VAR</fullName>
+                <default>false</default>
+                <label>Competitive VAR</label>
+            </value>
+            <value>
+                <fullName>Customer Lost Project</fullName>
+                <default>false</default>
+                <label>Customer Lost Project</label>
+            </value>
+            <value>
+                <fullName>Did nothing</fullName>
+                <default>false</default>
+                <label>Did nothing</label>
+            </value>
+            <value>
+                <fullName>No budget</fullName>
+                <default>false</default>
+                <label>No budget</label>
+            </value>
+            <value>
+                <fullName>Delayed beyond reasonable forecast</fullName>
+                <default>false</default>
+                <label>Delayed beyond reasonable forecast</label>
+            </value>
+            <value>
+                <fullName>Will not engage/communicate</fullName>
+                <default>false</default>
+                <label>Will not engage/communicate</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Software Upgraded</fullName>
+                <default>false</default>
+                <label>Software Upgraded</label>
+            </value>
+            <value>
+                <fullName>Opportunity already registered to Competitive VAR</fullName>
+                <default>false</default>
+                <label>Opportunity already registered to Competitive VAR</label>
+            </value>
+            <value>
+                <fullName>Transitioned to Symetri</fullName>
+                <default>false</default>
+                <label>Transitioned to Symetri</label>
+            </value>
+            <value>
+                <fullName>Training Credit Used</fullName>
+                <default>false</default>
+                <label>Training Credit Used</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Competitive solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Competitive price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Competitive VAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Customer Lost Project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Did nothing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>No budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Delayed beyond reasonable forecast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Will not engage/communicate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Duplicate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Software Upgraded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Opportunity already registered to Competitive VAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Transitioned to Symetri</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Lost</controllingFieldValue>
+            <controllingFieldValue>Disengaged</controllingFieldValue>
+            <controllingFieldValue>Maintenance Cancelled</controllingFieldValue>
+            <controllingFieldValue>Maintenance Expired – Still using prod</controllingFieldValue>
+            <controllingFieldValue>Maintenance Upgraded</controllingFieldValue>
+            <controllingFieldValue>Order Lost / Disengaged</controllingFieldValue>
+            <valueName>Training Credit Used</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

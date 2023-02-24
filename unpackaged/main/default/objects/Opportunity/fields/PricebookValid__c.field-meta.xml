@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PricebookValid__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(PricebookExpiryDate__c),
+  TRUE,
+  IF(CloseDate&gt;TODAY(),
+    (PricebookExpiryDate__c&gt;TODAY()),
+    (PricebookExpiryDate__c&gt;CloseDate)
+  )
+)</formula>
+    <label>Pricebook Valid</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

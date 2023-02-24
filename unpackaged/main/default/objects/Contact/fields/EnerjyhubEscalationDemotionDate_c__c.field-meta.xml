@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EnerjyhubEscalationDemotionDate_c__c</fullName>
+    <description>The date that a SIM will be demoted to Standard User Profile at the end of the Escalation process</description>
+    <externalId>false</externalId>
+    <inlineHelpText>SIM Demotion Date (enerjyhub Escalation)</inlineHelpText>
+    <label>enerjyhub Escalation Demotion Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

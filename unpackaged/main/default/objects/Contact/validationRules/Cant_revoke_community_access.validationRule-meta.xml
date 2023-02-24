@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cant_revoke_community_access</fullName>
+    <active>true</active>
+    <description>Can't revoke community access once granted to a contact.</description>
+    <errorConditionFormula>!$User.IsCanBypassVR__c &amp;&amp;
+PRIORVALUE(Enable_for_Community__c) &amp;&amp;
+ISCHANGED(Enable_for_Community__c)</errorConditionFormula>
+    <errorMessage>Enable for Community: Community user already created for this contact, Can't revoke community access now.</errorMessage>
+</ValidationRule>

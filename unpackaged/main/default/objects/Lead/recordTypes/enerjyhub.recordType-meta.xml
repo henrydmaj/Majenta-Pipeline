@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>enerjyhub</fullName>
+    <active>true</active>
+    <businessProcess>Leads Process</businessProcess>
+    <description>This record type is for enerjyhub products</description>
+    <label>enerjyhub</label>
+    <picklistValues>
+        <picklist>Academy_Products__c</picklist>
+        <values>
+            <fullName>Contract Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Graduate Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Placement Fee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Brand__c</picklist>
+        <values>
+            <fullName>AC Fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aanderaa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bell %26 Gossett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bellingham %2B Stanley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CentriPro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Essence of Life</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flojet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flygt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Godwin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goulds Water Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HYPACK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jabsco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leopold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lowara</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MJK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>McDonnell %26 Miller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OI Analytical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pure Technologies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PureHM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Royce Technologies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sanitare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sentec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smith-Blair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SonTek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Xchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WTW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wachs Water Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wedeco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ebro</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Data_Services_Products__c</picklist>
+        <values>
+            <fullName>C3P - CAD Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3P - New Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3P - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3P - Renewed Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3P - Training%2FConsultancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3P - Upgrades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - CAD Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - New Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - Renewed Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - Training%2FConsultancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - Upgrades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - CAD Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - New Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - Renewed Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - Training%2FConsultancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - Upgrades</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Division__c</picklist>
+        <values>
+            <fullName>Academy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dassault Systemes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solid Edge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>enerjyHub</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>G2BRegisteredPick__c</picklist>
+        <values>
+            <fullName>In Process of Applying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IT_Products__c</picklist>
+        <values>
+            <fullName>Dell - Desktop Workstations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dell - Mobile Workstations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM - NAS - n-series</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM - SAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM - System Storage DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM - System Storage TS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - FAS200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - FAS2000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - FAS3000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - FAS6000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - Nearstore VTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun - Desktop Workstations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun - Servers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symantec - Backup Exec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symantec - Enterprise Vault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symantec - Net-Backup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symantec - Puredisk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symantec - System Recovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vmware - ESX3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vmware - VDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vmware - VM Convertor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vmware - Virtual Centre</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>AEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC %E2%80%93 Civil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC - Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC - Construction%2FContractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC - Engineering Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC - Estates Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC - House Builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC - MEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC - Owner Operator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC - Structure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automotive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Building Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering %26 Design Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance %26 Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Furniture %26 Retail Display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Tech%2C Electronics %26 Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing %28unspecified%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical Components</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media %26 Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical %26 Pharmaceutical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities%2C Plant %26 Process</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Abi Brain Calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIMTeam LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casey O%27Donnell Calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Services Budget Calculator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dripify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intercom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JLR 3DX Budget Calculator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jack Stevens Calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matt Riley Calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overhead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pardot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Leads Contechs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Leads Majenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>enerjyhub</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>enerjyhub Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NissanTrainingRequirementPick__c</picklist>
+        <values>
+            <fullName>G2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G2B%2FPaperless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G2B%2FTCP2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G2B%2FTCP2%2FPaperless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paperless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCP2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCP2%2FPaperless</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OEM__c</picklist>
+        <values>
+            <fullName>JLR</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PLM_Products__c</picklist>
+        <values>
+            <fullName>Siemens - Femap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - Ideas NX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - NX Cam Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - SolidEdge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - TC Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - TC Vis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - Tecnomatix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - UG NX</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Siemens_Funding__c</picklist>
+        <values>
+            <fullName>Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yellow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Siemens_LeadInterest__c</picklist>
+        <values>
+            <fullName>CAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Components - D-Cubed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Components - Geolus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Components - JT Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Components - PLM Vis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Components - PLM XML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Components - Parasolid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - NX - CAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - NX I-deas - CAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - NX Mach- CAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Elec - Assembly Expert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Elec - Cimbridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Elec - DFM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Elec - Fuji Flexa CAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Elec - MES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Elec - OMM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Elec - Test Expert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Elec - Unicam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Mech - FactoryCAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Mech - FactoryFlow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Mech - Jack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Mech - Process %26 Mfg Data Mgt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Mech - Resource</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Mech - Simulation%2FValidation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Shop Floor - FactoryLink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Tecno Shop Floor - TMES%28Xfactory%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX CAD %E2%80%93 NX I-deas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX CAD %E2%80%93 NX Mach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX CAD %E2%80%93 NX UG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX CAE %E2%80%93 Mach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX CAE %E2%80%93 NX UG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX CAE %E2%80%93 Nastran</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX CAE %E2%80%93 TC Simulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX CAE - NX Ideas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLM Components</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter - Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter - Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter - Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter - Integrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter - MRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter - Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter - Requirements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter - Sourcing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter - Visualization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tecnomatix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Velocity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Velocity - Femap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Velocity - NX CAM Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Velocity - SolidEdge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Velocity - TC Express</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Siemens_OpportunityType__c</picklist>
+        <values>
+            <fullName>Add-on Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Siemens_PartnerRegistrationType__c</picklist>
+        <values>
+            <fullName>Partner Influenced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Owned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Shared %E2%80%93 Partner drives sales strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Shared %E2%80%93 UGS drives sales strategy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Siemens_Selection__c</picklist>
+        <values>
+            <fullName>Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yellow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Siemens_Timing__c</picklist>
+        <values>
+            <fullName>Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yellow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Siemens_UGSZoneOwnership__c</picklist>
+        <values>
+            <fullName>Americas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asia%2FPacific</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMEA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Software_Products__c</picklist>
+        <values>
+            <fullName>Autodesk MES - 3D Studio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MES - Maya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MES - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MES - Sketchbook Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MES - Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Auto%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Design%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Direct%7CConnect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Image%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Portfolio Wall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Showcase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Showcase Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Studio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Surface%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - CAD%2EDoctor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - CAD%2EFeature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - CAD%2EPorter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - PDQ-NP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Icona - Aesthetica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - ClayTools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - FFM%2FDesktop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - FFM%2FOmni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - FFMP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sweden_Products__c</picklist>
+        <values>
+            <fullName>Autodesk MES - 3D Studio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MES - Maya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MES - Sketchbook Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MES - Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Auto%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Design%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Direct%7CConnect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Image%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Portfolio Wall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Showcase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Showcase Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Studio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Surface%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team__c</picklist>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrainingLocationPick__c</picklist>
+        <values>
+            <fullName>At Supplier Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brentwood%2C Essex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WebEx %28online%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whitley%2C near Coventry</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>enerjyhub_Type__c</picklist>
+        <values>
+            <fullName>AH Consultants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSI Core Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSI Projects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JLR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JLR SRV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>enerjyhub Subscription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>enerjyhub projects</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

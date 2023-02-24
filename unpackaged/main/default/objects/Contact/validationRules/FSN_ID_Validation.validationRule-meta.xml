@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSN_ID_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT($User.Alias = "DHEN") &amp;&amp;
+NOT(ISBLANK(JLR_FSN_ID__c)) &amp;&amp;
+NOT(REGEX(JLR_FSN_ID__c, "[a-zA-Z]{1}-[a-zA-Z0-9]{1,6}"))</errorConditionFormula>
+    <errorDisplayField>JLR_FSN_ID__c</errorDisplayField>
+    <errorMessage>An FSN-ID must contain a '-' after the first letter and have between 1 and 6 characters after the '-'.</errorMessage>
+</ValidationRule>

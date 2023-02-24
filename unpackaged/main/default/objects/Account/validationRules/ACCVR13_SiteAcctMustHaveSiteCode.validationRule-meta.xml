@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACCVR13_SiteAcctMustHaveSiteCode</fullName>
+    <active>true</active>
+    <description>Prevents a Site Account without a Site Code being added.</description>
+    <errorConditionFormula>!$User.IsCanBypassVR__c &amp;&amp;
+RecordType.Name = 'Site Account' &amp;&amp;
+ISBLANK(Vendor_Master_Code__c)</errorConditionFormula>
+    <errorDisplayField>Vendor_Master_Code__c</errorDisplayField>
+    <errorMessage>You cannot create a Site Account without specifying a Site Code. [VR13]</errorMessage>
+</ValidationRule>

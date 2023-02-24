@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mixed_Business_Type</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL( CreditNote__r.Opportunity__r.Type, "Existing Customer Mixed Business")
+&amp;&amp; ISBLANK(TEXT(BusinessType2__c))</errorConditionFormula>
+    <errorDisplayField>BusinessType2__c</errorDisplayField>
+    <errorMessage>On mixed business opportunities you must specify the business type for each Credit Note Line Item.</errorMessage>
+</ValidationRule>

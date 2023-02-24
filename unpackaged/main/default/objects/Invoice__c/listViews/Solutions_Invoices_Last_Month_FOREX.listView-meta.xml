@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solutions_Invoices_Last_Month_FOREX</fullName>
+    <columns>InvocieLink__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Date__c</columns>
+    <columns>NetAmount__c</columns>
+    <columns>TaxAmount__c</columns>
+    <columns>TotalAmount__c</columns>
+    <columns>IsFactored__c</columns>
+    <columns>IsInvoice__c</columns>
+    <columns>IsPostedToSage2__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Company__c</field>
+        <operation>equals</operation>
+        <value>SOLUTIONS</value>
+    </filters>
+    <filters>
+        <field>Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2018</value>
+    </filters>
+    <filters>
+        <field>CURRENCY_ISO_CODE</field>
+        <operation>equals</operation>
+        <value>EUR,USD,SEK</value>
+    </filters>
+    <filters>
+        <field>Date__c</field>
+        <operation>lessOrEqual</operation>
+        <value>3/31/2018</value>
+    </filters>
+    <label>Solutions Invoices - Last Month FOREX</label>
+</ListView>

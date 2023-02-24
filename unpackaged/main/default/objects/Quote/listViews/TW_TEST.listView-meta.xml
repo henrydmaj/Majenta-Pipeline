@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TW_TEST</fullName>
+    <columns>QUOTE.NAME</columns>
+    <columns>QUOTE.STATUS</columns>
+    <columns>Invoice_Tax_DateTW__c</columns>
+    <columns>Invoice_Number__c</columns>
+    <columns>Customer_Billing_Contact__c</columns>
+    <columns>QUOTE.TOTALPRICE</columns>
+    <columns>Number_of_sites__c</columns>
+    <columns>Start_date_of_subscription__c</columns>
+    <columns>QUOTE.EXPIRATIONDATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Owner</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>QUOTE.STATUS</field>
+        <operation>equals</operation>
+        <value>Approved,Accepted</value>
+    </filters>
+    <label>enerjyhub Subs Quotes Accepted/Approved</label>
+    <sharedTo>
+        <role>DassaultDirector</role>
+        <role>GroupDirector</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Siemens_PartnerRegistrationType__c</fullName>
+    <externalId>false</externalId>
+    <label>Partner Registration Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Partner Owned</fullName>
+                <default>false</default>
+                <label>Partner Owned</label>
+            </value>
+            <value>
+                <fullName>Partner Shared – Partner drives sales strategy</fullName>
+                <default>false</default>
+                <label>Partner Shared – Partner drives sales strategy</label>
+            </value>
+            <value>
+                <fullName>Partner Shared – UGS drives sales strategy</fullName>
+                <default>false</default>
+                <label>Partner Shared – UGS drives sales strategy</label>
+            </value>
+            <value>
+                <fullName>Partner Influenced</fullName>
+                <default>false</default>
+                <label>Partner Influenced</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

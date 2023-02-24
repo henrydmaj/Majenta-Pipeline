@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T_Margin_Checking_Chloe_Ward</fullName>
+    <columns>LAST_UPDATE</columns>
+    <columns>Date__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>ProductType__c</columns>
+    <columns>T_Margin__c</columns>
+    <columns>GrossMargin__c</columns>
+    <columns>Grouping__c</columns>
+    <columns>Cost_Type__c</columns>
+    <columns>PNL_Completed__c</columns>
+    <columns>ProductFamily__c</columns>
+    <columns>Grouping_Set__c</columns>
+    <columns>BusinessType__c</columns>
+    <columns>Sub_Division__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Date__c</field>
+        <operation>lessThan</operation>
+        <value>5/1/2022</value>
+    </filters>
+    <filters>
+        <field>BusinessType__c</field>
+        <operation>notEqual</operation>
+        <value>Transaction Cost</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>SOL</value>
+    </filters>
+    <filters>
+        <field>Date2__c</field>
+        <operation>greaterThan</operation>
+        <value>3/31/2022</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>equals</operation>
+        <value>Chloe Ward</value>
+    </filters>
+    <label>T Margin Checking Chloe Ward</label>
+</ListView>

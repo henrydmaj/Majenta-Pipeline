@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Define_a_Request_Type</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL(Status__c , "Completed") || ISPICKVAL(Status__c , "Aborted") &amp;&amp; ISBLANK(TEXT(Type__c))</errorConditionFormula>
+    <errorDisplayField>Type__c</errorDisplayField>
+    <errorMessage>The type must be defined before closing a request.</errorMessage>
+</ValidationRule>

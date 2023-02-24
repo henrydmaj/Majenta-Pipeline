@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grouping_Set__c</fullName>
+    <externalId>false</externalId>
+    <label>Grouping Set</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Margin</fullName>
+                <default>false</default>
+                <label>New Margin</label>
+            </value>
+            <value>
+                <fullName>Renewal Margin</fullName>
+                <default>false</default>
+                <label>Renewal Margin</label>
+            </value>
+            <value>
+                <fullName>Direct Costs</fullName>
+                <default>false</default>
+                <label>Direct Costs</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Technical</fullName>
+                <default>false</default>
+                <label>Technical</label>
+            </value>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Commercial Director</fullName>
+                <default>false</default>
+                <label>Commercial Director</label>
+            </value>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Admin</fullName>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>Order Processing</fullName>
+                <default>false</default>
+                <label>Order Processing</label>
+            </value>
+            <value>
+                <fullName>Overhead Rent Rates &amp; Insurance</fullName>
+                <default>false</default>
+                <label>Overhead Property Costs</label>
+            </value>
+            <value>
+                <fullName>Overhead Insurance Costs</fullName>
+                <default>false</default>
+                <label>Overhead Insurance Costs</label>
+            </value>
+            <value>
+                <fullName>Overhead - Salesforce Costs</fullName>
+                <default>false</default>
+                <label>Overhead Salesforce Costs</label>
+            </value>
+            <value>
+                <fullName>Overhead Computer Costs</fullName>
+                <default>false</default>
+                <label>Overhead IT Costs</label>
+            </value>
+            <value>
+                <fullName>Overhead Communications Costs</fullName>
+                <default>false</default>
+                <label>Overhead Communications Costs</label>
+            </value>
+            <value>
+                <fullName>Overhead Marketing Fixed Costs</fullName>
+                <default>false</default>
+                <label>Overhead Marketing Fixed Costs</label>
+            </value>
+            <value>
+                <fullName>Overhead Marketing Costs</fullName>
+                <default>false</default>
+                <label>Overhead Marketing Variable Costs</label>
+            </value>
+            <value>
+                <fullName>Overhead Legal &amp; Professional Fees</fullName>
+                <default>false</default>
+                <label>Overhead Legal &amp; Professional Fees</label>
+            </value>
+            <value>
+                <fullName>Overhead Leasing</fullName>
+                <default>false</default>
+                <label>Overhead Lease Rental</label>
+            </value>
+            <value>
+                <fullName>Overhead Close Finance Charges</fullName>
+                <default>false</default>
+                <label>Overhead Close Factoring Charges</label>
+            </value>
+            <value>
+                <fullName>Overhead Bank Charges</fullName>
+                <default>false</default>
+                <label>Overhead Bank Charges</label>
+            </value>
+            <value>
+                <fullName>Overhead Interest Charges</fullName>
+                <default>false</default>
+                <label>Overhead Interest Charges</label>
+            </value>
+            <value>
+                <fullName>Overhead Printing Postage &amp; Stationery</fullName>
+                <default>false</default>
+                <label>Overhead Printing Postage &amp; Stationery</label>
+            </value>
+            <value>
+                <fullName>Overhead ANO</fullName>
+                <default>false</default>
+                <label>Overhead Internal Food &amp; Beverage Costs</label>
+            </value>
+            <value>
+                <fullName>Overhead Depreciation</fullName>
+                <default>false</default>
+                <label>Overhead Depreciation</label>
+            </value>
+            <value>
+                <fullName>Overhead Amortisation</fullName>
+                <default>false</default>
+                <label>Overhead Amortisation</label>
+            </value>
+            <value>
+                <fullName>Overhead Corporation Tax</fullName>
+                <default>false</default>
+                <label>Overhead Corporation Tax</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>enerjyhub development costs</fullName>
+                <default>false</default>
+                <label>enerjyhub development costs</label>
+            </value>
+            <value>
+                <fullName>Overhead Recruitment</fullName>
+                <default>false</default>
+                <label>Overhead Recruitment</label>
+            </value>
+            <value>
+                <fullName>Overhead Utilities</fullName>
+                <default>false</default>
+                <label>Overhead Utilities</label>
+            </value>
+            <value>
+                <fullName>Renewal Margin Forecast</fullName>
+                <default>false</default>
+                <label>Renewal Margin Forecast</label>
+            </value>
+            <value>
+                <fullName>Overhead - Non Standard Costs</fullName>
+                <default>false</default>
+                <label>Overhead - Non Standard Costs</label>
+            </value>
+            <value>
+                <fullName>Overhead - Furlough Savings</fullName>
+                <default>false</default>
+                <label>Overhead - Furlough Savings</label>
+            </value>
+            <value>
+                <fullName>Overhead SF Org Split &amp; MX Development</fullName>
+                <default>false</default>
+                <label>Overhead SF Org Split &amp; MX Development</label>
+            </value>
+            <value>
+                <fullName>Overhead Internal SF &amp; MX Support</fullName>
+                <default>false</default>
+                <label>Overhead Internal SF &amp; MX Support</label>
+            </value>
+            <value>
+                <fullName>Overhead Reallocation</fullName>
+                <default>false</default>
+                <label>Overhead Reallocation</label>
+            </value>
+            <value>
+                <fullName>Redundancy</fullName>
+                <default>false</default>
+                <label>Redundancy</label>
+            </value>
+            <value>
+                <fullName>Cross Charge Directors Costs ( MA/JS/SO) 20%</fullName>
+                <default>false</default>
+                <label>Cross Charge Directors Costs ( MA/JS/SO) 20%</label>
+            </value>
+            <value>
+                <fullName>Currency Revaluation</fullName>
+                <default>false</default>
+                <label>Currency Revaluation</label>
+            </value>
+            <value>
+                <fullName>Cross Charge - Salesforce Team</fullName>
+                <default>false</default>
+                <label>Cross Charge - Salesforce Team</label>
+            </value>
+            <value>
+                <fullName>Depreciation</fullName>
+                <default>false</default>
+                <label>Depreciation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

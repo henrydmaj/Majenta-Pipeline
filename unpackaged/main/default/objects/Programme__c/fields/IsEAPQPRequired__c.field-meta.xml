@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsEAPQPRequired__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to determine whether the Programme is required for eAPQP.  This affects whether the programme is visible in the eEnablement Request Form</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this to have the Programme appear in the eEnablement Request Form</inlineHelpText>
+    <label>eAPQP Required?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

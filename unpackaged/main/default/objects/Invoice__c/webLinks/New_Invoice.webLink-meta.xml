@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Invoice</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Invoice</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/a0I/e?CF00N20000003dk1Q={!Opportunity.Name}&amp;CF00NR00000019kFf_lkid={!Opportunity.Id}&amp;CurrencyIsoCode={!Opportunity.CurrencyIsoCode}&amp;retURL={!Opportunity.Id}</url>
+</WebLink>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsenerjyhubImmersionSetupComplete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Identify when GSI has completed enerjyhub intro immersion with supplier org.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Supplier has completed enerjyhub introduction immersion with GSI.</inlineHelpText>
+    <label>enerjyhub Immersion Setup Complete?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

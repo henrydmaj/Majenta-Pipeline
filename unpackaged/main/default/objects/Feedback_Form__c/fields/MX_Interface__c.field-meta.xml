@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MX_Interface__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>On a scale from 1 to 10 - How easy do you find the MX Interface to work with?</inlineHelpText>
+    <label>MX Interface</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

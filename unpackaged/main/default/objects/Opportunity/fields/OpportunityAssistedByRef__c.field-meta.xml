@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpportunityAssistedByRef__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup field to identify user who has assisted the owner for the opportunity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>User who has assisted the owner with this opportunity.</inlineHelpText>
+    <label>Opportunity Assisted By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

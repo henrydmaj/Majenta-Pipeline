@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colour__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(IsBillable__c,
+  CASE( TEXT(Category__c),
+    'Consultancy', '#00ff00',
+    'Helpdesk', '',
+    'Holiday', '#0070c0',
+    'Meetings', '',
+    'Pre-Sales', '#ffff00',
+    'Training', '#92d050',
+    '#c0c0c0'
+  )
+  ,'#ff0000'
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Colour</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

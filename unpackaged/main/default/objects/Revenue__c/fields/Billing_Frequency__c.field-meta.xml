@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Frequency__c</fullName>
+    <externalId>false</externalId>
+    <label>Billing Frequency</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+                <label>Quarterly</label>
+            </value>
+            <value>
+                <fullName>One year Annual</fullName>
+                <default>false</default>
+                <label>One year Annual</label>
+            </value>
+            <value>
+                <fullName>Multi Year Annual</fullName>
+                <default>false</default>
+                <label>Multi Year Annual</label>
+            </value>
+            <value>
+                <fullName>Billed up front in Full</fullName>
+                <default>false</default>
+                <label>Billed up front in Full</label>
+            </value>
+            <value>
+                <fullName>Pro Rata First or last period Quarterly</fullName>
+                <default>false</default>
+                <label>Pro Rata First or last period Quarterly</label>
+            </value>
+            <value>
+                <fullName>Services Billing N/A</fullName>
+                <default>false</default>
+                <label>Services Billing N/A</label>
+            </value>
+            <value>
+                <fullName>Training Billing N/A</fullName>
+                <default>false</default>
+                <label>Training Billing N/A</label>
+            </value>
+            <value>
+                <fullName>6 Month</fullName>
+                <default>false</default>
+                <label>6 Month</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

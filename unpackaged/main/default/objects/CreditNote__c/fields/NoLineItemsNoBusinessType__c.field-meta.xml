@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoLineItemsNoBusinessType__c</fullName>
+    <externalId>false</externalId>
+    <label>Line Items w/o Business Type</label>
+    <summaryFilterItems>
+        <field>CreditNoteLineItem__c.BusinessType2__c</field>
+        <operation>equals</operation>
+        <value></value>
+    </summaryFilterItems>
+    <summaryForeignKey>CreditNoteLineItem__c.CreditNote__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

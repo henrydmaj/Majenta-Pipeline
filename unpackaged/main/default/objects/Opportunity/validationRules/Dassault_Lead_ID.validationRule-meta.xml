@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dassault_Lead_ID</fullName>
+    <active>false</active>
+    <description>Dassault Lead ID is mandatory for certain Solution Types on Dassault Opportunities</description>
+    <errorConditionFormula>AND(OR(ISPICKVAL(SolutionType__c, "CATIA"),
+   ISPICKVAL(SolutionType__c, "DELMIA"),
+   ISPICKVAL(SolutionType__c, "ENOVIA"),
+   ISPICKVAL(SolutionType__c, "SIMULIA"),
+   ISPICKVAL(SolutionType__c, "3D Excite"),
+   ISPICKVAL(SolutionType__c, "3D Experience")
+    ),
+  ISPICKVAL(Partner__c , "Dassault"),
+  ISBLANK(DS_Lead_ID__c)
+)</errorConditionFormula>
+    <errorDisplayField>DS_Lead_ID__c</errorDisplayField>
+    <errorMessage>Dassault Lead ID field cannot be blank on a Dassault Opportunity of this type</errorMessage>
+</ValidationRule>

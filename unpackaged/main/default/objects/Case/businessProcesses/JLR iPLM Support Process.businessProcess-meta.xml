@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JLR iPLM Support Process</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Customer - Confirm Fix Provided</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Customer - More Info Required</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Not Subscribed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Open - No Current JLR Resolution</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>WIP GSI Team</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>WIP JLR C3PNG Support</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>WIP JLR CCDS Team</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>WIP JLR Covisint Team</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>WIP JLR DEC Team</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>WIP JLR IT</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>WIP JLR Management</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>WIP JLR SPR Team</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>WIP JLR VIS Support</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>WIP Opentext Team</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

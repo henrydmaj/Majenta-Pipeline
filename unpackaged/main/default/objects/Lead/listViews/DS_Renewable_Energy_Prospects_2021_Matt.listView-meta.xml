@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DS_Renewable_Energy_Prospects_2021_Matt</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.EMPLOYEES</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Internal_Sales_Process</value>
+    </filters>
+    <label>DS_Renewable Energy Prospects 2021_Matt</label>
+    <sharedTo>
+        <group>Matthew_Riley</group>
+    </sharedTo>
+</ListView>

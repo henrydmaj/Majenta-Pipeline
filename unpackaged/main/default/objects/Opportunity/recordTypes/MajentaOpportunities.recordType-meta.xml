@@ -1,0 +1,2949 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MajentaOpportunities</fullName>
+    <active>true</active>
+    <businessProcess>Majenta Sales CY14</businessProcess>
+    <description>Use for all new Sales</description>
+    <label>Majenta Opportunities</label>
+    <picklistValues>
+        <picklist>ACEStatus__c</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unregistered</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Academy_Products__c</picklist>
+        <values>
+            <fullName>Contract Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Graduate Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Placement Fee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ApproversPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BusinessCasePick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BusinessSponsorPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CSAT_Score__c</picklist>
+        <values>
+            <fullName>1 - Very dissatisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 - Somewhat dissatisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - Neither satisfied nor dissatisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - Somewhat satisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 - Very satisfied</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CompellingReasontoActPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ContractTermsPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ConvincingDeploymentPlanPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CredibleReferencesPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CurrentStatusPick__c</picklist>
+        <values>
+            <fullName>Awaiting confirmation from JLR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COVID19 delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D%26D Outside UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DS Direct Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DS Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fully Engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ignoring communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JLR said not needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Licensing Source Outside UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Oppy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No active work with JLR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Progressing sales process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refusal to subscribe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Qualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Using DSP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value justification required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DS_Offer_Name__c</picklist>
+        <values>
+            <fullName>3DEXCITE_3DEXCITE DELTAGEN_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Design%2FEngineering_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Manufacturing%2FProduction_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Private Cloud Design%2FEngineering_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Private Cloud Governance%2FLifecycle_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Private Cloud Manufacturing%2FProduction_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Private Cloud Simulation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Public Cloud Design%2FEngineering_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Public Cloud Governance%2FLifecycle_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Public Cloud Manufacturing%2FProduction_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Public Cloud Simulation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Public Cloud for Academia_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Simulation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DVIA_3DVIA Studio Pro_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DVIA_3DVIA Virtools_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_Academia CATIA EDU V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_Academia DELMIA EDU V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_Academia ENOVIA SMARTEAM EDU V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_Dymola Academic Learn%2FInnovate_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_ICEM Surf for Academia _On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_Public Cloud for Academia_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_V6 for Academia_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Co-design to target_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Engineered to Fly for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Engineered to Fly for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Engineered to Fly_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Test To perform_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Winning Program_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC_Civil Design for Fabrication_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC_Civil Design for Fabrication_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC_Facade Design for Fabrication_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC_Facade Design for Fabrication_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC_Optimized Construction_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIOVIA_Biodesign_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_CATIA Composer_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_CATIA V4_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_CATIA V5 PLM Express Edition 3 _On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_CATIA V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_CATIA V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_Design%2FEngineering_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_Dymola_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_ICEM Surf_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_Private Cloud Design%2FEngineering_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_Public Cloud Design%2FEngineering_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_Reqtify - ControlBuild - AUTOSAR Builder_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CG_My Collection %28Fashion%29_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CG_My Product Portfolio %28On Cloud%29_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CG_My Product Portfolio_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CG_My Store_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPG_Perfect Package_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPG_Perfect Product_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPG_Perfect Shelf_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPG_Perfect Shelf_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPG_perfect Package %28on Cloud%29_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA D5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA PLM Express V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA Process Engineer_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA V5 PLM Express products_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA_APRISO_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_Manufacturing%2FProduction_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_Private Cloud Manufacturing%2FProduction_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_Public Cloud Manufacturing%2FProduction_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_Public Cloud Companion for 3DEXPERIENCE_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_Public Cloud Companion for SIMULIA Abaqus_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_V5 On Premise Companion _On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_V5 Online Companion_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_V6 On Premise Companion_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_V6 Online Companion_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_3DEXPERIENCE Platform_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA MatrixOne_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA Product Manager_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA SmarTeam V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA Synchronicity V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA Synchronicity_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA VPLM V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIAvpm_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_Governance%2FLifecycle_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_Private Cloud Governance%2FLifecycle_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_Public Cloud Governance%2FLifecycle_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Efficient Plant Operation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Integrated Plant Engineering_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Intelligent Subsurface_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Optimized Plant Construction_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Single Source for Speed for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Single Source for Speed_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Sustainable Wind Turbines %28On Cloud%29_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Sustainable Wind Turbines_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXALEAD_Business Analytics_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXALEAD_EXALEAD ONE Legacy_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXALEAD_EXALEAD V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXALEAD_EXALEAD_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Bid to Win_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Engineered to Fly for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Engineered to Fly for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Engineered to Fly_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Innovation Factory_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Single Source for Speed for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Single Source for Speed_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Smart and Synchronized_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA GEMS_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA Hub_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA InSite_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA MineSched_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA Minex_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA Surpac_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA Whittle_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Business Operation Excellence_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_HT body %28On Cloud%29_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_HT body_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Imagination Wave_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Silicon Thinking_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Smarter Faster Lighter_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Social Ideation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Social Ideation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE_Simple Solution Selection_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE_Single Source for Speed for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE_Single Source for Speed_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE_Smart and Synchronized_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_License to Cure for Medical Device_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Single Source for Speed for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Single Source for Speed_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Smarter Faster Lighter_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Social Ideation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Social Ideation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Designed For Sea_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Express For Sea_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_On Time To Sea_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Optimized Production For Sea_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Single Source for Speed for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Single Source for Speed_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NETVIBES_NETVIBES NV1 Online_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NETVIBES_NETVIBES NV1_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NETVIBES_NETVIBES NV1_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NR_Efficient Plant Operation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NR_Integrated Plant Engineering_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NR_Lean Mine Construction_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NR_Perfect Mine and Plant_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLM Express_CATIA V5 PLM Express Edition 3 _On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLM Express_DELMIA V5 PLM Express products_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLM Express_V6 PLM Express Products_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUINTIQ_Quintiq_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_Private Cloud Simulation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_Public Cloud Simulation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA Abaqus Unified FEA_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA Isight_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA Simpack_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA Simpoe_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA Tosca_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_Simulation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOLIDWORKS_DraftSight Services_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Bid to Win for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Bid to Win for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Bid to Win_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Global Validation Proven Performance_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Innovation on Track_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Modular%2C Glocal %26 Secure_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Smart%2C Safe %26 Connected_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Target Zero Defect_On_Premise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DS_Revenue_Type__c</picklist>
+        <values>
+            <fullName>ALC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YLC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Data_Services_Products__c</picklist>
+        <values>
+            <fullName>C3P - CAD Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3P - New Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3P - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3P - Renewed Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3P - Training%2FConsultancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3P - Upgrades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - CAD Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - New Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - Renewed Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - Training%2FConsultancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta - Upgrades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - CAD Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - New Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - Renewed Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - Training%2FConsultancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P - Upgrades</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Division__c</picklist>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consultants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dassault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overhead</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ExecutiveAdvocacyPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinancialTermsPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>0%25 Disengaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20-40%25 Pipeline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60%25 Upside</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>80%25 Committed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90-100%25 Won</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FundingPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ITAdvocacyPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IT_Products__c</picklist>
+        <values>
+            <fullName>Dell - Desktop Workstations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dell - Mobile Workstations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM - NAS - n-series</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM - SAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM - System Storage DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM - System Storage TS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - FAS200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - FAS2000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - FAS3000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - FAS6000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - Nearstore VTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun - Desktop Workstations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun - Servers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symantec - Backup Exec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symantec - Enterprise Vault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symantec - Net-Backup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symantec - Puredisk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symantec - System Recovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vmware - ESX3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vmware - VDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vmware - VM Convertor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vmware - Virtual Centre</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Indemnity_Insurance_Required__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Abi Brain Calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIMTeam LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIMobject Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Study</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casey O%27Donnell Calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Nurture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dassault Systemes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Services Budget Calculator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dripify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JLR 3DX Budget Calculator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jack Stevens Calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Forensics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX - Intercom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX Free Trial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matt Riley Calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overhead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pardot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral_other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Role Finder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LegalPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Lost to Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Budget %2F Lost Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Decision %2F Non-Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OEM__c</picklist>
+        <values>
+            <fullName>JLR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opportunity_Type__c</picklist>
+        <values>
+            <fullName>Forecast</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PLM_LEAD__c</picklist>
+        <values>
+            <fullName>CUTTING EDGE LEAD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PLM_Products__c</picklist>
+        <values>
+            <fullName>Siemens - Femap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - Ideas NX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - NX Cam Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - SolidEdge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - TC Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - TC Vis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - Tecnomatix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens - UG NX</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner__c</picklist>
+        <values>
+            <fullName>3DSystems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Academy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citrix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dassault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ford</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMSCAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Icona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JLR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NETGEAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nissan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platform Consultancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QNAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rolls Royce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SensAble</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thecus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3P</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VMware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>aPriori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>i GET IT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PlatformCentricVisionPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PricingPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Quotation_Revision_Tracker__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>J</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>W</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Y</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Z</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RandDPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SecondaryLeadSourcePick__c</picklist>
+        <values>
+            <fullName>BIMobject Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Study</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casey O%27Donnell Calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Nurture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dassault Systemes Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intercom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Forensics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX Free Trial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matt Riley Calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pardot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral - other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Role Finder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Advert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>enerjyhub</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>enerjyhub Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>enerjyhub Partner Contechs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>enerjyhub Partner Majenta</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SequenceOfEventsPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ServicesPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Software_Products__c</picklist>
+        <values>
+            <fullName>Autodesk MES - 3D Studio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MES - Maya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MES - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MES - Sketchbook Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MES - Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Auto%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Design%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Direct%7CConnect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Image%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Portfolio Wall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Showcase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Showcase Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Studio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Surface%7CStudio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk MSD - Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - CAD%2EDoctor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - CAD%2EFeature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - CAD%2EPorter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - PDQ-NP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium - Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Icona - Aesthetica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - ClayTools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - FFM%2FDesktop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - FFM%2FOmni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - FFMP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable - Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SolutionType__c</picklist>
+        <values>
+            <fullName>3D Excite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3D Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXCITE_3DEXCITE DELTAGEN_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Design%2FEngineering_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Manufacturing%2FProduction_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Private Cloud Design%2FEngineering_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Private Cloud Governance%2FLifecycle_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Private Cloud Manufacturing%2FProduction_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Private Cloud Simulation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Public Cloud Design%2FEngineering_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Public Cloud Governance%2FLifecycle_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Public Cloud Manufacturing%2FProduction_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Public Cloud Simulation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Public Cloud for Academia_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DEXPERIENCE_Simulation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DVIA_3DVIA Studio Pro_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3DVIA_3DVIA Virtools_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_Academia CATIA EDU V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_Academia DELMIA EDU V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_Academia ENOVIA SMARTEAM EDU V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_Dymola Academic Learn%2FInnovate_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_ICEM Surf for Academia _On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_Public Cloud for Academia_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACADEMIA_V6 for Academia_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Co-design to target_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Engineered to Fly for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Engineered to Fly for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Engineered to Fly_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Test To perform_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD_Winning Program_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC_Civil Design for Fabrication_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC_Civil Design for Fabrication_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC_Facade Design for Fabrication_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC_Facade Design for Fabrication_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEC_Optimized Construction_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIMobject</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIOVIA_Biodesign_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAD VDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_CATIA Composer_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_CATIA V4_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_CATIA V5 PLM Express Edition 3 _On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_CATIA V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_CATIA V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_Design%2FEngineering_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_Dymola_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_ICEM Surf_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_Private Cloud Design%2FEngineering_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_Public Cloud Design%2FEngineering_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA_Reqtify - ControlBuild - AUTOSAR Builder_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CG_My Collection %28Fashion%29_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CG_My Product Portfolio %28On Cloud%29_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CG_My Product Portfolio_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CG_My Store_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPG_Perfect Package_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPG_Perfect Product_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPG_Perfect Shelf_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPG_Perfect Shelf_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPG_perfect Package %28on Cloud%29_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Consultancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content Creation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content Creation Child Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content Creation Drawdown Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content Creation Support Allowance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content Creation Support Child Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA D5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA PLM Express V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA Process Engineer_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA V5 PLM Express products_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_DELMIA_APRISO_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_Manufacturing%2FProduction_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_Private Cloud Manufacturing%2FProduction_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELMIA_Public Cloud Manufacturing%2FProduction_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draftsight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_Public Cloud Companion for 3DEXPERIENCE_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_Public Cloud Companion for SIMULIA Abaqus_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_V5 On Premise Companion _On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_V5 Online Companion_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_V6 On Premise Companion_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUCATION_V6 Online Companion_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_3DEXPERIENCE Platform_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA MatrixOne_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA Product Manager_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA SmarTeam V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA Synchronicity V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA Synchronicity_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIA VPLM V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_ENOVIAvpm_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_Governance%2FLifecycle_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_Private Cloud Governance%2FLifecycle_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENOVIA_Public Cloud Governance%2FLifecycle_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Efficient Plant Operation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Integrated Plant Engineering_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Intelligent Subsurface_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Optimized Plant Construction_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Single Source for Speed for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Single Source for Speed_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Sustainable Wind Turbines %28On Cloud%29_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPU_Sustainable Wind Turbines_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXALEAD_Business Analytics_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXALEAD_EXALEAD ONE Legacy_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXALEAD_EXALEAD V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXALEAD_EXALEAD_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Bid to Win_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Engineered to Fly for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Engineered to Fly for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Engineered to Fly_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Innovation Factory_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Single Source for Speed for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Single Source for Speed_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS_Smart and Synchronized_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA GEMS_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA Hub_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA InSite_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA MineSched_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA Minex_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA Surpac_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA Whittle_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOVIA_GEOVIA_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Business Operation Excellence_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_HT body %28On Cloud%29_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_HT body_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Imagination Wave_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Silicon Thinking_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Smarter Faster Lighter_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Social Ideation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT_Social Ideation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE_Simple Solution Selection_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE_Single Source for Speed for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE_Single Source for Speed_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE_Smart and Synchronized_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_License to Cure for Medical Device_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Single Source for Speed for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Single Source for Speed_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Smarter Faster Lighter_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Social Ideation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS_Social Ideation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laser Scanning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEP Modelling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MFG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Designed For Sea_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Express For Sea_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_On Time To Sea_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Optimized Production For Sea_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Single Source for Speed for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO_Single Source for Speed_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NETVIBES_NETVIBES NV1 Online_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NETVIBES_NETVIBES NV1_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NETVIBES_NETVIBES NV1_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NR_Efficient Plant Operation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NR_Integrated Plant Engineering_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NR_Lean Mine Construction_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NR_Perfect Mine and Plant_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NULL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLM Express_CATIA V5 PLM Express Edition 3 _On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLM Express_DELMIA V5 PLM Express products_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLM Express_V6 PLM Express Products_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q-checker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUINTIQ_Quintiq_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_Private Cloud Simulation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_Public Cloud Simulation_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA Abaqus Unified FEA_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA Isight_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA Simpack_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA Simpoe_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA Tosca_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA V5_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_SIMULIA V6_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIMULIA_Simulation_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOLIDWORKS_DraftSight Services_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storage and Server Virtualisation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Bid to Win for Mid-Market_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Bid to Win for Mid-Market_Public_Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Bid to Win_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Global Validation Proven Performance_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Innovation on Track_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Modular%2C Glocal %26 Secure_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Smart%2C Safe %26 Connected_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM_Target Zero Defect_On_Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workstations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>i GET IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>i-PLM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubStage__c</picklist>
+        <values>
+            <fullName>Competitive VAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitive price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitive solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Lost Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed beyond reasonable forecast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Did nothing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No budget</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity already registered to Competitive VAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software Upgraded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training Credit Used</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitioned to Symetri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Will not engage%2Fcommunicate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TechnicalAdvocacyPick__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Customer Maintenance Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Customer Mixed Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Customer New Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Funding%2FCost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Customer New Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overhead Purchase Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier Credit%2FRebate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>enerjyhub_Type__c</picklist>
+        <values>
+            <fullName>AH Consultants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JLR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JLR SRV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

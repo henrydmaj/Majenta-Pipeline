@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prequalifying_Traits__c</fullName>
+    <description>Bullet point the top 10 indicators</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Only use for inside sales campaigns</inlineHelpText>
+    <label>Prequalifying Traits</label>
+    <length>50000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

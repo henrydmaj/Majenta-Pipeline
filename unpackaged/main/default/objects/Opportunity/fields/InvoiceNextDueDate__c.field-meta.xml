@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InvoiceNextDueDate__c</fullName>
+    <externalId>false</externalId>
+    <formula>LastInvoiceDate__c + ( BillingCycleMonths__c * (365/12))
+
+/*
+DATE(
+year(LastInvoiceDate__c)
++ floor((month(LastInvoiceDate__c) + BillingCycleMonths__c)/12) + if(and(month(LastInvoiceDate__c)=12,BillingCycleMonths__c&gt;=12),-1,0)
+,
+if( mod( month(LastInvoiceDate__c) + BillingCycleMonths__c , 12 ) = 0, 12 , mod( month(LastInvoiceDate__c) + BillingCycleMonths__c , 12 ))
+,
+min( 
+day(LastInvoiceDate__c),
+case(
+max( mod( month(LastInvoiceDate__c) + BillingCycleMonths__c , 12 ) , 1),
+9,30,
+4,30,
+6,30,
+11,30,
+2,28,
+31
+)
+)
+)
+*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Next Invoice Due Date (Formula)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

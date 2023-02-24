@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Division__c</fullName>
+    <externalId>false</externalId>
+    <label>Division</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Data Services</fullName>
+                <default>false</default>
+                <label>Data Services</label>
+            </value>
+            <value>
+                <fullName>PLM</fullName>
+                <default>false</default>
+                <label>PLM</label>
+            </value>
+            <value>
+                <fullName>Solid Edge</fullName>
+                <default>false</default>
+                <label>Solid Edge</label>
+            </value>
+            <value>
+                <fullName>Dassault</fullName>
+                <default>false</default>
+                <label>Dassault</label>
+            </value>
+            <value>
+                <fullName>AUTODESK</fullName>
+                <default>false</default>
+                <label>AUTODESK</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

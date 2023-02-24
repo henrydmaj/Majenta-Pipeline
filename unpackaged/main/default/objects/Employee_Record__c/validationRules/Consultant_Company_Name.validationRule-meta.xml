@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consultant_Company_Name</fullName>
+    <active>true</active>
+    <description>Consultant Company Name must be filled in if Employee Type is a consultant</description>
+    <errorConditionFormula>AND( 
+
+ ISPICKVAL(Employee_Type__c, 'Consultant') ,
+ ISBLANK(Consultant_Company_Name__c ))</errorConditionFormula>
+    <errorDisplayField>Consultant_Company_Name__c</errorDisplayField>
+    <errorMessage>Consultant Company Name must be populated if Employee Type equals consultant</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Passport_Number_Length</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+
+(NOT(ISBLANK(Passport_Number__c )),
+
+LEN( Passport_Number__c)&lt;&gt;9)</errorConditionFormula>
+    <errorDisplayField>Passport_Number__c</errorDisplayField>
+    <errorMessage>Passport Number must be 9 digits</errorMessage>
+</ValidationRule>

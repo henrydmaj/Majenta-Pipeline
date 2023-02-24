@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contacts_to_be_made_Inactive</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IsActive__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>PickEnerjyhubAccess__c</field>
+        <operation>equals</operation>
+        <value>Inactive in enerjyhub</value>
+    </filters>
+    <label>Contacts to be made Inactive</label>
+    <sharedTo>
+        <group>GSI_Team_Gaydon</group>
+    </sharedTo>
+</ListView>

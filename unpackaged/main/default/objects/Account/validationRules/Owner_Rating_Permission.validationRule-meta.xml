@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_Rating_Permission</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Rating)
+&amp;&amp;  Owner.Id &lt;&gt;  $User.Id
+&amp;&amp;  NOT(OR(
+      CONTAINS($UserRole.Name, "Administrator"),
+      CONTAINS($UserRole.Name, "Marketing"),
+      CONTAINS($UserRole.Name, "Director"),
+      CONTAINS($UserRole.Name, "Group Admin"),
+						CONTAINS($UserRole.Name, "Software")
+/*      CONTAINS($UserRole.Name, "Solid Edge") */
+    ))</errorConditionFormula>
+    <errorDisplayField>Rating</errorDisplayField>
+    <errorMessage>You do not have permission to change the rating of this record.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Opportunity</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Renewal Opportunity</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/20.0/connection.js")}
+{!REQUIRESCRIPT("/soap/ajax/20.0/apex.js")}
+var myJob =new sforce.SObject("Subscription__c");
+myJob.Id ="{! Subscription__c.Id }";
+myJob.Renewal_Opportunity__c="TRUE";
+var result = sforce.connection.update([myJob]);
+window.location.reload();</url>
+</WebLink>

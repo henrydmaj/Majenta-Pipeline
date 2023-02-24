@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIM_on_site_account__c</fullName>
+    <description>Field used to identify if a contact is showing as a SIM on the site account</description>
+    <externalId>false</externalId>
+    <formula>IF(OR(
+
+Account.Site_Super_User_1__c = Id , Account.Site_Super_User_2__c = Id), TRUE,FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checkbox will be ticked if this contact is entered as Supplier Integration Manager 1 or 2 on the related site account.</inlineHelpText>
+    <label>SIM on Site Account?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

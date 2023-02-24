@@ -1,0 +1,4 @@
+<design:component label="Disabled Checkbox">
+	<design:attribute name="CheckboxValue" label="Checkbox Value" />
+    <design:attribute name="CheckboxLabel" label="Checkbox Label" />
+</design:component>

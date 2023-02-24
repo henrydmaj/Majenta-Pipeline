@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JLR_Training_Courses</fullName>
+    <columns>NAME</columns>
+    <columns>StartDate__c</columns>
+    <columns>FinishDate__c</columns>
+    <columns>Status__c</columns>
+    <columns>PlacesBooked__c</columns>
+    <columns>NumberOfPlaces__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Division__c</field>
+        <operation>equals</operation>
+        <value>enerjyhub</value>
+    </filters>
+    <label>JLR Training Courses</label>
+    <sharedTo>
+        <role>GroupTechnicalManager</role>
+    </sharedTo>
+</ListView>

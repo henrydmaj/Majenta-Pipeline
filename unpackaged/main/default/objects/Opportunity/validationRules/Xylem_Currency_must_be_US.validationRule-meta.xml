@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Xylem_Currency_must_be_US</fullName>
+    <active>true</active>
+    <errorConditionFormula>Account.Id = "0014K00000NHycJ"
+  &amp;&amp; 
+  NOT( ISPICKVAL(CurrencyIsoCode,"USD"))
+ &amp;&amp; 
+ ISNEW()</errorConditionFormula>
+    <errorDisplayField>CurrencyIsoCode</errorDisplayField>
+    <errorMessage>Xylem Opportunities MUST be in US Dollar</errorMessage>
+</ValidationRule>

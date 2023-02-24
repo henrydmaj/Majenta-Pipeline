@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsSHCEmailSentToRFQTrig__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to show that the SHC Email has been sent to the RFQ Bid Manager</description>
+    <externalId>false</externalId>
+    <label>IsSHCEmailSentToRFQTrig</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

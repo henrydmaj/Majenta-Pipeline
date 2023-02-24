@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinishDateEarliestEstimated__c</fullName>
+    <externalId>false</externalId>
+    <formula>TODAY()                                                                        /* today's date */
++ TaskDaysRemaining__c                                       /* + the lead time */
++ (2 * ROUND(TaskDaysRemaining__c / 5,0))           /* + the number of weekend days */
++ CASE(MOD( (Today() + MOD(TaskDaysRemaining__c, 5)) - DATE (2000 ,1, 1) ,7),  /* calculate the day of week for the release date based on 1/1/2000 being Saturday */
+               0,2,                                                                   /* + 2 days if the calculated release day would be a Saturday */
+               1,1,                                                                   /* + 1 day if the calculated release day would be a Sunday */
+               IF(TaskDaysRemaining__c &lt; 5,
+                 IF(MOD(Today() - DATE (2001 ,1, 1) ,7) + TaskDaysRemaining__c &gt; 4, 2, 0)
+               ,0))                                                                 /* + 2 days for short projects that would span a weekend */</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is the number of business days remaining added to today's date to give a theoretical earliest completion date for the project.</inlineHelpText>
+    <label>Earliest Estimated Finish Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

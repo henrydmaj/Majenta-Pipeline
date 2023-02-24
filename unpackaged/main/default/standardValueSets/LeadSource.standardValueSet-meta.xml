@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Abi Brain Calling</fullName>
+        <default>false</default>
+        <label>Abi Brain Calling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Casey O&apos;Donnell Calling</fullName>
+        <default>false</default>
+        <label>Casey O&apos;Donnell Calling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Jack Stevens Calling</fullName>
+        <default>false</default>
+        <label>Jack Stevens Calling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Matt Riley Calling</fullName>
+        <default>false</default>
+        <label>Matt Riley Calling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Renewal</fullName>
+        <default>false</default>
+        <label>Renewal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Acc. Manager Request</fullName>
+        <default>false</default>
+        <label>Acc. Manager Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Barbour List</fullName>
+        <default>false</default>
+        <label>Barbour List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BIMobject Lead</fullName>
+        <default>false</default>
+        <label>BIMobject Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BIMTeam LinkedIn</fullName>
+        <default>false</default>
+        <label>BIMTeam LinkedIn</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Case Study</fullName>
+        <default>false</default>
+        <label>Case Study</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Nurture</fullName>
+        <default>false</default>
+        <label>Customer Nurture</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Referral</fullName>
+        <default>false</default>
+        <label>Customer Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dassault Systemes</fullName>
+        <default>false</default>
+        <label>Dassault Systemes Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Services Budget Calculator</fullName>
+        <default>false</default>
+        <label>Data Services Budget Calculator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Mail</fullName>
+        <default>false</default>
+        <label>Direct Mail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dripify</fullName>
+        <default>false</default>
+        <label>Dripify</label>
+    </standardValue>
+    <standardValue>
+        <fullName>enerjyhub</fullName>
+        <default>false</default>
+        <label>enerjyhub</label>
+    </standardValue>
+    <standardValue>
+        <fullName>enerjyhub Partner</fullName>
+        <default>false</default>
+        <label>enerjyhub Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E_shot</fullName>
+        <default>false</default>
+        <label>E-shot</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Field Sales</fullName>
+        <default>false</default>
+        <label>Field Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Google Search</fullName>
+        <default>false</default>
+        <label>Google Search</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Industry Event</fullName>
+        <default>false</default>
+        <label>Industry Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Intercom</fullName>
+        <default>false</default>
+        <label>Intercom</label>
+    </standardValue>
+    <standardValue>
+        <fullName>JLR 3DX Budget Calculator</fullName>
+        <default>false</default>
+        <label>JLR 3DX Budget Calculator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead Forensics</fullName>
+        <default>false</default>
+        <label>Lead Forensics</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LinkedIn Contact</fullName>
+        <default>false</default>
+        <label>LinkedIn Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Majenta Event</fullName>
+        <default>false</default>
+        <label>Majenta Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MX Free Trial</fullName>
+        <default>false</default>
+        <label>MX Free Trial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Overhead</fullName>
+        <default>false</default>
+        <label>Overhead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pardot</fullName>
+        <default>false</default>
+        <label>Pardot</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Event</fullName>
+        <default>false</default>
+        <label>Partner Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Leads Contechs</fullName>
+        <default>false</default>
+        <label>Partner Leads Contechs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Leads Majenta</fullName>
+        <default>false</default>
+        <label>Partner Leads Majenta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Referral</fullName>
+        <default>false</default>
+        <label>Partner Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Purchased Data List</fullName>
+        <default>false</default>
+        <label>Purchased Data List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral_other</fullName>
+        <default>false</default>
+        <label>Referral - other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Role Finder</fullName>
+        <default>false</default>
+        <label>Role Finder</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show</fullName>
+        <default>false</default>
+        <label>Trade Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web Advert</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Chat</fullName>
+        <default>false</default>
+        <label>Web Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Form</fullName>
+        <default>false</default>
+        <label>Web Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>Website</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MX - Intercom</fullName>
+        <default>false</default>
+        <label>MX - Intercom</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Xylem Hub</fullName>
+        <default>false</default>
+        <label>Xylem Hub</label>
+    </standardValue>
+</StandardValueSet>

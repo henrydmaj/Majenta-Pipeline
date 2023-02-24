@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewTask</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Task</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/a0e/e?CF00N5800000BLNnw={!Project__c.Name}&amp;CF00N5800000BLNnw_lkid={!Project__c.Id}&amp;CF00N5800000BLNyu={!User.Name}&amp;retURL=%2F{!Project__c.Id}</url>
+</WebLink>

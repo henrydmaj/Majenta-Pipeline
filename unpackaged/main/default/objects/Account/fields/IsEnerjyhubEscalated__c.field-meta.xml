@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsEnerjyhubEscalated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to show whether or not the Business Account has refused to pay for enerjyhub subscription.  Will be checked if so.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tick this box if the Supplier has refused to buy a subscription and should be escalated to JLR.</inlineHelpText>
+    <label>enerjyhub Escalated?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

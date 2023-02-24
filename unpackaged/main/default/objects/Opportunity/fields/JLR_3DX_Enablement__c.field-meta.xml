@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JLR_3DX_Enablement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>For use with the Sales Team to report on all JLR Opps.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please ONLY use for Opps with JLR 3DX enablement</inlineHelpText>
+    <label>JLR 3DX Enablement</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalendarPeriod__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( StartDate__c ), "Ongoing", 
+
+"CY" &amp; RIGHT(TEXT(YEAR( StartDate__c )),2)
+
+&amp;
+
+CASE(MONTH( StartDate__c ),
+1, "Q1" ,
+2, "Q1",
+3, "Q1",
+4, "Q2",
+5, "Q2",
+6, "Q2",
+7, "Q3",
+8, "Q3",
+9, "Q3",
+10, "Q4",
+11, "Q4",
+12, "Q4",
+"None")
+
+)</formula>
+    <label>Period</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

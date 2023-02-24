@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Whitley_Workstation_Assets</fullName>
+    <columns>User_Name__c</columns>
+    <columns>Office_Location__c</columns>
+    <columns>Machine_Name__c</columns>
+    <columns>ASSET.NAME</columns>
+    <columns>Make__c</columns>
+    <columns>Model__c</columns>
+    <columns>Service_Tag_SN__c</columns>
+    <columns>ASSET.PURCHASE_DATE</columns>
+    <columns>Hard_Drive_Warranty_End_Date__c</columns>
+    <columns>Internal_Notes174__c</columns>
+    <columns>VPN_Installed__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ASSET.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Asset.Computer_Hardware</value>
+    </filters>
+    <filters>
+        <field>User_Name__c</field>
+        <operation>notContain</operation>
+        <value>Recycled</value>
+    </filters>
+    <label>Majenta Workstation Assets</label>
+</ListView>

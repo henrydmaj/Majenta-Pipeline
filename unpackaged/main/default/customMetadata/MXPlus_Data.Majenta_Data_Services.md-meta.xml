@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Majenta Data Services</label>
+    <protected>false</protected>
+    <values>
+        <field>AuthToken__c</field>
+        <value xsi:type="xsd:string">eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJmNzdkODQ0NS1hYjdmLTRhMmQtOTdjZC03ZDRhNTA2MmU2MzQiLCJzdWIiOiJlbGFzdGljYXBpdXNlciIsImlzcyI6Imh0dHBzOi8vYWNjZXNzLm15bXhkYXRhLmNvbSIsIm5iZiI6MTYyMzI2ODMzNiwiaWF0IjoxNjIzMjY4MzM2LCJjaWQiOjU5N30.WpdNPclqoP6j_hbd04q0AIQr_6mb7lBixc1_WrVli-4spg4TrUQ2JZL4jWwDudO74FVnrlclKLl1gUmos561ww</value>
+    </values>
+    <values>
+        <field>ServiceProvider__c</field>
+        <value xsi:type="xsd:string">Majenta Data Services</value>
+    </values>
+</CustomMetadata>

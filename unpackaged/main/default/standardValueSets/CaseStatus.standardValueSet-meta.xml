@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>3-Day Closure Email Sent</fullName>
+        <default>false</default>
+        <label>3-Day Closure Email Sent</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+        <label>Assigned</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Covisint</fullName>
+        <default>false</default>
+        <label>Awaiting Covisint</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Customer</fullName>
+        <default>false</default>
+        <label>Awaiting Customer</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Dassault Fix</fullName>
+        <default>false</default>
+        <label>Awaiting Dassault Fix</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting ER/Sug Fix</fullName>
+        <default>false</default>
+        <label>Awaiting ER/Sug Fix</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting GSI</fullName>
+        <default>false</default>
+        <label>Awaiting GSI</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Hardware</fullName>
+        <default>false</default>
+        <label>Awaiting Hardware</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting iPLM Fix</fullName>
+        <default>false</default>
+        <label>Awaiting iPLM Fix</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting PR/Bug Fix</fullName>
+        <default>false</default>
+        <label>Awaiting PR/Bug Fix</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Resource</fullName>
+        <default>false</default>
+        <label>Awaiting Resource</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Software</fullName>
+        <default>false</default>
+        <label>Awaiting Software</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting User</fullName>
+        <default>false</default>
+        <label>Awaiting User</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Contact Strike 1</fullName>
+        <default>false</default>
+        <label>Contact Strike 1</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer - Confirm Fix Provided</fullName>
+        <default>false</default>
+        <label>Customer - Confirm Fix Provided</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer - More Info Required</fullName>
+        <default>false</default>
+        <label>Customer - More Info Required</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Unavailable</fullName>
+        <default>false</default>
+        <label>Customer Unavailable</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+        <label>Duplicate</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to 015</fullName>
+        <default>false</default>
+        <label>Escalated to 015</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to GSI</fullName>
+        <default>false</default>
+        <label>Escalated to GSI</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to iPLM</fullName>
+        <default>false</default>
+        <label>Escalated to iPLM</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to JLR Programme</fullName>
+        <default>false</default>
+        <label>Escalated to JLR Programme</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to Majenta MX team</fullName>
+        <default>false</default>
+        <label>Escalated to Majenta MX team</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to VAR</fullName>
+        <default>false</default>
+        <label>Escalated to VAR</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to Vendor</fullName>
+        <default>false</default>
+        <label>Escalated to Vendor</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to Vendor IR</fullName>
+        <default>false</default>
+        <label>Escalated to Vendor IR</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Merged</fullName>
+        <default>false</default>
+        <label>Merged</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>No response (x3)</fullName>
+        <default>false</default>
+        <label>No response (x3)</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Subscribed</fullName>
+        <default>false</default>
+        <label>Not Subscribed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - No Current JLR Resolution</fullName>
+        <default>false</default>
+        <label>Open - No Current JLR Resolution</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Closure</fullName>
+        <default>false</default>
+        <label>Pending Closure</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Questions / advice sent</fullName>
+        <default>false</default>
+        <label>Questions / advice sent</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 2 Support</fullName>
+        <default>false</default>
+        <label>Tier 2 Support</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>WIP GSI Team</fullName>
+        <default>false</default>
+        <label>WIP GSI Team</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>WIP JLR C3PNG Support</fullName>
+        <default>false</default>
+        <label>WIP JLR C3PNG Support</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>WIP JLR CCDS Team</fullName>
+        <default>false</default>
+        <label>WIP JLR CCDS Team</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>WIP JLR Covisint Team</fullName>
+        <default>false</default>
+        <label>WIP JLR Covisint Team</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>WIP JLR DEC Team</fullName>
+        <default>false</default>
+        <label>WIP JLR DEC Team</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>WIP JLR IT</fullName>
+        <default>false</default>
+        <label>WIP JLR IT</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>WIP JLR Management</fullName>
+        <default>false</default>
+        <label>WIP JLR Management</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>WIP JLR SPR Team</fullName>
+        <default>false</default>
+        <label>WIP JLR SPR Team</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>WIP JLR VIS Support</fullName>
+        <default>false</default>
+        <label>WIP JLR VIS Support</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>WIP Opentext Team</fullName>
+        <default>false</default>
+        <label>WIP Opentext Team</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

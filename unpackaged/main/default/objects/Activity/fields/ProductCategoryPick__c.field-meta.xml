@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductCategoryPick__c</fullName>
+    <defaultValue>"Not Selected"</defaultValue>
+    <description>Product Category Picklist, requested by Simon Ordish (005289/0421)</description>
+    <externalId>false</externalId>
+    <label>Product Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MX</fullName>
+                <default>false</default>
+                <label>MX</label>
+            </value>
+            <value>
+                <fullName>Enerjyhub</fullName>
+                <default>false</default>
+                <label>Enerjyhub</label>
+            </value>
+            <value>
+                <fullName>Digital Construction</fullName>
+                <default>false</default>
+                <label>Digital Construction</label>
+            </value>
+            <value>
+                <fullName>Dassault</fullName>
+                <default>false</default>
+                <label>Dassault</label>
+            </value>
+            <value>
+                <fullName>Data Services</fullName>
+                <default>false</default>
+                <label>Data Services</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

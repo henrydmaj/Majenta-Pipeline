@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TaskDaysRemaining__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TaskHoursRemaining__c&gt;0, /* can't divide by zero so check if task hours is zero */
+  CEILING(TaskHoursRemaining__c/7), /* divide hours remaining by working hours in a day */
+  0 /* return zero days for zero hours */
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Task Days Remaining</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

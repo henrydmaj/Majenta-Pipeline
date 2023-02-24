@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Services_Products__c</fullName>
+    <externalId>false</externalId>
+    <label>Data Services Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>C3P - New Contracts</fullName>
+                <default>false</default>
+                <label>C3P - New Contracts</label>
+            </value>
+            <value>
+                <fullName>C3P - Renewed Contracts</fullName>
+                <default>false</default>
+                <label>C3P - Renewed Contracts</label>
+            </value>
+            <value>
+                <fullName>C3P - CAD Services</fullName>
+                <default>false</default>
+                <label>C3P - CAD Services</label>
+            </value>
+            <value>
+                <fullName>C3P - Training/Consultancy</fullName>
+                <default>false</default>
+                <label>C3P - Training/Consultancy</label>
+            </value>
+            <value>
+                <fullName>C3P - Upgrades</fullName>
+                <default>false</default>
+                <label>C3P - Upgrades</label>
+            </value>
+            <value>
+                <fullName>C3P - Other</fullName>
+                <default>false</default>
+                <label>C3P - Other</label>
+            </value>
+            <value>
+                <fullName>V3P - New Contracts</fullName>
+                <default>false</default>
+                <label>V3P - New Contracts</label>
+            </value>
+            <value>
+                <fullName>V3P - Renewed Contracts</fullName>
+                <default>false</default>
+                <label>V3P - Renewed Contracts</label>
+            </value>
+            <value>
+                <fullName>V3P - CAD Services</fullName>
+                <default>false</default>
+                <label>V3P - CAD Services</label>
+            </value>
+            <value>
+                <fullName>V3P - Training/Consultancy</fullName>
+                <default>false</default>
+                <label>V3P - Training/Consultancy</label>
+            </value>
+            <value>
+                <fullName>V3P - Upgrades</fullName>
+                <default>false</default>
+                <label>V3P - Upgrades</label>
+            </value>
+            <value>
+                <fullName>V3P - Other</fullName>
+                <default>false</default>
+                <label>V3P - Other</label>
+            </value>
+            <value>
+                <fullName>Majenta - New Contracts</fullName>
+                <default>false</default>
+                <label>Majenta - New Contracts</label>
+            </value>
+            <value>
+                <fullName>Majenta - Renewed Contracts</fullName>
+                <default>false</default>
+                <label>Majenta - Renewed Contracts</label>
+            </value>
+            <value>
+                <fullName>Majenta - CAD Services</fullName>
+                <default>false</default>
+                <label>Majenta - CAD Services</label>
+            </value>
+            <value>
+                <fullName>Majenta - Training/Consultancy</fullName>
+                <default>false</default>
+                <label>Majenta - Training/Consultancy</label>
+            </value>
+            <value>
+                <fullName>Majenta - Upgrades</fullName>
+                <default>false</default>
+                <label>Majenta - Upgrades</label>
+            </value>
+            <value>
+                <fullName>Majenta - Other</fullName>
+                <default>false</default>
+                <label>Majenta - Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

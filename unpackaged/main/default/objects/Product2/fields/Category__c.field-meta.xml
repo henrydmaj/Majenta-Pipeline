@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Family</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3Dconnexion</fullName>
+                <default>false</default>
+                <label>3Dconnexion</label>
+            </value>
+            <value>
+                <fullName>3DSystems</fullName>
+                <default>false</default>
+                <label>3DSystems</label>
+            </value>
+            <value>
+                <fullName>Academy</fullName>
+                <default>false</default>
+                <label>Academy</label>
+            </value>
+            <value>
+                <fullName>AGS</fullName>
+                <default>false</default>
+                <label>AGS</label>
+            </value>
+            <value>
+                <fullName>aPriori</fullName>
+                <default>false</default>
+                <label>aPriori</label>
+            </value>
+            <value>
+                <fullName>Autodesk</fullName>
+                <default>false</default>
+                <label>Autodesk</label>
+            </value>
+            <value>
+                <fullName>AutoTrack</fullName>
+                <default>false</default>
+                <label>AutoTrack</label>
+            </value>
+            <value>
+                <fullName>Bakbone</fullName>
+                <default>false</default>
+                <label>Bakbone</label>
+            </value>
+            <value>
+                <fullName>C3P</fullName>
+                <default>false</default>
+                <label>C3P</label>
+            </value>
+            <value>
+                <fullName>Chaos Group</fullName>
+                <default>false</default>
+                <label>Chaos Group</label>
+            </value>
+            <value>
+                <fullName>Cisco</fullName>
+                <default>false</default>
+                <label>Cisco</label>
+            </value>
+            <value>
+                <fullName>Citrix</fullName>
+                <default>false</default>
+                <label>Citrix</label>
+            </value>
+            <value>
+                <fullName>Dassault</fullName>
+                <default>false</default>
+                <label>Dassault</label>
+            </value>
+            <value>
+                <fullName>Dell</fullName>
+                <default>false</default>
+                <label>Dell</label>
+            </value>
+            <value>
+                <fullName>Elysium</fullName>
+                <default>false</default>
+                <label>Elysium</label>
+            </value>
+            <value>
+                <fullName>HP</fullName>
+                <default>false</default>
+                <label>HP</label>
+            </value>
+            <value>
+                <fullName>IBM</fullName>
+                <default>false</default>
+                <label>IBM</label>
+            </value>
+            <value>
+                <fullName>Icona</fullName>
+                <default>false</default>
+                <label>Icona</label>
+            </value>
+            <value>
+                <fullName>JLR</fullName>
+                <default>false</default>
+                <label>JLR</label>
+            </value>
+            <value>
+                <fullName>KnowledgePoint</fullName>
+                <default>false</default>
+                <label>KnowledgePoint</label>
+            </value>
+            <value>
+                <fullName>Majenta</fullName>
+                <default>false</default>
+                <label>Majenta</label>
+            </value>
+            <value>
+                <fullName>Mentor Graphics</fullName>
+                <default>false</default>
+                <label>Mentor Graphics</label>
+            </value>
+            <value>
+                <fullName>Microsoft</fullName>
+                <default>false</default>
+                <label>Microsoft</label>
+            </value>
+            <value>
+                <fullName>MX</fullName>
+                <default>false</default>
+                <label>MX</label>
+            </value>
+            <value>
+                <fullName>NetApp</fullName>
+                <default>false</default>
+                <label>NetApp</label>
+            </value>
+            <value>
+                <fullName>NETGEAR</fullName>
+                <default>false</default>
+                <label>NETGEAR</label>
+            </value>
+            <value>
+                <fullName>Overland</fullName>
+                <default>false</default>
+                <label>Overland</label>
+            </value>
+            <value>
+                <fullName>QNAP</fullName>
+                <default>false</default>
+                <label>QNAP</label>
+            </value>
+            <value>
+                <fullName>Quadrispace</fullName>
+                <default>false</default>
+                <label>Quadrispace</label>
+            </value>
+            <value>
+                <fullName>Rolls-Royce</fullName>
+                <default>false</default>
+                <label>Rolls-Royce</label>
+            </value>
+            <value>
+                <fullName>Sensable</fullName>
+                <default>false</default>
+                <label>Sensable</label>
+            </value>
+            <value>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+                <label>Siemens</label>
+            </value>
+            <value>
+                <fullName>SolidCAM</fullName>
+                <default>false</default>
+                <label>SolidCAM</label>
+            </value>
+            <value>
+                <fullName>Sun</fullName>
+                <default>false</default>
+                <label>Sun</label>
+            </value>
+            <value>
+                <fullName>Symantec</fullName>
+                <default>false</default>
+                <label>Symantec</label>
+            </value>
+            <value>
+                <fullName>Thecus</fullName>
+                <default>false</default>
+                <label>Thecus</label>
+            </value>
+            <value>
+                <fullName>V3P</fullName>
+                <default>false</default>
+                <label>V3P</label>
+            </value>
+            <value>
+                <fullName>Vmware</fullName>
+                <default>false</default>
+                <label>Vmware</label>
+            </value>
+            <value>
+                <fullName>VoluMill</fullName>
+                <default>false</default>
+                <label>VoluMill</label>
+            </value>
+            <value>
+                <fullName>Wacom</fullName>
+                <default>false</default>
+                <label>Wacom</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>enerjyhub</fullName>
+                <default>false</default>
+                <label>enerjyhub</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>BlueGFX</fullName>
+                <default>false</default>
+                <label>BlueGFX</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE Open</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE Open</label>
+            </value>
+            <value>
+                <fullName>Airbus Supplier</fullName>
+                <default>false</default>
+                <label>Airbus Supplier</label>
+            </value>
+            <value>
+                <fullName>CAA V5</fullName>
+                <default>false</default>
+                <label>CAA V5</label>
+            </value>
+            <value>
+                <fullName>CATIA / ENOVIA DMU</fullName>
+                <default>false</default>
+                <label>CATIA / ENOVIA DMU</label>
+            </value>
+            <value>
+                <fullName>CATIA Composer</fullName>
+                <default>false</default>
+                <label>CATIA Composer</label>
+            </value>
+            <value>
+                <fullName>CATIA V5</fullName>
+                <default>false</default>
+                <label>CATIA V5</label>
+            </value>
+            <value>
+                <fullName>CATIA V5 PLM Express Edition 3</fullName>
+                <default>false</default>
+                <label>CATIA V5 PLM Express Edition 3</label>
+            </value>
+            <value>
+                <fullName>CATIA V6</fullName>
+                <default>false</default>
+                <label>CATIA V6</label>
+            </value>
+            <value>
+                <fullName>DELMIA D5</fullName>
+                <default>false</default>
+                <label>DELMIA D5</label>
+            </value>
+            <value>
+                <fullName>DELMIA V5</fullName>
+                <default>false</default>
+                <label>DELMIA V5</label>
+            </value>
+            <value>
+                <fullName>Design/Engineering</fullName>
+                <default>false</default>
+                <label>Design/Engineering</label>
+            </value>
+            <value>
+                <fullName>DraftSight</fullName>
+                <default>false</default>
+                <label>DraftSight</label>
+            </value>
+            <value>
+                <fullName>ENOVIA SmarTeam V5</fullName>
+                <default>false</default>
+                <label>ENOVIA SmarTeam V5</label>
+            </value>
+            <value>
+                <fullName>ENOVIA VPLM V5</fullName>
+                <default>false</default>
+                <label>ENOVIA VPLM V5</label>
+            </value>
+            <value>
+                <fullName>ENOVIAvpm</fullName>
+                <default>false</default>
+                <label>ENOVIAvpm</label>
+            </value>
+            <value>
+                <fullName>Governance/Lifecycle</fullName>
+                <default>false</default>
+                <label>Governance/Lifecycle</label>
+            </value>
+            <value>
+                <fullName>ICEM Surf</fullName>
+                <default>false</default>
+                <label>ICEM Surf</label>
+            </value>
+            <value>
+                <fullName>JLR Supplier</fullName>
+                <default>false</default>
+                <label>JLR Supplier</label>
+            </value>
+            <value>
+                <fullName>Manufacturing/Production</fullName>
+                <default>false</default>
+                <label>Manufacturing/Production</label>
+            </value>
+            <value>
+                <fullName>Online Learning Experience for CATIA Composer</fullName>
+                <default>false</default>
+                <label>Online Learning Experience for CATIA Composer</label>
+            </value>
+            <value>
+                <fullName>Online Learning Experience for SIMULIA</fullName>
+                <default>false</default>
+                <label>Online Learning Experience for SIMULIA</label>
+            </value>
+            <value>
+                <fullName>Online Learning Experience for V5</fullName>
+                <default>false</default>
+                <label>Online Learning Experience for V5</label>
+            </value>
+            <value>
+                <fullName>Public Cloud 3DEXPERIENCE Open</fullName>
+                <default>false</default>
+                <label>Public Cloud 3DEXPERIENCE Open</label>
+            </value>
+            <value>
+                <fullName>Public Cloud Companion Special Mid-Market Offer</fullName>
+                <default>false</default>
+                <label>Public Cloud Companion Special Mid-Market Offer</label>
+            </value>
+            <value>
+                <fullName>Public Cloud Design/Engineering</fullName>
+                <default>false</default>
+                <label>Public Cloud Design/Engineering</label>
+            </value>
+            <value>
+                <fullName>Public Cloud Governance/Lifecycle</fullName>
+                <default>false</default>
+                <label>Public Cloud Governance/Lifecycle</label>
+            </value>
+            <value>
+                <fullName>Public Cloud Manufacturing/Production</fullName>
+                <default>false</default>
+                <label>Public Cloud Manufacturing/Production</label>
+            </value>
+            <value>
+                <fullName>Public Cloud Manufacturing-Production</fullName>
+                <default>false</default>
+                <label>Public Cloud Manufacturing-Production</label>
+            </value>
+            <value>
+                <fullName>Public Cloud Simulation</fullName>
+                <default>false</default>
+                <label>Public Cloud Simulation</label>
+            </value>
+            <value>
+                <fullName>Public Cloud Special Offer for Mid-Market</fullName>
+                <default>false</default>
+                <label>Public Cloud Special Offer for Mid-Market</label>
+            </value>
+            <value>
+                <fullName>Simulation</fullName>
+                <default>false</default>
+                <label>Simulation</label>
+            </value>
+            <value>
+                <fullName>Simulayt for V5</fullName>
+                <default>false</default>
+                <label>Simulayt for V5</label>
+            </value>
+            <value>
+                <fullName>Simulayt for V6</fullName>
+                <default>false</default>
+                <label>Simulayt for V6</label>
+            </value>
+            <value>
+                <fullName>SIMULIA Abaqus Unified FEA</fullName>
+                <default>false</default>
+                <label>SIMULIA Abaqus Unified FEA</label>
+            </value>
+            <value>
+                <fullName>SIMULIA Isight</fullName>
+                <default>false</default>
+                <label>SIMULIA Isight</label>
+            </value>
+            <value>
+                <fullName>SIMULIA V5</fullName>
+                <default>false</default>
+                <label>SIMULIA V5</label>
+            </value>
+            <value>
+                <fullName>V6 for Academia</fullName>
+                <default>false</default>
+                <label>V6 for Academia</label>
+            </value>
+            <value>
+                <fullName>V6 Online Companion</fullName>
+                <default>false</default>
+                <label>V6 Online Companion</label>
+            </value>
+            <value>
+                <fullName>Public Cloud Companion for 3DEXPERIENCE</fullName>
+                <default>false</default>
+                <label>Public Cloud Companion for 3DEXPERIENCE</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE Platform</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE Platform</label>
+            </value>
+            <value>
+                <fullName>Special Offer for Mid-Market</fullName>
+                <default>false</default>
+                <label>Special Offer for Mid-Market</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Consultants</controllingFieldValue>
+            <controllingFieldValue>enerjyhub</controllingFieldValue>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>Data Services</controllingFieldValue>
+            <controllingFieldValue>PLM</controllingFieldValue>
+            <controllingFieldValue>Solid Edge</controllingFieldValue>
+            <controllingFieldValue>Majenta</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>enerjyhub</controllingFieldValue>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>Data Services</controllingFieldValue>
+            <controllingFieldValue>PLM</controllingFieldValue>
+            <controllingFieldValue>Solid Edge</controllingFieldValue>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <controllingFieldValue>Majenta</controllingFieldValue>
+            <valueName>Majenta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>enerjyhub</controllingFieldValue>
+            <controllingFieldValue>Majenta</controllingFieldValue>
+            <valueName>enerjyhub</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>enerjyhub</controllingFieldValue>
+            <valueName>BlueGFX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Construction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>PLM</controllingFieldValue>
+            <controllingFieldValue>Solid Edge</controllingFieldValue>
+            <valueName>3Dconnexion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <valueName>3DSystems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <valueName>AGS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <valueName>aPriori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <valueName>Autodesk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <valueName>AutoTrack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <valueName>Chaos Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <controllingFieldValue>Data Services</controllingFieldValue>
+            <valueName>Elysium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <valueName>Icona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <valueName>KnowledgePoint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <valueName>Sensable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTODESK</controllingFieldValue>
+            <valueName>SolidCAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Bakbone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Cisco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Citrix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>PLM</controllingFieldValue>
+            <controllingFieldValue>Solid Edge</controllingFieldValue>
+            <valueName>Dell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>HP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>IBM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Microsoft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>NetApp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Overland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Sun</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Symantec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Vmware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Services</controllingFieldValue>
+            <valueName>C3P</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Services</controllingFieldValue>
+            <valueName>JLR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Services</controllingFieldValue>
+            <valueName>MX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Services</controllingFieldValue>
+            <valueName>Rolls-Royce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Services</controllingFieldValue>
+            <valueName>V3P</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLM</controllingFieldValue>
+            <valueName>Mentor Graphics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLM</controllingFieldValue>
+            <controllingFieldValue>Solid Edge</controllingFieldValue>
+            <controllingFieldValue>COMOS</controllingFieldValue>
+            <valueName>Siemens</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLM</controllingFieldValue>
+            <valueName>VoluMill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solid Edge</controllingFieldValue>
+            <valueName>Quadrispace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Dassault</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>3DEXPERIENCE Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Airbus Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>CAA V5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>CATIA / ENOVIA DMU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>CATIA Composer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>CATIA V5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>CATIA V5 PLM Express Edition 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>CATIA V6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>DELMIA D5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>DELMIA V5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Design/Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>DraftSight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>ENOVIA SmarTeam V5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>ENOVIA VPLM V5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>ENOVIAvpm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Governance/Lifecycle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>ICEM Surf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>JLR Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Manufacturing/Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Online Learning Experience for CATIA Composer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Online Learning Experience for SIMULIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Online Learning Experience for V5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Public Cloud 3DEXPERIENCE Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Public Cloud Companion Special Mid-Market Offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Public Cloud Design/Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Public Cloud Governance/Lifecycle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Public Cloud Manufacturing/Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Public Cloud Manufacturing-Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Public Cloud Simulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Public Cloud Special Offer for Mid-Market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Simulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Simulayt for V5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Simulayt for V6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>SIMULIA Abaqus Unified FEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>SIMULIA Isight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>SIMULIA V5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>V6 for Academia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>V6 Online Companion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Public Cloud Companion for 3DEXPERIENCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>3DEXPERIENCE Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Special Offer for Mid-Market</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

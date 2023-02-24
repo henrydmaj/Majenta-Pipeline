@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kirstie_Invoices_Forward_Billing</fullName>
+    <columns>NAME</columns>
+    <columns>Date__c</columns>
+    <columns>InvocieLink__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>NetAmount__c</columns>
+    <columns>TaxAmount__c</columns>
+    <columns>TotalAmount__c</columns>
+    <columns>IsInvoice__c</columns>
+    <columns>IsPostedToSage2__c</columns>
+    <columns>IsPostedtoSage__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Company__c</field>
+        <operation>equals</operation>
+        <value>PLM</value>
+    </filters>
+    <filters>
+        <field>Date__c</field>
+        <operation>greaterThan</operation>
+        <value>N_DAYS_AGO:360</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>equals</operation>
+        <value>KIRSTIE RUTTER</value>
+    </filters>
+    <filters>
+        <field>IsPostedToSage2__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Kirstie Invoices Forward Billing</label>
+</ListView>

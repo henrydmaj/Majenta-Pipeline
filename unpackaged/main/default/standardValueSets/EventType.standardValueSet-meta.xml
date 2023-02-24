@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Holiday</fullName>
+        <default>false</default>
+        <label>Holiday</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sickness</fullName>
+        <default>false</default>
+        <label>Sickness</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paternity Leave</fullName>
+        <default>false</default>
+        <label>Paternity Leave</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maternity Leave</fullName>
+        <default>false</default>
+        <label>Maternity Leave</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Compassionate Leave</fullName>
+        <default>false</default>
+        <label>Compassionate Leave</label>
+    </standardValue>
+</StandardValueSet>

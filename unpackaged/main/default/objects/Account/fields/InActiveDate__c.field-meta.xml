@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InActiveDate__c</fullName>
+    <description>Capture date site account is marked as 'In-Active JLR Site' TRUE</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date site account is marked 'In-Active JLR Site'.</inlineHelpText>
+    <label>In-Active Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Complete__c</fullName>
+    <externalId>false</externalId>
+    <label>Order Complete</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>DS Licence</fullName>
+                <default>false</default>
+                <label>DS Licence</label>
+            </value>
+            <value>
+                <fullName>Var Bonus / EPP</fullName>
+                <default>false</default>
+                <label>Var Bonus / EPP</label>
+            </value>
+            <value>
+                <fullName>In Dispute</fullName>
+                <default>false</default>
+                <label>In Dispute</label>
+            </value>
+            <value>
+                <fullName>TTL OB Opp</fullName>
+                <default>false</default>
+                <label>TTL OB Opp</label>
+            </value>
+            <value>
+                <fullName>Overcharged</fullName>
+                <default>false</default>
+                <label>Overcharged</label>
+            </value>
+            <value>
+                <fullName>No Cost Expectation - Old Order 15,16,17</fullName>
+                <default>false</default>
+                <label>No Cost Expectation - Old Order 15,16,17</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

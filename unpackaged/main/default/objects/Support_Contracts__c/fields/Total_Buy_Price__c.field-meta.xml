@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Buy_Price__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Buy Price</label>
+    <summarizedField>Support_Product__c.Total_Buy__c</summarizedField>
+    <summaryFilterItems>
+        <field>Support_Product__c.Active__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Support_Product__c.Support_Contract__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

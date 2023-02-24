@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EnerjyhubEscalationEmail2SentDate__c</fullName>
+    <description>Displays the most recent date if the second enerjyhub escalation has been sent by Pardot (Date populated by Pardot)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date the second enerjyhub escalation email was most recently sent to this contact</inlineHelpText>
+    <label>enerjyhub Escalation Email 2 Sent</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

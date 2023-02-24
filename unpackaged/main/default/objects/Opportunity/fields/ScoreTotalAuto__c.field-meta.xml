@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ScoreTotalAuto__c</fullName>
+    <description>Formula to calculate the total for all DS scorecard fields</description>
+    <externalId>false</externalId>
+    <formula>VALUE(TEXT(PlatformCentricVisionPick__c)) + 
+VALUE(TEXT(TechnicalAdvocacyPick__c)) +
+VALUE(TEXT(CredibleReferencesPick__c)) +
+VALUE(TEXT(CompellingReasontoActPick__c)) +
+VALUE(TEXT(BusinessCasePick__c)) +
+VALUE(TEXT(ConvincingDeploymentPlanPick__c)) +
+VALUE(TEXT(ExecutiveAdvocacyPick__c)) +
+VALUE(TEXT(BusinessSponsorPick__c)) +
+VALUE(TEXT(FundingPick__c)) +
+VALUE(TEXT(ITAdvocacyPick__c)) +
+VALUE(TEXT(SequenceOfEventsPick__c)) +
+VALUE(TEXT(ApproversPick__c)) +
+VALUE(TEXT(ContractTermsPick__c)) +
+VALUE(TEXT(FinancialTermsPick__c)) +
+VALUE(TEXT(PricingPick__c)) +
+VALUE(TEXT(LegalPick__c)) +
+VALUE(TEXT(ServicesPick__c)) +
+VALUE(TEXT(RandDPick__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Score Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

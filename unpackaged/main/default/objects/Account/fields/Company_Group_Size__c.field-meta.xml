@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Group_Size__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please define the Company Group as follows:
+
+Group 1	&gt;50,000
+Group 2	&gt;20,000
+Group 3	&gt;5,000
+Group 4	&gt;1,000
+Group 5	&gt;500
+Group 6	&gt;100
+Group 7	&gt;50
+Group 8	&gt;0</inlineHelpText>
+    <label>Company Group Size</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Group 1</fullName>
+                <default>false</default>
+                <label>Group 1</label>
+            </value>
+            <value>
+                <fullName>Group 2</fullName>
+                <default>false</default>
+                <label>Group 2</label>
+            </value>
+            <value>
+                <fullName>Group 3</fullName>
+                <default>false</default>
+                <label>Group 3</label>
+            </value>
+            <value>
+                <fullName>Group 4</fullName>
+                <default>false</default>
+                <label>Group 4</label>
+            </value>
+            <value>
+                <fullName>Group 5</fullName>
+                <default>false</default>
+                <label>Group 5</label>
+            </value>
+            <value>
+                <fullName>Group 6</fullName>
+                <default>false</default>
+                <label>Group 6</label>
+            </value>
+            <value>
+                <fullName>Group 7</fullName>
+                <default>false</default>
+                <label>Group 7</label>
+            </value>
+            <value>
+                <fullName>Group 8</fullName>
+                <default>false</default>
+                <label>Group 8</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SolutionsFactoringEUR__c</fullName>
+    <externalId>false</externalId>
+    <formula>"***PAYMENT TERMS - 30 DAYS FROM DATE OF INVOICE***"
++BR()+BR()+ 
+
+"CIF Re: MAJENTA SOLUTIONS LTD"+BR()+BR()+ 
+
+"Sort Code: 30-95-89"+BR()+
+"Account No: 86545630"+BR()+BR()+
+
+"IBAN: GB75LOYD30958986545630"+BR()+
+"BIC: LOYDGB21041"+BR()+BR()</formula>
+    <label>Solutions Factoring EUR</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

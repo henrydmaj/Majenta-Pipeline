@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dassault_Customer_Status__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Active Client: Customer with at least one licence in the installed base ‘Active with Support’ where new licenses have been sold in the last 3 years.
+Dormant Client: Customer with at least one licence in the Installed base ‘Active with Support’ where no new licenses have been sold in the last 3 years.
+Inactive Client: Customer with only licenses in the Installed base ‘Active Without Support’ and where the max of the Licenses ‘Active Without Support’ end date is older than 3 months.</inlineHelpText>
+    <label>Dassault Customer Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active Client</fullName>
+                <default>false</default>
+                <label>Active Client</label>
+            </value>
+            <value>
+                <fullName>Dormant Client</fullName>
+                <default>false</default>
+                <label>Dormant Client</label>
+            </value>
+            <value>
+                <fullName>Inactive Client</fullName>
+                <default>false</default>
+                <label>Inactive Client</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

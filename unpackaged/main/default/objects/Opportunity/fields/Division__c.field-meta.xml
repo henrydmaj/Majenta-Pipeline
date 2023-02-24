@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Division__c</fullName>
+    <description>The company division the opportunity falls under.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The company division the opportunity falls under.</inlineHelpText>
+    <label>Division</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Data Services</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Data Services</label>
+            </value>
+            <value>
+                <fullName>Dassault</fullName>
+                <color>#A53711</color>
+                <default>false</default>
+                <label>Dassault</label>
+            </value>
+            <value>
+                <fullName>Consultants</fullName>
+                <color>#993399</color>
+                <default>false</default>
+                <label>Consultants</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Overhead</fullName>
+                <default>false</default>
+                <label>Overhead</label>
+            </value>
+            <value>
+                <fullName>EnerjyHub</fullName>
+                <default>false</default>
+                <label>enerjyhub</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

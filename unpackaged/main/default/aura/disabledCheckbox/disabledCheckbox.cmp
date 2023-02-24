@@ -1,0 +1,5 @@
+<aura:component implements="lightning:availableForFlowScreens,lightning:isUrlAddressable" access="global">
+	<aura:attribute name="CheckboxValue" type="boolean" default=""/>
+    <aura:attribute name="CheckboxLabel" type="string" default=""/>
+    <lightning:input type="checkbox" label="{!v.CheckboxLabel}" name="checkbox" checked="{!v.CheckboxValue}" disabled="{!v.CheckboxValue}"/>
+</aura:component>

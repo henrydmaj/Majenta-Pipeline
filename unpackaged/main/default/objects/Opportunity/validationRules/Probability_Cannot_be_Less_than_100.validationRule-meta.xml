@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probability_Cannot_be_Less_than_100</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT($User.InvoiceAdministrator__c)
+&amp;&amp; $Profile.Name != "Marketing Manager"
+&amp;&amp; $Profile.Name != "Sales Support"
+&amp;&amp; TotalAmountInvoiced__c &gt; 0
+&amp;&amp; ISCHANGED(Probability)
+&amp;&amp; PRIORVALUE(Probability) == 1
+&amp;&amp; Probability &lt; 1</errorConditionFormula>
+    <errorMessage>CONTACT YOUR SYSTEM ADMINISTRATOR</errorMessage>
+</ValidationRule>

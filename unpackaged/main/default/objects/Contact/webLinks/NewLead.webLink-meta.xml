@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewLead</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Lead</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/00Q/e?RecordType=012200000004aSg&amp;name_firstlea2={!Contact.FirstName}&amp;name_lastlea2={!Contact.LastName}&amp;lea3={!Account.Name}&amp;lea{!Contact.Title}&amp;lea11={!Contact.Email}&amp;lea8={!Contact.Phone}&amp;lea9={!Contact.MobilePhone}</url>
+</WebLink>

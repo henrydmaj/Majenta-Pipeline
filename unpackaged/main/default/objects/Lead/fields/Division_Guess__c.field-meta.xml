@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Division_Guess__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Software__c , 'Software' ,
+  IF( IT__c , 'IT' ,
+    IF( PLM__c , 'PLM' ,
+      IF( Data_Services__c , 'Data Services' ,
+        IF( Academy__c , 'Academy' , 'ERROR'
+        )
+      )
+    )
+  )
+)</formula>
+    <label>Division Guess</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

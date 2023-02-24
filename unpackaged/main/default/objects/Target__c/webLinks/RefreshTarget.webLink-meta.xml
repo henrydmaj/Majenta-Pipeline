@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RefreshTarget</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Refresh</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/15.0/connection.js")}
+{!REQUIRESCRIPT("/soap/ajax/15.0/apex.js")}
+
+if (confirm("You are about to refresh the values on this target. Click OK to confirm.")) { 
+  sforce.apex.execute('globalTargetMethods' , 'updateThisTarget', {targetId:'{!Target__c.Id}'});
+  location.reload();
+}</url>
+</WebLink>

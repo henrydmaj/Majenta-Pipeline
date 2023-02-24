@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SolutionsFactoringUSD__c</fullName>
+    <externalId>false</externalId>
+    <formula>"ALL INVOICES ARE ASSIGNED TO: HSBC Bank PLC, Cambridge, Essex &amp; Suffolk Corporate Centre"+BR()+
+"Fenton House, 85-89 New London Road, Chelmsford, ESSEX. CM2 0PP"+BR()+
+"TO WHOM PAYMENT MUST BE MADE AND WHOSE RECEIPT SHALL BE THE ONLY VALID DISCHARGE"+BR()+BR()+
+
+"ACCOUNT NAME: Majenta Solutions Ltd"+BR()+
+"HSBC Bank PLC"+BR()+
+"SORT CODE: 40-12-76"+BR()+
+"ACCOUNT NUMBER: 77110736"+BR()+BR()+
+
+"IBAN: GB44HBUK40127677110736"+BR()+
+"SWIFT: HBUKGB4B"+BR()</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Solutions Factoring USD</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

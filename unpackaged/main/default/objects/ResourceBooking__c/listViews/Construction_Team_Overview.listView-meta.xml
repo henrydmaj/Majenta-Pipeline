@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Construction_Team_Overview</fullName>
+    <columns>NAME</columns>
+    <columns>IsBillable__c</columns>
+    <columns>Category__c</columns>
+    <columns>Colour__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Division__c</field>
+        <operation>equals</operation>
+        <value>Autodesk</value>
+    </filters>
+    <label>Construction Team Overview</label>
+</ListView>

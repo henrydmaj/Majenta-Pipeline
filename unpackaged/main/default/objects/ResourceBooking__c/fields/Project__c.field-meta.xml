@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project__c</fullName>
+    <externalId>false</externalId>
+    <label>Project</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Please select an active Resource Project.</errorMessage>
+        <filterItems>
+            <field>Project__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Resource Project</value>
+        </filterItems>
+        <filterItems>
+            <field>Project__c.IsActive__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <infoMessage>Please select an active Resource Project.</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Project__c</referenceTo>
+    <relationshipLabel>Resource Bookings</relationshipLabel>
+    <relationshipName>ResourceBookings</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

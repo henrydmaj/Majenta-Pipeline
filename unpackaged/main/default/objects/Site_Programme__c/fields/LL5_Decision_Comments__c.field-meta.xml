@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LL5_Decision_Comments__c</fullName>
+    <description>Approval/rejection comments as provided by the LL5 Approver</description>
+    <externalId>false</externalId>
+    <label>LL5 Decision Comments</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

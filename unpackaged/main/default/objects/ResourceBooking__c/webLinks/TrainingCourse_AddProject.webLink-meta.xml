@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrainingCourse_AddProject</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Add Project</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!REQUIRESCRIPT("/soap/ajax/33.0/connection.js")}
+
+var pid = "{!TrainingCourse__c.ProjectId__c}";
+
+if(pid == "") {
+
+	var courses = [];
+	var projects = [];
+
+	var p = new sforce.SObject("Project__c");
+	p.Name = "{!TrainingCourse__c.Name} {!TrainingCourse__c.StartDate__c}";
+	p.IsActive__c = "TRUE";
+	p.Days__c = {!(TrainingCourse__c.FinishDate__c-TrainingCourse__c.StartDate__c)+1};
+	p.StartDate__c = new Date({!YEAR(TrainingCourse__c.StartDate__c)},{!MONTH(TrainingCourse__c.StartDate__c)},{!DAY(TrainingCourse__c.StartDate__c)});
+	p.FinishDate__c = new Date({!YEAR(TrainingCourse__c.FinishDate__c)},{!MONTH(TrainingCourse__c.FinishDate__c)},{!DAY(TrainingCourse__c.FinishDate__c)});
+
+	p.recordTypeId = "012w00000006nRv";
+	projects.push(p);
+
+	result = sforce.connection.create(projects);
+
+	if(result[0].success){
+
+		var c = new sforce.SObject("TrainingCourse__c");
+		c.Id = "{!TrainingCourse__c.Id}";
+		c.Project__c = result[0].id;
+		courses.push(c);
+
+		sforce.connection.update(courses);
+
+		window.location.href = "/"+result[0].id+"/e?retURL=%2F"+"{!TrainingCourse__c.Id}";
+
+	} else {
+		alert(result[0].errors.join('\n'));
+	}
+
+} else {
+	window.location.href = "/"+pid+"/e?retURL=%2F"+"{!TrainingCourse__c.Id}";
+}</url>
+</WebLink>

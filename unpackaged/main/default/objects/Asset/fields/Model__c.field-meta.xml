@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Model__c</fullName>
+    <externalId>false</externalId>
+    <label>Model</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Make__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>250 G</fullName>
+                <default>false</default>
+                <label>250 G</label>
+            </value>
+            <value>
+                <fullName>250 G5</fullName>
+                <default>false</default>
+                <label>250 G5</label>
+            </value>
+            <value>
+                <fullName>250 G6</fullName>
+                <default>false</default>
+                <label>250 G6</label>
+            </value>
+            <value>
+                <fullName>Elitebook 725</fullName>
+                <default>false</default>
+                <label>Elitebook 725</label>
+            </value>
+            <value>
+                <fullName>Elitebook 725 G2</fullName>
+                <default>false</default>
+                <label>Elitebook 725 G2</label>
+            </value>
+            <value>
+                <fullName>Elitebook 8760w</fullName>
+                <default>false</default>
+                <label>Elitebook 8760w</label>
+            </value>
+            <value>
+                <fullName>Elitebook 8770w</fullName>
+                <default>false</default>
+                <label>Elitebook 8770w</label>
+            </value>
+            <value>
+                <fullName>EliteDesk 800 G4</fullName>
+                <default>false</default>
+                <label>EliteDesk 800 G4</label>
+            </value>
+            <value>
+                <fullName>S7</fullName>
+                <default>false</default>
+                <label>Galaxy S7</label>
+            </value>
+            <value>
+                <fullName>iPad Pro</fullName>
+                <default>false</default>
+                <label>iPad Pro</label>
+            </value>
+            <value>
+                <fullName>iPhone 6</fullName>
+                <default>false</default>
+                <label>iPhone 6</label>
+            </value>
+            <value>
+                <fullName>6 Plus</fullName>
+                <default>false</default>
+                <label>iPhone 6 Plus</label>
+            </value>
+            <value>
+                <fullName>iPhone 6s</fullName>
+                <default>false</default>
+                <label>iPhone 6s</label>
+            </value>
+            <value>
+                <fullName>iPhone 7</fullName>
+                <default>false</default>
+                <label>iPhone 7</label>
+            </value>
+            <value>
+                <fullName>7 Plus</fullName>
+                <default>false</default>
+                <label>iPhone 7 Plus</label>
+            </value>
+            <value>
+                <fullName>iPhone 8</fullName>
+                <default>false</default>
+                <label>iPhone 8</label>
+            </value>
+            <value>
+                <fullName>8 Plus</fullName>
+                <default>false</default>
+                <label>iPhone 8 Plus</label>
+            </value>
+            <value>
+                <fullName>iPhone SE</fullName>
+                <default>false</default>
+                <label>iPhone SE</label>
+            </value>
+            <value>
+                <fullName>iPhone X</fullName>
+                <default>false</default>
+                <label>iPhone X</label>
+            </value>
+            <value>
+                <fullName>XR</fullName>
+                <default>false</default>
+                <label>iPhone XR</label>
+            </value>
+            <value>
+                <fullName>XS</fullName>
+                <default>false</default>
+                <label>iPhone XS</label>
+            </value>
+            <value>
+                <fullName>Latitude 3340</fullName>
+                <default>false</default>
+                <label>Latitude 3340</label>
+            </value>
+            <value>
+                <fullName>Latitude 3540</fullName>
+                <default>false</default>
+                <label>Latitude 3540</label>
+            </value>
+            <value>
+                <fullName>Latitude 7390</fullName>
+                <default>false</default>
+                <label>Latitude 7390</label>
+            </value>
+            <value>
+                <fullName>Latitude E7250</fullName>
+                <default>false</default>
+                <label>Latitude E7250</label>
+            </value>
+            <value>
+                <fullName>Latitude E7440</fullName>
+                <default>false</default>
+                <label>Latitude E7440</label>
+            </value>
+            <value>
+                <fullName>Latitude E7450</fullName>
+                <default>false</default>
+                <label>Latitude E7450</label>
+            </value>
+            <value>
+                <fullName>Macbook Air</fullName>
+                <default>false</default>
+                <label>Macbook Air</label>
+            </value>
+            <value>
+                <fullName>Macbook Pro 13</fullName>
+                <default>false</default>
+                <label>Macbook Pro 13</label>
+            </value>
+            <value>
+                <fullName>Precision 7510</fullName>
+                <default>false</default>
+                <label>Precision 7510</label>
+            </value>
+            <value>
+                <fullName>7520</fullName>
+                <default>false</default>
+                <label>Precision 7520</label>
+            </value>
+            <value>
+                <fullName>Precision 7540</fullName>
+                <default>false</default>
+                <label>Precision 7540</label>
+            </value>
+            <value>
+                <fullName>Precision 7710</fullName>
+                <default>false</default>
+                <label>Precision 7710</label>
+            </value>
+            <value>
+                <fullName>Precision 7740</fullName>
+                <default>false</default>
+                <label>Precision 7740</label>
+            </value>
+            <value>
+                <fullName>Precision M4700</fullName>
+                <default>false</default>
+                <label>Precision M4700</label>
+            </value>
+            <value>
+                <fullName>Precision M6500</fullName>
+                <default>false</default>
+                <label>Precision M6500</label>
+            </value>
+            <value>
+                <fullName>Precision M6600</fullName>
+                <default>false</default>
+                <label>Precision M6600</label>
+            </value>
+            <value>
+                <fullName>Precision M6700</fullName>
+                <default>false</default>
+                <label>Precision M6700</label>
+            </value>
+            <value>
+                <fullName>Precision M6800</fullName>
+                <default>false</default>
+                <label>Precision M6800</label>
+            </value>
+            <value>
+                <fullName>Precision T3600</fullName>
+                <default>false</default>
+                <label>Precision T3600</label>
+            </value>
+            <value>
+                <fullName>Probook 430 G2</fullName>
+                <default>false</default>
+                <label>Probook 430 G2</label>
+            </value>
+            <value>
+                <fullName>Probook 430 G3</fullName>
+                <default>false</default>
+                <label>Probook 430 G3</label>
+            </value>
+            <value>
+                <fullName>Probook 450 G2</fullName>
+                <default>false</default>
+                <label>Probook 450 G2</label>
+            </value>
+            <value>
+                <fullName>Probook 4540S</fullName>
+                <default>false</default>
+                <label>Probook 4540S</label>
+            </value>
+            <value>
+                <fullName>Probook 470 G4</fullName>
+                <default>false</default>
+                <label>Probook 470 G4</label>
+            </value>
+            <value>
+                <fullName>Probook 605 G2</fullName>
+                <default>false</default>
+                <label>Probook 605 G2</label>
+            </value>
+            <value>
+                <fullName>Probook 650 G2</fullName>
+                <default>false</default>
+                <label>Probook 650 G2</label>
+            </value>
+            <value>
+                <fullName>Probook 6760B</fullName>
+                <default>false</default>
+                <label>Probook 6760B</label>
+            </value>
+            <value>
+                <fullName>P4540s</fullName>
+                <default>false</default>
+                <label>Probook P4540s</label>
+            </value>
+            <value>
+                <fullName>P4750s</fullName>
+                <default>false</default>
+                <label>Probook P4750s</label>
+            </value>
+            <value>
+                <fullName>P6560b</fullName>
+                <default>false</default>
+                <label>Probook P6560b</label>
+            </value>
+            <value>
+                <fullName>Surface Pro 4</fullName>
+                <default>false</default>
+                <label>Surface Pro 4</label>
+            </value>
+            <value>
+                <fullName>Vostro 3580</fullName>
+                <default>false</default>
+                <label>Vostro 3580</label>
+            </value>
+            <value>
+                <fullName>Z420</fullName>
+                <default>false</default>
+                <label>Z420</label>
+            </value>
+            <value>
+                <fullName>Z440</fullName>
+                <default>false</default>
+                <label>Z440</label>
+            </value>
+            <value>
+                <fullName>Z4 G4</fullName>
+                <default>false</default>
+                <label>Z4 G4</label>
+            </value>
+            <value>
+                <fullName>ZBook G1</fullName>
+                <default>false</default>
+                <label>ZBook G1</label>
+            </value>
+            <value>
+                <fullName>ZBook G2</fullName>
+                <default>false</default>
+                <label>ZBook G2</label>
+            </value>
+            <value>
+                <fullName>ZBook G3</fullName>
+                <default>false</default>
+                <label>ZBook G3</label>
+            </value>
+            <value>
+                <fullName>ThinkBook 14-IML</fullName>
+                <default>false</default>
+                <label>ThinkBook 14-IML</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>iPad Pro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>iPhone 6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>6 Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>iPhone 6s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>iPhone 7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>7 Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>iPhone 8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>8 Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>iPhone SE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>iPhone X</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>XR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>XS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Macbook Air</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Macbook Pro 13</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Latitude 3540</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Latitude 7390</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Latitude E7250</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Latitude E7450</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Precision 7510</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>7520</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Precision 7540</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Precision 7710</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Precision 7740</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Precision M4700</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Precision M6500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Precision M6600</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Precision M6700</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Precision M6800</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Precision T3600</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELL</controllingFieldValue>
+            <valueName>Vostro 3580</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>250 G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>250 G5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>250 G6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Elitebook 725</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Elitebook 725 G2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Elitebook 8760w</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Elitebook 8770w</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>EliteDesk 800 G4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Probook 430 G2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Probook 430 G3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Probook 450 G2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Probook 4540S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Probook 470 G4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Probook 605 G2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Probook 650 G2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Probook 6760B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>P4540s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>P4750s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>P6560b</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Z420</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Z440</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>Z4 G4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>ZBook G1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>ZBook G2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HP</controllingFieldValue>
+            <valueName>ZBook G3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Microsoft</controllingFieldValue>
+            <valueName>Surface Pro 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Samsung</controllingFieldValue>
+            <valueName>S7</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_3_year_Autodesk_Products__c</fullName>
+    <externalId>false</externalId>
+    <label>No. of 3-year Autodesk Products</label>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Description</field>
+        <operation>contains</operation>
+        <value>Autodesk</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Description</field>
+        <operation>contains</operation>
+        <value>3-Year</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Description</field>
+        <operation>notContain</operation>
+        <value>Majenta Subscription</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Product_Type_ro__c</field>
+        <operation>equals</operation>
+        <value>Software</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

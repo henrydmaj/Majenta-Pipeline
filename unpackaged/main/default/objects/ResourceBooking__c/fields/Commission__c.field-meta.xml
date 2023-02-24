@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commission__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  IsBillable__c,
+  IF(
+    ISPICKVAL(Category__c, "TAM Visit"),
+    50,
+    IF(DayRate__c&gt;750, 75, DayRate__c*0.1) 
+  ),
+  0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Commission</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

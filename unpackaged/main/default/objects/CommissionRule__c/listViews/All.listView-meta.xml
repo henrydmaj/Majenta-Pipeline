@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Priority__c</columns>
+    <columns>RuleType__c</columns>
+    <columns>SalesPerson__c</columns>
+    <columns>Division__c</columns>
+    <columns>CustomerType__c</columns>
+    <columns>BusinessType__c</columns>
+    <columns>ProductType__c</columns>
+    <columns>Product__c</columns>
+    <columns>MinPercentTarget__c</columns>
+    <columns>Rate__c</columns>
+    <columns>Active__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Commission Rules</label>
+</ListView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forecast_Stage__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Probability &lt;= 0, 'Lost',
+  IF(Probability &lt;= 0.4, '10-40%' &amp; BR() &amp; 'Pipeline',
+    IF(Probability &lt;= 0.6, '50-60%' &amp; BR() &amp; 'Best Case',
+      IF(Probability &lt;= 0.9, '70-90%' &amp; BR() &amp; 'Committed',
+        IF(Probability &lt;= 1.0, 'Won', 'ERROR')
+      )
+    )
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Forecast Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

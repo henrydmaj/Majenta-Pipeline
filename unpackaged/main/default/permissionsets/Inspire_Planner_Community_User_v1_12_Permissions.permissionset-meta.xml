@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permissions for Community Portal User (Sept 2)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Inspire Planner Community User - v1.12 Permissions</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterEnabledForUser</name>
+    </userPermissions>
+</PermissionSet>

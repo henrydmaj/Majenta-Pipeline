@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PLMBankDetailsEUR__c</fullName>
+    <externalId>false</externalId>
+    <formula>"VAT NUMBER: "+Opportunity__r.Account.VAT_Number__c+BR()+BR()+
+
+"VAT RATE APPLIED IS 0% BECAUSE OF"+BR()+
+"REVERSE"+BR()+
+"CHARGE MECHANISM"+BR()+BR()+
+
+"PAYMENT TERMS: 30 DAYS FROM DATE OF INVOICE"+BR()+BR()+
+
+"PAYABLE TO"+BR()+
+"MAJENTA PLM LTD"+BR()+BR()+
+
+"HSBC BANK PLC"+BR()+
+"SORT CODE: 40-05-15"+BR()+
+"ACCOUNT NUMBER: 73938425"+BR()+
+"IBAN: GB27MIDL40051573938425"+BR()</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PLM Bank Details EUR</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

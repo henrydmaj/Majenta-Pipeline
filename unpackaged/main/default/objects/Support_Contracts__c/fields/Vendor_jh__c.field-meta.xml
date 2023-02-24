@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_jh__c</fullName>
+    <externalId>false</externalId>
+    <label>Vendor</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Elysium</fullName>
+                <default>false</default>
+                <label>Elysium</label>
+            </value>
+            <value>
+                <fullName>FORD</fullName>
+                <default>false</default>
+                <label>FORD</label>
+            </value>
+            <value>
+                <fullName>FORD / Evergreen</fullName>
+                <default>false</default>
+                <label>FORD / Evergreen</label>
+            </value>
+            <value>
+                <fullName>FORD / JLR</fullName>
+                <default>false</default>
+                <label>FORD / JLR</label>
+            </value>
+            <value>
+                <fullName>JLR</fullName>
+                <default>false</default>
+                <label>JLR</label>
+            </value>
+            <value>
+                <fullName>JLR / Evergreen</fullName>
+                <default>false</default>
+                <label>JLR / Evergreen</label>
+            </value>
+            <value>
+                <fullName>MX</fullName>
+                <default>false</default>
+                <label>MX</label>
+            </value>
+            <value>
+                <fullName>MX / Evergreen</fullName>
+                <default>false</default>
+                <label>MX / Evergreen</label>
+            </value>
+            <value>
+                <fullName>NISSAN</fullName>
+                <default>false</default>
+                <label>NISSAN</label>
+            </value>
+            <value>
+                <fullName>NISSAN / Elysium</fullName>
+                <default>false</default>
+                <label>NISSAN / Elysium</label>
+            </value>
+            <value>
+                <fullName>NISSAN / JLR</fullName>
+                <default>false</default>
+                <label>NISSAN / JLR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

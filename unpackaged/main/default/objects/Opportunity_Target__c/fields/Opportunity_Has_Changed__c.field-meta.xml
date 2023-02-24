@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Has_Changed__c</fullName>
+    <externalId>false</externalId>
+    <formula>Opportunity__r.Margin_Calc__c  &lt;&gt;  Margin__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checkbox is ticked if the opportunity's margin has changed since it was won</inlineHelpText>
+    <label>Opportunity Has Changed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

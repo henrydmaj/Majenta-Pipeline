@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Solutions_Training_Courses</fullName>
+    <columns>NAME</columns>
+    <columns>Division__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Location__c</columns>
+    <columns>NumberOfPlaces__c</columns>
+    <columns>PlacesBooked__c</columns>
+    <columns>StartDate__c</columns>
+    <columns>FinishDate__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Division__c</field>
+        <operation>equals</operation>
+        <value>IT,Software,Data Services,Dassault,JLR IPLM</value>
+    </filters>
+    <label>All Solutions Training Courses</label>
+</ListView>

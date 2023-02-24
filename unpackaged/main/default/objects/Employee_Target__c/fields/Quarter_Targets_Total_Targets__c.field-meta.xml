@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quarter_Targets_Total_Targets__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (
+(( Q1_Target__c + Q2_Target__c +  Q3_Target__c +  Q4_Target__c ) =  Auto_Total_Target_Min__c ), "YES", "NO")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Quarter Targets = Total Targets (Min)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

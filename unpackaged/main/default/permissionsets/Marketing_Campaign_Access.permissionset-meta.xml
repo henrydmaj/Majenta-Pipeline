@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows access to create Marketing Campaigns</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Marketing Campaign Access</label>
+    <recordTypeVisibilities>
+        <recordType>Campaign.Marketing_Campaign</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

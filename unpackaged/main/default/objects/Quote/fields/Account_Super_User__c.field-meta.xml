@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Super_User__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field will look up the contact that is the account super user for that specific supplier.</description>
+    <externalId>false</externalId>
+    <label>Account Super User</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Quotes</relationshipLabel>
+    <relationshipName>Quotes</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

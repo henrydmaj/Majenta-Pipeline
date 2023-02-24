@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Org-wide defaults for enerjyhub sales</description>
+    <enableFeeds>false</enableFeeds>
+    <label>enerjyhub setting</label>
+    <visibility>Public</visibility>
+</CustomObject>

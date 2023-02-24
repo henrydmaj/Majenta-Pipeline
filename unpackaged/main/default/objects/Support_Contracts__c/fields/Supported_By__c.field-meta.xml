@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supported_By__c</fullName>
+    <externalId>false</externalId>
+    <label>Supported By</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Autodesk</fullName>
+                <default>false</default>
+                <label>Autodesk</label>
+            </value>
+            <value>
+                <fullName>AVNET</fullName>
+                <default>false</default>
+                <label>AVNET</label>
+            </value>
+            <value>
+                <fullName>Bell Micro</fullName>
+                <default>false</default>
+                <label>Bell Micro</label>
+            </value>
+            <value>
+                <fullName>BIMobject UK Ltd</fullName>
+                <default>false</default>
+                <label>BIMobject UK Ltd</label>
+            </value>
+            <value>
+                <fullName>CAD-IT</fullName>
+                <default>false</default>
+                <label>CAD-IT</label>
+            </value>
+            <value>
+                <fullName>CAD Partner</fullName>
+                <default>false</default>
+                <label>CAD Partner</label>
+            </value>
+            <value>
+                <fullName>CANNON</fullName>
+                <default>false</default>
+                <label>CANNON</label>
+            </value>
+            <value>
+                <fullName>Cisco</fullName>
+                <default>false</default>
+                <label>Cisco</label>
+            </value>
+            <value>
+                <fullName>Clarity</fullName>
+                <default>false</default>
+                <label>Clarity</label>
+            </value>
+            <value>
+                <fullName>CMS</fullName>
+                <default>false</default>
+                <label>CMS</label>
+            </value>
+            <value>
+                <fullName>CMS/BakBone</fullName>
+                <default>false</default>
+                <label>CMS/BakBone</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Computer 2000</fullName>
+                <default>false</default>
+                <label>Computer 2000</label>
+            </value>
+            <value>
+                <fullName>Cool Orange</fullName>
+                <default>false</default>
+                <label>Cool Orange</label>
+            </value>
+            <value>
+                <fullName>Dassault</fullName>
+                <default>false</default>
+                <label>Dassault</label>
+            </value>
+            <value>
+                <fullName>Data Services</fullName>
+                <default>false</default>
+                <label>Data Services</label>
+            </value>
+            <value>
+                <fullName>Datech</fullName>
+                <default>false</default>
+                <label>Datech</label>
+            </value>
+            <value>
+                <fullName>Dell</fullName>
+                <default>false</default>
+                <label>Dell</label>
+            </value>
+            <value>
+                <fullName>DNS</fullName>
+                <default>false</default>
+                <label>DNS</label>
+            </value>
+            <value>
+                <fullName>DNS/NetApp</fullName>
+                <default>false</default>
+                <label>DNS/NetApp</label>
+            </value>
+            <value>
+                <fullName>Elysium</fullName>
+                <default>false</default>
+                <label>Elysium</label>
+            </value>
+            <value>
+                <fullName>Envisage</fullName>
+                <default>false</default>
+                <label>Envisage</label>
+            </value>
+            <value>
+                <fullName>ETC</fullName>
+                <default>false</default>
+                <label>ETC</label>
+            </value>
+            <value>
+                <fullName>Future CAD</fullName>
+                <default>false</default>
+                <label>Future CAD</label>
+            </value>
+            <value>
+                <fullName>Geomagic</fullName>
+                <default>false</default>
+                <label>Geomagic</label>
+            </value>
+            <value>
+                <fullName>Getech</fullName>
+                <default>false</default>
+                <label>Getech</label>
+            </value>
+            <value>
+                <fullName>Hammer</fullName>
+                <default>false</default>
+                <label>Hammer</label>
+            </value>
+            <value>
+                <fullName>Hammer/Overland</fullName>
+                <default>false</default>
+                <label>Hammer/Overland</label>
+            </value>
+            <value>
+                <fullName>HP</fullName>
+                <default>false</default>
+                <label>HP</label>
+            </value>
+            <value>
+                <fullName>Icona</fullName>
+                <default>false</default>
+                <label>Icona</label>
+            </value>
+            <value>
+                <fullName>Ingram Micro</fullName>
+                <default>false</default>
+                <label>Ingram Micro</label>
+            </value>
+            <value>
+                <fullName>INSIGHT</fullName>
+                <default>false</default>
+                <label>INSIGHT</label>
+            </value>
+            <value>
+                <fullName>Janus</fullName>
+                <default>false</default>
+                <label>Janus</label>
+            </value>
+            <value>
+                <fullName>Jarvis Media</fullName>
+                <default>false</default>
+                <label>Jarvis Media</label>
+            </value>
+            <value>
+                <fullName>Luxion</fullName>
+                <default>false</default>
+                <label>Luxion</label>
+            </value>
+            <value>
+                <fullName>Majenta</fullName>
+                <default>false</default>
+                <label>Majenta</label>
+            </value>
+            <value>
+                <fullName>Man &amp; Machine</fullName>
+                <default>false</default>
+                <label>Man &amp; Machine</label>
+            </value>
+            <value>
+                <fullName>Maxon</fullName>
+                <default>false</default>
+                <label>Maxon</label>
+            </value>
+            <value>
+                <fullName>Microsoft</fullName>
+                <default>false</default>
+                <label>Microsoft</label>
+            </value>
+            <value>
+                <fullName>NetApp</fullName>
+                <default>false</default>
+                <label>NetApp</label>
+            </value>
+            <value>
+                <fullName>Olympic Support</fullName>
+                <default>false</default>
+                <label>Olympic Support</label>
+            </value>
+            <value>
+                <fullName>Open PSL</fullName>
+                <default>false</default>
+                <label>Open PSL</label>
+            </value>
+            <value>
+                <fullName>Optimised</fullName>
+                <default>false</default>
+                <label>Optimised</label>
+            </value>
+            <value>
+                <fullName>Quadrispace</fullName>
+                <default>false</default>
+                <label>Quadrispace</label>
+            </value>
+            <value>
+                <fullName>Savoy Computing</fullName>
+                <default>false</default>
+                <label>Savoy Computing</label>
+            </value>
+            <value>
+                <fullName>SensAble</fullName>
+                <default>false</default>
+                <label>SensAble</label>
+            </value>
+            <value>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+                <label>Siemens</label>
+            </value>
+            <value>
+                <fullName>Software One</fullName>
+                <default>false</default>
+                <label>Software One</label>
+            </value>
+            <value>
+                <fullName>SolidCam</fullName>
+                <default>false</default>
+                <label>SolidCam</label>
+            </value>
+            <value>
+                <fullName>Symantec</fullName>
+                <default>false</default>
+                <label>Symantec</label>
+            </value>
+            <value>
+                <fullName>TecDem</fullName>
+                <default>false</default>
+                <label>TecDem</label>
+            </value>
+            <value>
+                <fullName>Theoram</fullName>
+                <default>false</default>
+                <label>Theoram</label>
+            </value>
+            <value>
+                <fullName>TLDi</fullName>
+                <default>false</default>
+                <label>TLDi</label>
+            </value>
+            <value>
+                <fullName>Vmware</fullName>
+                <default>false</default>
+                <label>Vmware</label>
+            </value>
+            <value>
+                <fullName>The Foundary Visionmongers</fullName>
+                <default>false</default>
+                <label>The Foundary Visionmongers</label>
+            </value>
+            <value>
+                <fullName>Storm Technologies Ltd</fullName>
+                <default>false</default>
+                <label>Storm Technologies Ltd</label>
+            </value>
+            <value>
+                <fullName>Think Box</fullName>
+                <default>false</default>
+                <label>Think Box</label>
+            </value>
+            <value>
+                <fullName>enerjyhub</fullName>
+                <default>false</default>
+                <label>enerjyhub</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

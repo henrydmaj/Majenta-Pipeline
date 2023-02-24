@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACEIsRegistered__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR( ISPICKVAL( ACEStatus__c , "Unregistered" ), ISPICKVAL( ACEStatus__c , "" ) ),
+IMAGE("/img/checkbox_unchecked.gif", "FALSE"),
+IMAGE("/img/checkbox_checked.gif", "TRUE")
+)</formula>
+    <label>ACE Registered</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Note_cannot_be_Modified</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+    AND(
+      IsCredited__c,
+      NOT(ISCHANGED(IsCredited__c)),
+      NOT(ISCHANGED(IsPostedToSage2__c)),
+      NOT(ISCHANGED(UploadedToHitachi__c))
+    ),
+    AND(
+      NOT(IsCredited__c),
+      ISCHANGED(IsCredited__c),
+      NOT($User.InvoiceAdministrator__c)
+    )
+  )
+ &amp;&amp; $Profile.Name != 'System Administrator'</errorConditionFormula>
+    <errorMessage>This credit note can no longer be modified, as it has already been issued.</errorMessage>
+</ValidationRule>

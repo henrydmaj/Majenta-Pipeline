@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Division__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If you cannot find the Selection you require please email a salesforce request to your administrator for Support</inlineHelpText>
+    <label>Sub Division</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Autodesk BIM</fullName>
+                <default>false</default>
+                <label>Autodesk BIM</label>
+            </value>
+            <value>
+                <fullName>Autodesk MFG</fullName>
+                <default>false</default>
+                <label>Autodesk MFG</label>
+            </value>
+            <value>
+                <fullName>Autodesk IDV</fullName>
+                <default>false</default>
+                <label>Autodesk IDV</label>
+            </value>
+            <value>
+                <fullName>Data Services Ford</fullName>
+                <default>false</default>
+                <label>Data Services Ford</label>
+            </value>
+            <value>
+                <fullName>Data Services Nissan</fullName>
+                <default>false</default>
+                <label>Data Services Nissan</label>
+            </value>
+            <value>
+                <fullName>Data Services MX</fullName>
+                <default>false</default>
+                <label>Data Services MX</label>
+            </value>
+            <value>
+                <fullName>Data Services AML</fullName>
+                <default>false</default>
+                <label>Data Services AML</label>
+            </value>
+            <value>
+                <fullName>Data Services Translation</fullName>
+                <default>false</default>
+                <label>Data Services Translation</label>
+            </value>
+            <value>
+                <fullName>Data Services JLR</fullName>
+                <default>false</default>
+                <label>Data Services JLR</label>
+            </value>
+            <value>
+                <fullName>Data Services Rolls Royce</fullName>
+                <default>false</default>
+                <label>Data Services Rolls Royce</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

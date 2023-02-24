@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Majenta Sales CY14</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Committed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order In - Processed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order In - Processing</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order Lost %2F Disengaged</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pipeline %28Qualified opportunity%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pipeline %28Unqualified Opportunity%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Upside %28Best case%29</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

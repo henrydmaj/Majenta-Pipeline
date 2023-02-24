@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Layout_with_Margin</fullName>
+    <fields>OwnerId</fields>
+    <fields>Name</fields>
+    <fields>AccountId</fields>
+    <fields>CloseDate</fields>
+    <fields>Amount</fields>
+    <fields>Margin_Calc__c</fields>
+    <fields>TotalAmountOutstanding__c</fields>
+    <fields>SolutionType__c</fields>
+    <fields>IqScore</fields>
+    <label>Opportunity Layout with Margin</label>
+</CompactLayout>

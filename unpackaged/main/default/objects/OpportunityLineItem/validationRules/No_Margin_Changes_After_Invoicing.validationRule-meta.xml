@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Margin_Changes_After_Invoicing</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$Profile.Name != "System Administrator",
+(Opportunity.TotalAmountInvoiced__c &gt; 0),
+OR(
+ISCHANGED(Quantity),
+ISCHANGED(Buy_Price__c),
+ISCHANGED(UnitPrice),
+ISNEW()
+)
+)</errorConditionFormula>
+    <errorMessage>You cannot amend the Quantity, Buy Price or Sale Price of an Opportunity Product after invoicing has commenced. Please contact the accounts department for further assistance.</errorMessage>
+</ValidationRule>

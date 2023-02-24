@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autodesk_Contract_Manager_Missing</fullName>
+    <active>false</active>
+    <description>New Business requires the Autodesk Contract Manager to be filled before an Opportunity can progress beyond 90%</description>
+    <errorConditionFormula>Isblank( Account.AutodeskContractManager__c )
+&amp;&amp;
+(Probability &gt;= 0.9)
+&amp;&amp;
+or(
+IsPickval(Type, "New Customer New Business"),
+IsPickval(Type, "Existing Customer New Business"),
+IsPickval(Type, "Existing Customer Mixed Business"))</errorConditionFormula>
+    <errorMessage>Please populate the Autodesk Contract Manager on the Account before this Opportunity can progress</errorMessage>
+</ValidationRule>

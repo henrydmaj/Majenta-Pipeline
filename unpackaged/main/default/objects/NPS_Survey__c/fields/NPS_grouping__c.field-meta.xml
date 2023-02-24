@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NPS_grouping__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Net_Promoter_Score__c &gt; 8, 'Promoter',IF(AND(Net_Promoter_Score__c &gt; 6, Net_Promoter_Score__c &lt; 9),'Passive',IF(Net_Promoter_Score__c &lt; 7, 'Detractor','No Score')))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>NPS grouping</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

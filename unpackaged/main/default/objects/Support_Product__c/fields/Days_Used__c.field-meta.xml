@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Used__c</fullName>
+    <externalId>false</externalId>
+    <label>Days Used</label>
+    <summarizedField>Timecard__c.Days_Worked__c</summarizedField>
+    <summaryFilterItems>
+        <field>Timecard__c.Status__c</field>
+        <operation>notEqual</operation>
+        <value>Cancelled</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Timecard__c.Support_Product__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

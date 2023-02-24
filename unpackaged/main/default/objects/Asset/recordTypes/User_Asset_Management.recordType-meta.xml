@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_Asset_Management</fullName>
+    <active>true</active>
+    <description>Align the Assets that Users have been assigned whilst in the employment of Majenta</description>
+    <label>Majenta Asset Management</label>
+    <picklistValues>
+        <picklist>Asset_Type__c</picklist>
+        <values>
+            <fullName>Laptop%2FWorkstation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Devices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switch%2FRouter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>AEC %E2%80%93 Architectural%2FConstruction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Manufacturing %28Not CAM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial Design %2F Styling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Networking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outsourced IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Cost Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secure Data Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtualisation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visualisation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workstation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Company__c</picklist>
+        <values>
+            <fullName>JLR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solutions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Condition__c</picklist>
+        <values>
+            <fullName>A - New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B - Very Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C - Acceptable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D - Poor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E - Spares %26 Repairs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Department__c</picklist>
+        <values>
+            <fullName>Admin %2F HR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance %26 Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DigitalAssetStatus</picklist>
+        <values>
+            <fullName>Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warning</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Make__c</picklist>
+        <values>
+            <fullName>Apple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Model__c</picklist>
+        <values>
+            <fullName>250 G</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>250 G5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>250 G6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7520</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EliteDesk 800 G4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elitebook 725</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elitebook 725 G2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elitebook 8760w</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elitebook 8770w</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latitude 3340</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latitude 3540</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latitude 7390</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latitude E7250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latitude E7440</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latitude E7450</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macbook Air</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macbook Pro 13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P4540s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P4750s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P6560b</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precision 7510</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precision 7540</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precision 7710</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precision 7740</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precision M4700</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precision M6500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precision M6600</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precision M6700</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precision M6800</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precision T3600</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probook 430 G2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probook 430 G3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probook 450 G2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probook 4540S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probook 470 G4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probook 605 G2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probook 650 G2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probook 6760B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surface Pro 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ThinkBook 14-IML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vostro 3580</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Z4 G4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Z420</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Z440</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZBook G1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZBook G2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZBook G3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iPad Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iPhone 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iPhone 6s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iPhone 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iPhone 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iPhone SE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iPhone X</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Office_Location__c</picklist>
+        <values>
+            <fullName>Brentwood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JLR Gaydon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whitley</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Operating_System__c</picklist>
+        <values>
+            <fullName>Apple iOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apple macOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linux Operating System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Windows 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Windows 7</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Active%2FProduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recycled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scrap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unassigned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>StatusReason</picklist>
+        <values>
+            <fullName>Not Ready</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paused</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standby</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubCategory__c</picklist>
+        <values>
+            <fullName>3ds max</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abacus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Actify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AlphaCAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Altair Hypermesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Altium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ansys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arrow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Artisan %28I-deas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AutoCAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AutoCAD Architecture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AutoCAD Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AutoCAD LT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk Direct Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk PLM360</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk Simulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autodesk Vault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIM360</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bentley Micro Station</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BlueArc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bobcad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boothroyd Dewhurst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brocade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Building Design Suite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bunkspeed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bureau Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CADDS5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CADStar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAM Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAMworks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATIA CAE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COSMOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catia GSD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catia ICEM %28ISD%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CircuitWorks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citrix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CivilFEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creo ECAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DYTRAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delcam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deloite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deltek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design Suite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Connection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DraftSight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drop Box</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EAGLE V6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EASA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESACOMP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edgecam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enovia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equalogic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esprit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FEMAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Factory Design Suite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FactoryCAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FeatureCAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Geomagic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GibbsCAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Sketchup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSM Works</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Written%2FFTP Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HyperMesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I-DEAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Illustrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invensys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inventor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IronCAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Isilon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keyshot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS-DYNA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lattice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LeapFile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lenovo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mastercam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MecSoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mental Images</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mentor Graphics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meshcam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft CRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Hyper V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moldex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moldflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NASTRAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX - Imageware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX CAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX CAE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX CAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX Nastran</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nastran NEI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Navis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OpenMind</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oracle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAMCRASH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCSCHEMATIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PDGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLM Collaboration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PathTrace %28EdgeCAM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patran</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Designer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Photoshop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pro-Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ProE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ProE Creo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Design Suite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proplanner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLOGIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quantum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qube Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quest %28Bakbone%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quintadena</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTT Deltagen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhinocam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Showcase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SketchBook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smartdraw</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solid Edge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solid Edge Simulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SolidThinking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SolidWorks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SolidWorks Simulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solidcam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SpaceClaim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symantec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TATA Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teamcenter Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tebis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tecnomatix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Theorem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Think3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Think3D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trubiquity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TurboCAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USB%2FDVD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VERICUT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VMware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vesys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VirtualBox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windchill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WorkNC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WorkstationSpecialist %28WS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yawcam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YouSendIt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>aPriori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>nCode</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wireless__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

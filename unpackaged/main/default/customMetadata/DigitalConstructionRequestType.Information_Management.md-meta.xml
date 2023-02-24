@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Information Management</label>
+    <protected>false</protected>
+    <values>
+        <field>RequestTypePick__c</field>
+        <value xsi:type="xsd:string">Information Management</value>
+    </values>
+    <values>
+        <field>UserId__c</field>
+        <value xsi:type="xsd:string">0054K000003l1D1QAI</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edit_Permissions</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR (
+ISCHANGED( Contractual_Annual_Salary__c ), 
+ISCHANGED( Holiday_Entitlement__c ) ,
+ISCHANGED( Days_Carried_Over__c ))
+
+&amp;&amp;
+
+  NOT( $Permission.Full_access_employee_records )</errorConditionFormula>
+    <errorMessage>You do not have permissions to edit this field</errorMessage>
+</ValidationRule>

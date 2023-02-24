@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_OR_Manager_Can_Create_Absence</fullName>
+    <active>true</active>
+    <description>Rule to only allow the employee and the manager to create or edit an absence</description>
+    <errorConditionFormula>AND($User.Id  &lt;&gt;     Employee_Record__r.OwnerId, 
+
+$User.Id  &lt;&gt;    Employee_Record__r.User__r.ManagerId , 
+
+  NOT($Permission.Full_access_employee_records), 
+
+ NOT( $Profile.Id = "00e4K000001dwXd")  )</errorConditionFormula>
+    <errorMessage>You are neither the employee or the employee's manager. Therefore you cannot create an absence on the employee's behalf.</errorMessage>
+</ValidationRule>

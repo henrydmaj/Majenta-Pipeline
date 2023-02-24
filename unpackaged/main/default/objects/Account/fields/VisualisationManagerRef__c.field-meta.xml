@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VisualisationManagerRef__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Digibuck Visualisation Manager (JLR), generally populated by Supplier</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Digibuck Visualisation Manager for this Site Account</inlineHelpText>
+    <label>Visualisation Manager</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts (Visualisation Manager)</relationshipLabel>
+    <relationshipName>AccountsbVYV</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

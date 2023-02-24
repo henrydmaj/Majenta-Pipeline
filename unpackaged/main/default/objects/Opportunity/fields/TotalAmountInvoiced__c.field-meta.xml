@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalAmountInvoiced__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Amount Invoiced</label>
+    <summarizedField>Invoice__c.NetAmount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Invoice__c.IsInvoice__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Invoice__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

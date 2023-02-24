@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubCategory__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3ds max</fullName>
+                <default>false</default>
+                <label>3ds max</label>
+            </value>
+            <value>
+                <fullName>Abacus</fullName>
+                <default>false</default>
+                <label>Abacus</label>
+            </value>
+            <value>
+                <fullName>Acer</fullName>
+                <default>false</default>
+                <label>Acer</label>
+            </value>
+            <value>
+                <fullName>Actify</fullName>
+                <default>false</default>
+                <label>Actify</label>
+            </value>
+            <value>
+                <fullName>Alias</fullName>
+                <default>false</default>
+                <label>Alias</label>
+            </value>
+            <value>
+                <fullName>AlphaCAM</fullName>
+                <default>false</default>
+                <label>AlphaCAM</label>
+            </value>
+            <value>
+                <fullName>Altair Hypermesh</fullName>
+                <default>false</default>
+                <label>Altair Hypermesh</label>
+            </value>
+            <value>
+                <fullName>Altium</fullName>
+                <default>false</default>
+                <label>Altium</label>
+            </value>
+            <value>
+                <fullName>ANSA</fullName>
+                <default>false</default>
+                <label>ANSA</label>
+            </value>
+            <value>
+                <fullName>Ansys</fullName>
+                <default>false</default>
+                <label>Ansys</label>
+            </value>
+            <value>
+                <fullName>Apple</fullName>
+                <default>false</default>
+                <label>Apple</label>
+            </value>
+            <value>
+                <fullName>aPriori</fullName>
+                <default>false</default>
+                <label>aPriori</label>
+            </value>
+            <value>
+                <fullName>Aras</fullName>
+                <default>false</default>
+                <label>Aras</label>
+            </value>
+            <value>
+                <fullName>Arrow</fullName>
+                <default>false</default>
+                <label>Arrow</label>
+            </value>
+            <value>
+                <fullName>Artisan (I-deas)</fullName>
+                <default>false</default>
+                <label>Artisan (I-deas)</label>
+            </value>
+            <value>
+                <fullName>ATOS</fullName>
+                <default>false</default>
+                <label>ATOS</label>
+            </value>
+            <value>
+                <fullName>AutoCAD</fullName>
+                <default>false</default>
+                <label>AutoCAD</label>
+            </value>
+            <value>
+                <fullName>AutoCAD Architecture</fullName>
+                <default>false</default>
+                <label>AutoCAD Architecture</label>
+            </value>
+            <value>
+                <fullName>AutoCAD Electrical</fullName>
+                <default>false</default>
+                <label>AutoCAD Electrical</label>
+            </value>
+            <value>
+                <fullName>AutoCAD LT</fullName>
+                <default>false</default>
+                <label>AutoCAD LT</label>
+            </value>
+            <value>
+                <fullName>Autodesk Direct Connect</fullName>
+                <default>false</default>
+                <label>Autodesk Direct Connect</label>
+            </value>
+            <value>
+                <fullName>Autodesk PLM360</fullName>
+                <default>false</default>
+                <label>Autodesk PLM360</label>
+            </value>
+            <value>
+                <fullName>Autodesk Simulation</fullName>
+                <default>false</default>
+                <label>Autodesk Simulation</label>
+            </value>
+            <value>
+                <fullName>Autodesk Vault</fullName>
+                <default>false</default>
+                <label>Autodesk Vault</label>
+            </value>
+            <value>
+                <fullName>Bentley Micro Station</fullName>
+                <default>false</default>
+                <label>Bentley Micro Station</label>
+            </value>
+            <value>
+                <fullName>BIM360</fullName>
+                <default>false</default>
+                <label>BIM360</label>
+            </value>
+            <value>
+                <fullName>BlueArc</fullName>
+                <default>false</default>
+                <label>BlueArc</label>
+            </value>
+            <value>
+                <fullName>Bobcad</fullName>
+                <default>false</default>
+                <label>Bobcad</label>
+            </value>
+            <value>
+                <fullName>Boothroyd Dewhurst</fullName>
+                <default>false</default>
+                <label>Boothroyd Dewhurst</label>
+            </value>
+            <value>
+                <fullName>BOXX</fullName>
+                <default>false</default>
+                <label>BOXX</label>
+            </value>
+            <value>
+                <fullName>Brocade</fullName>
+                <default>false</default>
+                <label>Brocade</label>
+            </value>
+            <value>
+                <fullName>Building Design Suite</fullName>
+                <default>false</default>
+                <label>Building Design Suite</label>
+            </value>
+            <value>
+                <fullName>Bunkspeed</fullName>
+                <default>false</default>
+                <label>Bunkspeed</label>
+            </value>
+            <value>
+                <fullName>Bureau Service</fullName>
+                <default>false</default>
+                <label>Bureau Service</label>
+            </value>
+            <value>
+                <fullName>CADDS5</fullName>
+                <default>false</default>
+                <label>CADDS5</label>
+            </value>
+            <value>
+                <fullName>CADStar</fullName>
+                <default>false</default>
+                <label>CADStar</label>
+            </value>
+            <value>
+                <fullName>CAM Express</fullName>
+                <default>false</default>
+                <label>CAM Express</label>
+            </value>
+            <value>
+                <fullName>CAMworks</fullName>
+                <default>false</default>
+                <label>CAMworks</label>
+            </value>
+            <value>
+                <fullName>Catia</fullName>
+                <default>false</default>
+                <label>Catia</label>
+            </value>
+            <value>
+                <fullName>CATIA CAE</fullName>
+                <default>false</default>
+                <label>CATIA CAE</label>
+            </value>
+            <value>
+                <fullName>Catia GSD</fullName>
+                <default>false</default>
+                <label>Catia GSD</label>
+            </value>
+            <value>
+                <fullName>Catia ICEM (ISD)</fullName>
+                <default>false</default>
+                <label>Catia ICEM (ISD)</label>
+            </value>
+            <value>
+                <fullName>CircuitWorks</fullName>
+                <default>false</default>
+                <label>CircuitWorks</label>
+            </value>
+            <value>
+                <fullName>Cisco</fullName>
+                <default>false</default>
+                <label>Cisco</label>
+            </value>
+            <value>
+                <fullName>Citrix</fullName>
+                <default>false</default>
+                <label>Citrix</label>
+            </value>
+            <value>
+                <fullName>CivilFEM</fullName>
+                <default>false</default>
+                <label>CivilFEM</label>
+            </value>
+            <value>
+                <fullName>COSMOS</fullName>
+                <default>false</default>
+                <label>COSMOS</label>
+            </value>
+            <value>
+                <fullName>Creo</fullName>
+                <default>false</default>
+                <label>Creo</label>
+            </value>
+            <value>
+                <fullName>Creo ECAD</fullName>
+                <default>false</default>
+                <label>Creo ECAD</label>
+            </value>
+            <value>
+                <fullName>CSC</fullName>
+                <default>false</default>
+                <label>CSC</label>
+            </value>
+            <value>
+                <fullName>Delcam</fullName>
+                <default>false</default>
+                <label>Delcam</label>
+            </value>
+            <value>
+                <fullName>Dell</fullName>
+                <default>false</default>
+                <label>Dell</label>
+            </value>
+            <value>
+                <fullName>Deloite</fullName>
+                <default>false</default>
+                <label>Deloite</label>
+            </value>
+            <value>
+                <fullName>Deltek</fullName>
+                <default>false</default>
+                <label>Deltek</label>
+            </value>
+            <value>
+                <fullName>Design Suite</fullName>
+                <default>false</default>
+                <label>Design Suite</label>
+            </value>
+            <value>
+                <fullName>Direct Connection</fullName>
+                <default>false</default>
+                <label>Direct Connection</label>
+            </value>
+            <value>
+                <fullName>DraftSight</fullName>
+                <default>false</default>
+                <label>DraftSight</label>
+            </value>
+            <value>
+                <fullName>Drop Box</fullName>
+                <default>false</default>
+                <label>Drop Box</label>
+            </value>
+            <value>
+                <fullName>DYTRAN</fullName>
+                <default>false</default>
+                <label>DYTRAN</label>
+            </value>
+            <value>
+                <fullName>EAGLE V6</fullName>
+                <default>false</default>
+                <label>EAGLE V6</label>
+            </value>
+            <value>
+                <fullName>EASA</fullName>
+                <default>false</default>
+                <label>EASA</label>
+            </value>
+            <value>
+                <fullName>Edgecam</fullName>
+                <default>false</default>
+                <label>Edgecam</label>
+            </value>
+            <value>
+                <fullName>EDS</fullName>
+                <default>false</default>
+                <label>EDS</label>
+            </value>
+            <value>
+                <fullName>Elysium</fullName>
+                <default>false</default>
+                <label>Elysium</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>EMC</fullName>
+                <default>false</default>
+                <label>EMC</label>
+            </value>
+            <value>
+                <fullName>Enovia</fullName>
+                <default>false</default>
+                <label>Enovia</label>
+            </value>
+            <value>
+                <fullName>Equalogic</fullName>
+                <default>false</default>
+                <label>Equalogic</label>
+            </value>
+            <value>
+                <fullName>ESACOMP</fullName>
+                <default>false</default>
+                <label>ESACOMP</label>
+            </value>
+            <value>
+                <fullName>Esprit</fullName>
+                <default>false</default>
+                <label>Esprit</label>
+            </value>
+            <value>
+                <fullName>FactoryCAD</fullName>
+                <default>false</default>
+                <label>FactoryCAD</label>
+            </value>
+            <value>
+                <fullName>Factory Design Suite</fullName>
+                <default>false</default>
+                <label>Factory Design Suite</label>
+            </value>
+            <value>
+                <fullName>FeatureCAM</fullName>
+                <default>false</default>
+                <label>FeatureCAM</label>
+            </value>
+            <value>
+                <fullName>FEMAP</fullName>
+                <default>false</default>
+                <label>FEMAP</label>
+            </value>
+            <value>
+                <fullName>Geomagic</fullName>
+                <default>false</default>
+                <label>Geomagic</label>
+            </value>
+            <value>
+                <fullName>GibbsCAM</fullName>
+                <default>false</default>
+                <label>GibbsCAM</label>
+            </value>
+            <value>
+                <fullName>Google Sketchup</fullName>
+                <default>false</default>
+                <label>Google Sketchup</label>
+            </value>
+            <value>
+                <fullName>GRZ</fullName>
+                <default>false</default>
+                <label>GRZ</label>
+            </value>
+            <value>
+                <fullName>HDS</fullName>
+                <default>false</default>
+                <label>HDS</label>
+            </value>
+            <value>
+                <fullName>Home Written/FTP Site</fullName>
+                <default>false</default>
+                <label>Home Written/FTP Site</label>
+            </value>
+            <value>
+                <fullName>HP</fullName>
+                <default>false</default>
+                <label>HP</label>
+            </value>
+            <value>
+                <fullName>HSM Works</fullName>
+                <default>false</default>
+                <label>HSM Works</label>
+            </value>
+            <value>
+                <fullName>HyperMesh</fullName>
+                <default>false</default>
+                <label>HyperMesh</label>
+            </value>
+            <value>
+                <fullName>IBM</fullName>
+                <default>false</default>
+                <label>IBM</label>
+            </value>
+            <value>
+                <fullName>ICEM</fullName>
+                <default>false</default>
+                <label>ICEM</label>
+            </value>
+            <value>
+                <fullName>I-DEAS</fullName>
+                <default>false</default>
+                <label>I-DEAS</label>
+            </value>
+            <value>
+                <fullName>Illustrator</fullName>
+                <default>false</default>
+                <label>Illustrator</label>
+            </value>
+            <value>
+                <fullName>Invensys</fullName>
+                <default>false</default>
+                <label>Invensys</label>
+            </value>
+            <value>
+                <fullName>Inventor</fullName>
+                <default>false</default>
+                <label>Inventor</label>
+            </value>
+            <value>
+                <fullName>IronCAD</fullName>
+                <default>false</default>
+                <label>IronCAD</label>
+            </value>
+            <value>
+                <fullName>Isilon</fullName>
+                <default>false</default>
+                <label>Isilon</label>
+            </value>
+            <value>
+                <fullName>Keyshot</fullName>
+                <default>false</default>
+                <label>Keyshot</label>
+            </value>
+            <value>
+                <fullName>Lattice</fullName>
+                <default>false</default>
+                <label>Lattice</label>
+            </value>
+            <value>
+                <fullName>LeapFile</fullName>
+                <default>false</default>
+                <label>LeapFile</label>
+            </value>
+            <value>
+                <fullName>Lenovo</fullName>
+                <default>false</default>
+                <label>Lenovo</label>
+            </value>
+            <value>
+                <fullName>Linflow</fullName>
+                <default>false</default>
+                <label>Linflow</label>
+            </value>
+            <value>
+                <fullName>LMS</fullName>
+                <default>false</default>
+                <label>LMS</label>
+            </value>
+            <value>
+                <fullName>Logica</fullName>
+                <default>false</default>
+                <label>Logica</label>
+            </value>
+            <value>
+                <fullName>LS-DYNA</fullName>
+                <default>false</default>
+                <label>LS-DYNA</label>
+            </value>
+            <value>
+                <fullName>Mastercam</fullName>
+                <default>false</default>
+                <label>Mastercam</label>
+            </value>
+            <value>
+                <fullName>Maya</fullName>
+                <default>false</default>
+                <label>Maya</label>
+            </value>
+            <value>
+                <fullName>Mechanica</fullName>
+                <default>false</default>
+                <label>Mechanica</label>
+            </value>
+            <value>
+                <fullName>MecSoft</fullName>
+                <default>false</default>
+                <label>MecSoft</label>
+            </value>
+            <value>
+                <fullName>Mental Images</fullName>
+                <default>false</default>
+                <label>Mental Images</label>
+            </value>
+            <value>
+                <fullName>Mentor Graphics</fullName>
+                <default>false</default>
+                <label>Mentor Graphics</label>
+            </value>
+            <value>
+                <fullName>Meshcam</fullName>
+                <default>false</default>
+                <label>Meshcam</label>
+            </value>
+            <value>
+                <fullName>Microsoft CRM</fullName>
+                <default>false</default>
+                <label>Microsoft CRM</label>
+            </value>
+            <value>
+                <fullName>Microsoft ERP</fullName>
+                <default>false</default>
+                <label>Microsoft ERP</label>
+            </value>
+            <value>
+                <fullName>Microsoft Hyper V</fullName>
+                <default>false</default>
+                <label>Microsoft Hyper V</label>
+            </value>
+            <value>
+                <fullName>Modo</fullName>
+                <default>false</default>
+                <label>Modo</label>
+            </value>
+            <value>
+                <fullName>Moldex</fullName>
+                <default>false</default>
+                <label>Moldex</label>
+            </value>
+            <value>
+                <fullName>Moldflow</fullName>
+                <default>false</default>
+                <label>Moldflow</label>
+            </value>
+            <value>
+                <fullName>MSC</fullName>
+                <default>false</default>
+                <label>MSC</label>
+            </value>
+            <value>
+                <fullName>MX</fullName>
+                <default>false</default>
+                <label>MX</label>
+            </value>
+            <value>
+                <fullName>NASTRAN</fullName>
+                <default>false</default>
+                <label>NASTRAN</label>
+            </value>
+            <value>
+                <fullName>Nastran NEI</fullName>
+                <default>false</default>
+                <label>Nastran NEI</label>
+            </value>
+            <value>
+                <fullName>Navis</fullName>
+                <default>false</default>
+                <label>Navis</label>
+            </value>
+            <value>
+                <fullName>nCode</fullName>
+                <default>false</default>
+                <label>nCode</label>
+            </value>
+            <value>
+                <fullName>NetApp</fullName>
+                <default>false</default>
+                <label>NetApp</label>
+            </value>
+            <value>
+                <fullName>NX</fullName>
+                <default>false</default>
+                <label>NX</label>
+            </value>
+            <value>
+                <fullName>NX CAD</fullName>
+                <default>false</default>
+                <label>NX CAD</label>
+            </value>
+            <value>
+                <fullName>NX CAE</fullName>
+                <default>false</default>
+                <label>NX CAE</label>
+            </value>
+            <value>
+                <fullName>NX CAM</fullName>
+                <default>false</default>
+                <label>NX CAM</label>
+            </value>
+            <value>
+                <fullName>NX - Imageware</fullName>
+                <default>false</default>
+                <label>NX - Imageware</label>
+            </value>
+            <value>
+                <fullName>NX Nastran</fullName>
+                <default>false</default>
+                <label>NX Nastran</label>
+            </value>
+            <value>
+                <fullName>OpenMind</fullName>
+                <default>false</default>
+                <label>OpenMind</label>
+            </value>
+            <value>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+                <label>Oracle</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Overland</fullName>
+                <default>false</default>
+                <label>Overland</label>
+            </value>
+            <value>
+                <fullName>PAMCRASH</fullName>
+                <default>false</default>
+                <label>PAMCRASH</label>
+            </value>
+            <value>
+                <fullName>PathTrace (EdgeCAM)</fullName>
+                <default>false</default>
+                <label>PathTrace (EdgeCAM)</label>
+            </value>
+            <value>
+                <fullName>Patran</fullName>
+                <default>false</default>
+                <label>Patran</label>
+            </value>
+            <value>
+                <fullName>PCSCHEMATIC</fullName>
+                <default>false</default>
+                <label>PCSCHEMATIC</label>
+            </value>
+            <value>
+                <fullName>PDGS</fullName>
+                <default>false</default>
+                <label>PDGS</label>
+            </value>
+            <value>
+                <fullName>Personal Designer</fullName>
+                <default>false</default>
+                <label>Personal Designer</label>
+            </value>
+            <value>
+                <fullName>Photoshop</fullName>
+                <default>false</default>
+                <label>Photoshop</label>
+            </value>
+            <value>
+                <fullName>PLM Collaboration</fullName>
+                <default>false</default>
+                <label>PLM Collaboration</label>
+            </value>
+            <value>
+                <fullName>Product Design Suite</fullName>
+                <default>false</default>
+                <label>Product Design Suite</label>
+            </value>
+            <value>
+                <fullName>ProE</fullName>
+                <default>false</default>
+                <label>ProE</label>
+            </value>
+            <value>
+                <fullName>ProE Creo</fullName>
+                <default>false</default>
+                <label>ProE Creo</label>
+            </value>
+            <value>
+                <fullName>Pro-Engineer</fullName>
+                <default>false</default>
+                <label>Pro-Engineer</label>
+            </value>
+            <value>
+                <fullName>Proplanner</fullName>
+                <default>false</default>
+                <label>Proplanner</label>
+            </value>
+            <value>
+                <fullName>QLOGIC</fullName>
+                <default>false</default>
+                <label>QLOGIC</label>
+            </value>
+            <value>
+                <fullName>Quantum</fullName>
+                <default>false</default>
+                <label>Quantum</label>
+            </value>
+            <value>
+                <fullName>Qube Global</fullName>
+                <default>false</default>
+                <label>Qube Global</label>
+            </value>
+            <value>
+                <fullName>Quest (Bakbone)</fullName>
+                <default>false</default>
+                <label>Quest (Bakbone)</label>
+            </value>
+            <value>
+                <fullName>Quintadena</fullName>
+                <default>false</default>
+                <label>Quintadena</label>
+            </value>
+            <value>
+                <fullName>Revit</fullName>
+                <default>false</default>
+                <label>Revit</label>
+            </value>
+            <value>
+                <fullName>Rhino</fullName>
+                <default>false</default>
+                <label>Rhino</label>
+            </value>
+            <value>
+                <fullName>Rhinocam</fullName>
+                <default>false</default>
+                <label>Rhinocam</label>
+            </value>
+            <value>
+                <fullName>RM</fullName>
+                <default>false</default>
+                <label>RM</label>
+            </value>
+            <value>
+                <fullName>RTT Deltagen</fullName>
+                <default>false</default>
+                <label>RTT Deltagen</label>
+            </value>
+            <value>
+                <fullName>SAGE</fullName>
+                <default>false</default>
+                <label>SAGE</label>
+            </value>
+            <value>
+                <fullName>SAP</fullName>
+                <default>false</default>
+                <label>SAP</label>
+            </value>
+            <value>
+                <fullName>Scan</fullName>
+                <default>false</default>
+                <label>Scan</label>
+            </value>
+            <value>
+                <fullName>Sensable</fullName>
+                <default>false</default>
+                <label>Sensable</label>
+            </value>
+            <value>
+                <fullName>Showcase</fullName>
+                <default>false</default>
+                <label>Showcase</label>
+            </value>
+            <value>
+                <fullName>Siemens Consulting</fullName>
+                <default>false</default>
+                <label>Siemens Consulting</label>
+            </value>
+            <value>
+                <fullName>SketchBook</fullName>
+                <default>false</default>
+                <label>SketchBook</label>
+            </value>
+            <value>
+                <fullName>Smartdraw</fullName>
+                <default>false</default>
+                <label>Smartdraw</label>
+            </value>
+            <value>
+                <fullName>Solidcam</fullName>
+                <default>false</default>
+                <label>Solidcam</label>
+            </value>
+            <value>
+                <fullName>Solid Edge</fullName>
+                <default>false</default>
+                <label>Solid Edge</label>
+            </value>
+            <value>
+                <fullName>Solid Edge Simulation</fullName>
+                <default>false</default>
+                <label>Solid Edge Simulation</label>
+            </value>
+            <value>
+                <fullName>SolidThinking</fullName>
+                <default>false</default>
+                <label>SolidThinking</label>
+            </value>
+            <value>
+                <fullName>SolidWorks</fullName>
+                <default>false</default>
+                <label>SolidWorks</label>
+            </value>
+            <value>
+                <fullName>SolidWorks Simulation</fullName>
+                <default>false</default>
+                <label>SolidWorks Simulation</label>
+            </value>
+            <value>
+                <fullName>SpaceClaim</fullName>
+                <default>false</default>
+                <label>SpaceClaim</label>
+            </value>
+            <value>
+                <fullName>Sun</fullName>
+                <default>false</default>
+                <label>Sun</label>
+            </value>
+            <value>
+                <fullName>Symantec</fullName>
+                <default>false</default>
+                <label>Symantec</label>
+            </value>
+            <value>
+                <fullName>TATA Consulting</fullName>
+                <default>false</default>
+                <label>TATA Consulting</label>
+            </value>
+            <value>
+                <fullName>Teamcenter</fullName>
+                <default>false</default>
+                <label>Teamcenter</label>
+            </value>
+            <value>
+                <fullName>Teamcenter Express</fullName>
+                <default>false</default>
+                <label>Teamcenter Express</label>
+            </value>
+            <value>
+                <fullName>Tebis</fullName>
+                <default>false</default>
+                <label>Tebis</label>
+            </value>
+            <value>
+                <fullName>Tecnomatix</fullName>
+                <default>false</default>
+                <label>Tecnomatix</label>
+            </value>
+            <value>
+                <fullName>Theorem</fullName>
+                <default>false</default>
+                <label>Theorem</label>
+            </value>
+            <value>
+                <fullName>Think3</fullName>
+                <default>false</default>
+                <label>Think3</label>
+            </value>
+            <value>
+                <fullName>Think3D</fullName>
+                <default>false</default>
+                <label>Think3D</label>
+            </value>
+            <value>
+                <fullName>Trubiquity</fullName>
+                <default>false</default>
+                <label>Trubiquity</label>
+            </value>
+            <value>
+                <fullName>TurboCAD</fullName>
+                <default>false</default>
+                <label>TurboCAD</label>
+            </value>
+            <value>
+                <fullName>USB/DVD</fullName>
+                <default>false</default>
+                <label>USB/DVD</label>
+            </value>
+            <value>
+                <fullName>VERICUT</fullName>
+                <default>false</default>
+                <label>VERICUT</label>
+            </value>
+            <value>
+                <fullName>Vero</fullName>
+                <default>false</default>
+                <label>Vero</label>
+            </value>
+            <value>
+                <fullName>Vesys</fullName>
+                <default>false</default>
+                <label>Vesys</label>
+            </value>
+            <value>
+                <fullName>VirtualBox</fullName>
+                <default>false</default>
+                <label>VirtualBox</label>
+            </value>
+            <value>
+                <fullName>VMware</fullName>
+                <default>false</default>
+                <label>VMware</label>
+            </value>
+            <value>
+                <fullName>VX</fullName>
+                <default>false</default>
+                <label>VX</label>
+            </value>
+            <value>
+                <fullName>Web Service</fullName>
+                <default>false</default>
+                <label>Web Service</label>
+            </value>
+            <value>
+                <fullName>Windchill</fullName>
+                <default>false</default>
+                <label>Windchill</label>
+            </value>
+            <value>
+                <fullName>WorkNC</fullName>
+                <default>false</default>
+                <label>WorkNC</label>
+            </value>
+            <value>
+                <fullName>WorkstationSpecialist (WS)</fullName>
+                <default>false</default>
+                <label>WorkstationSpecialist (WS)</label>
+            </value>
+            <value>
+                <fullName>Yawcam</fullName>
+                <default>false</default>
+                <label>Yawcam</label>
+            </value>
+            <value>
+                <fullName>YouSendIt</fullName>
+                <default>false</default>
+                <label>YouSendIt</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Backup</controllingFieldValue>
+            <controllingFieldValue>Server</controllingFieldValue>
+            <controllingFieldValue>Storage</controllingFieldValue>
+            <valueName>Arrow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backup</controllingFieldValue>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <controllingFieldValue>Server</controllingFieldValue>
+            <controllingFieldValue>Storage</controllingFieldValue>
+            <valueName>IBM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backup</controllingFieldValue>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <controllingFieldValue>Server</controllingFieldValue>
+            <controllingFieldValue>Storage</controllingFieldValue>
+            <valueName>NetApp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backup</controllingFieldValue>
+            <controllingFieldValue>Virtualisation</controllingFieldValue>
+            <controllingFieldValue>Networking</controllingFieldValue>
+            <controllingFieldValue>Outsourced IT</controllingFieldValue>
+            <controllingFieldValue>Support Contract</controllingFieldValue>
+            <controllingFieldValue>Visualisation</controllingFieldValue>
+            <controllingFieldValue>ECAD</controllingFieldValue>
+            <controllingFieldValue>Digital Manufacturing (Not CAM)</controllingFieldValue>
+            <controllingFieldValue>Product Cost Management</controllingFieldValue>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <controllingFieldValue>Facility Design</controllingFieldValue>
+            <controllingFieldValue>ERP</controllingFieldValue>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <controllingFieldValue>Server</controllingFieldValue>
+            <controllingFieldValue>Storage</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backup</controllingFieldValue>
+            <controllingFieldValue>Storage</controllingFieldValue>
+            <valueName>Overland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backup</controllingFieldValue>
+            <controllingFieldValue>Server</controllingFieldValue>
+            <controllingFieldValue>Storage</controllingFieldValue>
+            <valueName>QLOGIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backup</controllingFieldValue>
+            <valueName>Quantum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backup</controllingFieldValue>
+            <valueName>Quest (Bakbone)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backup</controllingFieldValue>
+            <valueName>Symantec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Virtualisation</controllingFieldValue>
+            <valueName>Citrix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Virtualisation</controllingFieldValue>
+            <valueName>Microsoft Hyper V</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Virtualisation</controllingFieldValue>
+            <valueName>VirtualBox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Virtualisation</controllingFieldValue>
+            <valueName>VMware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Networking</controllingFieldValue>
+            <valueName>Brocade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Networking</controllingFieldValue>
+            <valueName>Cisco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outsourced IT</controllingFieldValue>
+            <valueName>ATOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outsourced IT</controllingFieldValue>
+            <valueName>CSC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outsourced IT</controllingFieldValue>
+            <valueName>Deloite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outsourced IT</controllingFieldValue>
+            <valueName>EDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outsourced IT</controllingFieldValue>
+            <valueName>Logica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outsourced IT</controllingFieldValue>
+            <valueName>Siemens Consulting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outsourced IT</controllingFieldValue>
+            <valueName>TATA Consulting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visualisation</controllingFieldValue>
+            <valueName>3ds max</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visualisation</controllingFieldValue>
+            <valueName>Bunkspeed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visualisation</controllingFieldValue>
+            <valueName>Keyshot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visualisation</controllingFieldValue>
+            <valueName>Maya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visualisation</controllingFieldValue>
+            <valueName>Modo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visualisation</controllingFieldValue>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>NX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visualisation</controllingFieldValue>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>Rhino</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visualisation</controllingFieldValue>
+            <valueName>RTT Deltagen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visualisation</controllingFieldValue>
+            <valueName>Showcase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ECAD</controllingFieldValue>
+            <valueName>Altium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ECAD</controllingFieldValue>
+            <valueName>AutoCAD Electrical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ECAD</controllingFieldValue>
+            <valueName>CADStar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ECAD</controllingFieldValue>
+            <valueName>CircuitWorks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ECAD</controllingFieldValue>
+            <valueName>Creo ECAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ECAD</controllingFieldValue>
+            <valueName>Mentor Graphics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ECAD</controllingFieldValue>
+            <valueName>PCSCHEMATIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ECAD</controllingFieldValue>
+            <valueName>Vesys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Manufacturing (Not CAM)</controllingFieldValue>
+            <valueName>Lattice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Manufacturing (Not CAM)</controllingFieldValue>
+            <controllingFieldValue>Facility Design</controllingFieldValue>
+            <valueName>Tecnomatix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Cost Management</controllingFieldValue>
+            <valueName>aPriori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Cost Management</controllingFieldValue>
+            <valueName>Boothroyd Dewhurst</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Cost Management</controllingFieldValue>
+            <valueName>Quintadena</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>Artisan (I-deas)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>AutoCAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>AutoCAD LT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>Bentley Micro Station</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <controllingFieldValue>AEC – Architectural/Construction</controllingFieldValue>
+            <valueName>Building Design Suite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>CADDS5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Catia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>Creo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>Design Suite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>DraftSight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>DYTRAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>EAGLE V6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>EASA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <controllingFieldValue>Facility Design</controllingFieldValue>
+            <valueName>Factory Design Suite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>Google Sketchup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>I-DEAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>Inventor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>IronCAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>LMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>Mental Images</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>MSC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>nCode</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>NX CAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>PDGS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>Personal Designer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>Product Design Suite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>ProE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>ProE Creo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>Pro-Engineer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>Solid Edge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>SolidWorks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>SpaceClaim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>Think3D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>TurboCAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Vero</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAD</controllingFieldValue>
+            <valueName>VX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>Alias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>Catia GSD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>Catia ICEM (ISD)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>Geomagic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>ICEM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>Illustrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>NX - Imageware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>Photoshop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>Sensable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>SketchBook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>SolidThinking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>Tebis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial Design / Styling</controllingFieldValue>
+            <valueName>Think3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>AlphaCAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>Bobcad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>CAM Express</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>CAMworks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>Delcam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>Edgecam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>Esprit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>FeatureCAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>GibbsCAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>GRZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>HSM Works</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>Mastercam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>MecSoft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>Meshcam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>NX CAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>OpenMind</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>PathTrace (EdgeCAM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>Rhinocam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>Solidcam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>VERICUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAM</controllingFieldValue>
+            <valueName>Yawcam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Abacus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Altair Hypermesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>ANSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Ansys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Autodesk Simulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>CATIA CAE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>CivilFEM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>COSMOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>ESACOMP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>FEMAP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>HyperMesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Linflow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>LS-DYNA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Mechanica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Moldex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Moldflow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>NASTRAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Nastran NEI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>NX CAE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>NX Nastran</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>PAMCRASH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Patran</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>Solid Edge Simulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAE</controllingFieldValue>
+            <valueName>SolidWorks Simulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Actify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Aras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Autodesk Direct Connect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Autodesk PLM360</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Autodesk Vault</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Bureau Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Elysium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Enovia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Invensys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <controllingFieldValue>ERP</controllingFieldValue>
+            <valueName>Oracle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <controllingFieldValue>ERP</controllingFieldValue>
+            <valueName>SAP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Teamcenter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Teamcenter Express</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Theorem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Management</controllingFieldValue>
+            <valueName>Windchill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Design</controllingFieldValue>
+            <controllingFieldValue>AEC – Architectural/Construction</controllingFieldValue>
+            <valueName>AutoCAD Architecture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Design</controllingFieldValue>
+            <valueName>FactoryCAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Design</controllingFieldValue>
+            <valueName>Proplanner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Design</controllingFieldValue>
+            <valueName>Qube Global</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Design</controllingFieldValue>
+            <valueName>Smartdraw</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERP</controllingFieldValue>
+            <valueName>Deltek</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERP</controllingFieldValue>
+            <valueName>Microsoft CRM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERP</controllingFieldValue>
+            <valueName>SAGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <valueName>Acer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <controllingFieldValue>Server</controllingFieldValue>
+            <valueName>Apple</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <valueName>BOXX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <controllingFieldValue>Server</controllingFieldValue>
+            <valueName>Dell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <controllingFieldValue>Server</controllingFieldValue>
+            <valueName>HP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <valueName>Lenovo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <valueName>RM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <valueName>Scan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <valueName>Sun</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation</controllingFieldValue>
+            <valueName>WorkstationSpecialist (WS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secure Data Transfer</controllingFieldValue>
+            <valueName>Direct Connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secure Data Transfer</controllingFieldValue>
+            <valueName>Drop Box</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secure Data Transfer</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secure Data Transfer</controllingFieldValue>
+            <valueName>Home Written/FTP Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secure Data Transfer</controllingFieldValue>
+            <valueName>LeapFile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secure Data Transfer</controllingFieldValue>
+            <valueName>MX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secure Data Transfer</controllingFieldValue>
+            <valueName>PLM Collaboration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secure Data Transfer</controllingFieldValue>
+            <valueName>Trubiquity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secure Data Transfer</controllingFieldValue>
+            <valueName>USB/DVD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secure Data Transfer</controllingFieldValue>
+            <valueName>Web Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secure Data Transfer</controllingFieldValue>
+            <valueName>YouSendIt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Storage</controllingFieldValue>
+            <valueName>BlueArc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Storage</controllingFieldValue>
+            <valueName>EMC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Storage</controllingFieldValue>
+            <valueName>Equalogic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Storage</controllingFieldValue>
+            <valueName>HDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Storage</controllingFieldValue>
+            <valueName>Isilon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AEC – Architectural/Construction</controllingFieldValue>
+            <valueName>BIM360</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AEC – Architectural/Construction</controllingFieldValue>
+            <valueName>Navis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AEC – Architectural/Construction</controllingFieldValue>
+            <valueName>Revit</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

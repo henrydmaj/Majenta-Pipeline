@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllRequestsLastWeek</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Type__c</columns>
+    <columns>Subject__c</columns>
+    <columns>RequestedDateTime__c</columns>
+    <columns>DueDate__c</columns>
+    <columns>Priority__c</columns>
+    <columns>AssignedTo__c</columns>
+    <columns>Status__c</columns>
+    <columns>StatusIcon__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RequestedDateTime__c</field>
+        <operation>equals</operation>
+        <value>LAST_WEEK</value>
+    </filters>
+    <label>All Requests Last Week</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

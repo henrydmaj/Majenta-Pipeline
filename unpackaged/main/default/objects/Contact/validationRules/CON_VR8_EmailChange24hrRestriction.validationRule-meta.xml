@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CON_VR8_EmailChange24hrRestriction</fullName>
+    <active>true</active>
+    <description>Validation rule to prevent users changing the contact within 24hour of email change.</description>
+    <errorConditionFormula>AND(ISCHANGED(Email ),EmailChanged__c = TRUE)</errorConditionFormula>
+    <errorMessage>This contact has been changed within the last 24 hours. Please try again after 24 hours. [CON_VR8]</errorMessage>
+</ValidationRule>

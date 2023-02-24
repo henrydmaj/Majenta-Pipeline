@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Can_only_create_own_holiday_requests</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND($User.Id &lt;&gt; Employee_Record__r.OwnerId,
+
+$User.Id &lt;&gt; Employee_Record__r.User__r.ManagerId ,
+
+NOT($Permission.Full_access_employee_records),
+
+NOT( $Profile.Id = "00e4K000001dwXd") )</errorConditionFormula>
+    <errorMessage>You cannot create holiday requests for other employees</errorMessage>
+</ValidationRule>

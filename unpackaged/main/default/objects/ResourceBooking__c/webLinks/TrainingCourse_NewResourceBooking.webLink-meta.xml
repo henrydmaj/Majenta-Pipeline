@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrainingCourse_NewResourceBooking</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Resource Booking</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/a3G/e?CF00N4K00000AN3zb={!TrainingCourse__c.Name}&amp;CF00N4K00000AN3zb_lkid={!TrainingCourse__c.Id}&amp;CF00N4K00000AN3dg={!TrainingCourse__c.Project__c}&amp;CF00N4K00000AN3dg_lkid={!TrainingCourse__c.ProjectId__c}&amp;00N4K00000AN3yt=Training&amp;00N4K00000AN3zO={!TrainingCourse__c.StartDate__c}&amp;00N4K00000AN3z3={!TrainingCourse__c.FinishDate__c}&amp;retURL=%2F{!TrainingCourse__c.Id}</url>
+</WebLink>

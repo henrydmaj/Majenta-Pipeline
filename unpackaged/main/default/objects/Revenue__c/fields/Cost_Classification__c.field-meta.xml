@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_Classification__c</fullName>
+    <description>Reclassification Jan 2019</description>
+    <externalId>false</externalId>
+    <label>Cost Classification</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>02 200GB Shared Data</fullName>
+                <default>false</default>
+                <label>02 200GB Shared Data</label>
+            </value>
+            <value>
+                <fullName>Adobe Acropro Renewal</fullName>
+                <default>false</default>
+                <label>Adobe Acropro Renewal</label>
+            </value>
+            <value>
+                <fullName>Agency - Design</fullName>
+                <default>false</default>
+                <label>Agency - Design</label>
+            </value>
+            <value>
+                <fullName>Air Con Maintenance Brentwood</fullName>
+                <default>false</default>
+                <label>Air Con Maintenance Brentwood</label>
+            </value>
+            <value>
+                <fullName>Air Con Maintenance Whitley</fullName>
+                <default>false</default>
+                <label>Air Con Maintenance Whitley</label>
+            </value>
+            <value>
+                <fullName>Alarm Monitoring &amp; Maintenance Brentwood</fullName>
+                <default>false</default>
+                <label>Alarm Monitoring &amp; Maintenance Brentwood</label>
+            </value>
+            <value>
+                <fullName>Alarm Monitoring &amp; Maintenance Whitley</fullName>
+                <default>false</default>
+                <label>Alarm Monitoring &amp; Maintenance Whitley</label>
+            </value>
+            <value>
+                <fullName>Aldermore Whitley Re-Fit Leasing</fullName>
+                <default>false</default>
+                <label>Aldermore Whitley Re-Fit Leasing</label>
+            </value>
+            <value>
+                <fullName>Annual Weekday Collection Fee</fullName>
+                <default>false</default>
+                <label>Annual Weekday Collection Fee</label>
+            </value>
+            <value>
+                <fullName>Antivirus / Firewall, Backup</fullName>
+                <default>false</default>
+                <label>Antivirus / Firewall, Backup</label>
+            </value>
+            <value>
+                <fullName>Apprenticeship Levy</fullName>
+                <default>false</default>
+                <label>Apprenticeship Levy</label>
+            </value>
+            <value>
+                <fullName>Audit Acrl</fullName>
+                <default>false</default>
+                <label>Audit Acrl</label>
+            </value>
+            <value>
+                <fullName>Bad Debt</fullName>
+                <default>false</default>
+                <label>Bad Debt</label>
+            </value>
+            <value>
+                <fullName>Bank Admin Fee</fullName>
+                <default>false</default>
+                <label>Bank Charges for Altecnix, Imajine &amp; Majenta Ltd</label>
+            </value>
+            <value>
+                <fullName>Bank Service Charge</fullName>
+                <default>false</default>
+                <label>Bank Service Charge</label>
+            </value>
+            <value>
+                <fullName>Bathroom Purchases</fullName>
+                <default>false</default>
+                <label>Bathroom Purchases</label>
+            </value>
+            <value>
+                <fullName>Staff Canteen Purchases</fullName>
+                <default>false</default>
+                <label>Beverage Supplies and other costs</label>
+            </value>
+            <value>
+                <fullName>Bluesto Infinite Rental of Equip Leasing</fullName>
+                <default>false</default>
+                <label>Bluesto Infinite Rental of Equip Leasing</label>
+            </value>
+            <value>
+                <fullName>Branded Goods</fullName>
+                <default>false</default>
+                <label>Branded Goods</label>
+            </value>
+            <value>
+                <fullName>Brentwood Council Rates</fullName>
+                <default>false</default>
+                <label>Brentwood Council Rates</label>
+            </value>
+            <value>
+                <fullName>Brentwood Electricity - JAMESAN</fullName>
+                <default>false</default>
+                <label>Brentwood Electricity - JAMESAN</label>
+            </value>
+            <value>
+                <fullName>Brentwood Service Charge</fullName>
+                <default>false</default>
+                <label>Brentwood Service Charge</label>
+            </value>
+            <value>
+                <fullName>BSi Quality Audit</fullName>
+                <default>false</default>
+                <label>BSi Quality Audit</label>
+            </value>
+            <value>
+                <fullName>BT - Line Rentals</fullName>
+                <default>false</default>
+                <label>BT - Line Rentals</label>
+            </value>
+            <value>
+                <fullName>Buffer Accrual</fullName>
+                <default>false</default>
+                <label>Buffer Accrual</label>
+            </value>
+            <value>
+                <fullName>Bupa</fullName>
+                <default>false</default>
+                <label>Bupa</label>
+            </value>
+            <value>
+                <fullName>Business Consultancy</fullName>
+                <default>false</default>
+                <label>Business Consultancy</label>
+            </value>
+            <value>
+                <fullName>BW &amp; Whitley  IT - Hardware Lease Expiry 31/10/2022  Societe General</fullName>
+                <default>false</default>
+                <label>BW &amp; Whitley  IT - Hardware Lease Expiry 31/10/2022  Societe General</label>
+            </value>
+            <value>
+                <fullName>CBIL Form MHA</fullName>
+                <default>false</default>
+                <label>CBIL Form MHA</label>
+            </value>
+            <value>
+                <fullName>CBIL Loan Interest</fullName>
+                <default>false</default>
+                <label>CBIL Loan Interest</label>
+            </value>
+            <value>
+                <fullName>CCR Data Migration</fullName>
+                <default>false</default>
+                <label>CCR Data Migration</label>
+            </value>
+            <value>
+                <fullName>Christmas Party Costs</fullName>
+                <default>false</default>
+                <label>Christmas Party Costs</label>
+            </value>
+            <value>
+                <fullName>Cisco</fullName>
+                <default>false</default>
+                <label>Cisco – Webex</label>
+            </value>
+            <value>
+                <fullName>Cleaning "Other"</fullName>
+                <default>false</default>
+                <label>Cleaning "Other"</label>
+            </value>
+            <value>
+                <fullName>Cleaning Purchases</fullName>
+                <default>false</default>
+                <label>Cleaning Purchases</label>
+            </value>
+            <value>
+                <fullName>Close Admin Fee</fullName>
+                <default>false</default>
+                <label>Close Admin Fee</label>
+            </value>
+            <value>
+                <fullName>Close Arrangement Fee</fullName>
+                <default>false</default>
+                <label>Close Arrangement Fee</label>
+            </value>
+            <value>
+                <fullName>Close Chaps Charges</fullName>
+                <default>false</default>
+                <label>Close Chaps Charges</label>
+            </value>
+            <value>
+                <fullName>Close Disburesment Charges</fullName>
+                <default>false</default>
+                <label>Close Disburesment Charges</label>
+            </value>
+            <value>
+                <fullName>Close Discount Charges</fullName>
+                <default>false</default>
+                <label>Close Discount Charges</label>
+            </value>
+            <value>
+                <fullName>Close Global Payment Fee</fullName>
+                <default>false</default>
+                <label>Close Global Payment Fee</label>
+            </value>
+            <value>
+                <fullName>Close Group Transfer Fee</fullName>
+                <default>false</default>
+                <label>Close Group Transfer Fee</label>
+            </value>
+            <value>
+                <fullName>Close Liquidity Loan Interest</fullName>
+                <default>false</default>
+                <label>Close Liquidity Loan Interest</label>
+            </value>
+            <value>
+                <fullName>Close Refactoring Cost</fullName>
+                <default>false</default>
+                <label>Close Refactoring Cost</label>
+            </value>
+            <value>
+                <fullName>Close Trust Account Charges</fullName>
+                <default>false</default>
+                <label>Close Trust Account Charges</label>
+            </value>
+            <value>
+                <fullName>C McMahon Redundancy</fullName>
+                <default>false</default>
+                <label>C McMahon Redundancy</label>
+            </value>
+            <value>
+                <fullName>Commercial Combined Insurance</fullName>
+                <default>false</default>
+                <label>Commercial Combined Insurance</label>
+            </value>
+            <value>
+                <fullName>Computer Costs "Other" Purchases</fullName>
+                <default>false</default>
+                <label>Computer Costs "Other" Purchases</label>
+            </value>
+            <value>
+                <fullName>Consultant Accountancy - Head Start Financials</fullName>
+                <default>false</default>
+                <label>Consultant Accountancy - Head Start Financials</label>
+            </value>
+            <value>
+                <fullName>contra</fullName>
+                <default>false</default>
+                <label>contra</label>
+            </value>
+            <value>
+                <fullName>Corporate &amp; Customer Entertainment</fullName>
+                <default>false</default>
+                <label>Corporate &amp; Customer Entertainment</label>
+            </value>
+            <value>
+                <fullName>Coventry Council Car Parking</fullName>
+                <default>false</default>
+                <label>Coventry Council Car Parking</label>
+            </value>
+            <value>
+                <fullName>Coventry Council Rates</fullName>
+                <default>false</default>
+                <label>Coventry Council Rates</label>
+            </value>
+            <value>
+                <fullName>Coventry Service Charge</fullName>
+                <default>false</default>
+                <label>Coventry Service Charge</label>
+            </value>
+            <value>
+                <fullName>Croner Taxwise</fullName>
+                <default>false</default>
+                <label>Croner Taxwise</label>
+            </value>
+            <value>
+                <fullName>Currency Revaluation</fullName>
+                <default>false</default>
+                <label>Currency Revaluation</label>
+            </value>
+            <value>
+                <fullName>Customer Gifts</fullName>
+                <default>false</default>
+                <label>Customer Gifts</label>
+            </value>
+            <value>
+                <fullName>Customer Payment</fullName>
+                <default>false</default>
+                <label>Customer Payment</label>
+            </value>
+            <value>
+                <fullName>D&amp;B Contract</fullName>
+                <default>false</default>
+                <label>D&amp;B Contract</label>
+            </value>
+            <value>
+                <fullName>D&amp;B - Credit Information</fullName>
+                <default>false</default>
+                <label>D&amp;B - Credit Information</label>
+            </value>
+            <value>
+                <fullName>Dassault Credit</fullName>
+                <default>false</default>
+                <label>Dassault Credit</label>
+            </value>
+            <value>
+                <fullName>Dell 2YR Pro Support</fullName>
+                <default>false</default>
+                <label>Dell 2YR Pro Support</label>
+            </value>
+            <value>
+                <fullName>Dell Support</fullName>
+                <default>false</default>
+                <label>Dell Support</label>
+            </value>
+            <value>
+                <fullName>DETC</fullName>
+                <default>false</default>
+                <label>DETC</label>
+            </value>
+            <value>
+                <fullName>Digital / Social Lead Platforms</fullName>
+                <default>false</default>
+                <label>Digital / Social Lead Platforms</label>
+            </value>
+            <value>
+                <fullName>Digital River - VMware Licences</fullName>
+                <default>false</default>
+                <label>Digital River - VMware Licences</label>
+            </value>
+            <value>
+                <fullName>Dishwasher Cost Brentwood</fullName>
+                <default>false</default>
+                <label>Dishwasher Cost Brentwood</label>
+            </value>
+            <value>
+                <fullName>Dishwasher Cost Whitley</fullName>
+                <default>false</default>
+                <label>Dishwasher Cost Whitley</label>
+            </value>
+            <value>
+                <fullName>Domain, Webhosting &amp; Web Support</fullName>
+                <default>false</default>
+                <label>Domain, Webhosting &amp; Web Support</label>
+            </value>
+            <value>
+                <fullName>Donations</fullName>
+                <default>false</default>
+                <label>Donations</label>
+            </value>
+            <value>
+                <fullName>D Thomas Redundancy</fullName>
+                <default>false</default>
+                <label>D Thomas Redundancy</label>
+            </value>
+            <value>
+                <fullName>enerjyhub funding - interest</fullName>
+                <default>false</default>
+                <label>eH interest Expiry 24/06/2022  Peac £4,950 per Month</label>
+            </value>
+            <value>
+                <fullName>Electrification of Classic Cars Consult</fullName>
+                <default>false</default>
+                <label>Electrification of Classic Cars Consult</label>
+            </value>
+            <value>
+                <fullName>Electronic banking Charges</fullName>
+                <default>false</default>
+                <label>Electronic banking Charges</label>
+            </value>
+            <value>
+                <fullName>EMI Share Option</fullName>
+                <default>false</default>
+                <label>EMI Share Option</label>
+            </value>
+            <value>
+                <fullName>Employment Support Services</fullName>
+                <default>false</default>
+                <label>Employment Support Services</label>
+            </value>
+            <value>
+                <fullName>enerjyhub development</fullName>
+                <default>false</default>
+                <label>enerjyhub development</label>
+            </value>
+            <value>
+                <fullName>Event Filming</fullName>
+                <default>false</default>
+                <label>Event Filming</label>
+            </value>
+            <value>
+                <fullName>Event - JLR GSI</fullName>
+                <default>false</default>
+                <label>Event - JLR GSI</label>
+            </value>
+            <value>
+                <fullName>Event - Level C</fullName>
+                <default>false</default>
+                <label>Event - Level C</label>
+            </value>
+            <value>
+                <fullName>Events - Construction</fullName>
+                <default>false</default>
+                <label>Events - Construction</label>
+            </value>
+            <value>
+                <fullName>FastSpring/Gearset - SF Backup</fullName>
+                <default>false</default>
+                <label>FastSpring/Gearset - SF Backup</label>
+            </value>
+            <value>
+                <fullName>Fees - DS Academy Planning</fullName>
+                <default>false</default>
+                <label>Fees - DS Academy Planning</label>
+            </value>
+            <value>
+                <fullName>Fees - General</fullName>
+                <default>false</default>
+                <label>Fees - General</label>
+            </value>
+            <value>
+                <fullName>Fees – Les Lee</fullName>
+                <default>false</default>
+                <label>Fees – Les Lee</label>
+            </value>
+            <value>
+                <fullName>Fees - Restructuring</fullName>
+                <default>false</default>
+                <label>Fees - Restructuring</label>
+            </value>
+            <value>
+                <fullName>Wortley Byers</fullName>
+                <default>false</default>
+                <label>Fees - Tees / Wortley Byers</label>
+            </value>
+            <value>
+                <fullName>Foreign Account Trf Fee</fullName>
+                <default>false</default>
+                <label>Foreign Account Trf Fee</label>
+            </value>
+            <value>
+                <fullName>Franking Machine Costs Brentwood</fullName>
+                <default>false</default>
+                <label>Franking Machine Costs Brentwood</label>
+            </value>
+            <value>
+                <fullName>Franking Machine Costs Whitley</fullName>
+                <default>false</default>
+                <label>Franking Machine Costs Whitley</label>
+            </value>
+            <value>
+                <fullName>Furlough Refund</fullName>
+                <default>false</default>
+                <label>Furlough Refund</label>
+            </value>
+            <value>
+                <fullName>G Connector Annual Subscription</fullName>
+                <default>false</default>
+                <label>G Connector Annual Subscription</label>
+            </value>
+            <value>
+                <fullName>Global Payments Fees</fullName>
+                <default>false</default>
+                <label>Global Payments – Credit Card Fees</label>
+            </value>
+            <value>
+                <fullName>GSI Team Purchases</fullName>
+                <default>false</default>
+                <label>GSI Team Purchases</label>
+            </value>
+            <value>
+                <fullName>Halo Pass of Title Leasing</fullName>
+                <default>false</default>
+                <label>Halo Pass of Title Leasing</label>
+            </value>
+            <value>
+                <fullName>Health &amp; Safety</fullName>
+                <default>false</default>
+                <label>Health &amp; Safety</label>
+            </value>
+            <value>
+                <fullName>Hygiene Services Whitley</fullName>
+                <default>false</default>
+                <label>Hygiene Services Whitley</label>
+            </value>
+            <value>
+                <fullName>ICO Fees General</fullName>
+                <default>false</default>
+                <label>ICO Fees General</label>
+            </value>
+            <value>
+                <fullName>I McQuillan Redundancy</fullName>
+                <default>false</default>
+                <label>I McQuillan Redundancy</label>
+            </value>
+            <value>
+                <fullName>Insight Veeam</fullName>
+                <default>false</default>
+                <label>Insight Veeam</label>
+            </value>
+            <value>
+                <fullName>Interest PEAC SFDC Split</fullName>
+                <default>false</default>
+                <label>Interest PEAC SFDC Split 36 Mth</label>
+            </value>
+            <value>
+                <fullName>Interest Received</fullName>
+                <default>false</default>
+                <label>Interest Received</label>
+            </value>
+            <value>
+                <fullName>Internal Marketing</fullName>
+                <default>false</default>
+                <label>Internal Marketing</label>
+            </value>
+            <value>
+                <fullName>Internal Reallocation</fullName>
+                <default>false</default>
+                <label>Internal Reallocation</label>
+            </value>
+            <value>
+                <fullName>Internal SF &amp; MX Support</fullName>
+                <default>false</default>
+                <label>Internal SF &amp; MX Support</label>
+            </value>
+            <value>
+                <fullName>Internet Brentwood</fullName>
+                <default>false</default>
+                <label>Internet Brentwood</label>
+            </value>
+            <value>
+                <fullName>Leased Line</fullName>
+                <default>false</default>
+                <label>Internet Leased Line</label>
+            </value>
+            <value>
+                <fullName>Iphone Purchase</fullName>
+                <default>false</default>
+                <label>Iphone Purchase</label>
+            </value>
+            <value>
+                <fullName>Purple Service Charge</fullName>
+                <default>false</default>
+                <label>ISDN 29 Channels</label>
+            </value>
+            <value>
+                <fullName>IT - Accrual</fullName>
+                <default>false</default>
+                <label>IT - Accrual</label>
+            </value>
+            <value>
+                <fullName>IT Back Up and Disaster Recovery</fullName>
+                <default>false</default>
+                <label>IT Back Up and Disaster Recovery</label>
+            </value>
+            <value>
+                <fullName>IT - Hardware Lease</fullName>
+                <default>false</default>
+                <label>IT - Hardware Expiry 15/06/2020 Societe General</label>
+            </value>
+            <value>
+                <fullName>IT Hardware Lease Whitley</fullName>
+                <default>false</default>
+                <label>IT Hardware Lease Whitley</label>
+            </value>
+            <value>
+                <fullName>IT - Sundry</fullName>
+                <default>false</default>
+                <label>IT - Sundry</label>
+            </value>
+            <value>
+                <fullName>J Watson Ex Gracia</fullName>
+                <default>false</default>
+                <label>J Watson Ex Gracia</label>
+            </value>
+            <value>
+                <fullName>J Watson Statutory</fullName>
+                <default>false</default>
+                <label>J Watson Statutory</label>
+            </value>
+            <value>
+                <fullName>Lease Rental KH Refurb</fullName>
+                <default>false</default>
+                <label>KH Refurb  Expiry 16/09/2021 Investec</label>
+            </value>
+            <value>
+                <fullName>Laptop Purchases</fullName>
+                <default>false</default>
+                <label>Laptop Purchases</label>
+            </value>
+            <value>
+                <fullName>IT - Laptops</fullName>
+                <default>false</default>
+                <label>Laptops</label>
+            </value>
+            <value>
+                <fullName>Leased Internet Line Whitley</fullName>
+                <default>false</default>
+                <label>Leased Internet Line Whitley</label>
+            </value>
+            <value>
+                <fullName>Lease MX Redesign Upgrade</fullName>
+                <default>false</default>
+                <label>Lease MX Redesign Upgrade Expiry 31.12.23 Investec 36 Mth</label>
+            </value>
+            <value>
+                <fullName>Legal Fee - FOS Agreement</fullName>
+                <default>false</default>
+                <label>Legal Fee - FOS Agreement</label>
+            </value>
+            <value>
+                <fullName>Legal Fees (Autodesk Sale)</fullName>
+                <default>false</default>
+                <label>Legal Fees (Autodesk Sale)</label>
+            </value>
+            <value>
+                <fullName>Legal Fees - Construction</fullName>
+                <default>false</default>
+                <label>Legal Fees - Construction</label>
+            </value>
+            <value>
+                <fullName>Legal Fees - Contractors Advice</fullName>
+                <default>false</default>
+                <label>Legal Fees - Contractors Advice</label>
+            </value>
+            <value>
+                <fullName>Legal Fees - Data Breach</fullName>
+                <default>false</default>
+                <label>Legal Fees - Data Breach</label>
+            </value>
+            <value>
+                <fullName>Legal Fees - enerjyhub</fullName>
+                <default>false</default>
+                <label>Legal Fees - enerjyhub</label>
+            </value>
+            <value>
+                <fullName>Legal Fees - General</fullName>
+                <default>false</default>
+                <label>Legal Fees - General</label>
+            </value>
+            <value>
+                <fullName>Legal Fees - MX</fullName>
+                <default>false</default>
+                <label>Legal Fees - MX</label>
+            </value>
+            <value>
+                <fullName>Legal Fees - Share Scheme</fullName>
+                <default>false</default>
+                <label>Legal Fees - Share Scheme</label>
+            </value>
+            <value>
+                <fullName>Legal Fess - Chris Flint</fullName>
+                <default>false</default>
+                <label>Legal Fess - Chris Flint</label>
+            </value>
+            <value>
+                <fullName>L Falconer Redundancy</fullName>
+                <default>false</default>
+                <label>L Falconer Redundancy</label>
+            </value>
+            <value>
+                <fullName>Link CCTV Car Park Brentwood</fullName>
+                <default>false</default>
+                <label>Link CCTV Car Park Brentwood</label>
+            </value>
+            <value>
+                <fullName>Macquarie Leasing</fullName>
+                <default>false</default>
+                <label>Macquarie Leasing</label>
+            </value>
+            <value>
+                <fullName>Make Positive Additional Days</fullName>
+                <default>false</default>
+                <label>Make Positive Additional Days</label>
+            </value>
+            <value>
+                <fullName>Make Positive Cost</fullName>
+                <default>false</default>
+                <label>Make Positive Cost 36 Mth</label>
+            </value>
+            <value>
+                <fullName>Marketing Costs - Events</fullName>
+                <default>false</default>
+                <label>Marketing Costs - Events</label>
+            </value>
+            <value>
+                <fullName>Marketing - General</fullName>
+                <default>false</default>
+                <label>Marketing - General</label>
+            </value>
+            <value>
+                <fullName>Marketing Rebate DS</fullName>
+                <default>false</default>
+                <label>Marketing Rebate DS</label>
+            </value>
+            <value>
+                <fullName>Meeting Room Hire</fullName>
+                <default>false</default>
+                <label>Meeting Room Hire</label>
+            </value>
+            <value>
+                <fullName>MHA</fullName>
+                <default>false</default>
+                <label>MHA</label>
+            </value>
+            <value>
+                <fullName>MHA Audit</fullName>
+                <default>false</default>
+                <label>MHA Audit</label>
+            </value>
+            <value>
+                <fullName>MHA Payroll</fullName>
+                <default>false</default>
+                <label>MHA Payroll</label>
+            </value>
+            <value>
+                <fullName>MHA Payroll Cost</fullName>
+                <default>false</default>
+                <label>MHA Payroll Cost</label>
+            </value>
+            <value>
+                <fullName>Microsoft Licences</fullName>
+                <default>false</default>
+                <label>Microsoft Licences</label>
+            </value>
+            <value>
+                <fullName>MX Video Website &amp; Other</fullName>
+                <default>false</default>
+                <label>MX Video Website &amp; Other</label>
+            </value>
+            <value>
+                <fullName>Lease Rental New Chairs Whitley</fullName>
+                <default>false</default>
+                <label>New Chairs Whitley Expiry 01/03/2022 Investec</label>
+            </value>
+            <value>
+                <fullName>New Furniture</fullName>
+                <default>false</default>
+                <label>New Furniture</label>
+            </value>
+            <value>
+                <fullName>New Maj Org Add Licences</fullName>
+                <default>false</default>
+                <label>New Maj Org Add Licences</label>
+            </value>
+            <value>
+                <fullName>New Maj Org Pardot</fullName>
+                <default>false</default>
+                <label>New Maj Org Pardot</label>
+            </value>
+            <value>
+                <fullName>Shared Mobile Data</fullName>
+                <default>false</default>
+                <label>O2 Shared Data Costs</label>
+            </value>
+            <value>
+                <fullName>Office 365</fullName>
+                <default>false</default>
+                <label>Office 365</label>
+            </value>
+            <value>
+                <fullName>Office Cartidges Brentwood</fullName>
+                <default>false</default>
+                <label>Office Cartidges Brentwood</label>
+            </value>
+            <value>
+                <fullName>Office Cartridges Whitley</fullName>
+                <default>false</default>
+                <label>Office Cartridges Whitley</label>
+            </value>
+            <value>
+                <fullName>Office Move Costs - Kings House</fullName>
+                <default>false</default>
+                <label>Office Move Costs - Kings House</label>
+            </value>
+            <value>
+                <fullName>Office Stationery Orders Brentwood</fullName>
+                <default>false</default>
+                <label>Office Stationery Orders Brentwood</label>
+            </value>
+            <value>
+                <fullName>Office Stationery Orders Whitley</fullName>
+                <default>false</default>
+                <label>Office Stationery Orders Whitley</label>
+            </value>
+            <value>
+                <fullName>Online Store Costs</fullName>
+                <default>false</default>
+                <label>Online Store Costs</label>
+            </value>
+            <value>
+                <fullName>Painting Kings House</fullName>
+                <default>false</default>
+                <label>Painting Kings House</label>
+            </value>
+            <value>
+                <fullName>Panda Licences</fullName>
+                <default>false</default>
+                <label>Panda Licences</label>
+            </value>
+            <value>
+                <fullName>PAT Testing Brentwood</fullName>
+                <default>false</default>
+                <label>PAT Testing Brentwood</label>
+            </value>
+            <value>
+                <fullName>Peninsula Employment Services</fullName>
+                <default>false</default>
+                <label>Peninsula Employment Services</label>
+            </value>
+            <value>
+                <fullName>Pitney Bowes Cancellation Charge</fullName>
+                <default>false</default>
+                <label>Pitney Bowes Cancellation Charge</label>
+            </value>
+            <value>
+                <fullName>Platform</fullName>
+                <default>false</default>
+                <label>Platform</label>
+            </value>
+            <value>
+                <fullName>Postage Courier Charges</fullName>
+                <default>false</default>
+                <label>Postage Courier Charges</label>
+            </value>
+            <value>
+                <fullName>POWWOW - Conference Callls</fullName>
+                <default>false</default>
+                <label>POWWOW - Conference Callls</label>
+            </value>
+            <value>
+                <fullName>Influence Associates</fullName>
+                <default>false</default>
+                <label>PR - Influence Associates</label>
+            </value>
+            <value>
+                <fullName>Print - General</fullName>
+                <default>false</default>
+                <label>Print - General</label>
+            </value>
+            <value>
+                <fullName>Printing &amp; Stationery "Other"</fullName>
+                <default>false</default>
+                <label>Printing &amp; Stationery "Other"</label>
+            </value>
+            <value>
+                <fullName>Printrite - A2 Plans</fullName>
+                <default>false</default>
+                <label>Printrite - A2 Plans</label>
+            </value>
+            <value>
+                <fullName>Professional Fees - Automotive Industry knowledge</fullName>
+                <default>false</default>
+                <label>Professional Fees - Automotive Industry Knowledge</label>
+            </value>
+            <value>
+                <fullName>Professional Fees - general</fullName>
+                <default>false</default>
+                <label>Professional Fees - General</label>
+            </value>
+            <value>
+                <fullName>Professional Indemnity Insurance</fullName>
+                <default>false</default>
+                <label>Professional Indemnity Insurance</label>
+            </value>
+            <value>
+                <fullName>Property Owners Insurance</fullName>
+                <default>false</default>
+                <label>Property Owners Insurance</label>
+            </value>
+            <value>
+                <fullName>Food for Staff &amp; Director Meetings</fullName>
+                <default>false</default>
+                <label>Provisions for Meetings</label>
+            </value>
+            <value>
+                <fullName>Purple - call charges</fullName>
+                <default>false</default>
+                <label>Purple - call charges</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Recruitment</fullName>
+                <default>false</default>
+                <label>Recruitment</label>
+            </value>
+            <value>
+                <fullName>RecruitmentOT</fullName>
+                <default>false</default>
+                <label>Recruitment Online Tools</label>
+            </value>
+            <value>
+                <fullName>Redundancy</fullName>
+                <default>false</default>
+                <label>Redundancy</label>
+            </value>
+            <value>
+                <fullName>Refuse Collection Brentwood</fullName>
+                <default>false</default>
+                <label>Refuse Collection Brentwood</label>
+            </value>
+            <value>
+                <fullName>Refuse Collection Whitley</fullName>
+                <default>false</default>
+                <label>Refuse Collection Whitley</label>
+            </value>
+            <value>
+                <fullName>Rent Brentwood Kings House</fullName>
+                <default>false</default>
+                <label>Rent Brentwood Kings House</label>
+            </value>
+            <value>
+                <fullName>Rent Semcon</fullName>
+                <default>false</default>
+                <label>Rent Semcon</label>
+            </value>
+            <value>
+                <fullName>Rent Whitley</fullName>
+                <default>false</default>
+                <label>Rent Whitley</label>
+            </value>
+            <value>
+                <fullName>R&amp;M "Other"</fullName>
+                <default>false</default>
+                <label>Repairs &amp; Maintenance</label>
+            </value>
+            <value>
+                <fullName>Reseller</fullName>
+                <default>false</default>
+                <label>Reseller</label>
+            </value>
+            <value>
+                <fullName>Sage 50 Licence</fullName>
+                <default>false</default>
+                <label>Sage 50 Licence</label>
+            </value>
+            <value>
+                <fullName>Sage Licence</fullName>
+                <default>false</default>
+                <label>Sage Licence</label>
+            </value>
+            <value>
+                <fullName>SEO</fullName>
+                <default>false</default>
+                <label>SEO</label>
+            </value>
+            <value>
+                <fullName>SFCD / Sage Connector</fullName>
+                <default>false</default>
+                <label>SFDC / Sage Connector</label>
+            </value>
+            <value>
+                <fullName>SFDC - Analytics Engage</fullName>
+                <default>false</default>
+                <label>SFDC - Analytics Engage</label>
+            </value>
+            <value>
+                <fullName>SFDC - Customer Community</fullName>
+                <default>false</default>
+                <label>SFDC - Customer Community</label>
+            </value>
+            <value>
+                <fullName>Salesforce Dynamic Dashboards</fullName>
+                <default>false</default>
+                <label>SFDC - Dashboards</label>
+            </value>
+            <value>
+                <fullName>Salesforce Knowledge Licences</fullName>
+                <default>false</default>
+                <label>SFDC Knowledge</label>
+            </value>
+            <value>
+                <fullName>SFDC - Licences Allocated for other uses</fullName>
+                <default>false</default>
+                <label>SFDC - Licences Allocated for other uses</label>
+            </value>
+            <value>
+                <fullName>SFDC - Make Positive Managed Services</fullName>
+                <default>false</default>
+                <label>SFDC - Make Positive Managed Services</label>
+            </value>
+            <value>
+                <fullName>SFDC - Marketing Code Pardot</fullName>
+                <default>false</default>
+                <label>SFDC - Marketing Code Pardot</label>
+            </value>
+            <value>
+                <fullName>SFDC - Pardot</fullName>
+                <default>false</default>
+                <label>SFDC - Pardot</label>
+            </value>
+            <value>
+                <fullName>Salesforce Partner Portal Licences</fullName>
+                <default>false</default>
+                <label>SFDC  - Partner Portal</label>
+            </value>
+            <value>
+                <fullName>Salesforce Analytics Licences</fullName>
+                <default>false</default>
+                <label>SFDC - Sales Analytics</label>
+            </value>
+            <value>
+                <fullName>Salesforce Sandbox</fullName>
+                <default>false</default>
+                <label>SFDC - Sandbox</label>
+            </value>
+            <value>
+                <fullName>SFDC - Sales Analytics</fullName>
+                <default>false</default>
+                <label>SFDC - Services Analytics</label>
+            </value>
+            <value>
+                <fullName>Salesforce Spare Licences</fullName>
+                <default>false</default>
+                <label>SFDC - Spare Licences</label>
+            </value>
+            <value>
+                <fullName>Salesforce Data Storage</fullName>
+                <default>false</default>
+                <label>SFDC - Storage</label>
+            </value>
+            <value>
+                <fullName>SFDC - User - B2B integration</fullName>
+                <default>false</default>
+                <label>SFDC - User - B2B integration</label>
+            </value>
+            <value>
+                <fullName>SFDC - User - BSI Audit Licence</fullName>
+                <default>false</default>
+                <label>SFDC - User - BSI Audit Licence</label>
+            </value>
+            <value>
+                <fullName>SFDC - User - Insight Security</fullName>
+                <default>false</default>
+                <label>SFDC - User - Insight Security</label>
+            </value>
+            <value>
+                <fullName>SFDC - User - Integration</fullName>
+                <default>false</default>
+                <label>SFDC - User - Integration</label>
+            </value>
+            <value>
+                <fullName>SFDC - User - Leaver Licences</fullName>
+                <default>false</default>
+                <label>SFDC - User - Leaver Licences</label>
+            </value>
+            <value>
+                <fullName>SFDC - User - Salesforce GSI Auto</fullName>
+                <default>false</default>
+                <label>SFDC - User - Salesforce GSI Auto</label>
+            </value>
+            <value>
+                <fullName>SF- Elements</fullName>
+                <default>false</default>
+                <label>SF- Elements</label>
+            </value>
+            <value>
+                <fullName>SF Inbox</fullName>
+                <default>false</default>
+                <label>SF Inbox</label>
+            </value>
+            <value>
+                <fullName>SF Mulesoft</fullName>
+                <default>false</default>
+                <label>SF Mulesoft</label>
+            </value>
+            <value>
+                <fullName>SF Premier Success Plan</fullName>
+                <default>false</default>
+                <label>SF Premier Success Plan</label>
+            </value>
+            <value>
+                <fullName>SF Sustainability</fullName>
+                <default>false</default>
+                <label>SF Sustainability</label>
+            </value>
+            <value>
+                <fullName>Site &amp; Contractual Cleaning - Brentwood</fullName>
+                <default>false</default>
+                <label>Site &amp; Contractual Cleaning - Brentwood</label>
+            </value>
+            <value>
+                <fullName>Site &amp; Contractual Cleaning - Whitley</fullName>
+                <default>false</default>
+                <label>Site &amp; Contractual Cleaning - Whitley</label>
+            </value>
+            <value>
+                <fullName>Social Media Advertising</fullName>
+                <default>false</default>
+                <label>Social Media Advertising</label>
+            </value>
+            <value>
+                <fullName>Softlink Licences x 20</fullName>
+                <default>false</default>
+                <label>Softlink Licences x 20</label>
+            </value>
+            <value>
+                <fullName>Solarwinds Cyber Security</fullName>
+                <default>false</default>
+                <label>Solarwinds Cyber Security</label>
+            </value>
+            <value>
+                <fullName>Spare 02 Lines</fullName>
+                <default>false</default>
+                <label>Spare 02 Lines</label>
+            </value>
+            <value>
+                <fullName>Spare Mobile Lines</fullName>
+                <default>false</default>
+                <label>Spare Mobile Lines</label>
+            </value>
+            <value>
+                <fullName>S Patel Redundancy</fullName>
+                <default>false</default>
+                <label>S Patel Redundancy</label>
+            </value>
+            <value>
+                <fullName>SSO Implementation MX/EH</fullName>
+                <default>false</default>
+                <label>SSO Implementation MX/EH</label>
+            </value>
+            <value>
+                <fullName>Staff Gift (Leaving etc)</fullName>
+                <default>false</default>
+                <label>Staff Gift (Leaving etc)</label>
+            </value>
+            <value>
+                <fullName>Staff Welfare - PSA Payment</fullName>
+                <default>false</default>
+                <label>Staff Welfare - PSA Payment</label>
+            </value>
+            <value>
+                <fullName>Storm Watchguard Firewall</fullName>
+                <default>false</default>
+                <label>Storm Watchguard Firewall</label>
+            </value>
+            <value>
+                <fullName>Subscriptions</fullName>
+                <default>false</default>
+                <label>Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Ebuyer - IT Equipment</fullName>
+                <default>false</default>
+                <label>Sundry - Including VPN, Routers, etc</label>
+            </value>
+            <value>
+                <fullName>Tax Returns</fullName>
+                <default>false</default>
+                <label>Tax Returns</label>
+            </value>
+            <value>
+                <fullName>Team Viewer / Webex</fullName>
+                <default>false</default>
+                <label>Team Viewer / Webex</label>
+            </value>
+            <value>
+                <fullName>PEAC - Telephone Lease Bwood</fullName>
+                <default>false</default>
+                <label>Telephone GSI Semcon Expiry 23/08/2020 Peac</label>
+            </value>
+            <value>
+                <fullName>Travel Insurance</fullName>
+                <default>false</default>
+                <label>Travel Insurance</label>
+            </value>
+            <value>
+                <fullName>TV Licence Brentwood</fullName>
+                <default>false</default>
+                <label>TV Licence Brentwood</label>
+            </value>
+            <value>
+                <fullName>TV Licence Whitley</fullName>
+                <default>false</default>
+                <label>TV Licence Whitley</label>
+            </value>
+            <value>
+                <fullName>Virtual Telephone Lines</fullName>
+                <default>false</default>
+                <label>Virtual Telephone Lines</label>
+            </value>
+            <value>
+                <fullName>Webex</fullName>
+                <default>false</default>
+                <label>Webex</label>
+            </value>
+            <value>
+                <fullName>Website - enerjyhub</fullName>
+                <default>false</default>
+                <label>Website - enerjyhub</label>
+            </value>
+            <value>
+                <fullName>Whitley Electricity - EDF</fullName>
+                <default>false</default>
+                <label>Whitley Electricity - EDF</label>
+            </value>
+            <value>
+                <fullName>Whitley Zenith Internal Refurbishment</fullName>
+                <default>false</default>
+                <label>Whitley Zenith Internal Refurbishment</label>
+            </value>
+            <value>
+                <fullName>Windows Licences x 6</fullName>
+                <default>false</default>
+                <label>Windows Licences x 6</label>
+            </value>
+            <value>
+                <fullName>Xero</fullName>
+                <default>false</default>
+                <label>Xero</label>
+            </value>
+            <value>
+                <fullName>Zeemaps</fullName>
+                <default>false</default>
+                <label>Zeemaps</label>
+            </value>
+            <value>
+                <fullName>Zynk Workflow Cost</fullName>
+                <default>false</default>
+                <label>Zynk Workflow Cost</label>
+            </value>
+            <value>
+                <fullName>SF Marketing Cloud</fullName>
+                <default>false</default>
+                <label>SF Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Sundry IT Infrastructure Items</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sundry IT Infrastructure Items</label>
+            </value>
+            <value>
+                <fullName>Team Viewer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Team Viewer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Cover_ticked_when_Driver_is_not</fullName>
+    <active>true</active>
+    <description>Triggers when the Business Driver is not ticked but the business cover is ticked</description>
+    <errorConditionFormula>IsBusiness_Driver__c = FALSE &amp;&amp;  IsBusiness_Cover__c = TRUE</errorConditionFormula>
+    <errorDisplayField>IsBusiness_Cover__c</errorDisplayField>
+    <errorMessage>To tick "Business Cover" you must be a "Business Driver". If you are, also tick "Business Driver"</errorMessage>
+</ValidationRule>

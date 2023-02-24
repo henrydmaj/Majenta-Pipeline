@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_is_accepted__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This checkbox will be checked once the quote has been accepted and will then trigger a field update.</description>
+    <externalId>false</externalId>
+    <label>Quote is accepted</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

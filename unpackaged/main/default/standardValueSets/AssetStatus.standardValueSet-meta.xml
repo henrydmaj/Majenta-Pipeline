@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Active/Production</fullName>
+        <default>false</default>
+        <label>Active/Production</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unassigned</fullName>
+        <default>false</default>
+        <label>Unassigned</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recycled</fullName>
+        <default>false</default>
+        <label>Recycled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scrap</fullName>
+        <default>false</default>
+        <label>Scrap</label>
+    </standardValue>
+</StandardValueSet>

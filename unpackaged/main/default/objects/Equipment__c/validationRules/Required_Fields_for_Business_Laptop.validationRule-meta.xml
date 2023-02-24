@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Fields_for_Business_Laptop</fullName>
+    <active>true</active>
+    <description>Business Laptop Make and Business Laptop Service Tag must be populated</description>
+    <errorConditionFormula>RecordType.Name = "Business Laptop"
+
+&amp;&amp;
+
+(ISBLANK( Business_Laptop_Service_Tag__c )
+ || 
+( ISPICKVAL( Business_Laptop_Make__c , "")))</errorConditionFormula>
+    <errorMessage>Business Laptop Make and Business Laptop Service Tag must be populated</errorMessage>
+</ValidationRule>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OEMs_Supplied__c</fullName>
+    <externalId>false</externalId>
+    <label>OEMs Supplied</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aerospace - Airbus</fullName>
+                <default>false</default>
+                <label>Aerospace - Airbus</label>
+            </value>
+            <value>
+                <fullName>Aerospace - BAE Systems</fullName>
+                <default>false</default>
+                <label>Aerospace - BAE Systems</label>
+            </value>
+            <value>
+                <fullName>Aerospace - Boeing</fullName>
+                <default>false</default>
+                <label>Aerospace - Boeing</label>
+            </value>
+            <value>
+                <fullName>Aerospace - Bombardier</fullName>
+                <default>false</default>
+                <label>Aerospace - Bombardier</label>
+            </value>
+            <value>
+                <fullName>Aerospace - General Electric</fullName>
+                <default>false</default>
+                <label>Aerospace - General Electric</label>
+            </value>
+            <value>
+                <fullName>Aerospace - Honeywell</fullName>
+                <default>false</default>
+                <label>Aerospace - Honeywell</label>
+            </value>
+            <value>
+                <fullName>Aerospace - Lockheed</fullName>
+                <default>false</default>
+                <label>Aerospace - Lockheed</label>
+            </value>
+            <value>
+                <fullName>Aerospace - Rolls-Royce</fullName>
+                <default>false</default>
+                <label>Aerospace - Rolls-Royce</label>
+            </value>
+            <value>
+                <fullName>Aerospace - SAFRAN</fullName>
+                <default>false</default>
+                <label>Aerospace - SAFRAN</label>
+            </value>
+            <value>
+                <fullName>Automotive - Audi</fullName>
+                <default>false</default>
+                <label>Automotive - Audi</label>
+            </value>
+            <value>
+                <fullName>Automotive - Bentley</fullName>
+                <default>false</default>
+                <label>Automotive - Bentley</label>
+            </value>
+            <value>
+                <fullName>Automotive - BMW</fullName>
+                <default>false</default>
+                <label>Automotive - BMW</label>
+            </value>
+            <value>
+                <fullName>Automotive - Fiat</fullName>
+                <default>false</default>
+                <label>Automotive - Fiat</label>
+            </value>
+            <value>
+                <fullName>Automotive - Ford</fullName>
+                <default>false</default>
+                <label>Automotive - Ford</label>
+            </value>
+            <value>
+                <fullName>Automotive - Honda</fullName>
+                <default>false</default>
+                <label>Automotive - Honda</label>
+            </value>
+            <value>
+                <fullName>Automotive - Hyundai</fullName>
+                <default>false</default>
+                <label>Automotive - Hyundai</label>
+            </value>
+            <value>
+                <fullName>Automotive - JLR</fullName>
+                <default>false</default>
+                <label>Automotive - JLR</label>
+            </value>
+            <value>
+                <fullName>Automotive - Kia</fullName>
+                <default>false</default>
+                <label>Automotive - Kia</label>
+            </value>
+            <value>
+                <fullName>Automotive - Nissan</fullName>
+                <default>false</default>
+                <label>Automotive - Nissan</label>
+            </value>
+            <value>
+                <fullName>Automotive - Renault</fullName>
+                <default>false</default>
+                <label>Automotive - Renault</label>
+            </value>
+            <value>
+                <fullName>Automotive - Rolls-Royce</fullName>
+                <default>false</default>
+                <label>Automotive - Rolls-Royce</label>
+            </value>
+            <value>
+                <fullName>Automotive - SAIC Motors</fullName>
+                <default>false</default>
+                <label>Automotive - SAIC Motors</label>
+            </value>
+            <value>
+                <fullName>Automotive - SEAT</fullName>
+                <default>false</default>
+                <label>Automotive - SEAT</label>
+            </value>
+            <value>
+                <fullName>Automotive - Škoda</fullName>
+                <default>false</default>
+                <label>Automotive - Škoda</label>
+            </value>
+            <value>
+                <fullName>Automotive - Suzuki</fullName>
+                <default>false</default>
+                <label>Automotive - Suzuki</label>
+            </value>
+            <value>
+                <fullName>Automotive - Toyota</fullName>
+                <default>false</default>
+                <label>Automotive - Toyota</label>
+            </value>
+            <value>
+                <fullName>Automotive - Vauxhall</fullName>
+                <default>false</default>
+                <label>Automotive - Vauxhall</label>
+            </value>
+            <value>
+                <fullName>Automotive - Volkswagen</fullName>
+                <default>false</default>
+                <label>Automotive - Volkswagen</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>AUTODESK</fullName>
+        <color>#FFCC33</color>
+        <default>false</default>
+        <label>AUTODESK</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IT</fullName>
+        <color>#0B24BE</color>
+        <default>false</default>
+        <label>IT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Services</fullName>
+        <color>#78C953</color>
+        <default>false</default>
+        <label>Data Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PLM</fullName>
+        <color>#339999</color>
+        <default>false</default>
+        <label>PLM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Solid Edge</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Solid Edge</label>
+    </standardValue>
+    <standardValue>
+        <fullName>COMOS</fullName>
+        <default>false</default>
+        <label>COMOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Software Development</fullName>
+        <default>false</default>
+        <label>Software Development</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dassault</fullName>
+        <color>#A53711</color>
+        <default>false</default>
+        <label>Dassault</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Majenta</fullName>
+        <color>#F96FB7</color>
+        <default>false</default>
+        <label>Majenta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consultants</fullName>
+        <color>#6600CC</color>
+        <default>false</default>
+        <label>Consultants</label>
+    </standardValue>
+    <standardValue>
+        <fullName>JLR iPLM</fullName>
+        <color>#330033</color>
+        <default>false</default>
+        <label>JLR iPLM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Overhead</fullName>
+        <default>false</default>
+        <label>Overhead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>enerjyhub</fullName>
+        <color>#993399</color>
+        <default>false</default>
+        <label>enerjyhub</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Construction</fullName>
+        <color>#FF6666</color>
+        <default>false</default>
+        <label>Construction</label>
+    </standardValue>
+</StandardValueSet>

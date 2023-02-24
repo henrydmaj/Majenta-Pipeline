@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalBookingsInvoiced__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Bookings Invoiced</label>
+    <summaryFilterItems>
+        <field>TrainingBooking__c.Invoiced__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>TrainingBooking__c.TrainingCourse__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

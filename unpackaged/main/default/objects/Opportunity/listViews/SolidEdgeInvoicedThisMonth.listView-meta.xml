@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SolidEdgeInvoicedThisMonth</fullName>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Division__c</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Margin_Calc__c</columns>
+    <columns>InvoiceStatus__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LastInvoiceDate__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.WON</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Division__c</field>
+        <operation>equals</operation>
+        <value>Solid Edge</value>
+    </filters>
+    <label>Solid Edge - Invoiced This Month</label>
+    <sharedTo>
+        <group>AccountsTeam</group>
+    </sharedTo>
+</ListView>

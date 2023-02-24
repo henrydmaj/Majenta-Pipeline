@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>P_Bug_VR1_FixedDateMustBeProvided</fullName>
+    <active>true</active>
+    <description>User must provide fixed date when the bug is fixed</description>
+    <errorConditionFormula>AND(ISPICKVAL(StatusPick__c ,"Fixed"),
+				ISBLANK(FixedDate__c))</errorConditionFormula>
+    <errorDisplayField>FixedDate__c</errorDisplayField>
+    <errorMessage>Please provide date the bug was fixed.</errorMessage>
+</ValidationRule>

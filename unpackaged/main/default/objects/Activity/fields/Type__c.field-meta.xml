@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Activity__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not There</fullName>
+                <default>false</default>
+                <label>Not There</label>
+            </value>
+            <value>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+                <label>Left Message</label>
+            </value>
+            <value>
+                <fullName>Call Back</fullName>
+                <default>false</default>
+                <label>Call Back</label>
+            </value>
+            <value>
+                <fullName>Gatekeeper</fullName>
+                <default>false</default>
+                <label>Gatekeeper</label>
+            </value>
+            <value>
+                <fullName>Engaged</fullName>
+                <default>false</default>
+                <label>Engaged</label>
+            </value>
+            <value>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+                <label>Cold Call</label>
+            </value>
+            <value>
+                <fullName>Longterm</fullName>
+                <default>false</default>
+                <label>Longterm</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Dead</fullName>
+                <default>false</default>
+                <label>Dead</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Pre Sales Demo</fullName>
+                <default>false</default>
+                <label>Pre Sales Demo</label>
+            </value>
+            <value>
+                <fullName>Pre Sales Demo Preperation</fullName>
+                <default>false</default>
+                <label>Pre Sales Demo Preperation</label>
+            </value>
+            <value>
+                <fullName>Internal Event</fullName>
+                <default>false</default>
+                <label>Internal Event</label>
+            </value>
+            <value>
+                <fullName>Internal Event Preperation</fullName>
+                <default>false</default>
+                <label>Internal Event Preperation</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Training Preperation</fullName>
+                <default>false</default>
+                <label>Training Preperation</label>
+            </value>
+            <value>
+                <fullName>Helpdesk</fullName>
+                <default>false</default>
+                <label>Helpdesk</label>
+            </value>
+            <value>
+                <fullName>Partner Meetings</fullName>
+                <default>false</default>
+                <label>Partner Meetings</label>
+            </value>
+            <value>
+                <fullName>Post Sales Support/Consultancy</fullName>
+                <default>false</default>
+                <label>Post Sales Support/Consultancy</label>
+            </value>
+            <value>
+                <fullName>Administration/Reports/Salesforce.com</fullName>
+                <default>false</default>
+                <label>Administration/Reports/Salesforce.com</label>
+            </value>
+            <value>
+                <fullName>Forecast Review</fullName>
+                <default>false</default>
+                <label>Forecast Review</label>
+            </value>
+            <value>
+                <fullName>Initial Meeting</fullName>
+                <default>false</default>
+                <label>Initial Meeting</label>
+            </value>
+            <value>
+                <fullName>Demonstration</fullName>
+                <default>false</default>
+                <label>Demonstration</label>
+            </value>
+            <value>
+                <fullName>Close Meeting</fullName>
+                <default>false</default>
+                <label>Close Meeting</label>
+            </value>
+            <value>
+                <fullName>Customer Visit</fullName>
+                <default>false</default>
+                <label>Customer Visit</label>
+            </value>
+            <value>
+                <fullName>Technical Review Meeting</fullName>
+                <default>false</default>
+                <label>Technical Review Meeting</label>
+            </value>
+            <value>
+                <fullName>Exploratory Meeting</fullName>
+                <default>false</default>
+                <label>Exploratory Meeting</label>
+            </value>
+            <value>
+                <fullName>Thank You</fullName>
+                <default>false</default>
+                <label>Thank You</label>
+            </value>
+            <value>
+                <fullName>TAM Visit</fullName>
+                <default>false</default>
+                <label>TAM Visit</label>
+            </value>
+            <value>
+                <fullName>Internal IT</fullName>
+                <default>false</default>
+                <label>Internal IT</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+                <label>Holiday</label>
+            </value>
+            <value>
+                <fullName>Sickness</fullName>
+                <default>false</default>
+                <label>Sickness</label>
+            </value>
+            <value>
+                <fullName>Monthly Procedure</fullName>
+                <default>false</default>
+                <label>Monthly Procedure</label>
+            </value>
+            <value>
+                <fullName>Daily Task</fullName>
+                <default>false</default>
+                <label>Daily Task</label>
+            </value>
+            <value>
+                <fullName>Quarterly Procedure</fullName>
+                <default>false</default>
+                <label>Quarterly Procedure</label>
+            </value>
+            <value>
+                <fullName>System Development</fullName>
+                <default>false</default>
+                <label>System Development</label>
+            </value>
+            <value>
+                <fullName>Ad Hoc</fullName>
+                <default>false</default>
+                <label>Ad Hoc</label>
+            </value>
+            <value>
+                <fullName>Reminder</fullName>
+                <default>false</default>
+                <label>Reminder</label>
+            </value>
+            <value>
+                <fullName>Annual Procedure</fullName>
+                <default>false</default>
+                <label>Annual Procedure</label>
+            </value>
+            <value>
+                <fullName>Call</fullName>
+                <default>false</default>
+                <label>Call</label>
+            </value>
+            <value>
+                <fullName>Call to Action</fullName>
+                <default>false</default>
+                <label>Call to Action</label>
+            </value>
+            <value>
+                <fullName>No interest</fullName>
+                <default>false</default>
+                <label>No interest</label>
+            </value>
+            <value>
+                <fullName>Introduction</fullName>
+                <default>false</default>
+                <label>Introduction</label>
+            </value>
+            <value>
+                <fullName>Intro inc. Majenta Technical</fullName>
+                <default>false</default>
+                <label>Intro inc. Majenta Technical</label>
+            </value>
+            <value>
+                <fullName>Intro Meeting inc. Partner</fullName>
+                <default>false</default>
+                <label>Intro Meeting inc. Partner</label>
+            </value>
+            <value>
+                <fullName>Intro inc. Majenta Senior</fullName>
+                <default>false</default>
+                <label>Intro inc. Majenta Senior</label>
+            </value>
+            <value>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+                <label>Meeting</label>
+            </value>
+            <value>
+                <fullName>Meeting inc. Majenta Technical</fullName>
+                <default>false</default>
+                <label>Meeting inc. Majenta Technical</label>
+            </value>
+            <value>
+                <fullName>Meeting inc. Partner</fullName>
+                <default>false</default>
+                <label>Meeting inc. Partner</label>
+            </value>
+            <value>
+                <fullName>Meeting inc. Majenta Senior</fullName>
+                <default>false</default>
+                <label>Meeting inc. Majenta Senior</label>
+            </value>
+            <value>
+                <fullName>Customer Meeting</fullName>
+                <default>false</default>
+                <label>Customer Meeting</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Chase Up</fullName>
+                <default>false</default>
+                <label>Chase Up</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Web Meeting</fullName>
+                <default>false</default>
+                <label>Web Meeting</label>
+            </value>
+            <value>
+                <fullName>Web Demo</fullName>
+                <default>false</default>
+                <label>Web Demo</label>
+            </value>
+            <value>
+                <fullName>Quick Quotation</fullName>
+                <default>false</default>
+                <label>Quick Quotation</label>
+            </value>
+            <value>
+                <fullName>Full Proposal</fullName>
+                <default>false</default>
+                <label>Full Proposal</label>
+            </value>
+            <value>
+                <fullName>Proposal Revision</fullName>
+                <default>false</default>
+                <label>Proposal Revision</label>
+            </value>
+            <value>
+                <fullName>Model Creation</fullName>
+                <default>false</default>
+                <label>Model Creation</label>
+            </value>
+            <value>
+                <fullName>Model Review</fullName>
+                <default>false</default>
+                <label>Model Review</label>
+            </value>
+            <value>
+                <fullName>Clash Coordination</fullName>
+                <default>false</default>
+                <label>Clash Coordination</label>
+            </value>
+            <value>
+                <fullName>Document Creation</fullName>
+                <default>false</default>
+                <label>Document Creation</label>
+            </value>
+            <value>
+                <fullName>Document Review</fullName>
+                <default>false</default>
+                <label>Document Review</label>
+            </value>
+            <value>
+                <fullName>Lead</fullName>
+                <default>false</default>
+                <label>Lead</label>
+            </value>
+            <value>
+                <fullName>Booked</fullName>
+                <default>false</default>
+                <label>Booked</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Lead</controllingFieldValue>
+            <valueName>Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Not There</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Left Message</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Call Back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Gatekeeper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Call to Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>No interest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <controllingFieldValue>Letter</controllingFieldValue>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <valueName>Introduction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Chase Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letter</controllingFieldValue>
+            <valueName>Thank You</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <valueName>Close Meeting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <valueName>Intro inc. Majenta Technical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <valueName>Intro Meeting inc. Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <valueName>Intro inc. Majenta Senior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Technical</controllingFieldValue>
+            <valueName>Meeting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <valueName>Meeting inc. Majenta Technical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <valueName>Meeting inc. Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <valueName>Meeting inc. Majenta Senior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <controllingFieldValue>Technical</controllingFieldValue>
+            <valueName>Customer Meeting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting</controllingFieldValue>
+            <valueName>Booked</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Quick Quotation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Full Proposal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Proposal Revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Monthly Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Daily Task</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Quarterly Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>System Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Ad Hoc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Reminder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Annual Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical</controllingFieldValue>
+            <valueName>Model Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical</controllingFieldValue>
+            <valueName>Model Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical</controllingFieldValue>
+            <valueName>Clash Coordination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical</controllingFieldValue>
+            <valueName>Document Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical</controllingFieldValue>
+            <valueName>Document Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Absence</controllingFieldValue>
+            <valueName>Holiday</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Absence</controllingFieldValue>
+            <valueName>Sickness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Meeting</controllingFieldValue>
+            <valueName>Web Meeting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Meeting</controllingFieldValue>
+            <valueName>Web Demo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social</controllingFieldValue>
+            <valueName>LinkedIn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social</controllingFieldValue>
+            <valueName>Twitter</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

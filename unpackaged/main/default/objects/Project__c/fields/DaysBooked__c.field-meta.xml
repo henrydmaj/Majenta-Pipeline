@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DaysBooked__c</fullName>
+    <externalId>false</externalId>
+    <label>Days Booked</label>
+    <summarizedField>ResourceBooking__c.TotalBillableDays__c</summarizedField>
+    <summaryFilterItems>
+        <field>ResourceBooking__c.Status__c</field>
+        <operation>notEqual</operation>
+        <value>Requested, Cancelled</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>ResourceBooking__c.IsBillable__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>ResourceBooking__c.Project__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

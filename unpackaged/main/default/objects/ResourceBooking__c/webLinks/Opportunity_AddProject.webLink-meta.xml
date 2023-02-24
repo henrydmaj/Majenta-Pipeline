@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_AddProject</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Add Project</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!REQUIRESCRIPT("/soap/ajax/33.0/connection.js")}
+
+var pid = "{!Opportunity.ProjectId__c}";
+
+if(pid == "") {
+
+	var opps = [];
+	var projects = [];
+
+	var p = new sforce.SObject("Project__c");
+	p.Name = "{!Opportunity.Name}";
+	p.IsActive__c = "TRUE";
+	p.Days__c = {!Opportunity.TotalServicesDays__c};
+	p.StartDate__c = new Date({!YEAR(Opportunity.CloseDate)},{!MONTH(Opportunity.CloseDate)},{!DAY(Opportunity.CloseDate)});
+
+	p.recordTypeId = "012w00000006nRv";
+	projects.push(p);
+
+	result = sforce.connection.create(projects);
+
+	if(result[0].success){
+
+		var o = new sforce.SObject("Opportunity");
+		o.Id = "{!Opportunity.Id}";
+		o.Project__c = result[0].id;
+		opps.push(o);
+
+		sforce.connection.update(opps);
+
+		window.location.href = "/"+result[0].id+"/e?retURL=%2F"+"{!Opportunity.Id}";
+
+	} else {
+		alert(result[0].errors.join('\n'));
+	}
+
+} else {
+	window.location.href = "/"+pid+"/e?retURL=%2F"+"{!Opportunity.Id}";
+}</url>
+</WebLink>

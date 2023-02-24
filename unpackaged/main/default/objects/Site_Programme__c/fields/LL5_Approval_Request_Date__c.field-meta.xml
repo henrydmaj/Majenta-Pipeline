@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LL5_Approval_Request_Date__c</fullName>
+    <description>Date the LL5 Approval Email was sent out</description>
+    <externalId>false</externalId>
+    <label>LL5 Approval Request Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

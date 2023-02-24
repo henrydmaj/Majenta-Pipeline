@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ACS_100 - Accessories</fullName>
+        <default>false</default>
+        <label>ACS_100 - Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>AME Only (Advanced Manufacturing Engineering)</fullName>
+        <default>false</default>
+        <label>AME Only (Advanced Manufacturing Engineering)</label>
+    </customValue>
+    <customValue>
+        <fullName>AVA</fullName>
+        <default>false</default>
+        <label>AVA</label>
+    </customValue>
+    <customValue>
+        <fullName>BES_200 - Cockpit Systems</fullName>
+        <default>false</default>
+        <label>BES_200 - Cockpit Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>BES_202 - Seats Complete</fullName>
+        <default>false</default>
+        <label>BES_202 - Seats Complete</label>
+    </customValue>
+    <customValue>
+        <fullName>BES_205 - Climate Control Systems</fullName>
+        <default>false</default>
+        <label>BES_205 - Climate Control Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>BES_206 - Seats Structure</fullName>
+        <default>false</default>
+        <label>BES_206 - Seats Structure</label>
+    </customValue>
+    <customValue>
+        <fullName>BES_210 - Cabin &amp; Safety Systems</fullName>
+        <default>false</default>
+        <label>BES_210 - Cabin &amp; Safety Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>BES_301 - Exterior Trim</fullName>
+        <default>false</default>
+        <label>BES_301 - Exterior Trim</label>
+    </customValue>
+    <customValue>
+        <fullName>BES_302 - Body Lids</fullName>
+        <default>false</default>
+        <label>BES_302 - Body Lids</label>
+    </customValue>
+    <customValue>
+        <fullName>BES_303 - Body Doors</fullName>
+        <default>false</default>
+        <label>BES_303 - Body Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>BES_305 - Glazing and Roofs</fullName>
+        <default>false</default>
+        <label>BES_305 - Glazing and Roofs</label>
+    </customValue>
+    <customValue>
+        <fullName>BES_401 - Body Structure</fullName>
+        <default>false</default>
+        <label>BES_401 - Body Structure</label>
+    </customValue>
+    <customValue>
+        <fullName>CES_210 - Springs Dampers Anti-roll &amp; Levelling</fullName>
+        <default>false</default>
+        <label>CES_210 - Springs, Dampers, Anti-roll &amp; Levelling</label>
+    </customValue>
+    <customValue>
+        <fullName>CES_330 - Suspension Frames &amp; Powertrain Mtg</fullName>
+        <default>false</default>
+        <label>CES_330 - Suspension, Frames &amp; Powertrain Mtg</label>
+    </customValue>
+    <customValue>
+        <fullName>CES_510 - Steering Wheels &amp; Tyres</fullName>
+        <default>false</default>
+        <label>CES_510 - Steering, Wheels &amp; Tyres</label>
+    </customValue>
+    <customValue>
+        <fullName>CES_700 - Brakes</fullName>
+        <default>false</default>
+        <label>CES_700 - Brakes</label>
+    </customValue>
+    <customValue>
+        <fullName>Cross-Commodity</fullName>
+        <default>false</default>
+        <label>Cross-Commodity</label>
+    </customValue>
+    <customValue>
+        <fullName>EES_110 - Electrical Distribution System</fullName>
+        <default>false</default>
+        <label>EES_110 - Electrical Distribution System</label>
+    </customValue>
+    <customValue>
+        <fullName>EES_120-Power_Supply_System</fullName>
+        <default>false</default>
+        <label>EES_120-Power_Supply_System</label>
+    </customValue>
+    <customValue>
+        <fullName>EES_200 - Infotainment</fullName>
+        <default>false</default>
+        <label>EES_200 - Infotainment</label>
+    </customValue>
+    <customValue>
+        <fullName>EES_210 - Telematics and Connected Car</fullName>
+        <default>false</default>
+        <label>EES_210 - Telematics and Connected Car</label>
+    </customValue>
+    <customValue>
+        <fullName>EES_310 - User Controls And Displays</fullName>
+        <default>false</default>
+        <label>EES_310 - User Controls And Displays</label>
+    </customValue>
+    <customValue>
+        <fullName>EES_320  - Advanced Driver Assistance Systems</fullName>
+        <default>false</default>
+        <label>EES_320  - Advanced Driver Assistance Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>EES_390 - CORS Comfort Occupant and Restraints Sys</fullName>
+        <default>false</default>
+        <label>EES_390 - CORS Comfort Occupant and Restraints Sys</label>
+    </customValue>
+    <customValue>
+        <fullName>EES_400 - Chassis Electronics</fullName>
+        <default>false</default>
+        <label>EES_400 - Chassis Electronics</label>
+    </customValue>
+    <customValue>
+        <fullName>EES_500 - Body Electronics</fullName>
+        <default>false</default>
+        <label>EES_500 - Body Electronics</label>
+    </customValue>
+    <customValue>
+        <fullName>EES_600-Software_Networks_Diagnostics</fullName>
+        <default>false</default>
+        <label>EES_600-Software_Networks_Diagnostics</label>
+    </customValue>
+    <customValue>
+        <fullName>ETS - Materials Engineering</fullName>
+        <default>false</default>
+        <label>ETS - Materials Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Jaguar_Design</fullName>
+        <default>false</default>
+        <label>Jaguar_Design</label>
+    </customValue>
+    <customValue>
+        <fullName>JLR</fullName>
+        <default>false</default>
+        <label>JLR</label>
+    </customValue>
+    <customValue>
+        <fullName>Land_Rover_Design</fullName>
+        <default>false</default>
+        <label>Land_Rover_Design</label>
+    </customValue>
+    <customValue>
+        <fullName>MFG_AUTO</fullName>
+        <default>false</default>
+        <label>MFG_AUTO</label>
+    </customValue>
+    <customValue>
+        <fullName>MFG_CAT</fullName>
+        <default>false</default>
+        <label>MFG_CAT</label>
+    </customValue>
+    <customValue>
+        <fullName>MFG_TPPG</fullName>
+        <default>false</default>
+        <label>MFG_TPPG</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Commodity</fullName>
+        <default>false</default>
+        <label>Non-Commodity</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS_100 - Core Engines</fullName>
+        <default>false</default>
+        <label>PTS_100 - Core Engines</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS_120 - Power Supply System</fullName>
+        <default>false</default>
+        <label>PTS_120 - Power Supply System</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS_130 - Energy Storage</fullName>
+        <default>false</default>
+        <label>PTS_130 - Energy Storage</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS_150 - Dressed Engine FEAD Sensors And Modules</fullName>
+        <default>false</default>
+        <label>PTS_150 - Dressed Engine FEAD Sensors And Modules</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS_160-Propulsion_Systems_Calibration_And_Controls</fullName>
+        <default>false</default>
+        <label>PTS_160-Propulsion_Systems_Calibration_And_Controls</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS_200 - Fuel System</fullName>
+        <default>false</default>
+        <label>PTS_200 - Fuel System</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS_300 - Air Intake System</fullName>
+        <default>false</default>
+        <label>PTS_300 - Air Intake System</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS_400 - Exhaust</fullName>
+        <default>false</default>
+        <label>PTS_400 - Exhaust</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS_500 - Cooling</fullName>
+        <default>false</default>
+        <label>PTS_500 - Cooling</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS_650 - Transmission</fullName>
+        <default>false</default>
+        <label>PTS_650 - Transmission</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS_800 - Driveline</fullName>
+        <default>false</default>
+        <label>PTS_800 - Driveline</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard_Parts</fullName>
+        <default>false</default>
+        <label>Standard_Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>TFA</fullName>
+        <default>false</default>
+        <label>TFA</label>
+    </customValue>
+    <masterLabel>JLR Supplier Org Divisions</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

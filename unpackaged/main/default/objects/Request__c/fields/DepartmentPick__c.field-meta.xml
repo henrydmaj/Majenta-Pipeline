@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DepartmentPick__c</fullName>
+    <description>Which team would you like to request for their services?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Which team would you like to request for their services?</inlineHelpText>
+    <label>Department</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Tech/Salesforce</fullName>
+                <default>false</default>
+                <label>Tech/Salesforce</label>
+            </value>
+            <value>
+                <fullName>Digital Construction</fullName>
+                <default>false</default>
+                <label>Digital Construction - Quote</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

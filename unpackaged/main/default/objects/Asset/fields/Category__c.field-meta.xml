@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CAD</fullName>
+                <default>false</default>
+                <label>CAD</label>
+            </value>
+            <value>
+                <fullName>Industrial Design / Styling</fullName>
+                <default>false</default>
+                <label>Industrial Design / Styling</label>
+            </value>
+            <value>
+                <fullName>CAM</fullName>
+                <default>false</default>
+                <label>CAM</label>
+            </value>
+            <value>
+                <fullName>CAE</fullName>
+                <default>false</default>
+                <label>CAE</label>
+            </value>
+            <value>
+                <fullName>Data Management</fullName>
+                <default>false</default>
+                <label>Data Management</label>
+            </value>
+            <value>
+                <fullName>Facility Design</fullName>
+                <default>false</default>
+                <label>Facility Design</label>
+            </value>
+            <value>
+                <fullName>ERP</fullName>
+                <default>false</default>
+                <label>ERP</label>
+            </value>
+            <value>
+                <fullName>Workstation</fullName>
+                <default>false</default>
+                <label>Workstation</label>
+            </value>
+            <value>
+                <fullName>Server</fullName>
+                <default>false</default>
+                <label>Server</label>
+            </value>
+            <value>
+                <fullName>Storage</fullName>
+                <default>false</default>
+                <label>Storage</label>
+            </value>
+            <value>
+                <fullName>Backup</fullName>
+                <default>false</default>
+                <label>Backup</label>
+            </value>
+            <value>
+                <fullName>Virtualisation</fullName>
+                <default>false</default>
+                <label>Virtualisation</label>
+            </value>
+            <value>
+                <fullName>Networking</fullName>
+                <default>false</default>
+                <label>Networking</label>
+            </value>
+            <value>
+                <fullName>Outsourced IT</fullName>
+                <default>false</default>
+                <label>Outsourced IT</label>
+            </value>
+            <value>
+                <fullName>Support Contract</fullName>
+                <default>false</default>
+                <label>Support Contract</label>
+            </value>
+            <value>
+                <fullName>Visualisation</fullName>
+                <default>false</default>
+                <label>Visualisation</label>
+            </value>
+            <value>
+                <fullName>ECAD</fullName>
+                <default>false</default>
+                <label>ECAD</label>
+            </value>
+            <value>
+                <fullName>Digital Manufacturing (Not CAM)</fullName>
+                <default>false</default>
+                <label>Digital Manufacturing (Not CAM)</label>
+            </value>
+            <value>
+                <fullName>Product Cost Management</fullName>
+                <default>false</default>
+                <label>Product Cost Management</label>
+            </value>
+            <value>
+                <fullName>Secure Data Transfer</fullName>
+                <default>false</default>
+                <label>Secure Data Transfer</label>
+            </value>
+            <value>
+                <fullName>AEC – Architectural/Construction</fullName>
+                <default>false</default>
+                <label>AEC – Architectural/Construction</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

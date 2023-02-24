@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RequestTypePick__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>RequestTypePick</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3D Modelling</fullName>
+                <default>true</default>
+                <label>3D Modelling</label>
+            </value>
+            <value>
+                <fullName>4D</fullName>
+                <default>false</default>
+                <label>4D</label>
+            </value>
+            <value>
+                <fullName>Client Consultancy</fullName>
+                <default>false</default>
+                <label>Client Consultancy</label>
+            </value>
+            <value>
+                <fullName>COBie Input</fullName>
+                <default>false</default>
+                <label>COBie Input</label>
+            </value>
+            <value>
+                <fullName>Content Creation (BPM)</fullName>
+                <default>false</default>
+                <label>Content Creation (BPM)</label>
+            </value>
+            <value>
+                <fullName>Coordination</fullName>
+                <default>false</default>
+                <label>Coordination</label>
+            </value>
+            <value>
+                <fullName>Information Management</fullName>
+                <default>false</default>
+                <label>Information Management</label>
+            </value>
+            <value>
+                <fullName>Laser Scanning</fullName>
+                <default>false</default>
+                <label>Laser Scanning</label>
+            </value>
+            <value>
+                <fullName>MEP Modelling</fullName>
+                <default>false</default>
+                <label>MEP Modelling</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

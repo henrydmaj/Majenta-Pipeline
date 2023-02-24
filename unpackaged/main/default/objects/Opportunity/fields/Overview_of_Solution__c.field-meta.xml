@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overview_of_Solution__c</fullName>
+    <description>Give a brief overview of the solution detailed in the opportunity. Outline products, services and any training provided.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Give a brief overview of the solution detailed in the opportunity. Outline products, services and any training provided.</inlineHelpText>
+    <label>Overview of Solution</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

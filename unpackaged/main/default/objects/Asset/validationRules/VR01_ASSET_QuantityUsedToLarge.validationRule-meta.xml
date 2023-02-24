@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR01_ASSET_QuantityUsedToLarge</fullName>
+    <active>true</active>
+    <errorConditionFormula>TRIGQuantityUsed__c&gt;Quantity</errorConditionFormula>
+    <errorDisplayField>TRIGQuantityUsed__c</errorDisplayField>
+    <errorMessage>Quantity used is larger than the original quantity, reduce quantity used</errorMessage>
+</ValidationRule>

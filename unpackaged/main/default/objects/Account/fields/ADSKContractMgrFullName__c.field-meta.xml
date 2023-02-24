@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ADSKContractMgrFullName__c</fullName>
+    <externalId>false</externalId>
+    <formula>AutodeskContractManager__r.FirstName + " " +  AutodeskContractManager__r.LastName</formula>
+    <label>Autodesk Contract Manager Full Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

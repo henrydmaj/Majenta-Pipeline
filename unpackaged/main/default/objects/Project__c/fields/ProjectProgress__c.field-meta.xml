@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProjectProgress__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+  IF(ProjectPercentComplete__c &lt;= 0.2, "/img/samples/color_red.gif",
+    IF(ProjectPercentComplete__c &lt; 1, "/img/samples/color_yellow.gif", "/img/samples/color_green.gif" )
+  ),
+  TEXT(ProjectPercentComplete__c),
+  14, 
+  (ProjectPercentComplete__c*200)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Project Progress</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

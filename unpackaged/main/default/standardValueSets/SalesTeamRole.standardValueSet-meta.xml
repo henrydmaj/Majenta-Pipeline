@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Channel Manager</fullName>
+        <default>false</default>
+        <label>Channel Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Software Account Manager</fullName>
+        <default>false</default>
+        <label>Software Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IT Account Manager</fullName>
+        <default>false</default>
+        <label>IT Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Services Account Manager</fullName>
+        <default>false</default>
+        <label>Data Services Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PLM Account Manager</fullName>
+        <default>false</default>
+        <label>PLM Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dassault Salesperson</fullName>
+        <default>false</default>
+        <label>Dassault Salesperson</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Project Support</fullName>
+        <default>false</default>
+        <label>Project Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical Consultant</fullName>
+        <default>false</default>
+        <label>Technical Consultant</label>
+    </standardValue>
+</StandardValueSet>

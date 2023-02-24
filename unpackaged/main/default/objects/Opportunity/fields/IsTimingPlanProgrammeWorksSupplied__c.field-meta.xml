@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsTimingPlanProgrammeWorksSupplied__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Requested by Paolo Bardi - 005994/0123</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Has a Timing Plan/Programme of Works been supplied?</inlineHelpText>
+    <label>Timing Plan/Programme of Works Supplied?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

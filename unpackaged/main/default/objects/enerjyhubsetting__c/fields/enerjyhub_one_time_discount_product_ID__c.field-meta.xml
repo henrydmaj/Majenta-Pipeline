@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>enerjyhub_one_time_discount_product_ID__c</fullName>
+    <description>This field is populated with the ID of the one-time discount product in order not to create an asset for it via flow.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is populated with the ID of the one-time discount product in order not to create an asset for it via flow.</inlineHelpText>
+    <label>enerjyhub one time discount product ID</label>
+    <length>18</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

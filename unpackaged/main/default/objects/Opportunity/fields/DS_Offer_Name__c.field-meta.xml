@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DS_Offer_Name__c</fullName>
+    <description>Dassault Offer Name field for Partner Pipeline Export to Dassault</description>
+    <externalId>false</externalId>
+    <label>Dassault Offer Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3DEXCITE_3DEXCITE DELTAGEN_On_Premise</fullName>
+                <default>false</default>
+                <label>3DEXCITE_3DEXCITE DELTAGEN_On_Premise</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Design/Engineering_On_Premise</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Design/Engineering_On_Premise</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Manufacturing/Production_On_Premise</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Manufacturing/Production_On_Premise</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Private Cloud Design/Engineering_Public_Cloud</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Private Cloud Design/Engineering_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Private Cloud Governance/Lifecycle_Public_Cloud</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Private Cloud Governance/Lifecycle_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Private Cloud Manufacturing/Production_Public_Cloud</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Private Cloud Manufacturing/Production_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Private Cloud Simulation_Public_Cloud</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Private Cloud Simulation_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Public Cloud Design/Engineering_Public_Cloud</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Public Cloud Design/Engineering_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Public Cloud for Academia_Public_Cloud</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Public Cloud for Academia_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Public Cloud Governance/Lifecycle_Public_Cloud</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Public Cloud Governance/Lifecycle_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Public Cloud Manufacturing/Production_Public_Cloud</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Public Cloud Manufacturing/Production_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Public Cloud Simulation_Public_Cloud</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Public Cloud Simulation_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>3DEXPERIENCE_Simulation_On_Premise</fullName>
+                <default>false</default>
+                <label>3DEXPERIENCE_Simulation_On_Premise</label>
+            </value>
+            <value>
+                <fullName>3DVIA_3DVIA Studio Pro_On_Premise</fullName>
+                <default>false</default>
+                <label>3DVIA_3DVIA Studio Pro_On_Premise</label>
+            </value>
+            <value>
+                <fullName>3DVIA_3DVIA Virtools_On_Premise</fullName>
+                <default>false</default>
+                <label>3DVIA_3DVIA Virtools_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ACADEMIA_Academia CATIA EDU V5_On_Premise</fullName>
+                <default>false</default>
+                <label>ACADEMIA_Academia CATIA EDU V5_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ACADEMIA_Academia DELMIA EDU V5_On_Premise</fullName>
+                <default>false</default>
+                <label>ACADEMIA_Academia DELMIA EDU V5_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ACADEMIA_Academia ENOVIA SMARTEAM EDU V5_On_Premise</fullName>
+                <default>false</default>
+                <label>ACADEMIA_Academia ENOVIA SMARTEAM EDU V5_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ACADEMIA_Dymola Academic Learn/Innovate_On_Premise</fullName>
+                <default>false</default>
+                <label>ACADEMIA_Dymola Academic Learn/Innovate_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ACADEMIA_ICEM Surf for Academia _On_Premise</fullName>
+                <default>false</default>
+                <label>ACADEMIA_ICEM Surf for Academia _On_Premise</label>
+            </value>
+            <value>
+                <fullName>ACADEMIA_Public Cloud for Academia_Public_Cloud</fullName>
+                <default>false</default>
+                <label>ACADEMIA_Public Cloud for Academia_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>ACADEMIA_V6 for Academia_On_Premise</fullName>
+                <default>false</default>
+                <label>ACADEMIA_V6 for Academia_On_Premise</label>
+            </value>
+            <value>
+                <fullName>AD_Co-design to target_On_Premise</fullName>
+                <default>false</default>
+                <label>AD_Co-design to target_On_Premise</label>
+            </value>
+            <value>
+                <fullName>AD_Engineered to Fly for Mid-Market_On_Premise</fullName>
+                <default>false</default>
+                <label>AD_Engineered to Fly for Mid-Market_On_Premise</label>
+            </value>
+            <value>
+                <fullName>AD_Engineered to Fly for Mid-Market_Public_Cloud</fullName>
+                <default>false</default>
+                <label>AD_Engineered to Fly for Mid-Market_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>AD_Engineered to Fly_On_Premise</fullName>
+                <default>false</default>
+                <label>AD_Engineered to Fly_On_Premise</label>
+            </value>
+            <value>
+                <fullName>AD_Test To perform_On_Premise</fullName>
+                <default>false</default>
+                <label>AD_Test To perform_On_Premise</label>
+            </value>
+            <value>
+                <fullName>AD_Winning Program_On_Premise</fullName>
+                <default>false</default>
+                <label>AD_Winning Program_On_Premise</label>
+            </value>
+            <value>
+                <fullName>AEC_Civil Design for Fabrication_On_Premise</fullName>
+                <default>false</default>
+                <label>AEC_Civil Design for Fabrication_On_Premise</label>
+            </value>
+            <value>
+                <fullName>AEC_Civil Design for Fabrication_Public_Cloud</fullName>
+                <default>false</default>
+                <label>AEC_Civil Design for Fabrication_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>AEC_Facade Design for Fabrication_On_Premise</fullName>
+                <default>false</default>
+                <label>AEC_Facade Design for Fabrication_On_Premise</label>
+            </value>
+            <value>
+                <fullName>AEC_Facade Design for Fabrication_Public_Cloud</fullName>
+                <default>false</default>
+                <label>AEC_Facade Design for Fabrication_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>AEC_Optimized Construction_On_Premise</fullName>
+                <default>false</default>
+                <label>AEC_Optimized Construction_On_Premise</label>
+            </value>
+            <value>
+                <fullName>BIOVIA_Biodesign_On_Premise</fullName>
+                <default>false</default>
+                <label>BIOVIA_Biodesign_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CATIA_CATIA Composer_On_Premise</fullName>
+                <default>false</default>
+                <label>CATIA_CATIA Composer_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CATIA_CATIA V4_On_Premise</fullName>
+                <default>false</default>
+                <label>CATIA_CATIA V4_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CATIA_CATIA V5 PLM Express Edition 3 _On_Premise</fullName>
+                <default>false</default>
+                <label>CATIA_CATIA V5 PLM Express Edition 3 _On_Premise</label>
+            </value>
+            <value>
+                <fullName>CATIA_CATIA V5_On_Premise</fullName>
+                <default>false</default>
+                <label>CATIA_CATIA V5_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CATIA_CATIA V6_On_Premise</fullName>
+                <default>false</default>
+                <label>CATIA_CATIA V6_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CATIA_Design/Engineering_On_Premise</fullName>
+                <default>false</default>
+                <label>CATIA_Design/Engineering_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CATIA_Dymola_On_Premise</fullName>
+                <default>false</default>
+                <label>CATIA_Dymola_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CATIA_ICEM Surf_On_Premise</fullName>
+                <default>false</default>
+                <label>CATIA_ICEM Surf_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CATIA_Private Cloud Design/Engineering_Public_Cloud</fullName>
+                <default>false</default>
+                <label>CATIA_Private Cloud Design/Engineering_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>CATIA_Public Cloud Design/Engineering_Public_Cloud</fullName>
+                <default>false</default>
+                <label>CATIA_Public Cloud Design/Engineering_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>CATIA_Reqtify - ControlBuild - AUTOSAR Builder_On_Premise</fullName>
+                <default>false</default>
+                <label>CATIA_Reqtify - ControlBuild - AUTOSAR Builder_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CG_My Collection (Fashion)_On_Premise</fullName>
+                <default>false</default>
+                <label>CG_My Collection (Fashion)_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CG_My Product Portfolio (On Cloud)_Public_Cloud</fullName>
+                <default>false</default>
+                <label>CG_My Product Portfolio (On Cloud)_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>CG_My Product Portfolio_On_Premise</fullName>
+                <default>false</default>
+                <label>CG_My Product Portfolio_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CG_My Store_On_Premise</fullName>
+                <default>false</default>
+                <label>CG_My Store_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CPG_perfect Package (on Cloud)_Public_Cloud</fullName>
+                <default>false</default>
+                <label>CPG_perfect Package (on Cloud)_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>CPG_Perfect Package_On_Premise</fullName>
+                <default>false</default>
+                <label>CPG_Perfect Package_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CPG_Perfect Product_On_Premise</fullName>
+                <default>false</default>
+                <label>CPG_Perfect Product_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CPG_Perfect Shelf_On_Premise</fullName>
+                <default>false</default>
+                <label>CPG_Perfect Shelf_On_Premise</label>
+            </value>
+            <value>
+                <fullName>CPG_Perfect Shelf_Public_Cloud</fullName>
+                <default>false</default>
+                <label>CPG_Perfect Shelf_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>DELMIA_DELMIA D5_On_Premise</fullName>
+                <default>false</default>
+                <label>DELMIA_DELMIA D5_On_Premise</label>
+            </value>
+            <value>
+                <fullName>DELMIA_DELMIA PLM Express V6_On_Premise</fullName>
+                <default>false</default>
+                <label>DELMIA_DELMIA PLM Express V6_On_Premise</label>
+            </value>
+            <value>
+                <fullName>DELMIA_DELMIA Process Engineer_On_Premise</fullName>
+                <default>false</default>
+                <label>DELMIA_DELMIA Process Engineer_On_Premise</label>
+            </value>
+            <value>
+                <fullName>DELMIA_DELMIA V5 PLM Express products_On_Premise</fullName>
+                <default>false</default>
+                <label>DELMIA_DELMIA V5 PLM Express products_On_Premise</label>
+            </value>
+            <value>
+                <fullName>DELMIA_DELMIA V5_On_Premise</fullName>
+                <default>false</default>
+                <label>DELMIA_DELMIA V5_On_Premise</label>
+            </value>
+            <value>
+                <fullName>DELMIA_DELMIA V6_On_Premise</fullName>
+                <default>false</default>
+                <label>DELMIA_DELMIA V6_On_Premise</label>
+            </value>
+            <value>
+                <fullName>DELMIA_DELMIA_APRISO_On_Premise</fullName>
+                <default>false</default>
+                <label>DELMIA_DELMIA_APRISO_On_Premise</label>
+            </value>
+            <value>
+                <fullName>DELMIA_Manufacturing/Production_On_Premise</fullName>
+                <default>false</default>
+                <label>DELMIA_Manufacturing/Production_On_Premise</label>
+            </value>
+            <value>
+                <fullName>DELMIA_Private Cloud Manufacturing/Production_Public_Cloud</fullName>
+                <default>false</default>
+                <label>DELMIA_Private Cloud Manufacturing/Production_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>DELMIA_Public Cloud Manufacturing/Production_Public_Cloud</fullName>
+                <default>false</default>
+                <label>DELMIA_Public Cloud Manufacturing/Production_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>EDUCATION_Public Cloud Companion for 3DEXPERIENCE_Public_Cloud</fullName>
+                <default>false</default>
+                <label>EDUCATION_Public Cloud Companion for 3DEXPERIENCE_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>EDUCATION_Public Cloud Companion for SIMULIA Abaqus_Public_Cloud</fullName>
+                <default>false</default>
+                <label>EDUCATION_Public Cloud Companion for SIMULIA Abaqus_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>EDUCATION_V5 On Premise Companion _On_Premise</fullName>
+                <default>false</default>
+                <label>EDUCATION_V5 On Premise Companion _On_Premise</label>
+            </value>
+            <value>
+                <fullName>EDUCATION_V5 Online Companion_Public_Cloud</fullName>
+                <default>false</default>
+                <label>EDUCATION_V5 Online Companion_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>EDUCATION_V6 On Premise Companion_On_Premise</fullName>
+                <default>false</default>
+                <label>EDUCATION_V6 On Premise Companion_On_Premise</label>
+            </value>
+            <value>
+                <fullName>EDUCATION_V6 Online Companion_Public_Cloud</fullName>
+                <default>false</default>
+                <label>EDUCATION_V6 Online Companion_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_3DEXPERIENCE Platform_On_Premise</fullName>
+                <default>false</default>
+                <label>ENOVIA_3DEXPERIENCE Platform_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_ENOVIA MatrixOne_On_Premise</fullName>
+                <default>false</default>
+                <label>ENOVIA_ENOVIA MatrixOne_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_ENOVIA Product Manager_On_Premise</fullName>
+                <default>false</default>
+                <label>ENOVIA_ENOVIA Product Manager_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_ENOVIA SmarTeam V5_On_Premise</fullName>
+                <default>false</default>
+                <label>ENOVIA_ENOVIA SmarTeam V5_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_ENOVIA Synchronicity V6_On_Premise</fullName>
+                <default>false</default>
+                <label>ENOVIA_ENOVIA Synchronicity V6_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_ENOVIA Synchronicity_On_Premise</fullName>
+                <default>false</default>
+                <label>ENOVIA_ENOVIA Synchronicity_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_ENOVIA V6_On_Premise</fullName>
+                <default>false</default>
+                <label>ENOVIA_ENOVIA V6_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_ENOVIA VPLM V5_On_Premise</fullName>
+                <default>false</default>
+                <label>ENOVIA_ENOVIA VPLM V5_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_ENOVIAvpm_On_Premise</fullName>
+                <default>false</default>
+                <label>ENOVIA_ENOVIAvpm_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_Governance/Lifecycle_On_Premise</fullName>
+                <default>false</default>
+                <label>ENOVIA_Governance/Lifecycle_On_Premise</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_Private Cloud Governance/Lifecycle_Public_Cloud</fullName>
+                <default>false</default>
+                <label>ENOVIA_Private Cloud Governance/Lifecycle_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>ENOVIA_Public Cloud Governance/Lifecycle_Public_Cloud</fullName>
+                <default>false</default>
+                <label>ENOVIA_Public Cloud Governance/Lifecycle_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>EPU_Efficient Plant Operation_On_Premise</fullName>
+                <default>false</default>
+                <label>EPU_Efficient Plant Operation_On_Premise</label>
+            </value>
+            <value>
+                <fullName>EPU_Integrated Plant Engineering_On_Premise</fullName>
+                <default>false</default>
+                <label>EPU_Integrated Plant Engineering_On_Premise</label>
+            </value>
+            <value>
+                <fullName>EPU_Intelligent Subsurface_On_Premise</fullName>
+                <default>false</default>
+                <label>EPU_Intelligent Subsurface_On_Premise</label>
+            </value>
+            <value>
+                <fullName>EPU_Optimized Plant Construction_On_Premise</fullName>
+                <default>false</default>
+                <label>EPU_Optimized Plant Construction_On_Premise</label>
+            </value>
+            <value>
+                <fullName>EPU_Single Source for Speed for Mid-Market_On_Premise</fullName>
+                <default>false</default>
+                <label>EPU_Single Source for Speed for Mid-Market_On_Premise</label>
+            </value>
+            <value>
+                <fullName>EPU_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+                <default>false</default>
+                <label>EPU_Single Source for Speed for Mid-Market_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>EPU_Single Source for Speed_On_Premise</fullName>
+                <default>false</default>
+                <label>EPU_Single Source for Speed_On_Premise</label>
+            </value>
+            <value>
+                <fullName>EPU_Sustainable Wind Turbines (On Cloud)_Public_Cloud</fullName>
+                <default>false</default>
+                <label>EPU_Sustainable Wind Turbines (On Cloud)_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>EPU_Sustainable Wind Turbines_On_Premise</fullName>
+                <default>false</default>
+                <label>EPU_Sustainable Wind Turbines_On_Premise</label>
+            </value>
+            <value>
+                <fullName>EXALEAD_Business Analytics_On_Premise</fullName>
+                <default>false</default>
+                <label>EXALEAD_Business Analytics_On_Premise</label>
+            </value>
+            <value>
+                <fullName>EXALEAD_EXALEAD ONE Legacy_On_Premise</fullName>
+                <default>false</default>
+                <label>EXALEAD_EXALEAD ONE Legacy_On_Premise</label>
+            </value>
+            <value>
+                <fullName>EXALEAD_EXALEAD V6_On_Premise</fullName>
+                <default>false</default>
+                <label>EXALEAD_EXALEAD V6_On_Premise</label>
+            </value>
+            <value>
+                <fullName>EXALEAD_EXALEAD_On_Premise</fullName>
+                <default>false</default>
+                <label>EXALEAD_EXALEAD_On_Premise</label>
+            </value>
+            <value>
+                <fullName>FBS_Bid to Win_On_Premise</fullName>
+                <default>false</default>
+                <label>FBS_Bid to Win_On_Premise</label>
+            </value>
+            <value>
+                <fullName>FBS_Engineered to Fly for Mid-Market_On_Premise</fullName>
+                <default>false</default>
+                <label>FBS_Engineered to Fly for Mid-Market_On_Premise</label>
+            </value>
+            <value>
+                <fullName>FBS_Engineered to Fly for Mid-Market_Public_Cloud</fullName>
+                <default>false</default>
+                <label>FBS_Engineered to Fly for Mid-Market_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>FBS_Engineered to Fly_On_Premise</fullName>
+                <default>false</default>
+                <label>FBS_Engineered to Fly_On_Premise</label>
+            </value>
+            <value>
+                <fullName>FBS_Innovation Factory_On_Premise</fullName>
+                <default>false</default>
+                <label>FBS_Innovation Factory_On_Premise</label>
+            </value>
+            <value>
+                <fullName>FBS_Single Source for Speed for Mid-Market_On_Premise</fullName>
+                <default>false</default>
+                <label>FBS_Single Source for Speed for Mid-Market_On_Premise</label>
+            </value>
+            <value>
+                <fullName>FBS_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+                <default>false</default>
+                <label>FBS_Single Source for Speed for Mid-Market_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>FBS_Single Source for Speed_On_Premise</fullName>
+                <default>false</default>
+                <label>FBS_Single Source for Speed_On_Premise</label>
+            </value>
+            <value>
+                <fullName>FBS_Smart and Synchronized_On_Premise</fullName>
+                <default>false</default>
+                <label>FBS_Smart and Synchronized_On_Premise</label>
+            </value>
+            <value>
+                <fullName>GEOVIA_GEOVIA GEMS_On_Premise</fullName>
+                <default>false</default>
+                <label>GEOVIA_GEOVIA GEMS_On_Premise</label>
+            </value>
+            <value>
+                <fullName>GEOVIA_GEOVIA Hub_On_Premise</fullName>
+                <default>false</default>
+                <label>GEOVIA_GEOVIA Hub_On_Premise</label>
+            </value>
+            <value>
+                <fullName>GEOVIA_GEOVIA InSite_On_Premise</fullName>
+                <default>false</default>
+                <label>GEOVIA_GEOVIA InSite_On_Premise</label>
+            </value>
+            <value>
+                <fullName>GEOVIA_GEOVIA MineSched_On_Premise</fullName>
+                <default>false</default>
+                <label>GEOVIA_GEOVIA MineSched_On_Premise</label>
+            </value>
+            <value>
+                <fullName>GEOVIA_GEOVIA Minex_On_Premise</fullName>
+                <default>false</default>
+                <label>GEOVIA_GEOVIA Minex_On_Premise</label>
+            </value>
+            <value>
+                <fullName>GEOVIA_GEOVIA Surpac_On_Premise</fullName>
+                <default>false</default>
+                <label>GEOVIA_GEOVIA Surpac_On_Premise</label>
+            </value>
+            <value>
+                <fullName>GEOVIA_GEOVIA Whittle_On_Premise</fullName>
+                <default>false</default>
+                <label>GEOVIA_GEOVIA Whittle_On_Premise</label>
+            </value>
+            <value>
+                <fullName>GEOVIA_GEOVIA_On_Premise</fullName>
+                <default>false</default>
+                <label>GEOVIA_GEOVIA_On_Premise</label>
+            </value>
+            <value>
+                <fullName>HT_Business Operation Excellence_On_Premise</fullName>
+                <default>false</default>
+                <label>HT_Business Operation Excellence_On_Premise</label>
+            </value>
+            <value>
+                <fullName>HT_HT body (On Cloud)_Public_Cloud</fullName>
+                <default>false</default>
+                <label>HT_HT body (On Cloud)_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>HT_HT body_On_Premise</fullName>
+                <default>false</default>
+                <label>HT_HT body_On_Premise</label>
+            </value>
+            <value>
+                <fullName>HT_Imagination Wave_On_Premise</fullName>
+                <default>false</default>
+                <label>HT_Imagination Wave_On_Premise</label>
+            </value>
+            <value>
+                <fullName>HT_Silicon Thinking_On_Premise</fullName>
+                <default>false</default>
+                <label>HT_Silicon Thinking_On_Premise</label>
+            </value>
+            <value>
+                <fullName>HT_Smarter Faster Lighter_On_Premise</fullName>
+                <default>false</default>
+                <label>HT_Smarter Faster Lighter_On_Premise</label>
+            </value>
+            <value>
+                <fullName>HT_Social Ideation_On_Premise</fullName>
+                <default>false</default>
+                <label>HT_Social Ideation_On_Premise</label>
+            </value>
+            <value>
+                <fullName>HT_Social Ideation_Public_Cloud</fullName>
+                <default>false</default>
+                <label>HT_Social Ideation_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>IE_Simple Solution Selection_On_Premise</fullName>
+                <default>false</default>
+                <label>IE_Simple Solution Selection_On_Premise</label>
+            </value>
+            <value>
+                <fullName>IE_Single Source for Speed for Mid-Market_On_Premise</fullName>
+                <default>false</default>
+                <label>IE_Single Source for Speed for Mid-Market_On_Premise</label>
+            </value>
+            <value>
+                <fullName>IE_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+                <default>false</default>
+                <label>IE_Single Source for Speed for Mid-Market_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>IE_Single Source for Speed_On_Premise</fullName>
+                <default>false</default>
+                <label>IE_Single Source for Speed_On_Premise</label>
+            </value>
+            <value>
+                <fullName>IE_Smart and Synchronized_On_Premise</fullName>
+                <default>false</default>
+                <label>IE_Smart and Synchronized_On_Premise</label>
+            </value>
+            <value>
+                <fullName>LS_License to Cure for Medical Device_On_Premise</fullName>
+                <default>false</default>
+                <label>LS_License to Cure for Medical Device_On_Premise</label>
+            </value>
+            <value>
+                <fullName>LS_Single Source for Speed for Mid-Market_On_Premise</fullName>
+                <default>false</default>
+                <label>LS_Single Source for Speed for Mid-Market_On_Premise</label>
+            </value>
+            <value>
+                <fullName>LS_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+                <default>false</default>
+                <label>LS_Single Source for Speed for Mid-Market_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>LS_Single Source for Speed_On_Premise</fullName>
+                <default>false</default>
+                <label>LS_Single Source for Speed_On_Premise</label>
+            </value>
+            <value>
+                <fullName>LS_Smarter Faster Lighter_On_Premise</fullName>
+                <default>false</default>
+                <label>LS_Smarter Faster Lighter_On_Premise</label>
+            </value>
+            <value>
+                <fullName>LS_Social Ideation_On_Premise</fullName>
+                <default>false</default>
+                <label>LS_Social Ideation_On_Premise</label>
+            </value>
+            <value>
+                <fullName>LS_Social Ideation_Public_Cloud</fullName>
+                <default>false</default>
+                <label>LS_Social Ideation_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>MO_Designed For Sea_On_Premise</fullName>
+                <default>false</default>
+                <label>MO_Designed For Sea_On_Premise</label>
+            </value>
+            <value>
+                <fullName>MO_Express For Sea_Public_Cloud</fullName>
+                <default>false</default>
+                <label>MO_Express For Sea_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>MO_On Time To Sea_On_Premise</fullName>
+                <default>false</default>
+                <label>MO_On Time To Sea_On_Premise</label>
+            </value>
+            <value>
+                <fullName>MO_Optimized Production For Sea_On_Premise</fullName>
+                <default>false</default>
+                <label>MO_Optimized Production For Sea_On_Premise</label>
+            </value>
+            <value>
+                <fullName>MO_Single Source for Speed for Mid-Market_On_Premise</fullName>
+                <default>false</default>
+                <label>MO_Single Source for Speed for Mid-Market_On_Premise</label>
+            </value>
+            <value>
+                <fullName>MO_Single Source for Speed for Mid-Market_Public_Cloud</fullName>
+                <default>false</default>
+                <label>MO_Single Source for Speed for Mid-Market_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>MO_Single Source for Speed_On_Premise</fullName>
+                <default>false</default>
+                <label>MO_Single Source for Speed_On_Premise</label>
+            </value>
+            <value>
+                <fullName>NETVIBES_NETVIBES NV1 Online_Public_Cloud</fullName>
+                <default>false</default>
+                <label>NETVIBES_NETVIBES NV1 Online_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>NETVIBES_NETVIBES NV1_On_Premise</fullName>
+                <default>false</default>
+                <label>NETVIBES_NETVIBES NV1_On_Premise</label>
+            </value>
+            <value>
+                <fullName>NETVIBES_NETVIBES NV1_Public_Cloud</fullName>
+                <default>false</default>
+                <label>NETVIBES_NETVIBES NV1_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>NR_Efficient Plant Operation_On_Premise</fullName>
+                <default>false</default>
+                <label>NR_Efficient Plant Operation_On_Premise</label>
+            </value>
+            <value>
+                <fullName>NR_Integrated Plant Engineering_On_Premise</fullName>
+                <default>false</default>
+                <label>NR_Integrated Plant Engineering_On_Premise</label>
+            </value>
+            <value>
+                <fullName>NR_Lean Mine Construction_On_Premise</fullName>
+                <default>false</default>
+                <label>NR_Lean Mine Construction_On_Premise</label>
+            </value>
+            <value>
+                <fullName>NR_Perfect Mine and Plant_On_Premise</fullName>
+                <default>false</default>
+                <label>NR_Perfect Mine and Plant_On_Premise</label>
+            </value>
+            <value>
+                <fullName>PLM Express_CATIA V5 PLM Express Edition 3 _On_Premise</fullName>
+                <default>false</default>
+                <label>PLM Express_CATIA V5 PLM Express Edition 3 _On_Premise</label>
+            </value>
+            <value>
+                <fullName>PLM Express_DELMIA V5 PLM Express products_On_Premise</fullName>
+                <default>false</default>
+                <label>PLM Express_DELMIA V5 PLM Express products_On_Premise</label>
+            </value>
+            <value>
+                <fullName>PLM Express_V6 PLM Express Products_On_Premise</fullName>
+                <default>false</default>
+                <label>PLM Express_V6 PLM Express Products_On_Premise</label>
+            </value>
+            <value>
+                <fullName>QUINTIQ_Quintiq_On_Premise</fullName>
+                <default>false</default>
+                <label>QUINTIQ_Quintiq_On_Premise</label>
+            </value>
+            <value>
+                <fullName>SIMULIA_Private Cloud Simulation_Public_Cloud</fullName>
+                <default>false</default>
+                <label>SIMULIA_Private Cloud Simulation_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>SIMULIA_Public Cloud Simulation_Public_Cloud</fullName>
+                <default>false</default>
+                <label>SIMULIA_Public Cloud Simulation_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>SIMULIA_Simulation_On_Premise</fullName>
+                <default>false</default>
+                <label>SIMULIA_Simulation_On_Premise</label>
+            </value>
+            <value>
+                <fullName>SIMULIA_SIMULIA Abaqus Unified FEA_On_Premise</fullName>
+                <default>false</default>
+                <label>SIMULIA_SIMULIA Abaqus Unified FEA_On_Premise</label>
+            </value>
+            <value>
+                <fullName>SIMULIA_SIMULIA Isight_On_Premise</fullName>
+                <default>false</default>
+                <label>SIMULIA_SIMULIA Isight_On_Premise</label>
+            </value>
+            <value>
+                <fullName>SIMULIA_SIMULIA Simpack_On_Premise</fullName>
+                <default>false</default>
+                <label>SIMULIA_SIMULIA Simpack_On_Premise</label>
+            </value>
+            <value>
+                <fullName>SIMULIA_SIMULIA Simpoe_On_Premise</fullName>
+                <default>false</default>
+                <label>SIMULIA_SIMULIA Simpoe_On_Premise</label>
+            </value>
+            <value>
+                <fullName>SIMULIA_SIMULIA Tosca_On_Premise</fullName>
+                <default>false</default>
+                <label>SIMULIA_SIMULIA Tosca_On_Premise</label>
+            </value>
+            <value>
+                <fullName>SIMULIA_SIMULIA V5_On_Premise</fullName>
+                <default>false</default>
+                <label>SIMULIA_SIMULIA V5_On_Premise</label>
+            </value>
+            <value>
+                <fullName>SIMULIA_SIMULIA V6_On_Premise</fullName>
+                <default>false</default>
+                <label>SIMULIA_SIMULIA V6_On_Premise</label>
+            </value>
+            <value>
+                <fullName>SOLIDWORKS_DraftSight Services_On_Premise</fullName>
+                <default>false</default>
+                <label>SOLIDWORKS_DraftSight Services_On_Premise</label>
+            </value>
+            <value>
+                <fullName>TM_Bid to Win for Mid-Market_On_Premise</fullName>
+                <default>false</default>
+                <label>TM_Bid to Win for Mid-Market_On_Premise</label>
+            </value>
+            <value>
+                <fullName>TM_Bid to Win for Mid-Market_Public_Cloud</fullName>
+                <default>false</default>
+                <label>TM_Bid to Win for Mid-Market_Public_Cloud</label>
+            </value>
+            <value>
+                <fullName>TM_Bid to Win_On_Premise</fullName>
+                <default>false</default>
+                <label>TM_Bid to Win_On_Premise</label>
+            </value>
+            <value>
+                <fullName>TM_Global Validation Proven Performance_On_Premise</fullName>
+                <default>false</default>
+                <label>TM_Global Validation Proven Performance_On_Premise</label>
+            </value>
+            <value>
+                <fullName>TM_Innovation on Track_On_Premise</fullName>
+                <default>false</default>
+                <label>TM_Innovation on Track_On_Premise</label>
+            </value>
+            <value>
+                <fullName>TM_Modular, Glocal &amp; Secure_On_Premise</fullName>
+                <default>false</default>
+                <label>TM_Modular, Glocal &amp; Secure_On_Premise</label>
+            </value>
+            <value>
+                <fullName>TM_Smart, Safe &amp; Connected_On_Premise</fullName>
+                <default>false</default>
+                <label>TM_Smart, Safe &amp; Connected_On_Premise</label>
+            </value>
+            <value>
+                <fullName>TM_Target Zero Defect_On_Premise</fullName>
+                <default>false</default>
+                <label>TM_Target Zero Defect_On_Premise</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

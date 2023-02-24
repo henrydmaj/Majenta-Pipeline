@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InvoiceStatus__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Customer_Invoiced__c,
+	IMAGE("/resource/1352889789000/statusprogress4", "Complete"),
+	IF(InvoiceStatusPerc__c &gt;= 1, IMAGE("/resource/1352889859000/statusprogress4", "Complete"),
+	IF(InvoiceStatusPerc__c &gt; 0.75, IMAGE("/resource/1352889844000/statusprogress3", "Part Complete"),
+	IF(InvoiceStatusPerc__c &gt; 0.50, IMAGE("/resource/1352889822000/statusprogress2", "Part Complete"),
+	IF(InvoiceStatusPerc__c &gt; 0, IMAGE("/resource/1352889808000/statusprogress1", "Part Complete"),
+	IMAGE("/resource/1352889789000/statusprogress0", "Incomplete") ))))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Invoice Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

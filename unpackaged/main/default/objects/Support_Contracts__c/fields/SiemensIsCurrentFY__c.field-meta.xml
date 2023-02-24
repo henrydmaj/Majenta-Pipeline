@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SiemensIsCurrentFY__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+TEXT(YEAR(TODAY())) = IF( MONTH(Finish_Date__c) &gt;= 10,
+TEXT(YEAR(Finish_Date__c)+1),
+TEXT(YEAR(Finish_Date__c)) ) ,
+"TRUE", "FALSE")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Siemens Is Current FY</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

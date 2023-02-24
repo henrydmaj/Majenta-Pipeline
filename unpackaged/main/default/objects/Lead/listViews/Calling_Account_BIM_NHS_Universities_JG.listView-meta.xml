@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calling_Account_BIM_NHS_Universities_JG</fullName>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.ZIP</field>
+        <operation>startsWith</operation>
+        <value>B18,B23,B3,B4,B7,B98,BB,BD,BL,CA,CF,CH,CV,DE,DL,DN,DY,HD,HG,HR,HU,L1,L2,L3,L6,L7</value>
+    </filters>
+    <filters>
+        <field>LEAD.ZIP</field>
+        <operation>startsWith</operation>
+        <value>L9,LA,LE,LL,LN,LS,M1,M2,M6,M8,NG,NN,NP,OL,PR,S1,S4,S6,S7,SA,SK,SR,ST,SY,TF,TS,WA</value>
+    </filters>
+    <filters>
+        <field>LEAD.ZIP</field>
+        <operation>startsWith</operation>
+        <value>WF,WN,WR,WS,WV,YO</value>
+    </filters>
+    <label>Calling-Account-BIM-NHS-Universities-JG</label>
+</ListView>

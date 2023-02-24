@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Software_Division_Campaigns</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>Calendar_Period__c</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>AMOUNT_ALL</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Division__c</field>
+        <operation>equals</operation>
+        <value>Software</value>
+    </filters>
+    <label>Software Division Campaigns</label>
+    <sharedTo>
+        <group>SoftwareDivisionTeam</group>
+        <group>Solutions_Division_Team</group>
+        <group>SystemAdministrators</group>
+    </sharedTo>
+</ListView>

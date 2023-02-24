@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3rd_Party_Permission_Required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to show authorisation has been given by the customer if we have a need to pass the services on to a 3rd party.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Only tick the checkbox if Majenta are legally obliged to have gained customer authorisation for sharing contract information is required.</inlineHelpText>
+    <label>3rd Party Permission Required</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

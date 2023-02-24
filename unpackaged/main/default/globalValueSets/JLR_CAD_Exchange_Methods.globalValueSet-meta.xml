@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Teamcenter</fullName>
+        <default>false</default>
+        <label>Teamcenter</label>
+    </customValue>
+    <customValue>
+        <fullName>Leapfile</fullName>
+        <default>false</default>
+        <label>Leapfile</label>
+    </customValue>
+    <customValue>
+        <fullName>Synchronous 2014</fullName>
+        <default>false</default>
+        <label>Synchronous 2014</label>
+    </customValue>
+    <customValue>
+        <fullName>Asynchronous 2014</fullName>
+        <default>false</default>
+        <label>Asynchronous 2014</label>
+    </customValue>
+    <customValue>
+        <fullName>Synchronous 2017x</fullName>
+        <default>false</default>
+        <label>Synchronous 2017x</label>
+    </customValue>
+    <customValue>
+        <fullName>Asynchronous 2017x</fullName>
+        <default>false</default>
+        <label>Asynchronous 2017x</label>
+    </customValue>
+    <customValue>
+        <fullName>DSP</fullName>
+        <default>false</default>
+        <label>DSP</label>
+    </customValue>
+    <customValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </customValue>
+    <customValue>
+        <fullName>3DEXPERIENCE</fullName>
+        <default>false</default>
+        <label>3DEXPERIENCE</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Service Provider</fullName>
+        <default>false</default>
+        <label>Data Service Provider</label>
+    </customValue>
+    <customValue>
+        <fullName>MX</fullName>
+        <default>false</default>
+        <label>MX</label>
+    </customValue>
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>PLM via DSP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PLM via DSP</label>
+    </customValue>
+    <customValue>
+        <fullName>File Based Data Interchange Type of exchange users?</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>File Based Data Interchange Type of exchange users?</label>
+    </customValue>
+    <description>Used in JLR Suppler Questionnaire</description>
+    <masterLabel>JLR CAD Exchange Methods</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

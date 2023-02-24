@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RESBOOK_VR02_StartDateBeforeEndDate</fullName>
+    <active>true</active>
+    <description>Cannot create a Resource Booking where the End Date comes before the Start Date</description>
+    <errorConditionFormula>IF(FinishDateTime__c &lt; StartDateTime__c, true, false)</errorConditionFormula>
+    <errorMessage>The Start Date must be before the Finish Date.  Please rectify before saving this record. [RESBOOK_VR02]</errorMessage>
+</ValidationRule>

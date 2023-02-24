@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commision_Customer_Type_Rate__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Customer_Type_ro__c = "New",
+CASE( Product_Family_ro__c, 
+"Software", 1.5, 
+"IT", 1.5,
+"Data Services", 1,
+"PLM", 1,
+"Academy", 1,
+"Majenta", 0,
+"Online", 0,
+1),
+1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Customer Type Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reviewed_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Date_Reviewed__c ) 
+&amp;&amp; 
+  
+ NOT($User.Id =  User__r.ManagerId)</errorConditionFormula>
+    <errorDisplayField>Date_Reviewed__c</errorDisplayField>
+    <errorMessage>An employee can only be reviewed by their manager</errorMessage>
+</ValidationRule>

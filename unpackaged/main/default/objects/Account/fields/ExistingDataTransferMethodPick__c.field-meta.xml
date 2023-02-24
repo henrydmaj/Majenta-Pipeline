@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExistingDataTransferMethodPick__c</fullName>
+    <externalId>false</externalId>
+    <label>Existing Data Transfer Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Commercial Web Based</fullName>
+                <default>false</default>
+                <label>Commercial Web Based</label>
+            </value>
+            <value>
+                <fullName>No core data transfer solution</fullName>
+                <default>false</default>
+                <label>No core data transfer solution</label>
+            </value>
+            <value>
+                <fullName>PLM Integrated</fullName>
+                <default>false</default>
+                <label>PLM Integrated</label>
+            </value>
+            <value>
+                <fullName>Home Grown</fullName>
+                <default>false</default>
+                <label>Home Grown</label>
+            </value>
+            <value>
+                <fullName>Customer Mandated</fullName>
+                <default>false</default>
+                <label>Customer Mandated</label>
+            </value>
+            <value>
+                <fullName>MX</fullName>
+                <default>false</default>
+                <label>MX</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

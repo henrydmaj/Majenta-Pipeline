@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsRenewed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Renewal Emails will be scheduled and sent if this is not ticked</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To be ticked if this Contract has been renewed</inlineHelpText>
+    <label>Contract Renewed?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

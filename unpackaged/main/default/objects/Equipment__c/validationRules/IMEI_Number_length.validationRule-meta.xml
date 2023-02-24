@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IMEI_Number_length</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+
+(NOT(ISBLANK(  IMEI_number__c )),
+
+LEN (  IMEI_number__c ) &lt;&gt;15)</errorConditionFormula>
+    <errorDisplayField>IMEI_number__c</errorDisplayField>
+    <errorMessage>IMEI Number must be 15 digits</errorMessage>
+</ValidationRule>

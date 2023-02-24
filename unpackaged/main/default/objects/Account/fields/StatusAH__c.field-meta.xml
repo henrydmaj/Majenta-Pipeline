@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusAH__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If checked, will cause the Account Status banner (account_ACCOUNTSTATUSONSTOP Visualforce Page) to be displayed on the relevant Account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to put the Account on Credit Hold</inlineHelpText>
+    <label>StatusAH</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

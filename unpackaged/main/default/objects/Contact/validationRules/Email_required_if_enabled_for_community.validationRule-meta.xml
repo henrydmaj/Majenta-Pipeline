@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_required_if_enabled_for_community</fullName>
+    <active>true</active>
+    <description>Email required if enabled for community</description>
+    <errorConditionFormula>AND(Enable_for_Community__c, ISBLANK(Email))</errorConditionFormula>
+    <errorMessage>Email is required as the contact is enabled for community!</errorMessage>
+</ValidationRule>

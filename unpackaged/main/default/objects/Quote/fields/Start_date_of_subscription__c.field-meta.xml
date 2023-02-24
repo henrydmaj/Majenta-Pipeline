@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_date_of_subscription__c</fullName>
+    <description>This date field is used to determine when the enerjyhub subscription of the supplier will start.</description>
+    <externalId>false</externalId>
+    <label>Start date of subscription</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subcategory__c</fullName>
+    <externalId>false</externalId>
+    <label>Subcategory</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3DSync</fullName>
+                <default>false</default>
+                <label>3DSync</label>
+            </value>
+            <value>
+                <fullName>3DX-OC</fullName>
+                <default>false</default>
+                <label>3DX-OC</label>
+            </value>
+            <value>
+                <fullName>3DX-OP</fullName>
+                <default>false</default>
+                <label>3DX-OP</label>
+            </value>
+            <value>
+                <fullName>Alias</fullName>
+                <default>false</default>
+                <label>Alias</label>
+            </value>
+            <value>
+                <fullName>AutoCAD</fullName>
+                <default>false</default>
+                <label>AutoCAD</label>
+            </value>
+            <value>
+                <fullName>CAA V5-OP</fullName>
+                <default>false</default>
+                <label>CAA V5-OP</label>
+            </value>
+            <value>
+                <fullName>CATIA / ENOVIA DMU-OP</fullName>
+                <default>false</default>
+                <label>CATIA / ENOVIA DMU-OP</label>
+            </value>
+            <value>
+                <fullName>CATIA Composer-OP</fullName>
+                <default>false</default>
+                <label>CATIA Composer-OP</label>
+            </value>
+            <value>
+                <fullName>CATIA V5-OP</fullName>
+                <default>false</default>
+                <label>CATIA V5-OP</label>
+            </value>
+            <value>
+                <fullName>CATIA V6-OP</fullName>
+                <default>false</default>
+                <label>CATIA V6-OP</label>
+            </value>
+            <value>
+                <fullName>Composer-OC</fullName>
+                <default>false</default>
+                <label>Composer-OC</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>DELMIA D5-OP</fullName>
+                <default>false</default>
+                <label>DELMIA D5-OP</label>
+            </value>
+            <value>
+                <fullName>DELMIA V5-OP</fullName>
+                <default>false</default>
+                <label>DELMIA V5-OP</label>
+            </value>
+            <value>
+                <fullName>DraftSight-OP</fullName>
+                <default>false</default>
+                <label>DraftSight-OP</label>
+            </value>
+            <value>
+                <fullName>ENOVIA SmarTeam V5-OP</fullName>
+                <default>false</default>
+                <label>ENOVIA SmarTeam V5-OP</label>
+            </value>
+            <value>
+                <fullName>ENOVIA VPLM V5-OP</fullName>
+                <default>false</default>
+                <label>ENOVIA VPLM V5-OP</label>
+            </value>
+            <value>
+                <fullName>ENOVIAvpm-OP</fullName>
+                <default>false</default>
+                <label>ENOVIAvpm-OP</label>
+            </value>
+            <value>
+                <fullName>Femap</fullName>
+                <default>false</default>
+                <label>Femap</label>
+            </value>
+            <value>
+                <fullName>ICEM Surf-OP</fullName>
+                <default>false</default>
+                <label>ICEM Surf-OP</label>
+            </value>
+            <value>
+                <fullName>Inventor</fullName>
+                <default>false</default>
+                <label>Inventor</label>
+            </value>
+            <value>
+                <fullName>NX</fullName>
+                <default>false</default>
+                <label>NX</label>
+            </value>
+            <value>
+                <fullName>NX I-deas</fullName>
+                <default>false</default>
+                <label>NX I-deas</label>
+            </value>
+            <value>
+                <fullName>Showcase</fullName>
+                <default>false</default>
+                <label>Showcase</label>
+            </value>
+            <value>
+                <fullName>Simulation</fullName>
+                <default>false</default>
+                <label>Simulation</label>
+            </value>
+            <value>
+                <fullName>Simulation-OP</fullName>
+                <default>false</default>
+                <label>Simulation-OP</label>
+            </value>
+            <value>
+                <fullName>Simulayt V5-OP</fullName>
+                <default>false</default>
+                <label>Simulayt V5-OP</label>
+            </value>
+            <value>
+                <fullName>Simulayt V6-OP</fullName>
+                <default>false</default>
+                <label>Simulayt V6-OP</label>
+            </value>
+            <value>
+                <fullName>SIMULIA-OC</fullName>
+                <default>false</default>
+                <label>SIMULIA-OC</label>
+            </value>
+            <value>
+                <fullName>SIMULIA-OP</fullName>
+                <default>false</default>
+                <label>SIMULIA-OP</label>
+            </value>
+            <value>
+                <fullName>Solid Edge</fullName>
+                <default>false</default>
+                <label>Solid Edge</label>
+            </value>
+            <value>
+                <fullName>Teamcenter</fullName>
+                <default>false</default>
+                <label>Teamcenter</label>
+            </value>
+            <value>
+                <fullName>Technomatix</fullName>
+                <default>false</default>
+                <label>Technomatix</label>
+            </value>
+            <value>
+                <fullName>V5-OC</fullName>
+                <default>false</default>
+                <label>V5-OC</label>
+            </value>
+            <value>
+                <fullName>V5 PLM Express-OP</fullName>
+                <default>false</default>
+                <label>V5 PLM Express-OP</label>
+            </value>
+            <value>
+                <fullName>V6-OC</fullName>
+                <default>false</default>
+                <label>V6-OC</label>
+            </value>
+            <value>
+                <fullName>V6-OP</fullName>
+                <default>false</default>
+                <label>V6-OP</label>
+            </value>
+            <value>
+                <fullName>Vault</fullName>
+                <default>false</default>
+                <label>Vault</label>
+            </value>
+            <value>
+                <fullName>VRED</fullName>
+                <default>false</default>
+                <label>VRED</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Special Offer for Mid-Market</controllingFieldValue>
+            <controllingFieldValue>3DEXPERIENCE Open</controllingFieldValue>
+            <controllingFieldValue>Design/Engineering</controllingFieldValue>
+            <controllingFieldValue>Governance/Lifecycle</controllingFieldValue>
+            <controllingFieldValue>JLR Supplier</controllingFieldValue>
+            <controllingFieldValue>Manufacturing/Production</controllingFieldValue>
+            <valueName>3DX-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Airbus Supplier</controllingFieldValue>
+            <controllingFieldValue>CATIA V5</controllingFieldValue>
+            <valueName>CATIA V5-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAA V5</controllingFieldValue>
+            <valueName>CAA V5-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CATIA / ENOVIA DMU</controllingFieldValue>
+            <valueName>CATIA / ENOVIA DMU-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CATIA Composer</controllingFieldValue>
+            <valueName>CATIA Composer-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CATIA V5 PLM Express Edition 3</controllingFieldValue>
+            <valueName>V5 PLM Express-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CATIA V6</controllingFieldValue>
+            <valueName>CATIA V6-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELMIA D5</controllingFieldValue>
+            <valueName>DELMIA D5-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELMIA V5</controllingFieldValue>
+            <valueName>DELMIA V5-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autodesk</controllingFieldValue>
+            <valueName>Alias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autodesk</controllingFieldValue>
+            <valueName>AutoCAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autodesk</controllingFieldValue>
+            <valueName>Inventor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autodesk</controllingFieldValue>
+            <valueName>Showcase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autodesk</controllingFieldValue>
+            <valueName>Simulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autodesk</controllingFieldValue>
+            <valueName>Vault</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autodesk</controllingFieldValue>
+            <valueName>VRED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DraftSight</controllingFieldValue>
+            <valueName>DraftSight-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENOVIA SmarTeam V5</controllingFieldValue>
+            <valueName>ENOVIA SmarTeam V5-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENOVIA VPLM V5</controllingFieldValue>
+            <valueName>ENOVIA VPLM V5-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENOVIAvpm</controllingFieldValue>
+            <valueName>ENOVIAvpm-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICEM Surf</controllingFieldValue>
+            <valueName>ICEM Surf-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online Learning Experience for CATIA Composer</controllingFieldValue>
+            <valueName>Composer-OC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online Learning Experience for SIMULIA</controllingFieldValue>
+            <valueName>SIMULIA-OC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online Learning Experience for V5</controllingFieldValue>
+            <valueName>V5-OC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Cloud 3DEXPERIENCE Open</controllingFieldValue>
+            <controllingFieldValue>Public Cloud Companion Special Mid-Market Offer</controllingFieldValue>
+            <controllingFieldValue>Public Cloud Design/Engineering</controllingFieldValue>
+            <controllingFieldValue>Public Cloud Governance/Lifecycle</controllingFieldValue>
+            <controllingFieldValue>Public Cloud Manufacturing/Production</controllingFieldValue>
+            <controllingFieldValue>Public Cloud Manufacturing-Production</controllingFieldValue>
+            <controllingFieldValue>Public Cloud Simulation</controllingFieldValue>
+            <controllingFieldValue>Public Cloud Special Offer for Mid-Market</controllingFieldValue>
+            <valueName>3DX-OC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Siemens</controllingFieldValue>
+            <valueName>3DSync</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Siemens</controllingFieldValue>
+            <valueName>Femap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Siemens</controllingFieldValue>
+            <valueName>NX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Siemens</controllingFieldValue>
+            <valueName>NX I-deas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Siemens</controllingFieldValue>
+            <valueName>Solid Edge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Siemens</controllingFieldValue>
+            <valueName>Teamcenter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Siemens</controllingFieldValue>
+            <valueName>Technomatix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simulation</controllingFieldValue>
+            <valueName>Simulation-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simulayt for V5</controllingFieldValue>
+            <valueName>Simulayt V5-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simulayt for V6</controllingFieldValue>
+            <valueName>Simulayt V6-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SIMULIA Abaqus Unified FEA</controllingFieldValue>
+            <controllingFieldValue>SIMULIA Isight</controllingFieldValue>
+            <controllingFieldValue>SIMULIA V5</controllingFieldValue>
+            <valueName>SIMULIA-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>V6 for Academia</controllingFieldValue>
+            <valueName>V6-OP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Construction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>V6 Online Companion</controllingFieldValue>
+            <valueName>V6-OC</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

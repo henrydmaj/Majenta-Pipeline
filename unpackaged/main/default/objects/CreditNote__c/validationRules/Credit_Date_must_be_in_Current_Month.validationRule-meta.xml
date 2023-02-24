@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Date_must_be_in_Current_Month</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+  NOT(IsApexContext__c),
+  NOT($User.InvoiceAdministrator__c),
+  Date__c &lt; TODAY(),
+  MONTH(Date__c)  != MONTH(TODAY()),
+  NOT(ISCHANGED(IsPostedToSage2__c)),
+  NOT(ISCHANGED(UploadedToHitachi__c))
+)</errorConditionFormula>
+    <errorDisplayField>Date__c</errorDisplayField>
+    <errorMessage>Credit Note Date must be within the current month.</errorMessage>
+</ValidationRule>

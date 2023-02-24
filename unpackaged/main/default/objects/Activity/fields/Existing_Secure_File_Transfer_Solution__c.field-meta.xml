@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Existing_Secure_File_Transfer_Solution__c</fullName>
+    <externalId>false</externalId>
+    <label>Existing Secure File Transfer Solution</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>PLM Integrated</fullName>
+                <default>false</default>
+                <label>PLM Integrated</label>
+            </value>
+            <value>
+                <fullName>SFTP</fullName>
+                <default>false</default>
+                <label>SFTP</label>
+            </value>
+            <value>
+                <fullName>Home Grown</fullName>
+                <default>false</default>
+                <label>Home Grown</label>
+            </value>
+            <value>
+                <fullName>WeTransfer</fullName>
+                <default>false</default>
+                <label>WeTransfer</label>
+            </value>
+            <value>
+                <fullName>Files.com</fullName>
+                <default>false</default>
+                <label>Files.com</label>
+            </value>
+            <value>
+                <fullName>HIghtail</fullName>
+                <default>false</default>
+                <label>HIghtail</label>
+            </value>
+            <value>
+                <fullName>Sharefile</fullName>
+                <default>false</default>
+                <label>Sharefile</label>
+            </value>
+            <value>
+                <fullName>Box</fullName>
+                <default>false</default>
+                <label>Box</label>
+            </value>
+            <value>
+                <fullName>TruExchange</fullName>
+                <default>false</default>
+                <label>TruExchange</label>
+            </value>
+            <value>
+                <fullName>OFTP</fullName>
+                <default>false</default>
+                <label>OFTP</label>
+            </value>
+            <value>
+                <fullName>Other Cloud Based</fullName>
+                <default>false</default>
+                <label>Other Cloud Based</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Galaxkey</fullName>
+                <default>false</default>
+                <label>Galaxkey</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

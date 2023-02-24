@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>The_Sell__c</fullName>
+    <description>Outline of product/service</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Only use for inside sales campaigns</inlineHelpText>
+    <label>The Sell</label>
+    <length>50000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

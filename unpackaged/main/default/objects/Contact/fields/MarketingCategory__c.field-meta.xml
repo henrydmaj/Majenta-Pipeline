@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketingCategory__c</fullName>
+    <externalId>false</externalId>
+    <label>Marketing Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Automotive Centre of Excellence</fullName>
+                <default>false</default>
+                <label>Automotive Centre of Excellence</label>
+            </value>
+            <value>
+                <fullName>Data Management</fullName>
+                <default>false</default>
+                <label>Data Management</label>
+            </value>
+            <value>
+                <fullName>Factory layout and Plant</fullName>
+                <default>false</default>
+                <label>Factory layout and Plant</label>
+            </value>
+            <value>
+                <fullName>Industrial Design &amp; Visualisation</fullName>
+                <default>false</default>
+                <label>Industrial Design &amp; Visualisation</label>
+            </value>
+            <value>
+                <fullName>Plastics</fullName>
+                <default>false</default>
+                <label>Plastics</label>
+            </value>
+            <value>
+                <fullName>PLM360</fullName>
+                <default>false</default>
+                <label>PLM360</label>
+            </value>
+            <value>
+                <fullName>Simulation</fullName>
+                <default>false</default>
+                <label>Simulation</label>
+            </value>
+            <value>
+                <fullName>Design Automation</fullName>
+                <default>false</default>
+                <label>Design Automation</label>
+            </value>
+            <value>
+                <fullName>BIM</fullName>
+                <default>false</default>
+                <label>BIM</label>
+            </value>
+            <value>
+                <fullName>enerjyhub</fullName>
+                <default>false</default>
+                <label>enerjyhub</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

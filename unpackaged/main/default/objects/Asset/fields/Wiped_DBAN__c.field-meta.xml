@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wiped_DBAN__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Has the machine been Wiped/DBAN'd?</description>
+    <externalId>false</externalId>
+    <label>Wiped/DBAN</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

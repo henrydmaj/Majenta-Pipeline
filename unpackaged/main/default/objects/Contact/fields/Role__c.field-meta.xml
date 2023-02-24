@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Department__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assistant/Administrator</fullName>
+                <default>false</default>
+                <label>Assistant/Administrator</label>
+            </value>
+            <value>
+                <fullName>Chairman</fullName>
+                <default>false</default>
+                <label>Chairman</label>
+            </value>
+            <value>
+                <fullName>Designer</fullName>
+                <default>false</default>
+                <label>Designer</label>
+            </value>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Head of</fullName>
+                <default>false</default>
+                <label>Head of</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <label>Manager</label>
+            </value>
+            <value>
+                <fullName>Administrator</fullName>
+                <default>false</default>
+                <label>Administrator</label>
+            </value>
+            <value>
+                <fullName>Managing/Operations Director</fullName>
+                <default>false</default>
+                <label>Managing/Operations Director</label>
+            </value>
+            <value>
+                <fullName>Owner</fullName>
+                <default>false</default>
+                <label>Owner</label>
+            </value>
+            <value>
+                <fullName>Technical Director</fullName>
+                <default>false</default>
+                <label>Technical Director</label>
+            </value>
+            <value>
+                <fullName>Technician</fullName>
+                <default>false</default>
+                <label>Technician</label>
+            </value>
+            <value>
+                <fullName>Worker</fullName>
+                <default>false</default>
+                <label>Worker</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Senior Management</controllingFieldValue>
+            <valueName>Chairman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Senior Management</controllingFieldValue>
+            <valueName>Managing/Operations Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Senior Management</controllingFieldValue>
+            <valueName>Owner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Senior Management</controllingFieldValue>
+            <valueName>Technical Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Projects</controllingFieldValue>
+            <controllingFieldValue>Estates</controllingFieldValue>
+            <controllingFieldValue>Facilities Management</controllingFieldValue>
+            <controllingFieldValue>Sustainability</controllingFieldValue>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <controllingFieldValue>Accounts/Finance</controllingFieldValue>
+            <controllingFieldValue>Engineering - Hardware</controllingFieldValue>
+            <controllingFieldValue>Engineering - Software</controllingFieldValue>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <controllingFieldValue>Purchasing</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Projects</controllingFieldValue>
+            <controllingFieldValue>Estates</controllingFieldValue>
+            <controllingFieldValue>Facilities Management</controllingFieldValue>
+            <controllingFieldValue>Sustainability</controllingFieldValue>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>Head of</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Projects</controllingFieldValue>
+            <controllingFieldValue>Estates</controllingFieldValue>
+            <controllingFieldValue>Facilities Management</controllingFieldValue>
+            <controllingFieldValue>Sustainability</controllingFieldValue>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <controllingFieldValue>Accounts/Finance</controllingFieldValue>
+            <controllingFieldValue>Engineering - Hardware</controllingFieldValue>
+            <controllingFieldValue>Engineering - Software</controllingFieldValue>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <controllingFieldValue>Purchasing</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital Projects</controllingFieldValue>
+            <controllingFieldValue>Estates</controllingFieldValue>
+            <controllingFieldValue>Facilities Management</controllingFieldValue>
+            <controllingFieldValue>Sustainability</controllingFieldValue>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>Administrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounts/Finance</controllingFieldValue>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <controllingFieldValue>Purchasing</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Assistant/Administrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engineering - Hardware</controllingFieldValue>
+            <controllingFieldValue>Engineering - Software</controllingFieldValue>
+            <valueName>Designer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Technician</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Worker</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

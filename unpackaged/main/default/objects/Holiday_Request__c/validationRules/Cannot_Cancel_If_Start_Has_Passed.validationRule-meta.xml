@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Cancel_If_Start_Has_Passed</fullName>
+    <active>true</active>
+    <description>Cannot cancel as a holiday if the start date has already passed today's date</description>
+    <errorConditionFormula>ISPICKVAL( Status__c, "Cancelled") 
+  &amp;&amp; 
+(  Start_Date__c - TODAY())  &lt;= 0
+
+&amp;&amp; 
+
+NOT( $Profile.Id = "00e4K000001dwXd")</errorConditionFormula>
+    <errorMessage>Cannot cancel a holiday if the start date has already passed today's date</errorMessage>
+</ValidationRule>

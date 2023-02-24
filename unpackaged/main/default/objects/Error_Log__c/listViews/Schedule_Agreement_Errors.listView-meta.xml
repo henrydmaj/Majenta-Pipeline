@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule_Agreement_Errors</fullName>
+    <columns>NAME</columns>
+    <columns>Error_Details__c</columns>
+    <columns>Error_Summary__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Error_Summary__c</field>
+        <operation>contains</operation>
+        <value>Schedule Agreement</value>
+    </filters>
+    <label>Schedule Agreement Errors</label>
+</ListView>

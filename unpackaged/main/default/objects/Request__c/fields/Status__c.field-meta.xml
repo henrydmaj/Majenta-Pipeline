@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <color>#3366FF</color>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <color>#CC0000</color>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Awaiting Response</fullName>
+                <color>#FF9900</color>
+                <default>false</default>
+                <label>Awaiting Response</label>
+            </value>
+            <value>
+                <fullName>User Testing</fullName>
+                <default>false</default>
+                <label>User Testing</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <color>#33CC00</color>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <color>#BBBBBB</color>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <color>#333333</color>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Aborted</fullName>
+                <color>#666666</color>
+                <default>false</default>
+                <label>Aborted</label>
+            </value>
+            <value>
+                <fullName>Roadmap</fullName>
+                <color>#CC33CC</color>
+                <default>false</default>
+                <label>Roadmap</label>
+            </value>
+            <value>
+                <fullName>Project Created</fullName>
+                <default>false</default>
+                <label>Project Created</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <color>#419249</color>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

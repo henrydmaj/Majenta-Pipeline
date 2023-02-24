@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNL_LINK_TO_OB__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>PNL LINK TO OB</label>
+    <referenceTo>PNL__c</referenceTo>
+    <relationshipLabel>OBJECTIVES</relationshipLabel>
+    <relationshipName>OBS</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

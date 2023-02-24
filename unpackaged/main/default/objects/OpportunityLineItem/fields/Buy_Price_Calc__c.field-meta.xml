@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buy_Price_Calc__c</fullName>
+    <externalId>false</externalId>
+    <formula>List_Amended_Price__c - ( List_Amended_Price__c * PricebookEntry.Product2.Supplier_Discount__c )</formula>
+    <label>Buy Price Calc</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

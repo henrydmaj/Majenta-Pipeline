@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IncludeCustomerOrderNoOnPO__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If checked includes Customer Order Number form Opportunity on Purchase Order Template</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check if you wish to include the Customer Order Number for Opportunity on the  Purchase Order Template</inlineHelpText>
+    <label>Include Customer Order No. PO</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

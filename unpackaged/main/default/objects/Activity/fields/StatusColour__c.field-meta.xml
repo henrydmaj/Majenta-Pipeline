@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusColour__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Status, 
+"On Hold", IMAGE("/img/samples/color_red.gif", "Red", 10, 40), 
+"Waiting on someone else", IMAGE("/img/samples/color_red.gif", "Red", 10, 40), 
+"In Progress", IMAGE("/img/samples/color_yellow.gif", "Yellow", 10, 40), 
+"Completed", IMAGE("/img/samples/color_green.gif", "Green", 10, 40),
+"")</formula>
+    <label>Colour</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

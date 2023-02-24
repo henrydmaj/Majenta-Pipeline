@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lesson_VR1_MustProvideMitigation</fullName>
+    <active>true</active>
+    <description>If category equals 'Needs Improvement', user must provide mitigation.</description>
+    <errorConditionFormula>AND(
+				ISPICKVAL(CategoryPick__c,"Needs Improvement"),
+				Mitigation__c="")</errorConditionFormula>
+    <errorDisplayField>Mitigation__c</errorDisplayField>
+    <errorMessage>Provide the mitigation steps.</errorMessage>
+</ValidationRule>

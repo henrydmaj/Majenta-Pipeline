@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Software_Products__c</fullName>
+    <externalId>false</externalId>
+    <label>Software Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Autodesk MSD - Design|Studio</fullName>
+                <default>false</default>
+                <label>Autodesk MSD - Design|Studio</label>
+            </value>
+            <value>
+                <fullName>Autodesk MSD - Studio</fullName>
+                <default>false</default>
+                <label>Autodesk MSD - Studio</label>
+            </value>
+            <value>
+                <fullName>Autodesk MSD - Surface|Studio</fullName>
+                <default>false</default>
+                <label>Autodesk MSD - Surface|Studio</label>
+            </value>
+            <value>
+                <fullName>Autodesk MSD - Auto|Studio</fullName>
+                <default>false</default>
+                <label>Autodesk MSD - Auto|Studio</label>
+            </value>
+            <value>
+                <fullName>Autodesk MSD - Image|Studio</fullName>
+                <default>false</default>
+                <label>Autodesk MSD - Image|Studio</label>
+            </value>
+            <value>
+                <fullName>Autodesk MSD - Showcase</fullName>
+                <default>false</default>
+                <label>Autodesk MSD - Showcase</label>
+            </value>
+            <value>
+                <fullName>Autodesk MSD - Showcase Pro</fullName>
+                <default>false</default>
+                <label>Autodesk MSD - Showcase Pro</label>
+            </value>
+            <value>
+                <fullName>Autodesk MSD - Portfolio Wall</fullName>
+                <default>false</default>
+                <label>Autodesk MSD - Portfolio Wall</label>
+            </value>
+            <value>
+                <fullName>Autodesk MSD - Direct|Connect</fullName>
+                <default>false</default>
+                <label>Autodesk MSD - Direct|Connect</label>
+            </value>
+            <value>
+                <fullName>Autodesk MSD - Training</fullName>
+                <default>false</default>
+                <label>Autodesk MSD - Training</label>
+            </value>
+            <value>
+                <fullName>Autodesk MSD - Other</fullName>
+                <default>false</default>
+                <label>Autodesk MSD - Other</label>
+            </value>
+            <value>
+                <fullName>Autodesk MES - Maya</fullName>
+                <default>false</default>
+                <label>Autodesk MES - Maya</label>
+            </value>
+            <value>
+                <fullName>Autodesk MES - 3D Studio</fullName>
+                <default>false</default>
+                <label>Autodesk MES - 3D Studio</label>
+            </value>
+            <value>
+                <fullName>Autodesk MES - Sketchbook Pro</fullName>
+                <default>false</default>
+                <label>Autodesk MES - Sketchbook Pro</label>
+            </value>
+            <value>
+                <fullName>Autodesk MES - Training</fullName>
+                <default>false</default>
+                <label>Autodesk MES - Training</label>
+            </value>
+            <value>
+                <fullName>Autodesk MES - Other</fullName>
+                <default>false</default>
+                <label>Autodesk MES - Other</label>
+            </value>
+            <value>
+                <fullName>Sensable - ClayTools</fullName>
+                <default>false</default>
+                <label>Sensable - ClayTools</label>
+            </value>
+            <value>
+                <fullName>Sensable - FFM/Omni</fullName>
+                <default>false</default>
+                <label>Sensable - FFM/Omni</label>
+            </value>
+            <value>
+                <fullName>Sensable - FFM/Desktop</fullName>
+                <default>false</default>
+                <label>Sensable - FFM/Desktop</label>
+            </value>
+            <value>
+                <fullName>Sensable - FFMP</fullName>
+                <default>false</default>
+                <label>Sensable - FFMP</label>
+            </value>
+            <value>
+                <fullName>Sensable - Training</fullName>
+                <default>false</default>
+                <label>Sensable - Training</label>
+            </value>
+            <value>
+                <fullName>Sensable - Other</fullName>
+                <default>false</default>
+                <label>Sensable - Other</label>
+            </value>
+            <value>
+                <fullName>Elysium - CAD.Feature</fullName>
+                <default>false</default>
+                <label>Elysium - CAD.Feature</label>
+            </value>
+            <value>
+                <fullName>Elysium - CAD.Doctor</fullName>
+                <default>false</default>
+                <label>Elysium - CAD.Doctor</label>
+            </value>
+            <value>
+                <fullName>Elysium - CAD.Porter</fullName>
+                <default>false</default>
+                <label>Elysium - CAD.Porter</label>
+            </value>
+            <value>
+                <fullName>Elysium - PDQ-NP</fullName>
+                <default>false</default>
+                <label>Elysium - PDQ-NP</label>
+            </value>
+            <value>
+                <fullName>Elysium - Training</fullName>
+                <default>false</default>
+                <label>Elysium - Training</label>
+            </value>
+            <value>
+                <fullName>Elysium - Other</fullName>
+                <default>false</default>
+                <label>Elysium - Other</label>
+            </value>
+            <value>
+                <fullName>Icona - Aesthetica</fullName>
+                <default>false</default>
+                <label>Icona - Aesthetica</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

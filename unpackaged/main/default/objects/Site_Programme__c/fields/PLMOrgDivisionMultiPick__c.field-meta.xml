@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PLMOrgDivisionMultiPick__c</fullName>
+    <externalId>false</externalId>
+    <label>PLM Organisation Division</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>JLR_Supplier_Org_Divisions</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

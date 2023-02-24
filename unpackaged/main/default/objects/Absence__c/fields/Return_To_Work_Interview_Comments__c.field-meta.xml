@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Return_To_Work_Interview_Comments__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter details that were discussed at the return to work interview</inlineHelpText>
+    <label>Return To Work Interview (Comments)</label>
+    <length>32768</length>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

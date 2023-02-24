@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Construction_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Inspire_Project__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Project_Start_Date__c</columns>
+    <columns>IsTimingPlanProgrammeWorksSupplied__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Division__c</field>
+        <operation>equals</operation>
+        <value>Construction</value>
+    </filters>
+    <filters>
+        <field>SolutionType__c</field>
+        <operation>equals</operation>
+        <value>BIM,Information Management,4D,Laser Scanning,Client Consultancy,MEP Modelling</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Upside (Best case),Committed,Order In - Processing</value>
+    </filters>
+    <filters>
+        <field>Project_Completed__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2023</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>JStev,SORD,SLIS</value>
+    </filters>
+    <label>Construction Opportunities 60%+ (PMO)</label>
+</ListView>

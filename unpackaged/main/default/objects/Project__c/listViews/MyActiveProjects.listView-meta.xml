@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyActiveProjects</fullName>
+    <columns>NAME</columns>
+    <columns>CalendarPeriod__c</columns>
+    <columns>Status__c</columns>
+    <columns>ProjectProgress__c</columns>
+    <columns>ProjectPercentComplete__c</columns>
+    <columns>IsActive__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>IsActive__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Active Projects</label>
+</ListView>

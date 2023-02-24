@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lookup_PY_Foreign_Key__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Lookup PY Foreign Key</label>
+    <referenceTo>PNL__c</referenceTo>
+    <relationshipLabel>PNLS  Foreign Key</relationshipLabel>
+    <relationshipName>PNLS</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

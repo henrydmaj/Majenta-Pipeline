@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Misalignment_Reason_for_No_of_Days</fullName>
+    <active>true</active>
+    <description>Rule triggers if the number of days does not align with the start and end date AND the days misalignment reason text field is blank.</description>
+    <errorConditionFormula>Number_of_Days__c  &lt;&gt;  NoofDaysAuto__c 
+ &amp;&amp; 
+ ISBLANK( Days_Misalignment_Reason__c )</errorConditionFormula>
+    <errorDisplayField>Days_Misalignment_Reason__c</errorDisplayField>
+    <errorMessage>The number of days that you have entered does not align with the number of days between the end and start date. Please enter a reason for this, e.g. bank holiday or half a day taken. Or correct the number of days if this is a mistake.</errorMessage>
+</ValidationRule>

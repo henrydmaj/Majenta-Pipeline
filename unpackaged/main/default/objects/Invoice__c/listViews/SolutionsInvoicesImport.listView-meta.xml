@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SolutionsInvoicesImport</fullName>
+    <columns>InvocieLink__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>SageAccountNumber__c</columns>
+    <columns>Department__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Date__c</columns>
+    <columns>NetAmount__c</columns>
+    <columns>TaxAmount__c</columns>
+    <columns>TotalAmount__c</columns>
+    <columns>IsInvoice__c</columns>
+    <columns>IsPostedToSage2__c</columns>
+    <columns>IsFactored__c</columns>
+    <columns>UploadedToHitachi__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Company__c</field>
+        <operation>equals</operation>
+        <value>SOLUTIONS,ENERJYHUB</value>
+    </filters>
+    <filters>
+        <field>IsInvoice__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>IsPostedToSage2__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Date__c</field>
+        <operation>lessThan</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>InvocieLink__c</field>
+        <operation>notContain</operation>
+        <value>22272,23474,23567,23568,22521,24171,25161</value>
+    </filters>
+    <label>Solutions Invoices - To Import</label>
+</ListView>

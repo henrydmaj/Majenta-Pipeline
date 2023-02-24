@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_cannot_be_before_TODAY</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT($User.InvoiceAdministrator__c),
+$Profile.Name != "Sales Support",
+NOT(ISPICKVAL(Division__c, "enerjyhub")),
+OR(
+AND( PRIORVALUE(Probability) &lt; 1, Probability == 1, CloseDate &lt; TODAY() ),
+AND( Probability == 1, ISCHANGED(CloseDate), CloseDate &lt; TODAY() )
+)
+)</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>The close date cannot be before today.</errorMessage>
+</ValidationRule>

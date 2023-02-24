@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Indemnity_Insurance_Required_Until__c</fullName>
+    <description>Field to show when the Indemnity Insurance is required until.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please enter the date when the Indemnity Insurance is required until.</inlineHelpText>
+    <label>Indemnity Insurance Required Until</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

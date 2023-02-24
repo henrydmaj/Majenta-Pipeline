@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Siemens_LeadInterest__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CAD</fullName>
+                <default>false</default>
+                <label>CAD</label>
+            </value>
+            <value>
+                <fullName>CAE</fullName>
+                <default>false</default>
+                <label>CAE</label>
+            </value>
+            <value>
+                <fullName>CAM</fullName>
+                <default>false</default>
+                <label>CAM</label>
+            </value>
+            <value>
+                <fullName>Components - D-Cubed</fullName>
+                <default>false</default>
+                <label>Components - D-Cubed</label>
+            </value>
+            <value>
+                <fullName>Components - Geolus</fullName>
+                <default>false</default>
+                <label>Components - Geolus</label>
+            </value>
+            <value>
+                <fullName>Components - JT Open</fullName>
+                <default>false</default>
+                <label>Components - JT Open</label>
+            </value>
+            <value>
+                <fullName>Components - Parasolid</fullName>
+                <default>false</default>
+                <label>Components - Parasolid</label>
+            </value>
+            <value>
+                <fullName>Components - PLM Vis</fullName>
+                <default>false</default>
+                <label>Components - PLM Vis</label>
+            </value>
+            <value>
+                <fullName>Components - PLM XML</fullName>
+                <default>false</default>
+                <label>Components - PLM XML</label>
+            </value>
+            <value>
+                <fullName>DM - NX - CAM</fullName>
+                <default>false</default>
+                <label>DM - NX - CAM</label>
+            </value>
+            <value>
+                <fullName>DM - NX I-deas - CAM</fullName>
+                <default>false</default>
+                <label>DM - NX I-deas - CAM</label>
+            </value>
+            <value>
+                <fullName>DM - NX Mach- CAM</fullName>
+                <default>false</default>
+                <label>DM - NX Mach- CAM</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Elec - Assembly Expert</fullName>
+                <default>false</default>
+                <label>DM - Tecno Elec - Assembly Expert</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Elec - Cimbridge</fullName>
+                <default>false</default>
+                <label>DM - Tecno Elec - Cimbridge</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Elec - DFM</fullName>
+                <default>false</default>
+                <label>DM - Tecno Elec - DFM</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Elec - Fuji Flexa CAD</fullName>
+                <default>false</default>
+                <label>DM - Tecno Elec - Fuji Flexa CAD</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Elec - MES</fullName>
+                <default>false</default>
+                <label>DM - Tecno Elec - MES</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Elec - OMM</fullName>
+                <default>false</default>
+                <label>DM - Tecno Elec - OMM</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Elec - Test Expert</fullName>
+                <default>false</default>
+                <label>DM - Tecno Elec - Test Expert</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Elec - Unicam</fullName>
+                <default>false</default>
+                <label>DM - Tecno Elec - Unicam</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Mech - FactoryCAD</fullName>
+                <default>false</default>
+                <label>DM - Tecno Mech - FactoryCAD</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Mech - FactoryFlow</fullName>
+                <default>false</default>
+                <label>DM - Tecno Mech - FactoryFlow</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Mech - Jack</fullName>
+                <default>false</default>
+                <label>DM - Tecno Mech - Jack</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Mech - Process &amp; Mfg Data Mgt</fullName>
+                <default>false</default>
+                <label>DM - Tecno Mech - Process &amp; Mfg Data Mgt</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Mech - Resource</fullName>
+                <default>false</default>
+                <label>DM - Tecno Mech - Resource</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Mech - Simulation/Validation</fullName>
+                <default>false</default>
+                <label>DM - Tecno Mech - Simulation/Validation</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Shop Floor - FactoryLink</fullName>
+                <default>false</default>
+                <label>DM - Tecno Shop Floor - FactoryLink</label>
+            </value>
+            <value>
+                <fullName>DM - Tecno Shop Floor - TMES(Xfactory)</fullName>
+                <default>false</default>
+                <label>DM - Tecno Shop Floor - TMES(Xfactory)</label>
+            </value>
+            <value>
+                <fullName>Education Services</fullName>
+                <default>false</default>
+                <label>Education Services</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>NX</fullName>
+                <default>false</default>
+                <label>NX</label>
+            </value>
+            <value>
+                <fullName>NX CAD – NX I-deas</fullName>
+                <default>false</default>
+                <label>NX CAD – NX I-deas</label>
+            </value>
+            <value>
+                <fullName>NX CAD – NX Mach</fullName>
+                <default>false</default>
+                <label>NX CAD – NX Mach</label>
+            </value>
+            <value>
+                <fullName>NX CAD – NX UG</fullName>
+                <default>false</default>
+                <label>NX CAD – NX UG</label>
+            </value>
+            <value>
+                <fullName>NX CAE – Mach</fullName>
+                <default>false</default>
+                <label>NX CAE – Mach</label>
+            </value>
+            <value>
+                <fullName>NX CAE – Nastran</fullName>
+                <default>false</default>
+                <label>NX CAE – Nastran</label>
+            </value>
+            <value>
+                <fullName>NX CAE - NX Ideas</fullName>
+                <default>false</default>
+                <label>NX CAE - NX Ideas</label>
+            </value>
+            <value>
+                <fullName>NX CAE – NX UG</fullName>
+                <default>false</default>
+                <label>NX CAE – NX UG</label>
+            </value>
+            <value>
+                <fullName>NX CAE – TC Simulation</fullName>
+                <default>false</default>
+                <label>NX CAE – TC Simulation</label>
+            </value>
+            <value>
+                <fullName>PLM Components</fullName>
+                <default>false</default>
+                <label>PLM Components</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>TBD</fullName>
+                <default>false</default>
+                <label>TBD</label>
+            </value>
+            <value>
+                <fullName>Teamcenter</fullName>
+                <default>false</default>
+                <label>Teamcenter</label>
+            </value>
+            <value>
+                <fullName>Teamcenter - Community</fullName>
+                <default>false</default>
+                <label>Teamcenter - Community</label>
+            </value>
+            <value>
+                <fullName>Teamcenter - Engineering</fullName>
+                <default>false</default>
+                <label>Teamcenter - Engineering</label>
+            </value>
+            <value>
+                <fullName>Teamcenter - Enterprise</fullName>
+                <default>false</default>
+                <label>Teamcenter - Enterprise</label>
+            </value>
+            <value>
+                <fullName>Teamcenter - Integrator</fullName>
+                <default>false</default>
+                <label>Teamcenter - Integrator</label>
+            </value>
+            <value>
+                <fullName>Teamcenter - MRO</fullName>
+                <default>false</default>
+                <label>Teamcenter - MRO</label>
+            </value>
+            <value>
+                <fullName>Teamcenter - Project</fullName>
+                <default>false</default>
+                <label>Teamcenter - Project</label>
+            </value>
+            <value>
+                <fullName>Teamcenter - Requirements</fullName>
+                <default>false</default>
+                <label>Teamcenter - Requirements</label>
+            </value>
+            <value>
+                <fullName>Teamcenter - Sourcing</fullName>
+                <default>false</default>
+                <label>Teamcenter - Sourcing</label>
+            </value>
+            <value>
+                <fullName>Teamcenter - Visualization</fullName>
+                <default>false</default>
+                <label>Teamcenter - Visualization</label>
+            </value>
+            <value>
+                <fullName>Tecnomatix</fullName>
+                <default>false</default>
+                <label>Tecnomatix</label>
+            </value>
+            <value>
+                <fullName>Velocity</fullName>
+                <default>false</default>
+                <label>Velocity</label>
+            </value>
+            <value>
+                <fullName>Velocity - Femap</fullName>
+                <default>false</default>
+                <label>Velocity - Femap</label>
+            </value>
+            <value>
+                <fullName>Velocity - NX CAM Express</fullName>
+                <default>false</default>
+                <label>Velocity - NX CAM Express</label>
+            </value>
+            <value>
+                <fullName>Velocity - SolidEdge</fullName>
+                <default>false</default>
+                <label>Velocity - SolidEdge</label>
+            </value>
+            <value>
+                <fullName>Velocity - TC Express</fullName>
+                <default>false</default>
+                <label>Velocity - TC Express</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

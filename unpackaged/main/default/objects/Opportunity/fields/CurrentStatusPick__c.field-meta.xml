@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CurrentStatusPick__c</fullName>
+    <externalId>false</externalId>
+    <label>Current Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Division__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Refusal to subscribe</fullName>
+                <default>false</default>
+                <label>Refusal to subscribe</label>
+            </value>
+            <value>
+                <fullName>Value justification required</fullName>
+                <default>false</default>
+                <label>Value justification required</label>
+            </value>
+            <value>
+                <fullName>Progressing sales process</fullName>
+                <default>false</default>
+                <label>Progressing sales process</label>
+            </value>
+            <value>
+                <fullName>COVID19 delay</fullName>
+                <default>false</default>
+                <label>COVID19 delay</label>
+            </value>
+            <value>
+                <fullName>Ignoring communications</fullName>
+                <default>false</default>
+                <label>Ignoring communications</label>
+            </value>
+            <value>
+                <fullName>Awaiting confirmation from JLR</fullName>
+                <default>false</default>
+                <label>Awaiting confirmation from JLR</label>
+            </value>
+            <value>
+                <fullName>JLR said not needed</fullName>
+                <default>false</default>
+                <label>JLR said not needed</label>
+            </value>
+            <value>
+                <fullName>No active work with JLR</fullName>
+                <default>false</default>
+                <label>No active work with JLR</label>
+            </value>
+            <value>
+                <fullName>Using DSP</fullName>
+                <default>false</default>
+                <label>Using DSP</label>
+            </value>
+            <value>
+                <fullName>DS Rejected</fullName>
+                <default>false</default>
+                <label>DS Rejected</label>
+            </value>
+            <value>
+                <fullName>DS Direct Account</fullName>
+                <default>false</default>
+                <label>DS Direct Account</label>
+            </value>
+            <value>
+                <fullName>Licensing Source Outside UK</fullName>
+                <default>false</default>
+                <label>Licensing Source Outside UK</label>
+            </value>
+            <value>
+                <fullName>D&amp;D Outside UK</fullName>
+                <default>false</default>
+                <label>D&amp;D Outside UK</label>
+            </value>
+            <value>
+                <fullName>Fully Engaged</fullName>
+                <default>false</default>
+                <label>Fully Engaged</label>
+            </value>
+            <value>
+                <fullName>No Oppy</fullName>
+                <default>false</default>
+                <label>No Oppy</label>
+            </value>
+            <value>
+                <fullName>To Be Qualified</fullName>
+                <default>false</default>
+                <label>To Be Qualified</label>
+            </value>
+            <value>
+                <fullName>Initial Engagement</fullName>
+                <default>false</default>
+                <label>Initial Engagement</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <controllingFieldValue>EnerjyHub</controllingFieldValue>
+            <valueName>Refusal to subscribe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <controllingFieldValue>EnerjyHub</controllingFieldValue>
+            <valueName>Ignoring communications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Using DSP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>DS Rejected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>DS Direct Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Licensing Source Outside UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>D&amp;D Outside UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Fully Engaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>No Oppy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>To Be Qualified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dassault</controllingFieldValue>
+            <valueName>Initial Engagement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EnerjyHub</controllingFieldValue>
+            <valueName>Value justification required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EnerjyHub</controllingFieldValue>
+            <valueName>Progressing sales process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EnerjyHub</controllingFieldValue>
+            <valueName>COVID19 delay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EnerjyHub</controllingFieldValue>
+            <valueName>Awaiting confirmation from JLR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EnerjyHub</controllingFieldValue>
+            <valueName>JLR said not needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EnerjyHub</controllingFieldValue>
+            <valueName>No active work with JLR</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

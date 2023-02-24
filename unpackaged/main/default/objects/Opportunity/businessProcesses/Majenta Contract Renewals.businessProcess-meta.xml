@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Majenta Contract Renewals</fullName>
+    <description>Used for all Contract Renewal Opportunities</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Disengaged</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Maintenance Cancelled</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Maintenance Expired %E2%80%93 Still using prod</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Maintenance Upgraded</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order In</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Quoted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Will Renew</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SiemensFiscalPeriod__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( MONTH(Date__c),
+10, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)+1),2)&amp;"Q1",
+11, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)+1),2)&amp;"Q1",
+12, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)+1),2)&amp;"Q1",
+1, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)),2)&amp;"Q2",
+2, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)),2)&amp;"Q2",
+3, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)),2)&amp;"Q2",
+4, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)),2)&amp;"Q3",
+5, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)),2)&amp;"Q3",
+6, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)),2)&amp;"Q3",
+7, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)),2)&amp;"Q4",
+8, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)),2)&amp;"Q4",
+9, "FY"&amp;RIGHT(TEXT(YEAR(Date__c)),2)&amp;"Q4",
+"Error" )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Siemens Fiscal Period</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

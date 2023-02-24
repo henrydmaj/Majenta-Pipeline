@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReadWrite_only_for_Creator</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Id &lt;&gt; '', CreatedBy.Alias &lt;&gt;  $User.Alias)</errorConditionFormula>
+    <errorMessage>Only the creator of a Case Timecard can modify the Timecard.</errorMessage>
+</ValidationRule>

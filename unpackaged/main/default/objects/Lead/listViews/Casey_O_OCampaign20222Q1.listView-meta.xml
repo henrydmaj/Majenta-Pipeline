@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Casey_O_OCampaign20222Q1</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.TITLE</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Division__c</columns>
+    <columns>Days_since_last_modified__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Internal_Sales_Process</value>
+    </filters>
+    <label>Casey_O_OCampaign20222Q1</label>
+    <sharedTo>
+        <group>Casey_O_Donnell</group>
+    </sharedTo>
+</ListView>

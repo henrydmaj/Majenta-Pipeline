@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Enforces Multi-Factor Authentication for the System Administrator Profile</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>System Administrator MFA</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ForceTwoFactor</name>
+    </userPermissions>
+</PermissionSet>

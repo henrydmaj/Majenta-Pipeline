@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Objective_Goal__c</fullName>
+    <externalId>false</externalId>
+    <label>Objective Goal</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Create Better Reporting</fullName>
+                <default>false</default>
+                <label>Create Better Reporting</label>
+            </value>
+            <value>
+                <fullName>Create Future Forecasting</fullName>
+                <default>false</default>
+                <label>Create Future Forecasting</label>
+            </value>
+            <value>
+                <fullName>Create HR Integration</fullName>
+                <default>false</default>
+                <label>Create HR Integration</label>
+            </value>
+            <value>
+                <fullName>Create More Automation and Workflow</fullName>
+                <default>false</default>
+                <label>Create More Automation and Workflow</label>
+            </value>
+            <value>
+                <fullName>Create Sage Integration</fullName>
+                <default>false</default>
+                <label>Create Sage Integration</label>
+            </value>
+            <value>
+                <fullName>Develop Team Skills</fullName>
+                <default>false</default>
+                <label>Develop Team Skills</label>
+            </value>
+            <value>
+                <fullName>Kaizen Improvement</fullName>
+                <default>false</default>
+                <label>Kaizen Improvement</label>
+            </value>
+            <value>
+                <fullName>Reduce Spare Capacity</fullName>
+                <default>false</default>
+                <label>Reduce Spare Capacity</label>
+            </value>
+            <value>
+                <fullName>Timely Management Accounts Reporting</fullName>
+                <default>false</default>
+                <label>Timely Management Accounts Reporting</label>
+            </value>
+            <value>
+                <fullName>Succession Planning</fullName>
+                <default>false</default>
+                <label>Succession Planning</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

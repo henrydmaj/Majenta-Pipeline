@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsTechProject__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(inspire1__Inspire_Task__r.inspire1__Project__r.inspire1__Owner_Name__c = 'Jack Woodley',
+				inspire1__Inspire_Task__r.inspire1__Project__r.inspire1__Owner_Name__c = 'Danielle Clough',
+				inspire1__Inspire_Task__r.inspire1__Project__r.inspire1__Owner_Name__c = 'Shaun Hughes',
+				inspire1__Inspire_Task__r.inspire1__Project__r.inspire1__Owner_Name__c = 'Mike Bryne',
+				inspire1__Inspire_Task__r.inspire1__Project__r.inspire1__Owner_Name__c = 'Darren Henry',
+				inspire1__Inspire_Task__r.inspire1__Project__r.inspire1__Owner_Name__c = 'Iain Collins')</formula>
+    <label>Tech Project</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_NDA_Expiry_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NDA__c,
+  ISBLANK(NDAExpiryDate__c)
+)</errorConditionFormula>
+    <errorDisplayField>NDAExpiryDate__c</errorDisplayField>
+    <errorMessage>You must enter a valid NDA Expiry Date</errorMessage>
+</ValidationRule>

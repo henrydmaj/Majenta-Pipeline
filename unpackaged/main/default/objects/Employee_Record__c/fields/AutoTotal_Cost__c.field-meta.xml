@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoTotal_Cost__c</fullName>
+    <externalId>false</externalId>
+    <formula>Contractual_Annual_Salary__c + Annual_Car_Allowance__c + Variable_Bonus__c +  Variable_Commission__c + Health_Cover__c +  AUTOEmployer_NI_Contribution__c +  Employer_Pension__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

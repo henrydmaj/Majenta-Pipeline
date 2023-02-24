@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Specify_Siemens_Opp_Id_on_Won</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NOT(ISPICKVAL(Type,"Marketing Funding/Cost")),
+  NOT(ISPICKVAL(Type,"Existing Customer Maintenance Renewal")),
+  PRIORVALUE(Probability)&lt;0.9,
+  Probability&gt;0.8,
+  ISPICKVAL(Partner__c,"Siemens"),
+  ISBLANK(Siemens_OppId__c)
+)</errorConditionFormula>
+    <errorDisplayField>Siemens_OppId__c</errorDisplayField>
+    <errorMessage>You must specify a valid Siemens Opportunity ID when closing a deal.</errorMessage>
+</ValidationRule>

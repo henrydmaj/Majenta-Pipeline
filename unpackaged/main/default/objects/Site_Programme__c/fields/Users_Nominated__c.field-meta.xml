@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Users_Nominated__c</fullName>
+    <description>This field is dynamically populated in memory with the number of users nominated for a particular site programme. It powers the Users Nominated column on the on-boarding component.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is dynamically populated in memory with the number of users nominated for a particular site programme. It powers the Users Nominated column on the on-boarding component.</inlineHelpText>
+    <label>Users Nominated</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

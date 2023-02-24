@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IT_Products__c</fullName>
+    <externalId>false</externalId>
+    <label>IT Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NetApp - FAS6000</fullName>
+                <default>false</default>
+                <label>NetApp - FAS6000</label>
+            </value>
+            <value>
+                <fullName>NetApp - FAS3000</fullName>
+                <default>false</default>
+                <label>NetApp - FAS3000</label>
+            </value>
+            <value>
+                <fullName>NetApp - FAS2000</fullName>
+                <default>false</default>
+                <label>NetApp - FAS2000</label>
+            </value>
+            <value>
+                <fullName>NetApp - FAS200</fullName>
+                <default>false</default>
+                <label>NetApp - FAS200</label>
+            </value>
+            <value>
+                <fullName>NetApp - Nearstore VTL</fullName>
+                <default>false</default>
+                <label>NetApp - Nearstore VTL</label>
+            </value>
+            <value>
+                <fullName>NetApp - Other</fullName>
+                <default>false</default>
+                <label>NetApp - Other</label>
+            </value>
+            <value>
+                <fullName>Symantec - Backup Exec</fullName>
+                <default>false</default>
+                <label>Symantec - Backup Exec</label>
+            </value>
+            <value>
+                <fullName>Symantec - Net-Backup</fullName>
+                <default>false</default>
+                <label>Symantec - Net-Backup</label>
+            </value>
+            <value>
+                <fullName>Symantec - Puredisk</fullName>
+                <default>false</default>
+                <label>Symantec - Puredisk</label>
+            </value>
+            <value>
+                <fullName>Symantec - System Recovery</fullName>
+                <default>false</default>
+                <label>Symantec - System Recovery</label>
+            </value>
+            <value>
+                <fullName>Symantec - Enterprise Vault</fullName>
+                <default>false</default>
+                <label>Symantec - Enterprise Vault</label>
+            </value>
+            <value>
+                <fullName>Vmware - ESX3</fullName>
+                <default>false</default>
+                <label>Vmware - ESX3</label>
+            </value>
+            <value>
+                <fullName>Vmware - VDI</fullName>
+                <default>false</default>
+                <label>Vmware - VDI</label>
+            </value>
+            <value>
+                <fullName>Vmware - Virtual Centre</fullName>
+                <default>false</default>
+                <label>Vmware - Virtual Centre</label>
+            </value>
+            <value>
+                <fullName>Vmware - VM Convertor</fullName>
+                <default>false</default>
+                <label>Vmware - VM Convertor</label>
+            </value>
+            <value>
+                <fullName>IBM - NAS - n-series</fullName>
+                <default>false</default>
+                <label>IBM - NAS - n-series</label>
+            </value>
+            <value>
+                <fullName>IBM - SAN</fullName>
+                <default>false</default>
+                <label>IBM - SAN</label>
+            </value>
+            <value>
+                <fullName>IBM - System Storage DS</fullName>
+                <default>false</default>
+                <label>IBM - System Storage DS</label>
+            </value>
+            <value>
+                <fullName>IBM - System Storage TS</fullName>
+                <default>false</default>
+                <label>IBM - System Storage TS</label>
+            </value>
+            <value>
+                <fullName>Dell - Desktop Workstations</fullName>
+                <default>false</default>
+                <label>Dell - Desktop Workstations</label>
+            </value>
+            <value>
+                <fullName>Dell - Mobile Workstations</fullName>
+                <default>false</default>
+                <label>Dell - Mobile Workstations</label>
+            </value>
+            <value>
+                <fullName>Sun - Desktop Workstations</fullName>
+                <default>false</default>
+                <label>Sun - Desktop Workstations</label>
+            </value>
+            <value>
+                <fullName>Sun - Servers</fullName>
+                <default>false</default>
+                <label>Sun - Servers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

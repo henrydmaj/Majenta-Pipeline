@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DQAddressScore__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(isblank(BillingStreet),0,0.5)
++ if(isblank(BillingCity),0,0.5)
++ if(isblank(BillingState),0,0.25)
++ if(isblank(BillingPostalCode),0,0.5)
++ if(isblank(BillingCountry),0,0.25)
++ if(isblank(ShippingStreet),0,0.5)
++ if(isblank(ShippingCity),0,0.5)
++ if(isblank(ShippingState),0,0.25)
++ if(isblank(ShippingPostalCode),0,0.5)
++ if(isblank(ShippingCountry),0,0.25)</formula>
+    <label>Data Quality Address Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

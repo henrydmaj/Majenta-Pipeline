@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ShippingAddress__c</fullName>
+    <externalId>false</externalId>
+    <formula>Opportunity__r.Account.Name+BR()+
+Opportunity__r.Account.ShippingStreet+BR()+
+Opportunity__r.Account.ShippingCity+BR()+
+Opportunity__r.Account.ShippingState+BR()+ 
+Opportunity__r.Account.ShippingPostalCode+BR()+
+Opportunity__r.Account.ShippingCountry+BR()+
+"["+HYPERLINK("https://majenta--testbox.cs2.my.salesforce.com/"+Opportunity__r.Account.Id+"/e?retURL="+Id+"#head_7_ep", "Update")+"]"</formula>
+    <label>Shipping Address</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

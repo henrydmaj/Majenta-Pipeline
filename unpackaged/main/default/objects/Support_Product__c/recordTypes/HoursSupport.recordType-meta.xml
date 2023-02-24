@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HoursSupport</fullName>
+    <active>true</active>
+    <description>Used for hours based support contracts.</description>
+    <label>Hours Based Support</label>
+    <picklistValues>
+        <picklist>License_Type__c</picklist>
+        <values>
+            <fullName>ALC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX ASR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX Premium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YLC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PickRenewalBusinessLostReason__c</picklist>
+        <values>
+            <fullName>Migrations %E2%80%93 Migrating a product into another</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOS %E2%80%93 Suspension of Support on a License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STOPS %E2%80%93 Stopping Licenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ToS %E2%80%93 Termination of Support on a License</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SLA__c</picklist>
+        <values>
+            <fullName>Bronze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Supported_By__c</picklist>
+        <values>
+            <fullName>Autodesk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bell Micro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CANNON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMS%2FBakBone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clarity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computer 2000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DNS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DNS%2FNetApp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Datech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elysium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Future CAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hammer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hammer%2FOverland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSIGHT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Man %26 Machine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetApp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Olympic Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open PSL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SensAble</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TecDem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Theoram</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_License__c</picklist>
+        <values>
+            <fullName>DSLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

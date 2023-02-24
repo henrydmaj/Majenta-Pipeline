@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emergency_Contact_Number_Populated</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISBLANK(  Emergency_Contact_1__c  )),
+ISBLANK(  Emergency_Contact_Number_1__c  )
+)</errorConditionFormula>
+    <errorDisplayField>Emergency_Contact_Number_1__c</errorDisplayField>
+    <errorMessage>If Emergency Contact (1) is populated, a contact number must be provided.</errorMessage>
+</ValidationRule>

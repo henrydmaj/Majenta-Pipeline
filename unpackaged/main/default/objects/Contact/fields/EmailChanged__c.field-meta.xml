@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmailChanged__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This checkbox will be automatically ticked when a contact email has changed within the last 24hours.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This checkbox will be automatically ticked when a contact email has changed within the last 24hours.</inlineHelpText>
+    <label>Email Changed?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

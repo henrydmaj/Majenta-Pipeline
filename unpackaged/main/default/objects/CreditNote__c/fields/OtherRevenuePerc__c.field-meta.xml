@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OtherRevenuePerc__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OtherRevenue__c = 0,
+	0,
+	IF(Opportunity__r.OtherRevenue__c = 0,
+		1,
+		OtherRevenue__c / Opportunity__r.OtherRevenue__c
+	)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Other Revenue Percentage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

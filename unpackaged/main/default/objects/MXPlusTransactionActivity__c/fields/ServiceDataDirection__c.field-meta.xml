@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ServiceDataDirection__c</fullName>
+    <description>MX+ Transaction Service Data Direction</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Transaction Service Data Direction</inlineHelpText>
+    <label>Service Data Direction</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

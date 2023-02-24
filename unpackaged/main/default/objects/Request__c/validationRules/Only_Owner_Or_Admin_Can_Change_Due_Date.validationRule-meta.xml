@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Owner_Or_Admin_Can_Change_Due_Date</fullName>
+    <active>false</active>
+    <description>Request Due Date can only be changed by the Request Owner or Admin</description>
+    <errorConditionFormula>$User.Id !=  OwnerId &amp;&amp;
+$Profile.Name != "System Administrator" &amp;&amp;
+ISCHANGED( DueDate__c )</errorConditionFormula>
+    <errorDisplayField>DueDate__c</errorDisplayField>
+    <errorMessage>Only the Request Owner or an Admin can change the Due Date on this Request</errorMessage>
+</ValidationRule>

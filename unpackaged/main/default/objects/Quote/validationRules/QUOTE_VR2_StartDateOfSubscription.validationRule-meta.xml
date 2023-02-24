@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QUOTE_VR2_StartDateOfSubscription</fullName>
+    <active>true</active>
+    <description>Start date of subscription must be completed in order for the quote to be marked as 'Accepted'.</description>
+    <errorConditionFormula>AND(Opportunity.RecordType.Name = "enerjyhub Opportunities",
+AND(ISPICKVAL(Status, "Accepted"),
+ISBLANK(Start_date_of_subscription__c)))</errorConditionFormula>
+    <errorDisplayField>Start_date_of_subscription__c</errorDisplayField>
+    <errorMessage>You have not entered the Start Date of Subscription. Please enter the date.</errorMessage>
+</ValidationRule>

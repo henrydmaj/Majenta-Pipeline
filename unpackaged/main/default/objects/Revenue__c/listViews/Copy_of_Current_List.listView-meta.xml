@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_Current_List</fullName>
+    <columns>AccountName2__c</columns>
+    <columns>NAME</columns>
+    <columns>GrossAmount__c</columns>
+    <columns>Date__c</columns>
+    <columns>Payment_Terms_Days__c</columns>
+    <columns>Status__c</columns>
+    <columns>Ageing_2__c</columns>
+    <columns>Internal_Account_Industry__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Grouping__c</columns>
+    <columns>ProductType__c</columns>
+    <columns>Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>LAST_YEAR</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>contains</operation>
+        <value>Invoiced,Statement Sent,On Direct Debit,Promise to Pay Date Provided,Invoice in Query with Sales Exec -Awaiting Response,CCJ Sent,Paid</value>
+    </filters>
+    <filters>
+        <field>Ageing_2__c</field>
+        <operation>contains</operation>
+        <value>Current,Period 1</value>
+    </filters>
+    <label>Copy of Current List</label>
+</ListView>

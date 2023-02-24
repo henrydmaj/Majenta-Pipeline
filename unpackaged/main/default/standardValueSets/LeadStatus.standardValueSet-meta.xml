@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New Lead</fullName>
+        <default>false</default>
+        <label>New Lead</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead</fullName>
+        <color>#FFCC33</color>
+        <default>false</default>
+        <label>Lead</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <color>#E27001</color>
+        <default>false</default>
+        <label>Open</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead</fullName>
+        <color>#FF0000</color>
+        <default>false</default>
+        <label>Dead</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate</fullName>
+        <color>#DDDDDD</color>
+        <default>false</default>
+        <label>Duplicate</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead – Duplicate</fullName>
+        <default>false</default>
+        <label>Dead – Duplicate</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead – Using Competitor</fullName>
+        <default>false</default>
+        <label>Dead – Using Competitor</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead – Bad Data</fullName>
+        <default>false</default>
+        <label>Dead – Bad Data</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead – No Budget</fullName>
+        <default>false</default>
+        <label>Dead – No Budget</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead – Unable to Connect</fullName>
+        <default>false</default>
+        <label>Dead – Unable to Connect</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead – Bad Timing</fullName>
+        <default>false</default>
+        <label>Dead – Bad Timing</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead – No Requirement</fullName>
+        <default>false</default>
+        <label>Dead – No Requirement</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead – Missing Feature</fullName>
+        <default>false</default>
+        <label>Dead – Missing Feature</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead – Other</fullName>
+        <default>false</default>
+        <label>Dead – Other</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualified - To Register</fullName>
+        <default>false</default>
+        <label>Qualified - To Register</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead – Partner Rejected</fullName>
+        <default>false</default>
+        <label>Dead – Partner Rejected</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Started</fullName>
+        <color>#FFFF66</color>
+        <default>true</default>
+        <label>Not Started</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>No Contact - First Call</fullName>
+        <color>#FFCC33</color>
+        <default>false</default>
+        <label>No Contact - First Call</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>One Way Info</fullName>
+        <color>#66FF99</color>
+        <default>false</default>
+        <label>One Way Info</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Chase</fullName>
+        <color>#33FF33</color>
+        <default>false</default>
+        <label>Chase</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>In Dialogue</fullName>
+        <color>#33CC00</color>
+        <default>false</default>
+        <label>In Dialogue</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Setup</fullName>
+        <default>false</default>
+        <label>Meeting Setup</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualified</fullName>
+        <color>#009900</color>
+        <default>false</default>
+        <label>Qualified</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead lead</fullName>
+        <color>#FF0000</color>
+        <default>false</default>
+        <label>Dead Lead</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>User Created</fullName>
+        <color>#33FF33</color>
+        <default>false</default>
+        <label>User Created</label>
+        <converted>false</converted>
+    </standardValue>
+</StandardValueSet>

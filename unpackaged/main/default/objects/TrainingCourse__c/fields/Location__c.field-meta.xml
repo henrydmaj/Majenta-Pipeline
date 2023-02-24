@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Location</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brentwood</fullName>
+                <default>false</default>
+                <label>Brentwood</label>
+            </value>
+            <value>
+                <fullName>Coventry</fullName>
+                <default>false</default>
+                <label>Coventry</label>
+            </value>
+            <value>
+                <fullName>Cranfield</fullName>
+                <default>false</default>
+                <label>Cranfield</label>
+            </value>
+            <value>
+                <fullName>Liverpool</fullName>
+                <default>false</default>
+                <label>Liverpool</label>
+            </value>
+            <value>
+                <fullName>Customer Site</fullName>
+                <default>false</default>
+                <label>Customer Site</label>
+            </value>
+            <value>
+                <fullName>Online Training</fullName>
+                <default>false</default>
+                <label>Online Training</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

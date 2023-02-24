@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_County_Must_be_filled_in</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(OR(BillingCountry  &lt;&gt; "UK", BillingCountry  &lt;&gt; "England"), LEN( BillingState ) &lt; 2,FALSE)</errorConditionFormula>
+    <errorDisplayField>BillingState</errorDisplayField>
+    <errorMessage>Billing County must be completed</errorMessage>
+</ValidationRule>

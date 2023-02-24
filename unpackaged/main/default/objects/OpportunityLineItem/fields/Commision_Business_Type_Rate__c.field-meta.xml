@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commision_Business_Type_Rate__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Business_Type_ro__c = "New",
+CASE( Product_Type_ro__c,
+"Software", 0.1,
+"Hardware", 0.1,
+"Maintenance", 0.1,
+"Services", 0.075,
+"Training", 0.075,
+"Support Contract", 0.075,
+0), 0.05)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Business Type Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Percent</type>
+</CustomField>

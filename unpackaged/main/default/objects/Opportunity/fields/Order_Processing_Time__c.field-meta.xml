@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Processing_Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISNULL( Order_Processed_Supplier_Date__c ), 
+TODAY() - Order_to_Supplier_Date__c,
+Order_Processed_Supplier_Date__c -  Order_to_Supplier_Date__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Order Processing Time (Days) (a to b)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

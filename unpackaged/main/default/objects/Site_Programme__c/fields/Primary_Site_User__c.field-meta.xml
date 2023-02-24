@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Site_User__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is populated with the primary site user when the site programme is created.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is populated with the primary site user when the site programme is created.</inlineHelpText>
+    <label>Primary Site User</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Site Programmes</relationshipLabel>
+    <relationshipName>Site_Programmes</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

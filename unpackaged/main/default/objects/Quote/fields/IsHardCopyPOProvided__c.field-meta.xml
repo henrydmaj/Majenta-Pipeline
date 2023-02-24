@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsHardCopyPOProvided__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Signifies if a Hard Copy Purchase Order will be provided by the customer (Generally to be completed via Docusign)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Will a Hard Copy Purchase Order be provided by the customer (to be completed by the customer)</inlineHelpText>
+    <label>Hard Copy PO Provided?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

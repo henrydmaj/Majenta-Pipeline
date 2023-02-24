@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Length_of_training__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What did you think of the length of the training session?</inlineHelpText>
+    <label>Length of training</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Too short</fullName>
+                <default>false</default>
+                <label>Too short</label>
+            </value>
+            <value>
+                <fullName>Ideal length</fullName>
+                <default>false</default>
+                <label>Ideal length</label>
+            </value>
+            <value>
+                <fullName>Too long</fullName>
+                <default>false</default>
+                <label>Too long</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

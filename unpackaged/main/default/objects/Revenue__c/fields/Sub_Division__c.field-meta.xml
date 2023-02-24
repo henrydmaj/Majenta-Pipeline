@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Division__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Division</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BIM</fullName>
+                <default>false</default>
+                <label>BIM</label>
+            </value>
+            <value>
+                <fullName>MX</fullName>
+                <default>false</default>
+                <label>MX</label>
+            </value>
+            <value>
+                <fullName>Ford</fullName>
+                <default>false</default>
+                <label>Ford</label>
+            </value>
+            <value>
+                <fullName>Rolls Royce</fullName>
+                <default>false</default>
+                <label>Rolls Royce</label>
+            </value>
+            <value>
+                <fullName>NIssan</fullName>
+                <default>false</default>
+                <label>NIssan</label>
+            </value>
+            <value>
+                <fullName>Translation</fullName>
+                <default>false</default>
+                <label>Translation</label>
+            </value>
+            <value>
+                <fullName>Autodesk Services</fullName>
+                <default>false</default>
+                <label>Autodesk Services</label>
+            </value>
+            <value>
+                <fullName>Dassault Services</fullName>
+                <default>false</default>
+                <label>Dassault Services</label>
+            </value>
+            <value>
+                <fullName>JLR iPLM Services</fullName>
+                <default>false</default>
+                <label>JLR iPLM Services</label>
+            </value>
+            <value>
+                <fullName>JLR</fullName>
+                <default>false</default>
+                <label>JLR</label>
+            </value>
+            <value>
+                <fullName>MFG</fullName>
+                <default>false</default>
+                <label>MFG</label>
+            </value>
+            <value>
+                <fullName>IDV</fullName>
+                <default>false</default>
+                <label>IDV</label>
+            </value>
+            <value>
+                <fullName>Elysium</fullName>
+                <default>false</default>
+                <label>Elysium</label>
+            </value>
+            <value>
+                <fullName>JCB</fullName>
+                <default>false</default>
+                <label>JCB</label>
+            </value>
+            <value>
+                <fullName>JLR 53949</fullName>
+                <default>false</default>
+                <label>JLR 53949</label>
+            </value>
+            <value>
+                <fullName>Consultants</fullName>
+                <default>false</default>
+                <label>Consultants</label>
+            </value>
+            <value>
+                <fullName>eAPQ &amp; D3M</fullName>
+                <default>false</default>
+                <label>GSI Projects</label>
+            </value>
+            <value>
+                <fullName>JLR Online Training</fullName>
+                <default>false</default>
+                <label>JLR Online Training</label>
+            </value>
+            <value>
+                <fullName>JLR Software</fullName>
+                <default>false</default>
+                <label>JLR Software</label>
+            </value>
+            <value>
+                <fullName>Subscriptions</fullName>
+                <default>false</default>
+                <label>JLR Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Subscriptions Renewal</fullName>
+                <default>false</default>
+                <label>JLR Subscriptions Renewal</label>
+            </value>
+            <value>
+                <fullName>JLR Admin %</fullName>
+                <default>false</default>
+                <label>JLR Supplier Training</label>
+            </value>
+            <value>
+                <fullName>GSI Core Contract</fullName>
+                <default>false</default>
+                <label>GSI Core Contract</label>
+            </value>
+            <value>
+                <fullName>MX - EH</fullName>
+                <default>false</default>
+                <label>MX - EH</label>
+            </value>
+            <value>
+                <fullName>enerjyhub Projects</fullName>
+                <default>false</default>
+                <label>enerjyhub Projects</label>
+            </value>
+            <value>
+                <fullName>NHS</fullName>
+                <default>false</default>
+                <label>NHS</label>
+            </value>
+            <value>
+                <fullName>Nissan Subscriptions</fullName>
+                <default>false</default>
+                <label>Nissan Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Nissan Subscription Renewal</fullName>
+                <default>false</default>
+                <label>Nissan Subscription Renewal</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Onsite</fullName>
+                <default>false</default>
+                <label>Onsite</label>
+            </value>
+            <value>
+                <fullName>enerjyhub Consultancy</fullName>
+                <default>false</default>
+                <label>enerjyhub Consultancy</label>
+            </value>
+            <value>
+                <fullName>Legacy</fullName>
+                <default>false</default>
+                <label>Legacy</label>
+            </value>
+            <value>
+                <fullName>Cloud/3DX</fullName>
+                <default>false</default>
+                <label>Cloud/3DX</label>
+            </value>
+            <value>
+                <fullName>Contechs</fullName>
+                <default>false</default>
+                <label>Contechs</label>
+            </value>
+            <value>
+                <fullName>GKN</fullName>
+                <default>false</default>
+                <label>GKN</label>
+            </value>
+            <value>
+                <fullName>House Account</fullName>
+                <default>false</default>
+                <label>House Account</label>
+            </value>
+            <value>
+                <fullName>DS Training</fullName>
+                <default>false</default>
+                <label>DS Training</label>
+            </value>
+            <value>
+                <fullName>DS 3Pty Training</fullName>
+                <default>false</default>
+                <label>DS 3Pty Training</label>
+            </value>
+            <value>
+                <fullName>DS Support</fullName>
+                <default>false</default>
+                <label>DS Support</label>
+            </value>
+            <value>
+                <fullName>House Account 3DX</fullName>
+                <default>false</default>
+                <label>House Account 3DX</label>
+            </value>
+            <value>
+                <fullName>Dassault New Named</fullName>
+                <default>false</default>
+                <label>Dassault New Named</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

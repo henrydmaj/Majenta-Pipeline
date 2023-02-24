@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_to_Delete_Date__c</fullName>
+    <description>Date that flow was run to delete enerjyhub user, used as part of validation run to stop Delete? (Delete_c) being ticked in error manually by user and prompting process to delete user an related record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Updated by the flow along with Delete? (Delete__c) Field to fire the process builder and flow to delete Contact and any related Cases, Site Programme Applications and Training Bookings</inlineHelpText>
+    <label>Request to Delete Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

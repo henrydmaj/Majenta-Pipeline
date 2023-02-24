@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HSBC_Bank_Details_EnerjyHub__c</fullName>
+    <externalId>false</externalId>
+    <formula>"Please make Payment to - Majenta Solutions Ltd"+BR()+BR()+
+
+"Payment Term : 30 days from date of invoice"+BR()+
+
+"Payment Instruction : Please use Full Invoice Number in Bank Payment Reference ID Field"+BR()+
+
+"For GBP payments HSBC Account no : 51375377 Sort Code : 40-13-22, IBAN: GB74HBUK40132251375377, SWIFT: HBUKGB4B"+BR()+
+
+"For Euro payments HSBC Account no : 77110728 Sort Code : 40-12-76, IBAN: GB66HBUK40127677110728, SWIFT: HBUKGB4B"+BR()+
+
+"For USD payments HSBC Account no : 77110736 Sort Code : 40-12-76, IBAN: GB44HBUK40127677110736, SWIFT: HBUKGB4B"+BR()+BR()</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>HSBC Bank Details EnerjyHub</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CaseReportLinks__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK("/00Ow00000052Jpd?pv0="+Id, "Cases by Contact Previous CQ") + BR() +
+HYPERLINK("/00Ow00000052Jqq?pv0="+Id, "Cases by Priority Previous CQ") + BR() +
+HYPERLINK("/00Ow00000052JrK?pv0="+Id, "Cases by Status Previous CQ") + BR() +
+HYPERLINK("/00Ow00000052JrZ?pv0="+Id, "All Cases Previous CQ") + BR()</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case Reports</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

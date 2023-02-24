@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllPLMThisMonth</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Resource__c</columns>
+    <columns>Category__c</columns>
+    <columns>IsBillable__c</columns>
+    <columns>Project__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>QuoteNumber__c</columns>
+    <columns>TrainingCourse__c</columns>
+    <columns>StartDate__c</columns>
+    <columns>FinishDate__c</columns>
+    <columns>TotalDays__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Division__c</field>
+        <operation>equals</operation>
+        <value>PLM,Solid Edge,COMOS</value>
+    </filters>
+    <filters>
+        <field>StartDate__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <filters>
+        <field>FinishDate__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>All PLM Bookings This Month</label>
+</ListView>

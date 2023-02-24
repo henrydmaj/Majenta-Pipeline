@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OEMFileSizeAuto__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OEMTotalDataSize__c &gt;1000000000000, TEXT(ROUND((OEMTotalDataSize__c/ 1000/ 1000/ 1000/ 1000),2))&amp;' TB',
+IF(OEMTotalDataSize__c &gt;1000000000, TEXT(ROUND((OEMTotalDataSize__c/ 1000/ 1000/ 1000),2))&amp;' GB',
+IF(OEMTotalDataSize__c &gt;1000000, TEXT(ROUND((OEMTotalDataSize__c/ 1000/ 1000),2))&amp;' MB',
+IF(OEMTotalDataSize__c &gt;0, '0'&amp;TEXT(ROUND((OEMTotalDataSize__c/ 1000/ 1000),2))&amp;' MB',""
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>OEM File Size</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

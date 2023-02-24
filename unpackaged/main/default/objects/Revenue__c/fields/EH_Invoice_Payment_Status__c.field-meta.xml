@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EH_Invoice_Payment_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>EH Invoice Payment Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Invoice emailed to Customer</fullName>
+                <default>false</default>
+                <label>Invoice emailed to Customer</label>
+            </value>
+            <value>
+                <fullName>Invoice Uploaded to Sage</fullName>
+                <default>false</default>
+                <label>Invoice Uploaded to Sage</label>
+            </value>
+            <value>
+                <fullName>Invoice rejected by customer - reverted to Salesteam awaiting response</fullName>
+                <default>false</default>
+                <label>Invoice rejected by customer - reverted to Salesteam awaiting response</label>
+            </value>
+            <value>
+                <fullName>Customer requested further information - now sent</fullName>
+                <default>false</default>
+                <label>Customer requested further information - now sent</label>
+            </value>
+            <value>
+                <fullName>Customer Confirmed payment</fullName>
+                <default>false</default>
+                <label>Customer Confirmed payment</label>
+            </value>
+            <value>
+                <fullName>Payment IN - Billing Status Complete</fullName>
+                <default>false</default>
+                <label>Payment IN - Billing Status Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

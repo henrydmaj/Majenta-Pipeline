@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand_Coverage__c</fullName>
+    <externalId>false</externalId>
+    <label>Brand Coverage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CATIA</fullName>
+                <default>false</default>
+                <label>CATIA</label>
+            </value>
+            <value>
+                <fullName>ENOVIA</fullName>
+                <default>false</default>
+                <label>ENOVIA</label>
+            </value>
+            <value>
+                <fullName>PLATFORM</fullName>
+                <default>false</default>
+                <label>PLATFORM</label>
+            </value>
+            <value>
+                <fullName>SIMULIA</fullName>
+                <default>false</default>
+                <label>SIMULIA</label>
+            </value>
+            <value>
+                <fullName>WIDGET</fullName>
+                <default>false</default>
+                <label>WIDGET</label>
+            </value>
+            <value>
+                <fullName>DELMIA</fullName>
+                <default>false</default>
+                <label>DELMIA</label>
+            </value>
+            <value>
+                <fullName>SIMA</fullName>
+                <default>false</default>
+                <label>SIMA</label>
+            </value>
+            <value>
+                <fullName>ENOVIA MATRIXONE</fullName>
+                <default>false</default>
+                <label>ENOVIA MATRIXONE</label>
+            </value>
+            <value>
+                <fullName>ENOVIA  SMARTEAM</fullName>
+                <default>false</default>
+                <label>ENOVIA  SMARTEAM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

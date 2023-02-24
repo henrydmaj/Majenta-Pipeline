@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manager_permission_over_paid_checkbox</fullName>
+    <active>true</active>
+    <description>Only the manager of the employee can tick the "Has Manager Approved Absence To Be Paid?" checkbox</description>
+    <errorConditionFormula>ISCHANGED(Has_Manager_Approved_Absence_To_Be_Paid__c )
+
+&amp;&amp;
+
+$User.Id &lt;&gt; Employee_Record__r.User__r.ManagerId</errorConditionFormula>
+    <errorDisplayField>Has_Manager_Approved_Absence_To_Be_Paid__c</errorDisplayField>
+    <errorMessage>Only the manager of the employee can tick the "Has Manager Approved Absence To Be Paid?" checkbox</errorMessage>
+</ValidationRule>

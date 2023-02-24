@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T_Margin_Checking_TW</fullName>
+    <columns>Opportunity__c</columns>
+    <columns>Grouping__c</columns>
+    <columns>T_Margin__c</columns>
+    <columns>Date__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>NAME</columns>
+    <columns>ProductType__c</columns>
+    <columns>GrossMargin__c</columns>
+    <columns>Cost_Type__c</columns>
+    <columns>EH_Invoice_Payment_Status__c</columns>
+    <columns>PNL_Completed__c</columns>
+    <columns>ProductFamily__c</columns>
+    <columns>Grouping_Set__c</columns>
+    <columns>BusinessType__c</columns>
+    <columns>Sub_Division__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>12/1/2019</value>
+    </filters>
+    <filters>
+        <field>BusinessType__c</field>
+        <operation>notEqual</operation>
+        <value>Transaction Cost</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>SOL</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>equals</operation>
+        <value>Tereasa Wilkinson</value>
+    </filters>
+    <filters>
+        <field>ProductFamily__c</field>
+        <operation>equals</operation>
+        <value>enerjyhub</value>
+    </filters>
+    <filters>
+        <field>EH_Invoice_Payment_Status__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>enerjyhub Invoice Status From RR</label>
+</ListView>

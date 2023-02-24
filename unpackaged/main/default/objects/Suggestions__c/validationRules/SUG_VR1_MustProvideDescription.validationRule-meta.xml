@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SUG_VR1_MustProvideDescription</fullName>
+    <active>true</active>
+    <description>Cannot create suggestion without the description field being populated.</description>
+    <errorConditionFormula>ISBLANK(Suggestion_Description__c	)</errorConditionFormula>
+    <errorDisplayField>Suggestion_Description__c</errorDisplayField>
+    <errorMessage>You must complete the description for your suggestion.</errorMessage>
+</ValidationRule>

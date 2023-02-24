@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_is_Owner__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( $User.Id = Owner:User.Id, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This automated field identifies if the logged-in user viewing the record is equal to the owner of the record. Access to fields and related records are determined by this field.</inlineHelpText>
+    <label>User is Viewing Own Record</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

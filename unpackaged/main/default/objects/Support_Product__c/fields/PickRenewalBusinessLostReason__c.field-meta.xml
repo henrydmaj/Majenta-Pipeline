@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PickRenewalBusinessLostReason__c</fullName>
+    <description>To report on business lost reason and potential on reinstating business</description>
+    <externalId>false</externalId>
+    <label>Renewal Business Lost Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>STOPS – Stopping Licenses</fullName>
+                <default>false</default>
+                <label>STOPS – Stopping Licenses</label>
+            </value>
+            <value>
+                <fullName>ToS – Termination of Support on a License</fullName>
+                <default>false</default>
+                <label>ToS – Termination of Support on a License</label>
+            </value>
+            <value>
+                <fullName>SOS – Suspension of Support on a License</fullName>
+                <default>false</default>
+                <label>SOS – Suspension of Support on a License</label>
+            </value>
+            <value>
+                <fullName>Migrations – Migrating a product into another</fullName>
+                <default>false</default>
+                <label>Migrations – Migrating a product into another</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

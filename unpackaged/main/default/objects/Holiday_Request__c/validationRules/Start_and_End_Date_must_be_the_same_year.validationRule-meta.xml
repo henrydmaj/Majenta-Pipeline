@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_and_End_Date_must_be_the_same_year</fullName>
+    <active>true</active>
+    <errorConditionFormula>YEAR( Start_Date__c )  &lt;&gt;  YEAR( End_Date__c )</errorConditionFormula>
+    <errorMessage>The start date and end date must be in the same year. If booking a holiday over Dec/Jan, create two separate holiday requests, one for this year and one for next year. e.g. 20th - 31st Dec and 1st - 6th Jan.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission to provide user with edit access for 'Assign to' field on 'Requests' object.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Request__c.AssignedTo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Requests Assignment</label>
+</PermissionSet>

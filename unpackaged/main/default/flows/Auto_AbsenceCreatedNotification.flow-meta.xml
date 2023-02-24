@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Absence_Created_Notification</name>
+        <label>Absence Created Notification</label>
+        <locationX>681</locationX>
+        <locationY>367</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>AbsenceCreatedEmailNotification</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Manager_s_Email_AddressAuto__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>salesforce@majentasolutions.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Absence Created Notification</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>54.0</apiVersion>
+    <decisions>
+        <name>Primary_Org</name>
+        <label>Primary Org</label>
+        <locationX>450</locationX>
+        <locationY>373</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Majenta_Org_Employee</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Employee_Record__r.Primary_Org__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Majenta</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Absence_Created_Notification</targetReference>
+            </connector>
+            <label>Majenta Org Employee</label>
+        </rules>
+    </decisions>
+    <description>Sends an email to the manager when an absence is logged</description>
+    <interviewLabel>Auto_AbsenceCreatedNotification {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Auto_AbsenceCreatedNotification</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>330</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Primary_Org</targetReference>
+        </connector>
+        <object>Absence__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>AbsenceCreatedEmailNotification</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>An absence has been logged for {!$Record.Employee_Record__r.Name}.
+
+Dates: {!$Record.Starting__c} - {!$Record.End__c}
+Number of Days: {!$Record.Number_of_Days__c}
+
+Once the employee is back to work, remember to complete the return to work interview on the absence record and confirm whether you have approved the absence to be paid.
+
+https://majentasolutions.lightning.force.com/lightning/r/Absence__c/{!$Record.Id}/view</text>
+    </textTemplates>
+</Flow>

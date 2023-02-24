@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllPLMEquipment</fullName>
+    <columns>OWNER.ALIAS</columns>
+    <columns>NAME</columns>
+    <columns>Description__c</columns>
+    <columns>Type__c</columns>
+    <columns>EquipmentType__c</columns>
+    <columns>SerialNumber__c</columns>
+    <columns>Division__c</columns>
+    <columns>Category__c</columns>
+    <columns>Active__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Division__c</field>
+        <operation>equals</operation>
+        <value>PLM,Solid Edge,COMOS</value>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Equipment</value>
+    </filters>
+    <label>All PLM Equipment</label>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProjectRef__c</fullName>
+    <description>Project the lesson is related to</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Project the lesson is related to</inlineHelpText>
+    <label>Project</label>
+    <referenceTo>inspire1__Project__c</referenceTo>
+    <relationshipLabel>Lessons Learned</relationshipLabel>
+    <relationshipName>Lessons_Learned</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

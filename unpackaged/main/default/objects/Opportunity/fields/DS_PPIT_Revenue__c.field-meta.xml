@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DS_PPIT_Revenue__c</fullName>
+    <externalId>false</externalId>
+    <label>DS PPIT Revenue</label>
+    <summarizedField>OpportunityLineItem.Total_Buy__c</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Product_Family_ro__c</field>
+        <operation>equals</operation>
+        <value>Dassault</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.DS_Type__c</field>
+        <operation>equals</operation>
+        <value>PLC, PSC, QLC, QSC, TBL2, TBL3, TCS3, YLC, YSC</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

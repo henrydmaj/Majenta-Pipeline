@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAD_Systems_Used__c</fullName>
+    <externalId>false</externalId>
+    <label>CAD Systems Used</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Autodesk</fullName>
+                <default>false</default>
+                <label>Autodesk</label>
+            </value>
+            <value>
+                <fullName>Dassault Systemes</fullName>
+                <default>false</default>
+                <label>Dassault Systemes</label>
+            </value>
+            <value>
+                <fullName>Solidworks</fullName>
+                <default>false</default>
+                <label>Solidworks</label>
+            </value>
+            <value>
+                <fullName>Rhino</fullName>
+                <default>false</default>
+                <label>Rhino</label>
+            </value>
+            <value>
+                <fullName>OnShape</fullName>
+                <default>false</default>
+                <label>OnShape</label>
+            </value>
+            <value>
+                <fullName>PTC</fullName>
+                <default>false</default>
+                <label>PTC</label>
+            </value>
+            <value>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+                <label>Siemens</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

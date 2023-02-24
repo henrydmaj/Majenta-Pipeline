@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sale_Price_Cannot_Be_0</fullName>
+    <active>true</active>
+    <errorConditionFormula>UnitPrice  == 0
+&amp;&amp; Buy_Price__c &lt;&gt; 0
+&amp;&amp; NOT(ISPICKVAL(Opportunity.Type, "Marketing Funding/Cost"))</errorConditionFormula>
+    <errorDisplayField>UnitPrice</errorDisplayField>
+    <errorMessage>You must specify a selling price.</errorMessage>
+</ValidationRule>

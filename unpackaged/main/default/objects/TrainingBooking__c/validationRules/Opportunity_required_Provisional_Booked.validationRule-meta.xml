@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_required_Provisional_Booked</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(Opportunity__c)
+&amp;&amp; OR(
+  ISPICKVAL(Status__c,"Provisional"),
+  ISPICKVAL(Status__c,"Booked")
+)</errorConditionFormula>
+    <errorDisplayField>Opportunity__c</errorDisplayField>
+    <errorMessage>You must specify a valid Opportunity.</errorMessage>
+</ValidationRule>

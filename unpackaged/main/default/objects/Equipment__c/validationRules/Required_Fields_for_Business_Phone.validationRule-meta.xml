@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Fields_for_Business_Phone</fullName>
+    <active>true</active>
+    <description>IMEI and SIM Number must be populated</description>
+    <errorConditionFormula>RecordType.Name = "Business Phone"
+
+&amp;&amp;
+
+(ISBLANK(  IMEI_number__c  )
+ || 
+ISBLANK(  SIM_Number__c   ))</errorConditionFormula>
+    <errorMessage>IMEI and SIM Number must be populated</errorMessage>
+</ValidationRule>

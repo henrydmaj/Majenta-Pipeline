@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_not_assigned_on_Quote</fullName>
+    <active>true</active>
+    <description>Contact is not assigned on the Quote.</description>
+    <errorConditionFormula>ISBLANK(ContactId)</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>Please assign a contact to the quote.</errorMessage>
+</ValidationRule>

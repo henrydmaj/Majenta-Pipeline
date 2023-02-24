@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloneWithLineItems</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Clone with Line Items</masterLabel>
+    <openType>replace</openType>
+    <page>PurchaseOrderClone</page>
+    <protected>false</protected>
+</WebLink>

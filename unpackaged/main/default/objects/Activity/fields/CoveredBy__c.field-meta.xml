@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoveredBy__c</fullName>
+    <externalId>false</externalId>
+    <label>Covered by</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alison Sutcliffe</fullName>
+                <default>false</default>
+                <label>Alison Sutcliffe</label>
+            </value>
+            <value>
+                <fullName>Donna Callan</fullName>
+                <default>false</default>
+                <label>Donna Callan</label>
+            </value>
+            <value>
+                <fullName>Kathryn Youdan</fullName>
+                <default>false</default>
+                <label>Kathryn Youdan</label>
+            </value>
+            <value>
+                <fullName>Tereasa Wilkinson</fullName>
+                <default>false</default>
+                <label>Tereasa Wilkinson</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

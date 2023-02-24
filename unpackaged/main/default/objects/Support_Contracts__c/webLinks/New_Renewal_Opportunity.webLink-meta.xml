@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Renewal_Opportunity</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Renewal Opportunity</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/006/e?retURL=%2F{!Support_Contracts__c.Id}&amp;accid={!Support_Contracts__c.AccountId__c}&amp;RecordType=01220000000Dxtg&amp;cancelURL=%2F{!Support_Contracts__c.Id}&amp;opp9={!Support_Contracts__c.Finish_Date__c}&amp;opp3={!Support_Contracts__c.Account__c}+Contract+Renewal+{!Support_Contracts__c.Name}&amp;opp11=Quoted&amp;opp7=0&amp;CF00N2000000206aq={!Support_Contracts__c.Name}</url>
+</WebLink>

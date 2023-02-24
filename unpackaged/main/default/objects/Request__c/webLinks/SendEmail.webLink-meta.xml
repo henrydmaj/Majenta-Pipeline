@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SendEmail</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Send Email</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>location.replace('mailto:{!IF( Request__c.OwnerId == $User.Id, Request__c.AssignedToEmail__c, Request__c.OwnerEmail)}?CC=salesforce@majentasolutions.com&amp;SUBJECT=RE: {!Request__c.Subject__c}');</url>
+</WebLink>

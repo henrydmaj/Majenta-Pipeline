@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maximum_number_of_sites__c</fullName>
+    <description>This field needs to be populated by the user to say what the maximum number of allowed sites is for that specific account according to their purchased subscription.</description>
+    <externalId>false</externalId>
+    <label>Maximum number of sites</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

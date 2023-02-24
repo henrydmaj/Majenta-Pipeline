@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New Customer New Business</fullName>
+        <default>false</default>
+        <label>New Customer New Business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Customer New Business</fullName>
+        <default>false</default>
+        <label>Existing Customer New Business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Customer Maintenance Renewal</fullName>
+        <default>false</default>
+        <label>Existing Customer Maintenance Renewal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Customer Mixed Business</fullName>
+        <default>false</default>
+        <label>Existing Customer Mixed Business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Supplier Credit/Rebate</fullName>
+        <default>false</default>
+        <label>Supplier Credit/Rebate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing Funding/Cost</fullName>
+        <default>false</default>
+        <label>Marketing Funding/Cost</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Overhead Purchase Order</fullName>
+        <default>false</default>
+        <label>Overhead Purchase Order</label>
+    </standardValue>
+</StandardValueSet>

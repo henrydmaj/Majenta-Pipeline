@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Assigned_Closed_Requests</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Type__c</columns>
+    <columns>Subject__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>DueDate__c</columns>
+    <columns>CompletedDateTime__c</columns>
+    <columns>Status__c</columns>
+    <columns>StatusIcon__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Completed,Aborted</value>
+    </filters>
+    <filters>
+        <field>AssignedToMe__c</field>
+        <operation>equals</operation>
+        <value>TRUE</value>
+    </filters>
+    <filters>
+        <field>RequestedDateTime__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2018 12:00 AM</value>
+    </filters>
+    <label>My Assigned Closed Requests</label>
+    <sharedTo>
+        <group>SystemAdministrators</group>
+    </sharedTo>
+</ListView>

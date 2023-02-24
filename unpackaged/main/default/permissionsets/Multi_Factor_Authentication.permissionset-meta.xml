@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Forces the User to use Multi Factor Authentication, for use on Non-Cloned Profiles. Custom Profiles have this permission set separately.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Multi Factor Authentication</label>
+    <license>Salesforce</license>
+</PermissionSet>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SharingReason xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Owners_R_W_Support_Contracts__c</fullName>
+    <label>Account Owners R/W Support Contracts</label>
+</SharingReason>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Items_Cannot_be_Modified_after_Issue</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(CreditNote__r.IsApexContext__c),
+/* NOT($User.InvoiceAdministrator__c), */
+CreditNote__r.IsCredited__c
+)
+&amp;&amp; $Profile.Name !="System Administrator"</errorConditionFormula>
+    <errorMessage>This invoice can no longer be modified, as it has already been issued.</errorMessage>
+</ValidationRule>

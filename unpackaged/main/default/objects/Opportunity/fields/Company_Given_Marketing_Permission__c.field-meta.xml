@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Given_Marketing_Permission__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does the account/contact agree to the use of their solution being used in marketing activity?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does the account/contact agree to the use of their solution being used in marketing activity?</inlineHelpText>
+    <label>Company Given Marketing Permission</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead Process - 2014</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Dead %E2%80%93 Bad Data</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Dead %E2%80%93 Bad Timing</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Dead %E2%80%93 Duplicate</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Dead %E2%80%93 Missing Feature</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Dead %E2%80%93 No Budget</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Dead %E2%80%93 No Requirement</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Dead %E2%80%93 Unable to Connect</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Dead %E2%80%93 Using Competitor</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New Lead</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Qualified</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

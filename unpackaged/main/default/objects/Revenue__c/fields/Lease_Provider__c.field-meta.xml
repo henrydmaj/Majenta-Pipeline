@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease_Provider__c</fullName>
+    <externalId>false</externalId>
+    <label>Lease Provider</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Societe Generale</fullName>
+                <default>false</default>
+                <label>Societe Generale</label>
+            </value>
+            <value>
+                <fullName>Investec</fullName>
+                <default>false</default>
+                <label>Investec</label>
+            </value>
+            <value>
+                <fullName>Aldermore</fullName>
+                <default>false</default>
+                <label>Aldermore</label>
+            </value>
+            <value>
+                <fullName>Peac</fullName>
+                <default>false</default>
+                <label>Peac</label>
+            </value>
+            <value>
+                <fullName>Halo Other</fullName>
+                <default>false</default>
+                <label>Halo Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

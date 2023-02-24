@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Access</fullName>
+        <default>false</default>
+        <label>Access</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Admin</fullName>
+        <default>false</default>
+        <label>Account Admin</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Application Access</fullName>
+        <default>false</default>
+        <label>Application Access</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Application Functionality</fullName>
+        <default>false</default>
+        <label>Application Functionality</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Application Installation</fullName>
+        <default>false</default>
+        <label>Application Installation</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Commercial &amp;/or Subscription Query</fullName>
+        <default>false</default>
+        <label>Commercial &amp;/or Subscription Query</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Connectivity</fullName>
+        <default>false</default>
+        <label>Connectivity</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Consultancy/Training Required</fullName>
+        <default>false</default>
+        <label>Consultancy/Training Required</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Ownership/Error</fullName>
+        <default>false</default>
+        <label>Data Ownership/Error</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>enerjyhub Access</fullName>
+        <default>false</default>
+        <label>enerjyhub Access</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>enerjyhub Tool Issue/Assistance</fullName>
+        <default>false</default>
+        <label>enerjyhub Tool Issue/Assistance</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Environment &amp; Operations</fullName>
+        <default>true</default>
+        <label>Environment &amp; Operations</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>ER/Sug Fixed</fullName>
+        <default>false</default>
+        <label>ER/Sug Fixed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>G2B</fullName>
+        <default>false</default>
+        <label>G2B</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>General Inquiry</fullName>
+        <default>false</default>
+        <label>General Inquiry</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Hardware Issue</fullName>
+        <default>false</default>
+        <label>Hardware Issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>JLR Requirements &amp;/or Deliverables Query</fullName>
+        <default>false</default>
+        <label>JLR Requirements &amp;/or Deliverables Query</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Licencing Issue</fullName>
+        <default>false</default>
+        <label>Licencing Issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Licencing Renewal</fullName>
+        <default>false</default>
+        <label>Licencing Renewal</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Paperless Model</fullName>
+        <default>false</default>
+        <label>Paperless Model</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PR/Bug Fixed</fullName>
+        <default>false</default>
+        <label>PR/Bug Fixed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pre Req</fullName>
+        <default>false</default>
+        <label>Pre Req</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>TCP2</fullName>
+        <default>false</default>
+        <label>TCP2</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical Query</fullName>
+        <default>false</default>
+        <label>Technical Query</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

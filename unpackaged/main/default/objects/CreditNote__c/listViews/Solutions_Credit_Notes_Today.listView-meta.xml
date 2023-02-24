@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solutions_Credit_Notes_Today</fullName>
+    <columns>CreditNoteLink__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Date__c</columns>
+    <columns>NetAmount__c</columns>
+    <columns>TaxAmount__c</columns>
+    <columns>TotalAmount__c</columns>
+    <columns>IsCredited__c</columns>
+    <columns>IsPostedtoSage__c</columns>
+    <columns>IsFactored_c__c</columns>
+    <columns>UploadedToHitachi__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Company__c</field>
+        <operation>equals</operation>
+        <value>SOLUTIONS</value>
+    </filters>
+    <filters>
+        <field>IsCredited__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Date__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Solutions Credit Notes - Today</label>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Subscription</fullName>
+    <active>false</active>
+    <description>Child account cant be active in enerjyhub if the parent account is not subscribed</description>
+    <errorConditionFormula>Parent.Paid_subscription__c = FALSE &amp;&amp;
+Has_subscription__c = TRUE &amp;&amp;
+$User.IsCanBypassVR__c = FALSE</errorConditionFormula>
+    <errorMessage>The parent account does not have a subscription. You can not set this site as "Active in enerjyhub" right now.</errorMessage>
+</ValidationRule>

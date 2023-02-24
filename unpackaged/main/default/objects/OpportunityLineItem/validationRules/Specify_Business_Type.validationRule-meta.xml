@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specify_Business_Type</fullName>
+    <active>true</active>
+    <description>Users must specify a business type for opportunity products if the opportunity business type is "Mixed".</description>
+    <errorConditionFormula>ISPICKVAL(Opportunity.Type, "Existing Customer Mixed Business")
+&amp;&amp;  ISBLANK(TEXT(BusinessType2__c))</errorConditionFormula>
+    <errorDisplayField>BusinessType2__c</errorDisplayField>
+    <errorMessage>You must specify a business type for each product on mixed business deals.</errorMessage>
+</ValidationRule>

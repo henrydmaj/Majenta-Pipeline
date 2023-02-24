@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_active_employees</fullName>
+    <columns>NAME</columns>
+    <columns>Job_Title__c</columns>
+    <columns>Department__c</columns>
+    <columns>Primary_Org__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>Holiday_Entitlement__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notEqual</operation>
+        <value>Test</value>
+    </filters>
+    <label>All (active employees)</label>
+    <sharedTo>
+        <group>HR_Access</group>
+    </sharedTo>
+</ListView>

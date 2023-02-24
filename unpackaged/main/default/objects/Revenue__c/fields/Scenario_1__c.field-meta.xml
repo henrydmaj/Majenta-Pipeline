@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scenario_1__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  BusinessType__c ="New,Renewal",      MAR_P_L__c ,
+
+
+IF(  CV_TYPE__c = "YES",0,
+IF(  CV_TYPE__c = "NO",    FEB_P_L__c  ,
+IF(  CV_TYPE__c = "50%",    FEB_P_L__c *0.50,
+
+
+    MAR_P_L__c   ))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Scenario 1</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

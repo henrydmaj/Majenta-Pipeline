@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>InvoiceLinkDomain</fullName>
+        <categories>S2S Revenue Recognised</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InvoiceLinkDomain</shortDescription>
+        <value>https://majenta.lightning.force.com/</value>
+    </labels>
+    <labels>
+        <fullName>JLR_Inbound_Campaign_Name</fullName>
+        <categories>Leads</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JLR Inbound Campaign Name</shortDescription>
+        <value>FY22-JLR-Inbound-JLR Suppliers Connectivity</value>
+    </labels>
+    <labels>
+        <fullName>RevRecPrefix</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RevRecPrefix</shortDescription>
+        <value>a3G</value>
+    </labels>
+</CustomLabels>

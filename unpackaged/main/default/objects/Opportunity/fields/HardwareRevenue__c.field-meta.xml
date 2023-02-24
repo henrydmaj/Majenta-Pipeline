@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HardwareRevenue__c</fullName>
+    <externalId>false</externalId>
+    <label>Hardware Revenue</label>
+    <summarizedField>OpportunityLineItem.Total_Sale_Price__c</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Product_Type_ro__c</field>
+        <operation>equals</operation>
+        <value>Hardware</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

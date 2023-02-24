@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DS_Sales_Stage__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case(StageName, 
+"Disengaged", "Closed/Lost",
+"Maintenance Cancelled", "Closed/Lost",
+"Order Lost / Disengaged", "Closed/Lost",
+"Pipeline (Unqualified Opportunity)", null,
+"Pipeline (Qualified opportunity)", "1-Sales Lead", 
+"Quoted", "2-Validate Opportunity",
+"Upside (Best case)", "2-Validate Opportunity",
+"Committed", "3-Establish Value",
+"Will Renew", "3-Establish Value",
+"Order In - Processing", "4-Reach Agreement",
+"Order In - Processed", "Closed/Won",
+"Order In", "Closed/Won", 
+"Completed", "Closed/Won", 
+null)</formula>
+    <label>Dassault Sales Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

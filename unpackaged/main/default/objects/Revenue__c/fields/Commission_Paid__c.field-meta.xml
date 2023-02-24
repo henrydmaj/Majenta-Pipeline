@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commission_Paid__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND( ProductType__c ="Subscription", BusinessType__c ="New"),( No_of_Sites_4C__c * No_of_Yr_4C__c *15),
+IF(AND( ProductType__c ="Subscription", BusinessType__c ="Renewal"),( No_of_Sites_4C__c * No_of_Yr_4C__c *7.50),
+IF(ISPICKVAL( Sub_Division__c ,"Cloud/3DX"),( NetMargin__c *0.12),
+IF(ISPICKVAL( Sub_Division__c ,"Legacy"),( NetMargin__c *0.07),
+IF(ISPICKVAL( Sub_Division__c ,"House Account"),( NetMargin__c *0.05),
+IF(ISPICKVAL( Sub_Division__c ,"House Account 3DX"),( NetMargin__c *0.075),
+IF(ISPICKVAL( Sub_Division__c ,"DS Training"),( NetMargin__c *0.10),
+IF(ISPICKVAL( Sub_Division__c ,"DS Support"),( NetMargin__c *0.10),
+IF(ISPICKVAL( Sub_Division__c ,"Dassault New Named"),( NetMargin__c *0.15),
+
+
+
+IF( Grouping__r.Name ="Alison Hill",0,
+IF( Grouping__r.Name ="Dave Downes",0,
+IF( Grouping__r.Name ="Tereasa Wilkinson",0,
+IF( Grouping__r.Name ="James Smith",0,
+IF( Grouping__r.Name ="James Gregory",0,
+IF( Grouping__r.Name ="Monty Meghjee",0,
+IF( Grouping__r.Name ="Kathryn Youdan",0,
+IF( Grouping__r.Name ="Alison Sutcliffe",0,
+IF( Grouping__r.Name ="Simon Ordish",0,
+IF( Grouping__r.Name ="Manish Amlani",0,
+
+NetMargin__c * Rate__c)))))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Commission Paid</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

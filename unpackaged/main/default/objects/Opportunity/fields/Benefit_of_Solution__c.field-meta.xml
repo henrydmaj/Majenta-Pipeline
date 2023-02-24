@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Benefit_of_Solution__c</fullName>
+    <description>What did the solution help the company, department and/or people involved achieve? What was the benefit to them using Majenta Solutions and the solution within the opportunity?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What did the solution help the company, department and/or people involved achieve? What was the benefit to them using Majenta Solutions and the solution within the opportunity?</inlineHelpText>
+    <label>Benefit of Solution</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

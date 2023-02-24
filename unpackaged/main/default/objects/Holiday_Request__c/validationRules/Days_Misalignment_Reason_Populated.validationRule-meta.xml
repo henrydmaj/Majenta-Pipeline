@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Misalignment_Reason_Populated</fullName>
+    <active>true</active>
+    <description>Rule triggers if the number of days aligns with the start and end date but the days misalignment reason text field is populated.</description>
+    <errorConditionFormula>Number_of_Days__c   =   NoofDaysAuto__c 
+ &amp;&amp; 
+  NOT(ISBLANK( Days_Misalignment_Reason__c ))
+&amp;&amp; 
+ ISPICKVAL( Employee_Record__r.Primary_Org__c , "Majenta")</errorConditionFormula>
+    <errorDisplayField>Days_Misalignment_Reason__c</errorDisplayField>
+    <errorMessage>The number of days that you have entered aligns with the number of days between the end and start date. You do not need to enter a reason, please remove all text.</errorMessage>
+</ValidationRule>

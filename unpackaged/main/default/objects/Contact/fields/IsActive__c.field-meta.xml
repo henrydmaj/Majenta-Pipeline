@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsActive__c</fullName>
+    <description>Field to identify if the contacts Community is 'Active'. Must have value in 'Community User' field.</description>
+    <externalId>false</externalId>
+    <formula>IF( Community_User__r.IsActive =TRUE,TRUE,FALSE)</formula>
+    <inlineHelpText>This checkbox indicates if the contact has an active community user.</inlineHelpText>
+    <label>IsActive</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

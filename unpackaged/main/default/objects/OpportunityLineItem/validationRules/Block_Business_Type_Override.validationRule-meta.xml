@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_Business_Type_Override</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISPICKVAL(Opportunity.Type, "Existing Customer Mixed Business"))
+&amp;&amp; NOT(ISBLANK(TEXT(BusinessType2__c)))
+/* &amp;&amp;  $UserRole.Name == "Administrator" */</errorConditionFormula>
+    <errorDisplayField>BusinessType2__c</errorDisplayField>
+    <errorMessage>You can only specify a business type for opportunity products if the opportunity business type is "Mixed".</errorMessage>
+</ValidationRule>

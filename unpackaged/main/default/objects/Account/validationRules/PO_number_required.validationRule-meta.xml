@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_number_required</fullName>
+    <active>true</active>
+    <description>If yes has been selected, then a PO number has to be given by the user.</description>
+    <errorConditionFormula>IF( ISPICKVAL( PO_needed__c , "Yes") ,  ISBLANK( PO_number__c ) , false)</errorConditionFormula>
+    <errorDisplayField>PO_number__c</errorDisplayField>
+    <errorMessage>Please populate the field "PO number" with the correct PO.</errorMessage>
+</ValidationRule>

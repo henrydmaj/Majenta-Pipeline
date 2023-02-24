@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Jaguar Land Rover</fullName>
+        <default>false</default>
+        <label>Jaguar Land Rover</label>
+    </customValue>
+    <customValue>
+        <fullName>Nissan</fullName>
+        <default>false</default>
+        <label>Nissan</label>
+    </customValue>
+    <customValue>
+        <fullName>Majenta</fullName>
+        <default>false</default>
+        <label>Majenta</label>
+    </customValue>
+    <customValue>
+        <fullName>The Works</fullName>
+        <default>false</default>
+        <label>The Works</label>
+    </customValue>
+    <customValue>
+        <fullName>Aston Martin</fullName>
+        <default>false</default>
+        <label>Aston Martin</label>
+    </customValue>
+    <customValue>
+        <fullName>Lotus</fullName>
+        <default>false</default>
+        <label>Lotus</label>
+    </customValue>
+    <customValue>
+        <fullName>Polestar</fullName>
+        <default>false</default>
+        <label>Polestar</label>
+    </customValue>
+    <customValue>
+        <fullName>Varroc</fullName>
+        <default>false</default>
+        <label>Varroc</label>
+    </customValue>
+    <customValue>
+        <fullName>Ford Motor Company</fullName>
+        <default>false</default>
+        <label>Ford Motor Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Porsche GmbH</fullName>
+        <default>false</default>
+        <label>Porsche GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>JLR PTO</fullName>
+        <default>false</default>
+        <label>JLR PTO</label>
+    </customValue>
+    <customValue>
+        <fullName>ASG Group</fullName>
+        <default>false</default>
+        <label>ASG Group</label>
+    </customValue>
+    <customValue>
+        <fullName>BMI Group MFG</fullName>
+        <default>false</default>
+        <label>BMI Group MFG</label>
+    </customValue>
+    <customValue>
+        <fullName>EDAG Engineering</fullName>
+        <default>false</default>
+        <label>EDAG Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Envisage Group</fullName>
+        <default>false</default>
+        <label>Envisage Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Lotus Tech Creative Centre (Geely)</fullName>
+        <default>false</default>
+        <label>Lotus Tech Creative Centre (Geely)</label>
+    </customValue>
+    <customValue>
+        <fullName>M-Tec Group</fullName>
+        <default>false</default>
+        <label>M-Tec Group</label>
+    </customValue>
+    <customValue>
+        <fullName>OMR</fullName>
+        <default>false</default>
+        <label>OMR</label>
+    </customValue>
+    <customValue>
+        <fullName>Prodrive</fullName>
+        <default>false</default>
+        <label>Prodrive</label>
+    </customValue>
+    <customValue>
+        <fullName>Techniplast</fullName>
+        <default>false</default>
+        <label>Techniplast</label>
+    </customValue>
+    <customValue>
+        <fullName>Unipart Powertrain Applications</fullName>
+        <default>false</default>
+        <label>Unipart Powertrain Applications</label>
+    </customValue>
+    <customValue>
+        <fullName>Vingineering Technology Solutions</fullName>
+        <default>false</default>
+        <label>Vingineering Technology Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>WHS Plastics</fullName>
+        <default>false</default>
+        <label>WHS Plastics</label>
+    </customValue>
+    <customValue>
+        <fullName>Xandor</fullName>
+        <default>false</default>
+        <label>Xandor</label>
+    </customValue>
+    <customValue>
+        <fullName>Parable Global</fullName>
+        <default>false</default>
+        <label>Parable Global</label>
+    </customValue>
+    <description>OEMs for MX (MX Data)</description>
+    <masterLabel>MX OEM</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

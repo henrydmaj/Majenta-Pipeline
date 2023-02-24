@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Content_Completed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Marketing have created, published and promoted content.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Marketing have created, published and promoted content.</inlineHelpText>
+    <label>Marketing Content Completed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

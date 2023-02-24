@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>DepartmentPick__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+                <label>Feature Request</label>
+            </value>
+            <value>
+                <fullName>Training Request</fullName>
+                <default>false</default>
+                <label>Training Request</label>
+            </value>
+            <value>
+                <fullName>Product/Price Book Request</fullName>
+                <default>false</default>
+                <label>Product/Price Book Request</label>
+            </value>
+            <value>
+                <fullName>Report/Dashboard Request</fullName>
+                <default>false</default>
+                <label>Report/Dashboard Request</label>
+            </value>
+            <value>
+                <fullName>New User Request</fullName>
+                <default>false</default>
+                <label>New User Request</label>
+            </value>
+            <value>
+                <fullName>Bug/Error Report</fullName>
+                <default>false</default>
+                <label>Bug/Error Report</label>
+            </value>
+            <value>
+                <fullName>Access/Permission Change</fullName>
+                <default>false</default>
+                <label>Access/Permission Change</label>
+            </value>
+            <value>
+                <fullName>Record Ownership Change</fullName>
+                <default>false</default>
+                <label>Record Ownership Change</label>
+            </value>
+            <value>
+                <fullName>Data Import/Export</fullName>
+                <default>false</default>
+                <label>Data Import/Export</label>
+            </value>
+            <value>
+                <fullName>Data Delete/Merge</fullName>
+                <default>false</default>
+                <label>Data Delete/Merge</label>
+            </value>
+            <value>
+                <fullName>Query/Information Request</fullName>
+                <default>false</default>
+                <label>Query/Information Request</label>
+            </value>
+            <value>
+                <fullName>Change Request</fullName>
+                <default>false</default>
+                <label>Change Request</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Invoice Untick - Buy Price Change</fullName>
+                <default>false</default>
+                <label>Invoice Untick - Buy Price Change</label>
+            </value>
+            <value>
+                <fullName>Invoice Untick - Change Details PO number/ address/ no monetary change</fullName>
+                <default>false</default>
+                <label>Invoice Untick - Change Details PO number/ address/ no monetary change</label>
+            </value>
+            <value>
+                <fullName>User Deactivation</fullName>
+                <default>false</default>
+                <label>User Deactivation</label>
+            </value>
+            <value>
+                <fullName>Reset Password</fullName>
+                <default>false</default>
+                <label>Reset Password</label>
+            </value>
+            <value>
+                <fullName>Resource Booking Error Issue</fullName>
+                <default>false</default>
+                <label>Resource Booking Error Issue</label>
+            </value>
+            <value>
+                <fullName>Revenue Recognised Issue</fullName>
+                <default>false</default>
+                <label>Revenue Recognised Issue</label>
+            </value>
+            <value>
+                <fullName>Shared Ownership Deal booking Issue</fullName>
+                <default>false</default>
+                <label>Shared Ownership Deal booking Issue</label>
+            </value>
+            <value>
+                <fullName>Lightning Rollout</fullName>
+                <default>false</default>
+                <label>Lightning Rollout</label>
+            </value>
+            <value>
+                <fullName>App Build</fullName>
+                <default>false</default>
+                <label>App Build</label>
+            </value>
+            <value>
+                <fullName>Optimiser Report</fullName>
+                <default>false</default>
+                <label>Optimiser Report</label>
+            </value>
+            <value>
+                <fullName>Health Check Report</fullName>
+                <default>false</default>
+                <label>Health Check Report</label>
+            </value>
+            <value>
+                <fullName>Lightning Adoption</fullName>
+                <default>false</default>
+                <label>Lightning Adoption</label>
+            </value>
+            <value>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+                <label>Campaign</label>
+            </value>
+            <value>
+                <fullName>Image</fullName>
+                <default>false</default>
+                <label>Image</label>
+            </value>
+            <value>
+                <fullName>Video</fullName>
+                <default>false</default>
+                <label>Video</label>
+            </value>
+            <value>
+                <fullName>Website Update</fullName>
+                <default>false</default>
+                <label>Website Update</label>
+            </value>
+            <value>
+                <fullName>Brochure</fullName>
+                <default>false</default>
+                <label>Brochure</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Branded Goods</fullName>
+                <default>false</default>
+                <label>Branded Goods</label>
+            </value>
+            <value>
+                <fullName>Social Media Post</fullName>
+                <default>false</default>
+                <label>Social Media Post</label>
+            </value>
+            <value>
+                <fullName>Information Management</fullName>
+                <default>false</default>
+                <label>Information Management</label>
+            </value>
+            <value>
+                <fullName>COBie Input</fullName>
+                <default>false</default>
+                <label>COBie Input</label>
+            </value>
+            <value>
+                <fullName>Coordination</fullName>
+                <default>false</default>
+                <label>Coordination</label>
+            </value>
+            <value>
+                <fullName>3D Modelling</fullName>
+                <default>false</default>
+                <label>3D Modelling</label>
+            </value>
+            <value>
+                <fullName>4D</fullName>
+                <default>false</default>
+                <label>4D</label>
+            </value>
+            <value>
+                <fullName>Laser Scanning</fullName>
+                <default>false</default>
+                <label>Laser Scanning</label>
+            </value>
+            <value>
+                <fullName>Client Consultancy</fullName>
+                <default>false</default>
+                <label>Client Consultancy</label>
+            </value>
+            <value>
+                <fullName>Content Creation (BPM)</fullName>
+                <default>false</default>
+                <label>Content Creation (BPM)</label>
+            </value>
+            <value>
+                <fullName>MEP Modelling</fullName>
+                <default>false</default>
+                <label>MEP Modelling</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Campaign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Image</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Video</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Website Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Brochure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Event</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Branded Goods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Social Media Post</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Feature Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Training Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Product/Price Book Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Report/Dashboard Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>New User Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Bug/Error Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Access/Permission Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Record Ownership Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Data Import/Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Data Delete/Merge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Query/Information Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>Change Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech/Salesforce</controllingFieldValue>
+            <valueName>User Deactivation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Construction</controllingFieldValue>
+            <valueName>Information Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Construction</controllingFieldValue>
+            <valueName>COBie Input</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Construction</controllingFieldValue>
+            <valueName>Coordination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Construction</controllingFieldValue>
+            <valueName>3D Modelling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Construction</controllingFieldValue>
+            <valueName>4D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Construction</controllingFieldValue>
+            <valueName>Laser Scanning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Construction</controllingFieldValue>
+            <valueName>Client Consultancy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Construction</controllingFieldValue>
+            <valueName>Content Creation (BPM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Construction</controllingFieldValue>
+            <valueName>MEP Modelling</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

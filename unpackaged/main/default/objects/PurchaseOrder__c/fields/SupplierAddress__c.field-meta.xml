@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SupplierAddress__c</fullName>
+    <externalId>false</externalId>
+    <formula>Supplier__r.Name+BR()+ 
+Supplier__r.ShippingStreet+BR()+ 
+Supplier__r.ShippingCity+BR()+ 
+Supplier__r.ShippingState+BR()+ 
+Supplier__r.ShippingPostalCode+BR()+ 
+Supplier__r.ShippingCountry</formula>
+    <label>Supplier Address</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

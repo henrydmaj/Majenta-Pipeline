@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>1 - Site Down</fullName>
+        <color>#CC0000</color>
+        <default>false</default>
+        <label>1 - Site Down</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2 - User Down</fullName>
+        <color>#FF6600</color>
+        <default>false</default>
+        <label>2 - User Down</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3 - Can’t perform task. No Workaround</fullName>
+        <color>#FFCC33</color>
+        <default>false</default>
+        <label>3 - Can’t perform task. No Workaround</label>
+    </standardValue>
+    <standardValue>
+        <fullName>4 - Help Required. Workaround Available</fullName>
+        <color>#33CC00</color>
+        <default>false</default>
+        <label>4 - Help Required. Workaround Available</label>
+    </standardValue>
+    <standardValue>
+        <fullName>5 - Query/Request</fullName>
+        <color>#00CCCC</color>
+        <default>true</default>
+        <label>5 - Query/Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1</fullName>
+        <default>false</default>
+        <label>1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2</fullName>
+        <default>false</default>
+        <label>2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3</fullName>
+        <default>false</default>
+        <label>3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>4</fullName>
+        <default>false</default>
+        <label>4</label>
+    </standardValue>
+    <standardValue>
+        <fullName>5</fullName>
+        <default>false</default>
+        <label>5</label>
+    </standardValue>
+</StandardValueSet>

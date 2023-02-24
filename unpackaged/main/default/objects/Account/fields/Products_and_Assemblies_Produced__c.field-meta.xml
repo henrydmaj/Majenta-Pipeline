@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products_and_Assemblies_Produced__c</fullName>
+    <externalId>false</externalId>
+    <label>Products and Assemblies Produced</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aerospace - Body and Main Part</fullName>
+                <default>false</default>
+                <label>Aerospace - Body and Main Part</label>
+            </value>
+            <value>
+                <fullName>Aerospace - Cabin and Interior</fullName>
+                <default>false</default>
+                <label>Aerospace - Cabin and Interior</label>
+            </value>
+            <value>
+                <fullName>Aerospace - Electrical and Controls</fullName>
+                <default>false</default>
+                <label>Aerospace - Electrical and Controls</label>
+            </value>
+            <value>
+                <fullName>Aerospace - Other</fullName>
+                <default>false</default>
+                <label>Aerospace - Other</label>
+            </value>
+            <value>
+                <fullName>Aerospace - Propulsion and Engine</fullName>
+                <default>false</default>
+                <label>Aerospace - Propulsion and Engine</label>
+            </value>
+            <value>
+                <fullName>Automotive - Body and Main Parts</fullName>
+                <default>false</default>
+                <label>Automotive - Body and Main Parts</label>
+            </value>
+            <value>
+                <fullName>Automotive - Electrical and Electronics</fullName>
+                <default>false</default>
+                <label>Automotive - Electrical and Electronics</label>
+            </value>
+            <value>
+                <fullName>Automotive - Interior</fullName>
+                <default>false</default>
+                <label>Automotive - Interior</label>
+            </value>
+            <value>
+                <fullName>Automotive - Other</fullName>
+                <default>false</default>
+                <label>Automotive - Other</label>
+            </value>
+            <value>
+                <fullName>Automotive - Power-train and Chassis</fullName>
+                <default>false</default>
+                <label>Automotive - Power-train and Chassis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

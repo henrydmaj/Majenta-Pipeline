@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Autodesk_ACE_Deals</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>ACEStatus__c</columns>
+    <columns>ACEAcceptedDate__c</columns>
+    <columns>ACEDaysRemaining__c</columns>
+    <columns>ACEExpiryDate__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Partner__c</field>
+        <operation>equals</operation>
+        <value>Autodesk</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.AutodeskOpportunity</value>
+    </filters>
+    <label>My Autodesk ACE Deals</label>
+    <sharedTo>
+        <group>SoftwareDivisionTeam</group>
+    </sharedTo>
+</ListView>

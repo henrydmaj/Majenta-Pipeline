@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WebsiteUpdatePick__c</fullName>
+    <description>Type of website update required.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of website update required.</inlineHelpText>
+    <label>Website Update</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blog Post</fullName>
+                <default>false</default>
+                <label>Blog Post</label>
+            </value>
+            <value>
+                <fullName>Webpage Update</fullName>
+                <default>false</default>
+                <label>Webpage Update</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Install_Base__c</fullName>
+    <externalId>false</externalId>
+    <label>Install Base</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>V5</fullName>
+                <default>false</default>
+                <label>V5</label>
+            </value>
+            <value>
+                <fullName>V6</fullName>
+                <default>false</default>
+                <label>V6</label>
+            </value>
+            <value>
+                <fullName>JLR BIW</fullName>
+                <default>false</default>
+                <label>JLR BIW</label>
+            </value>
+            <value>
+                <fullName>CAD-EXH</fullName>
+                <default>false</default>
+                <label>CAD-EXH</label>
+            </value>
+            <value>
+                <fullName>No Install Base</fullName>
+                <default>false</default>
+                <label>No Install Base</label>
+            </value>
+            <value>
+                <fullName>HD2</fullName>
+                <default>false</default>
+                <label>HD2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ageing_2__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Ageing_Step_1__c &lt;=30, "Current",IF( Ageing_Step_1__c &lt;=  60, "Period 1", IF( Ageing_Step_1__c  &lt;= 90 ,"Period 2", IF( Ageing_Step_1__c  &lt;= 120,"Period 3", IF( Ageing_Step_1__c &gt;120,"Previous" , " Other")))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Ageing 2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SupplierOrgDeactivated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to identify if a supplier org has been deactivated from enerjyhub.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field to identify if a supplier org has been deactivated from enerjyhub.</inlineHelpText>
+    <label>Supplier Org Deactivated</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

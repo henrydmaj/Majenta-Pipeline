@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Needed_if_InActive</fullName>
+    <active>true</active>
+    <description>Reason must be selected</description>
+    <errorConditionFormula>AND(
+ InActive_JLR_Site__c = TRUE,
+  ISPICKVAL(In_Active_Reason__c, ""))</errorConditionFormula>
+    <errorDisplayField>In_Active_Reason__c</errorDisplayField>
+    <errorMessage>Reason must be selected if In-Active JLR Site has been selected</errorMessage>
+</ValidationRule>

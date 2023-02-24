@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NominatedDassaultVAR__c</fullName>
+    <externalId>false</externalId>
+    <label>Nominated Dassault VAR</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Majenta</fullName>
+                <default>false</default>
+                <label>Majenta</label>
+            </value>
+            <value>
+                <fullName>Desktop Engineering</fullName>
+                <default>false</default>
+                <label>Desktop Engineering</label>
+            </value>
+            <value>
+                <fullName>Applied CAE</fullName>
+                <default>false</default>
+                <label>Applied CAE</label>
+            </value>
+            <value>
+                <fullName>Cenit</fullName>
+                <default>false</default>
+                <label>Cenit</label>
+            </value>
+            <value>
+                <fullName>Dassault Direct</fullName>
+                <default>false</default>
+                <label>Dassault Direct</label>
+            </value>
+            <value>
+                <fullName>TATA Technologies</fullName>
+                <default>false</default>
+                <label>TATA Technologies</label>
+            </value>
+            <value>
+                <fullName>Intrinsys</fullName>
+                <default>false</default>
+                <label>Intrinsys</label>
+            </value>
+            <value>
+                <fullName>Design Rule</fullName>
+                <default>false</default>
+                <label>Design Rule</label>
+            </value>
+            <value>
+                <fullName>SSA</fullName>
+                <default>false</default>
+                <label>SSA</label>
+            </value>
+            <value>
+                <fullName>Other UK Based VAR</fullName>
+                <default>false</default>
+                <label>Other UK Based VAR</label>
+            </value>
+            <value>
+                <fullName>Other Non UK Based VAR</fullName>
+                <default>false</default>
+                <label>Other Non UK Based VAR</label>
+            </value>
+            <value>
+                <fullName>Technia</fullName>
+                <default>false</default>
+                <label>Technia</label>
+            </value>
+            <value>
+                <fullName>White Space</fullName>
+                <default>false</default>
+                <label>White Space</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

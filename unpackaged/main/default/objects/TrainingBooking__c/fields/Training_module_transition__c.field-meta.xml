@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_module_transition__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What did you think of the progression from one section of the programme to the next?</inlineHelpText>
+    <label>Training module transition</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Too slow</fullName>
+                <default>false</default>
+                <label>Too slow</label>
+            </value>
+            <value>
+                <fullName>Ideal</fullName>
+                <default>false</default>
+                <label>Ideal</label>
+            </value>
+            <value>
+                <fullName>Too fast</fullName>
+                <default>false</default>
+                <label>Too fast</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

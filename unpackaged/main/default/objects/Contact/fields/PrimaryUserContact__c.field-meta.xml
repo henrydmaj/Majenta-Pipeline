@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrimaryUserContact__c</fullName>
+    <description>Link to Primary User Contact  for this Contact (JLR enerjyhub)</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Community_User__c)  ||  !IsActive__c ,"N/A",
+HYPERLINK("/" &amp; Community_User__r.ContactId,"Click here")
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Click here for the Primary User Contact (to login as the user)</inlineHelpText>
+    <label>Primary User Contact</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

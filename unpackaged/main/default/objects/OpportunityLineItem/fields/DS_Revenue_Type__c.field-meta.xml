@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DS_Revenue_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(Product_Code__c, "ALC"), "ALC",
+IF(CONTAINS(Product_Code__c, "ASC"), "ASC",
+IF(CONTAINS(Product_Code__c, "PLC"), "PLC",
+IF(CONTAINS(Product_Code__c, "PSC"), "PSC", 
+IF(CONTAINS(Product_Code__c, "QLC"), "QLC",
+IF(CONTAINS(Product_Code__c, "QSC"), "QSC",
+IF(CONTAINS(Product_Code__c, "TBL2"), "TBL2", 
+IF(CONTAINS(Product_Code__c, "TBL3"), "TBL3",
+IF(CONTAINS(Product_Code__c, "TSC3"), "TSC3",
+IF(CONTAINS(Product_Code__c, "YLC"), "YLC",
+IF(CONTAINS(Product_Code__c, "YSC"), "YSC",TEXT(PricebookEntry.Product2.DassaultLicenceTypePick__c))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DSRevType (Formula)</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>AEC</fullName>
+        <default>false</default>
+        <label>AEC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AEC - Architect</fullName>
+        <default>false</default>
+        <label>AEC - Architect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AEC – Civil</fullName>
+        <default>false</default>
+        <label>AEC – Civil</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AEC - Construction/Contractor</fullName>
+        <default>false</default>
+        <label>AEC - Construction/Contractor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AEC - Engineering Consultant</fullName>
+        <default>false</default>
+        <label>AEC - Engineering Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AEC - Estates Management</fullName>
+        <default>false</default>
+        <label>AEC - Estates Management</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AEC - House Builder</fullName>
+        <default>false</default>
+        <label>AEC - House Builder</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AEC - MEP</fullName>
+        <default>false</default>
+        <label>AEC - MEP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AEC - Owner Operator</fullName>
+        <default>false</default>
+        <label>AEC - Owner Operator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AEC - Structure</fullName>
+        <default>false</default>
+        <label>AEC - Structure</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Aerospace</fullName>
+        <default>false</default>
+        <label>Aerospace</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Automotive</fullName>
+        <default>false</default>
+        <label>Automotive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Building Products</fullName>
+        <default>false</default>
+        <label>Building Products</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Construction - AEC</fullName>
+        <default>false</default>
+        <label>Construction - AEC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consumer Products</fullName>
+        <default>false</default>
+        <label>Consumer Products</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engineering &amp; Design Services</fullName>
+        <default>false</default>
+        <label>Engineering &amp; Design Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finance &amp; Legal</fullName>
+        <default>false</default>
+        <label>Finance &amp; Legal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Furniture &amp; Retail Display</fullName>
+        <default>false</default>
+        <label>Furniture &amp; Retail Display</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Government</fullName>
+        <default>false</default>
+        <label>Government</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High Tech, Electronics &amp; Communications</fullName>
+        <default>false</default>
+        <label>High Tech, Electronics &amp; Communications</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Machinery</fullName>
+        <default>false</default>
+        <label>Machinery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manufacturing (unspecified)</fullName>
+        <default>false</default>
+        <label>Manufacturing (unspecified)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marine &amp; Offshore</fullName>
+        <default>false</default>
+        <label>Marine &amp; Offshore</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mechanical Components</fullName>
+        <default>false</default>
+        <label>Mechanical Components</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Media &amp; Entertainment</fullName>
+        <default>false</default>
+        <label>Media &amp; Entertainment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical &amp; Pharmaceutical</fullName>
+        <default>false</default>
+        <label>Medical &amp; Pharmaceutical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nuclear</fullName>
+        <default>false</default>
+        <label>Nuclear</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Production Engineering</fullName>
+        <default>false</default>
+        <label>Production Engineering</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <label>Transportation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Utilities, Plant &amp; Process</fullName>
+        <default>false</default>
+        <label>Utilities, Plant &amp; Process</label>
+    </standardValue>
+</StandardValueSet>

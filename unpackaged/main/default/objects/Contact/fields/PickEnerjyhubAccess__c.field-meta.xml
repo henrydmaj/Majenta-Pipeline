@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PickEnerjyhubAccess__c</fullName>
+    <description>Picklist to define enerjyhub user access catergory
+Active in enerjyhub: active user
+Inactive in enerjyhub: not currently using enerjyhub still able to re activate. Inactive still consumes a licence
+Delete from enerjyhub: user no longer requires access and and cannot be reactivated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ACTIVE: User is actively using enerjyhub.
+INACTIVE: User works for the company but does not require access at this moment in time.
+DELETE FROM ENERJYHUB: User no longer works with company and does not require access to enerjyhub.</inlineHelpText>
+    <label>enerjyhub Access</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active in enerjyhub</fullName>
+                <default>false</default>
+                <label>Active in enerjyhub</label>
+            </value>
+            <value>
+                <fullName>Inactive in enerjyhub</fullName>
+                <default>false</default>
+                <label>Inactive in enerjyhub</label>
+            </value>
+            <value>
+                <fullName>Delete from enerjyhub</fullName>
+                <default>false</default>
+                <label>Delete from enerjyhub</label>
+            </value>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Disable</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Disable</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inactive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

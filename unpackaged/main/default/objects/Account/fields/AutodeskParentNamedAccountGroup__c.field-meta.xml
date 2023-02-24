@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutodeskParentNamedAccountGroup__c</fullName>
+    <externalId>false</externalId>
+    <label>Parent Named Account Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Major account</fullName>
+                <default>false</default>
+                <label>Major account</label>
+            </value>
+            <value>
+                <fullName>Major – Global</fullName>
+                <default>false</default>
+                <label>Major – Global</label>
+            </value>
+            <value>
+                <fullName>Industry Targeted Account</fullName>
+                <default>false</default>
+                <label>Industry Targeted Account</label>
+            </value>
+            <value>
+                <fullName>Emerging Strategic Account</fullName>
+                <default>false</default>
+                <label>Emerging Strategic Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

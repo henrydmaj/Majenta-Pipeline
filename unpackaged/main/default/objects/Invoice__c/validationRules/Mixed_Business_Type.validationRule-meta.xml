@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mixed_Business_Type</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+  IsInvoice__c &amp;&amp; ISCHANGED(IsInvoice__c),
+  ISCHANGED(CurrencyIsoCode)
+)
+&amp;&amp; ISPICKVAL(Opportunity__r.Type , "Existing Customer Mixed Business")
+&amp;&amp; NoLineItemsNoBusinessType__c &gt; 0</errorConditionFormula>
+    <errorMessage>On mixed business opportunities you must specify the business type for each Invoice Line Item.</errorMessage>
+</ValidationRule>

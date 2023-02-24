@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpportunityAge__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(IsClosed,( 
+CloseDate - DATEVALUE(CreatedDate)), 
+NOW() - CreatedDate)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>How long the opportunity has been open in days.</inlineHelpText>
+    <label>Age (Days)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

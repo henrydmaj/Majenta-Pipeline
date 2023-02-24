@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dassault_Sub_Industry__c</fullName>
+    <externalId>false</externalId>
+    <label>Dassault Sub-Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TM Supplier</fullName>
+                <default>false</default>
+                <label>TM Supplier</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>Fabrication_Metal_Plastic_Products</fullName>
+                <default>false</default>
+                <label>Fabrication Metal Plastic Products</label>
+            </value>
+            <value>
+                <fullName>Aero Supplier</fullName>
+                <default>false</default>
+                <label>Aero Supplier</label>
+            </value>
+            <value>
+                <fullName>Specialist Manufacturing</fullName>
+                <default>false</default>
+                <label>Specialist Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Trains</fullName>
+                <default>false</default>
+                <label>Trains</label>
+            </value>
+            <value>
+                <fullName>Robot Machine Tools 3D Print</fullName>
+                <default>false</default>
+                <label>Robot Machine Tools 3D Print</label>
+            </value>
+            <value>
+                <fullName>Airframe OEM</fullName>
+                <default>false</default>
+                <label>Airframe OEM</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Power Fluidic Equipment</fullName>
+                <default>false</default>
+                <label>Power Fluidic Equipment</label>
+            </value>
+            <value>
+                <fullName>Media Entertainment</fullName>
+                <default>false</default>
+                <label>Media Entertainment</label>
+            </value>
+            <value>
+                <fullName>Tyre Manufacturer</fullName>
+                <default>false</default>
+                <label>Tyre Manufacturer</label>
+            </value>
+            <value>
+                <fullName>Defense</fullName>
+                <default>false</default>
+                <label>Defense</label>
+            </value>
+            <value>
+                <fullName>Car / Light truck OEM</fullName>
+                <default>false</default>
+                <label>Car / Light truck OEM</label>
+            </value>
+            <value>
+                <fullName>Home or Garden</fullName>
+                <default>false</default>
+                <label>Home or Garden</label>
+            </value>
+            <value>
+                <fullName>Computing Equipment</fullName>
+                <default>false</default>
+                <label>Computing Equipment</label>
+            </value>
+            <value>
+                <fullName>Transport Systems Management</fullName>
+                <default>false</default>
+                <label>Transport Systems Management</label>
+            </value>
+            <value>
+                <fullName>Marine Offshore Specialist</fullName>
+                <default>false</default>
+                <label>Marine Offshore Specialist</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Racing Cars</fullName>
+                <default>false</default>
+                <label>Racing Cars</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

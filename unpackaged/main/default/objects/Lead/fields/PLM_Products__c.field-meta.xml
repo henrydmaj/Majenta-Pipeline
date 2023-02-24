@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PLM_Products__c</fullName>
+    <externalId>false</externalId>
+    <label>PLM Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>PLM__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Siemens - Ideas NX</fullName>
+                <default>false</default>
+                <label>Siemens - Ideas NX</label>
+            </value>
+            <value>
+                <fullName>Siemens - UG NX</fullName>
+                <default>false</default>
+                <label>Siemens - UG NX</label>
+            </value>
+            <value>
+                <fullName>Siemens - TC Express</fullName>
+                <default>false</default>
+                <label>Siemens - TC Express</label>
+            </value>
+            <value>
+                <fullName>Siemens - TC Vis</fullName>
+                <default>false</default>
+                <label>Siemens - TC Vis</label>
+            </value>
+            <value>
+                <fullName>Siemens - Tecnomatix</fullName>
+                <default>false</default>
+                <label>Siemens - Tecnomatix</label>
+            </value>
+            <value>
+                <fullName>Siemens - SolidEdge</fullName>
+                <default>false</default>
+                <label>Siemens - SolidEdge</label>
+            </value>
+            <value>
+                <fullName>Siemens - Femap</fullName>
+                <default>false</default>
+                <label>Siemens - Femap</label>
+            </value>
+            <value>
+                <fullName>Siemens - NX Cam Express</fullName>
+                <default>false</default>
+                <label>Siemens - NX Cam Express</label>
+            </value>
+            <value>
+                <fullName>Siemens - Training</fullName>
+                <default>false</default>
+                <label>Siemens - Training</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Siemens - Ideas NX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Siemens - UG NX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Siemens - TC Express</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Siemens - TC Vis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Siemens - Tecnomatix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Siemens - SolidEdge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Siemens - Femap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Siemens - NX Cam Express</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Siemens - Training</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

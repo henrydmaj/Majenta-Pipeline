@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>P_CHG_VR1_MustProvideChangeDetails</fullName>
+    <active>false</active>
+    <description>User must provide change details if the type is 'Change Request'</description>
+    <errorConditionFormula>AND(OriginalRequirement__c ="",
+ISPICKVAL(RequirementTypePick__c, "Change Request"))</errorConditionFormula>
+    <errorDisplayField>OriginalRequirement__c</errorDisplayField>
+    <errorMessage>Please provide the original requirement</errorMessage>
+</ValidationRule>

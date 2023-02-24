@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsEnableforDassaultCommunity__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does this contact require access to the Dassault community?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does this contact require access to the Dassault community?</inlineHelpText>
+    <label>Enable for Dassault Community</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

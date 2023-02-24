@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allx</fullName>
+    <columns>NAME</columns>
+    <columns>NetMargin__c</columns>
+    <columns>NetAmount__c</columns>
+    <columns>T_Margin__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>ProductType__c</columns>
+    <columns>ProductType2__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>equals</operation>
+        <value>Danielle Clough</value>
+    </filters>
+    <label>All</label>
+</ListView>

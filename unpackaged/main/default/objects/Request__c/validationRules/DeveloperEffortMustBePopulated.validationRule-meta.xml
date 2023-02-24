@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DeveloperEffortMustBePopulated</fullName>
+    <active>true</active>
+    <description>Rule to trigger if request is completed without the developer effort field being populated</description>
+    <errorConditionFormula>AND(  ISPICKVAL( Developer_Effort__c , "")  , ISPICKVAL(Status__c , "Completed"),  $User.ProfileId = "00e4K000001dwXd")</errorConditionFormula>
+    <errorDisplayField>Developer_Effort__c</errorDisplayField>
+    <errorMessage>Developer Effort must be populated</errorMessage>
+</ValidationRule>

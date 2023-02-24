@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Used_2__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this field to manually enter days used.</inlineHelpText>
+    <label>Days Used (Override)</label>
+    <precision>11</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

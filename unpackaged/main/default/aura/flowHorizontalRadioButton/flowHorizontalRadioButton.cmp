@@ -1,0 +1,76 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,lightning:availableForFlowScreens">
+    
+    <aura:attribute name="Label" type="String"/>
+    <aura:attribute name="Value" type="integer" access="global"/>
+    
+    <div class="slds-align_absolute-center">
+    <fieldset class="slds-form-element">
+  <legend class="slds-form-element__legend slds-form-element__label">
+      <abbr class="slds-required" title="required">*</abbr>{!v.Label}</legend>
+  <div class="slds-form-element__control">
+    <div class="slds-radio_button-group">
+      <span class="slds-button slds-radio_button" style="color:red;">
+        <input type="radio" name="example-unique-name-99" style="background-color:red;" id="example-unique-id-101" value="1" onchange="{!c.onGroup}" />
+        <label class="slds-radio_button__label" for="example-unique-id-101">
+          <span class="slds-radio_faux" >1</span>
+        </label>
+      </span>
+      <span class="slds-button slds-radio_button" style="color:red;">
+        <input type="radio" name="example-unique-name-99" id="example-unique-id-102" value="2" onchange="{!c.onGroup}" />
+        <label class="slds-radio_button__label" for="example-unique-id-102">
+          <span class="slds-radio_faux">2</span>
+        </label>
+      </span>
+      <span class="slds-button slds-radio_button" style="color:red;">
+        <input type="radio" name="example-unique-name-99" id="example-unique-id-103" value="3" onchange="{!c.onGroup}" />
+        <label class="slds-radio_button__label" for="example-unique-id-103">
+          <span class="slds-radio_faux">3</span>
+        </label>
+      </span>
+      <span class="slds-button slds-radio_button" style="color:red;">
+        <input type="radio" name="example-unique-name-99" id="example-unique-id-104" value="4" onchange="{!c.onGroup}" />
+        <label class="slds-radio_button__label" for="example-unique-id-104">
+          <span class="slds-radio_faux">4</span>
+        </label>
+      </span>
+      <span class="slds-button slds-radio_button" style="color:red;">
+        <input type="radio" name="example-unique-name-99" id="example-unique-id-105" value="5" onchange="{!c.onGroup}" />
+        <label class="slds-radio_button__label" for="example-unique-id-105">
+          <span class="slds-radio_faux">5</span>
+        </label>
+      </span>
+        <span class="slds-button slds-radio_button" style="color:red;">
+        <input type="radio" name="example-unique-name-99" id="example-unique-id-106" value="6" onchange="{!c.onGroup}" />
+        <label class="slds-radio_button__label" for="example-unique-id-106">
+          <span class="slds-radio_faux">6</span>
+        </label>
+      </span>
+        <span class="slds-button slds-radio_button" style="color:orange;">
+        <input type="radio" name="example-unique-name-99" id="example-unique-id-107" value="7" onchange="{!c.onGroup}" />
+        <label class="slds-radio_button__label" for="example-unique-id-107">
+          <span class="slds-radio_faux">7</span>
+        </label>
+      </span>
+        <span class="slds-button slds-radio_button" style="color:orange;">
+        <input type="radio" name="example-unique-name-99" id="example-unique-id-108" value="8" onchange="{!c.onGroup}" />
+        <label class="slds-radio_button__label" for="example-unique-id-108">
+          <span class="slds-radio_faux">8</span>
+        </label>
+      </span>
+        <span class="slds-button slds-radio_button" style="color:green;">
+        <input type="radio" name="example-unique-name-99" id="example-unique-id-109" value="9" onchange="{!c.onGroup}" />
+        <label class="slds-radio_button__label" for="example-unique-id-109">
+          <span class="slds-radio_faux">9</span>
+        </label>
+      </span>
+        <span class="slds-button slds-radio_button" style="color:green;">
+        <input type="radio" name="example-unique-name-99" id="example-unique-id-110" value="10" onchange="{!c.onGroup}" />
+        <label class="slds-radio_button__label" for="example-unique-id-110">
+          <span class="slds-radio_faux">10</span>
+        </label>
+      </span>
+    </div>
+  </div>
+</fieldset>
+        </div>
+</aura:component>

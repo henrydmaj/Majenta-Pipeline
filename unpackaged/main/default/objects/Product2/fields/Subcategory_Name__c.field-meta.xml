@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subcategory_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( ISPICKVAL( Subcategory__c, "NX I-deas"), "NX_I_deas", 
+IF ( ISPICKVAL( Subcategory__c, "NX"), "NX", 
+IF ( ISPICKVAL( Subcategory__c, "Teamcenter"), "Teamcenter", 
+IF ( ISPICKVAL( Subcategory__c, "Solid Edge"), "Solid_Edge", 
+IF ( ISPICKVAL( Subcategory__c, "Technomatix"), "Technomatix", 
+IF ( ISPICKVAL( Subcategory__c, "3DSync"), "X3DSync", 
+IF ( ISPICKVAL( Subcategory__c, "Femap"), "Femap", 
+IF ( ISPICKVAL( Category__c , "Siemens") &amp;&amp; ISPICKVAL( Subcategory__c, "" ), "Siemens_PLM", 
+IF ( ISPICKVAL( Category__c , "Construction") &amp;&amp; ISPICKVAL( Subcategory__c, "" ), "Construction",
+IF ( ISPICKVAL( Subcategory__c, "Inventor"), "Inventor", 
+IF ( ISPICKVAL( Subcategory__c, "AutoCAD"), "AutoCAD", 
+IF ( ISPICKVAL( Subcategory__c, "Vault"), "Vault", 
+IF ( ISPICKVAL( Subcategory__c, "Simulation"), "Simulation", 
+IF ( ISPICKVAL( Subcategory__c, "VRED"), "VRED", 
+IF ( ISPICKVAL( Subcategory__c, "Showcase"), "Showcase", 
+IF ( ISPICKVAL( Subcategory__c, "Alias"), "Alias", 
+IF ( ISPICKVAL( Category__c , "Autodesk") &amp;&amp; ISPICKVAL( Subcategory__c, "" ), "Autodesk", 
+"None")))))))))))))))))</formula>
+    <label>Subcategory_Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

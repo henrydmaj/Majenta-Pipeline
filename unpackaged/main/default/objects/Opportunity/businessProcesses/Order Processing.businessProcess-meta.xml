@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order Processing</fullName>
+    <description>For Billing Teams Kanban</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Awaiting Project Award</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Committed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Completed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Customer Committed to Majenta</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Disengaged</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Identified Potential Prospect</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Maintenance Cancelled</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Maintenance Expired %E2%80%93 Still using prod</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Maintenance Upgraded</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Majenta Recommended Over Competitor</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order In</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order In - Processed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order Lost %2F Disengaged</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Order Received</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pipeline %28Qualified opportunity%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pipeline %28Unqualified Opportunity%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Project Identified %26 Budget Available</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prospect With Intention To Purchase</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Quoted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Upside %28Best case%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Vendor Selection Commenced</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Will Renew</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

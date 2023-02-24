@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsACC_VR11_Bypass__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox referenced in 'Site Account Auto Deactivation' flow to bypass ACC_VR11.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checkbox referenced in 'Site Account Auto Deactivation' flow to bypass ACC_VR11.</inlineHelpText>
+    <label>ACC_VR11_Bypass</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

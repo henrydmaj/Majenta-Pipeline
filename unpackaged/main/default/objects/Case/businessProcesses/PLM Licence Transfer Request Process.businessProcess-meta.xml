@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PLM Licence Transfer Request Process</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Awaiting Customer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Awaiting ER%2FSug Fix</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Awaiting PR%2FBug Fix</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Escalated to Vendor IR</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+</BusinessProcess>

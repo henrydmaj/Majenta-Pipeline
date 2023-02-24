@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsParentEnerjyhubEscalatedJLRAuto__c</fullName>
+    <description>Check box to show if the parent account has refused to buy an enerjyhub subscription and has been escalated to JLR.  Will be checked if so.</description>
+    <externalId>false</externalId>
+    <formula>if(Parent.IsEnerjyhubEscalated__c = true,TRUE,FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If this is ticked, the parent account has been escalated to JLR for refusal to buy an enerjyhub subscription.</inlineHelpText>
+    <label>Parent enerjyhub Escalated?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

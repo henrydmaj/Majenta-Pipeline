@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand__c</fullName>
+    <description>Used for Xylem leads</description>
+    <externalId>false</externalId>
+    <label>Brand</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aanderaa</fullName>
+                <default>false</default>
+                <label>Aanderaa</label>
+            </value>
+            <value>
+                <fullName>AC Fire</fullName>
+                <default>false</default>
+                <label>AC Fire</label>
+            </value>
+            <value>
+                <fullName>Bell &amp; Gossett</fullName>
+                <default>false</default>
+                <label>Bell &amp; Gossett</label>
+            </value>
+            <value>
+                <fullName>Bellingham + Stanley</fullName>
+                <default>false</default>
+                <label>Bellingham + Stanley</label>
+            </value>
+            <value>
+                <fullName>CentriPro</fullName>
+                <default>false</default>
+                <label>CentriPro</label>
+            </value>
+            <value>
+                <fullName>ebro</fullName>
+                <default>false</default>
+                <label>ebro</label>
+            </value>
+            <value>
+                <fullName>Essence of Life</fullName>
+                <default>false</default>
+                <label>Essence of Life</label>
+            </value>
+            <value>
+                <fullName>Flojet</fullName>
+                <default>false</default>
+                <label>Flojet</label>
+            </value>
+            <value>
+                <fullName>Flygt</fullName>
+                <default>false</default>
+                <label>Flygt</label>
+            </value>
+            <value>
+                <fullName>Godwin</fullName>
+                <default>false</default>
+                <label>Godwin</label>
+            </value>
+            <value>
+                <fullName>Goulds Water Technology</fullName>
+                <default>false</default>
+                <label>Goulds Water Technology</label>
+            </value>
+            <value>
+                <fullName>HYPACK</fullName>
+                <default>false</default>
+                <label>HYPACK</label>
+            </value>
+            <value>
+                <fullName>Jabsco</fullName>
+                <default>false</default>
+                <label>Jabsco</label>
+            </value>
+            <value>
+                <fullName>Leopold</fullName>
+                <default>false</default>
+                <label>Leopold</label>
+            </value>
+            <value>
+                <fullName>Lowara</fullName>
+                <default>false</default>
+                <label>Lowara</label>
+            </value>
+            <value>
+                <fullName>McDonnell &amp; Miller</fullName>
+                <default>false</default>
+                <label>McDonnell &amp; Miller</label>
+            </value>
+            <value>
+                <fullName>MJK</fullName>
+                <default>false</default>
+                <label>MJK</label>
+            </value>
+            <value>
+                <fullName>OI Analytical</fullName>
+                <default>false</default>
+                <label>OI Analytical</label>
+            </value>
+            <value>
+                <fullName>PureHM</fullName>
+                <default>false</default>
+                <label>PureHM</label>
+            </value>
+            <value>
+                <fullName>Pure Technologies</fullName>
+                <default>false</default>
+                <label>Pure Technologies</label>
+            </value>
+            <value>
+                <fullName>Royce Technologies</fullName>
+                <default>false</default>
+                <label>Royce Technologies</label>
+            </value>
+            <value>
+                <fullName>Rule</fullName>
+                <default>false</default>
+                <label>Rule</label>
+            </value>
+            <value>
+                <fullName>Sanitare</fullName>
+                <default>false</default>
+                <label>Sanitare</label>
+            </value>
+            <value>
+                <fullName>Sensus</fullName>
+                <default>false</default>
+                <label>Sensus</label>
+            </value>
+            <value>
+                <fullName>Sentec</fullName>
+                <default>false</default>
+                <label>Sentec</label>
+            </value>
+            <value>
+                <fullName>SI Analytics</fullName>
+                <default>false</default>
+                <label>SI Analytics</label>
+            </value>
+            <value>
+                <fullName>Smith-Blair</fullName>
+                <default>false</default>
+                <label>Smith-Blair</label>
+            </value>
+            <value>
+                <fullName>SonTek</fullName>
+                <default>false</default>
+                <label>SonTek</label>
+            </value>
+            <value>
+                <fullName>Standard Xchange</fullName>
+                <default>false</default>
+                <label>Standard Xchange</label>
+            </value>
+            <value>
+                <fullName>Wachs Water Services</fullName>
+                <default>false</default>
+                <label>Wachs Water Services</label>
+            </value>
+            <value>
+                <fullName>Wedeco</fullName>
+                <default>false</default>
+                <label>Wedeco</label>
+            </value>
+            <value>
+                <fullName>WTW</fullName>
+                <default>false</default>
+                <label>WTW</label>
+            </value>
+            <value>
+                <fullName>YSI</fullName>
+                <default>false</default>
+                <label>YSI</label>
+            </value>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

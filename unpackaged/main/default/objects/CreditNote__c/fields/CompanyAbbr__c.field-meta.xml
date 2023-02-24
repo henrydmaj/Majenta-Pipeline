@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompanyAbbr__c</fullName>
+    <externalId>false</externalId>
+    <formula>LEFT(TEXT(Company__c),3)</formula>
+    <label>Company Stub</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

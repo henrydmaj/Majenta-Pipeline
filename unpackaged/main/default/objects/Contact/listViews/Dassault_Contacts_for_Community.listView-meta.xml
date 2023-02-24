@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dassault_Contacts_for_Community</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>IsEnableforDassaultCommunity__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.StandardContact</value>
+    </filters>
+    <label>Dassault Contacts for Community</label>
+    <sharedTo>
+        <role>DassaultSalesManager</role>
+        <role>Dassault_Sales_Manager_v2</role>
+    </sharedTo>
+</ListView>

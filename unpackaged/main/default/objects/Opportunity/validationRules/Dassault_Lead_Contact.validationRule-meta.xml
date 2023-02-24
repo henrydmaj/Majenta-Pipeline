@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dassault_Lead_Contact</fullName>
+    <active>false</active>
+    <description>Dassault Lead Contact cannot be blank on a Dassault Opportunity</description>
+    <errorConditionFormula>AND(ISPICKVAL(Partner__c, "Dassault"),
+ISBLANK(DS_Lead_Contact__c ))</errorConditionFormula>
+    <errorDisplayField>DS_Lead_Contact__c</errorDisplayField>
+    <errorMessage>Dassault Lead Contact field cannot be blank on a Dassault Opportunity</errorMessage>
+</ValidationRule>

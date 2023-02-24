@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DfE_Framework_2021_Casey</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.INDUSTRY</columns>
+    <columns>LEAD.LAST_ACTIVITY</columns>
+    <columns>Additional_Information__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Internal_Sales_Process</value>
+    </filters>
+    <label>DfE Framework 2021_Casey</label>
+    <sharedTo>
+        <group>Casey_O_Donnell</group>
+        <group>Jack_Stevens</group>
+    </sharedTo>
+</ListView>

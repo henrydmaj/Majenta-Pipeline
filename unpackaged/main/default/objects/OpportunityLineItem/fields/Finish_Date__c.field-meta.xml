@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finish_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>Contract_Length_Months__c + Current_Expiry_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Finish Date (Legacy)</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

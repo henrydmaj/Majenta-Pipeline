@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Helpdesk Support Process</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>3-Day Closure Email Sent</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Awaiting Customer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Escalated to Vendor</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Tier 2 Support</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

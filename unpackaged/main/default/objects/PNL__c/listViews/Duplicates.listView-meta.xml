@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duplicates</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>amlani,bloxham,wilcox,clements,watford,pennington,clarke,ashworth,masters,mccart</value>
+    </filters>
+    <label>Duplicates</label>
+    <sharedTo>
+        <group>AccountsTeam</group>
+        <role>Accounts</role>
+        <role>GroupAdminAccounts</role>
+    </sharedTo>
+</ListView>

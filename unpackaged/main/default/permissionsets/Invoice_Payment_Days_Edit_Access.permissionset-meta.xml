@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows edit access to the Payment Days field on Invoice</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Invoice Payment Days Edit Access</label>
+    <license>Salesforce</license>
+</PermissionSet>

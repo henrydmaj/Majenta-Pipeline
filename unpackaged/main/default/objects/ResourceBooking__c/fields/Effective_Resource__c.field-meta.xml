@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Effective_Resource__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The actual resource undertaking this work (for use on BIM Internal Projects only)</description>
+    <externalId>false</externalId>
+    <label>Effective Resource</label>
+    <referenceTo>Resource__c</referenceTo>
+    <relationshipLabel>Resource Bookings (Effective Resource)</relationshipLabel>
+    <relationshipName>Resource_Bookings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contains_Monthly_and_AutoDesk__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(Product_Description__c,"Monthly"),TRUE,
+IF(CONTAINS(Product_Description__c,"monthly"),TRUE,
+IF(CONTAINS(Product_Description__c,"Autodesk"),TRUE,
+IF(CONTAINS(Product_Description__c,"autodesk"),TRUE,
+FALSE))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contains Monthly and AutoDesk</label>
+    <type>Checkbox</type>
+</CustomField>

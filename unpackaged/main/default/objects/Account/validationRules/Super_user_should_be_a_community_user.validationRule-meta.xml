@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Super_user_should_be_a_community_user</fullName>
+    <active>true</active>
+    <description>Super user should be a community user.</description>
+    <errorConditionFormula>OR(
+				AND(
+								!ISBLANK(Site_Super_User_1__c),
+								ISBLANK(Site_Super_User_1__r.Community_User__c)
+				) ,
+				AND(
+								!ISBLANK(Site_Super_User_2__c),
+								ISBLANK(Site_Super_User_2__r.Community_User__c)
+				)
+)</errorConditionFormula>
+    <errorMessage>Site Super user selected doesn't have a community user associated.</errorMessage>
+</ValidationRule>

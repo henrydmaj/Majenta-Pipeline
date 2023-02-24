@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyOpenTasksDueThisWeek</fullName>
+    <columns>NAME</columns>
+    <columns>Project__c</columns>
+    <columns>DueDate__c</columns>
+    <columns>Hours__c</columns>
+    <columns>Status__c</columns>
+    <columns>StatusColour__c</columns>
+    <columns>Priority__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Completed</value>
+    </filters>
+    <filters>
+        <field>DueDate__c</field>
+        <operation>equals</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <label>My Open Tasks Due This Week</label>
+</ListView>

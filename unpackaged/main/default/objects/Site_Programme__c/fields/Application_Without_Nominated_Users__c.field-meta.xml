@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Without_Nominated_Users__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is dynamically populated in memory based on the number of users nominated for a particular site programme. It powers the Users Nominated column on the on-boarding component.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is dynamically populated in memory based on the number of users nominated for a particular site programme. It powers the Users Nominated column on the on-boarding component.</inlineHelpText>
+    <label>Application Without Nominated Users</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

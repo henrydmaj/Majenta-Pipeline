@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExpensesRevenue__c</fullName>
+    <externalId>false</externalId>
+    <label>Expenses</label>
+    <summarizedField>OpportunityLineItem.Total_Sale_Price__c</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.ProductSubtype_ro__c</field>
+        <operation>equals</operation>
+        <value>Expenses</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

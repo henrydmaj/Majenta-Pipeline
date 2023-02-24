@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Purchase_History</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Customer Purchase History</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>https://majenta.my.salesforce.com/00O200000054Daw?pv0={!Account.Id}</url>
+</WebLink>

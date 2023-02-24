@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_length_in_months__c</fullName>
+    <defaultValue>12</defaultValue>
+    <description>This field is used for the EnerjyHUB subscription to determine for how many months the contract will run.</description>
+    <externalId>false</externalId>
+    <label>Contract length (in months)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
