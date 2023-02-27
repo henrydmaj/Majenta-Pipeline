@@ -92,6 +92,13 @@
                 <elementReference>GET_PriceBook.Id</elementReference>
             </value>
         </filters>
+        <filters>
+            <field>CurrencyIsoCode</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.CurrencyIsoCode</elementReference>
+            </value>
+        </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>PricebookEntry</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
