@@ -117,7 +117,7 @@
             <field>Name</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>enerjyhub Price Book</stringValue>
+                <stringValue>Standard Price Book</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
