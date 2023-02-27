@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BuyPriceTrig__c</fullName>
+    <description>Receives the rolled-up Buy_Price__c value from the Salesforce to Salesforce transferred Opportunity (to populate Margin based on an inserted OpportunityProduct)</description>
+    <externalId>false</externalId>
+    <label>BuyPriceTrig</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>
