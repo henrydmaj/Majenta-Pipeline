@@ -27,6 +27,11 @@
     <description>IN USE</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Test_Checkbox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Employee_Record__c.SecurityClearanceExpiryDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
