@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Populate_Clearance_Dates_If_Yes</fullName>
+    <active>true</active>
+    <description>Security Clearance Dates must be populated if Yes is selected for Security Clearance Required</description>
+    <errorConditionFormula>ISPICKVAL(SecurityClearanceRequiredPick__c, "Yes") &amp;&amp;  
+(ISBLANK( SecurityClearanceGrantedDate__c ) ||  
+ISBLANK( SecurityClearanceExpiryDate__c ))</errorConditionFormula>
+    <errorDisplayField>SecurityClearanceRequiredPick__c</errorDisplayField>
+    <errorMessage>You must populate Security Clearance Granted and Expiry Dates if you select Yes for Security Clearance Required</errorMessage>
+</ValidationRule>
