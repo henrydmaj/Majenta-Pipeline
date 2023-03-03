@@ -982,6 +982,11 @@
                 <label>4D</label>
             </value>
             <value>
+                <fullName>Owner Operator</fullName>
+                <default>false</default>
+                <label>Owner Operator</label>
+            </value>
+            <value>
                 <fullName>Laser Scanning</fullName>
                 <default>false</default>
                 <label>Laser Scanning</label>
@@ -989,7 +994,7 @@
             <value>
                 <fullName>Client Consultancy</fullName>
                 <default>false</default>
-                <label>BIM Consultancy</label>
+                <label>Client Consultancy</label>
             </value>
             <value>
                 <fullName>Content Creation</fullName>
@@ -1025,11 +1030,6 @@
                 <fullName>Content Creation Support Child Opportunity</fullName>
                 <default>false</default>
                 <label>Content Creation Support Child Opportunity</label>
-            </value>
-            <value>
-                <fullName>BIM</fullName>
-                <default>false</default>
-                <label>BIM</label>
             </value>
         </valueSetDefinition>
         <valueSettings>
@@ -1756,6 +1756,10 @@
         <valueSettings>
             <controllingFieldValue>Construction</controllingFieldValue>
             <valueName>4D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Owner Operator</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Construction</controllingFieldValue>
