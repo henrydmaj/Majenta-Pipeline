@@ -107,6 +107,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.IsSecurityClearanceRequired__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.IsTimingPlanProgrammeWorksSupplied__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -153,6 +158,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.ROI_Analysis_Completed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.SecurityClearanceRequiredLevelPick__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
