@@ -1224,6 +1224,17 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>IsSecurityClearanceRequired__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>LeadSource</picklist>
         <values>
             <fullName>Abi Brain Calling</fullName>
@@ -1851,6 +1862,21 @@
         </values>
         <values>
             <fullName>enerjyhub Partner Majenta</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SecurityClearanceRequiredLevelPick__c</picklist>
+        <values>
+            <fullName>Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secret</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top Secret</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -2683,6 +2709,10 @@
         </values>
         <values>
             <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Owner Operator</fullName>
             <default>false</default>
         </values>
         <values>
