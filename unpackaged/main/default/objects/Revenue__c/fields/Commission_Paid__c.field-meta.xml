@@ -2,7 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Commission_Paid__c</fullName>
     <externalId>false</externalId>
-    <formula>IF(AND( ProductType__c ="Subscription", BusinessType__c ="New"),( No_of_Sites_4C__c * No_of_Yr_4C__c *15),
+    <formula>IF(AND( ProductType__c ="Subscription Hub", BusinessType__c ="New"),( NetMargin__c *0.10),
+IF(AND( ProductType__c ="Subscription Hub", BusinessType__c ="Renewal"),( NetMargin__c *0.05),
+IF(AND( ProductType__c ="Subscription", BusinessType__c ="New"),( No_of_Sites_4C__c * No_of_Yr_4C__c *15),
 IF(AND( ProductType__c ="Subscription", BusinessType__c ="Renewal"),( No_of_Sites_4C__c * No_of_Yr_4C__c *7.50),
 IF(ISPICKVAL( Sub_Division__c ,"Cloud/3DX"),( NetMargin__c *0.12),
 IF(ISPICKVAL( Sub_Division__c ,"Legacy"),( NetMargin__c *0.07),
@@ -25,7 +27,7 @@ IF( Grouping__r.Name ="Alison Sutcliffe",0,
 IF( Grouping__r.Name ="Simon Ordish",0,
 IF( Grouping__r.Name ="Manish Amlani",0,
 
-NetMargin__c * Rate__c)))))))))))))))))))</formula>
+NetMargin__c * Rate__c)))))))))))))))))))))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Commission Paid</label>
     <precision>18</precision>
