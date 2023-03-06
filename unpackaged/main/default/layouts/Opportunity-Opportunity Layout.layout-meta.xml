@@ -94,6 +94,14 @@
                 <behavior>Edit</behavior>
                 <field>IsTimingPlanProgrammeWorksSupplied__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsSecurityClearanceRequired__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SecurityClearanceRequiredLevelPick__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -272,10 +280,6 @@
                 <behavior>Edit</behavior>
                 <field>QualifiedDate__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>IsSecurityClearanceRequired__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -289,10 +293,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>SiemensIsCurrentFY__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>SecurityClearanceRequiredLevelPick__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
