@@ -9298,7 +9298,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Revenue__c.AprMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Revenue__c.April_P_L__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.AugMarginCY__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9314,6 +9324,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Revenue__c.Autodesk_Solution_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.BalanceBroughtForward__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9518,6 +9533,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Revenue__c.DecMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Revenue__c.Deferred_Income_Buy_Price__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -9584,6 +9604,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Revenue__c.Fcast_Business_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.FebMarginCY__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9668,7 +9693,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Revenue__c.JanMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.JulMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Revenue__c.July_P_L__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.JunMarginCY__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9713,7 +9753,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Revenue__c.MarMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Revenue__c.MarginPercentage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.MayMarginCY__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9788,6 +9838,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Revenue__c.NovMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Revenue__c.OCT_P_L__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -9799,6 +9854,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Revenue__c.OC_Total__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.OctMarginCY__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9994,6 +10054,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Revenue__c.Scenario_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.SepMarginCY__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
