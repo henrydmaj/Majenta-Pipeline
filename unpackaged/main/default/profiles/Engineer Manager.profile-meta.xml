@@ -19,6 +19,26 @@
     <description>IN USE</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceExpiryDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceGrantedDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceHeldPick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceRequiredPick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.ACEAcceptedDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -559,6 +579,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.IsSecurityClearanceRequired__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.IsTimingPlanProgrammeWorksSupplied__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -970,6 +995,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.SecondaryLeadSourcePick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.SecurityClearanceRequiredLevelPick__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7868,6 +7898,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.AprMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.AugMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.BalanceBroughtForward__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Revenue__c.BusinessType__c</field>
         <readable>true</readable>
@@ -7918,6 +7963,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.DecMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.FebMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Revenue__c.GrossAmount__c</field>
         <readable>true</readable>
@@ -7964,6 +8019,31 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Revenue__c.JanMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.JulMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.JunMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.MarMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.MayMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Revenue__c.MonthEndDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -7990,6 +8070,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Revenue__c.NetMargin__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.NovMarginCY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.OctMarginCY__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -8025,6 +8115,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Revenue__c.ProductType__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revenue__c.SepMarginCY__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

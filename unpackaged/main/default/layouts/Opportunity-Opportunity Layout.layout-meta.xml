@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <customButtons>Mail_Merge</customButtons>
     <excludeButtons>Clone</excludeButtons>
@@ -93,6 +93,14 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>IsTimingPlanProgrammeWorksSupplied__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsSecurityClearanceRequired__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SecurityClearanceRequiredLevelPick__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -196,8 +204,8 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <label>New Section</label>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -565,8 +573,8 @@
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>Other Information</label>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
@@ -598,8 +606,8 @@
                 <customLink>Generate_CoO</customLink>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <platformActionList>
