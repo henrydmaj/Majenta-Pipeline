@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
-        <field>Revenue__c.AccountName2__c</field>
+        <field>CUST_NAME</field>
     </columns>
     <columns>
         <field>Revenue__c.ContractStartDate__c</field>
@@ -73,15 +73,19 @@
         <aggregateTypes>Sum</aggregateTypes>
         <field>Revenue__c.DecMarginCY__c</field>
     </columns>
+    <columns>
+        <field>CDF1</field>
+    </columns>
     <currency>GBP</currency>
+    <customDetailFormulas>
+        <calculatedFormula>IF(TODAY() &gt;= Revenue__c.ContractStartDate__c &amp;&amp; TODAY() &lt;= Revenue__c.ContractEndDate__c  , &quot;TRUE&quot;, &quot;FALSE&quot;)</calculatedFormula>
+        <dataType>Text</dataType>
+        <description>Is the Record currently In Contract?</description>
+        <developerName>CDF1</developerName>
+        <label>In Contract</label>
+        <scale>2</scale>
+    </customDetailFormulas>
     <filter>
-        <criteriaItems>
-            <column>Revenue__c.ContractStartDate__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>lessThan</operator>
-            <value>THIS_YEAR</value>
-        </criteriaItems>
         <criteriaItems>
             <column>Revenue__c.ProductFamily__c</column>
             <columnToColumn>false</columnToColumn>
@@ -89,8 +93,27 @@
             <operator>equals</operator>
             <value>MX</value>
         </criteriaItems>
+        <criteriaItems>
+            <column>Revenue__c.ContractStartDate__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CDF1</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>TRUE</value>
+        </criteriaItems>
     </filter>
-    <format>Tabular</format>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Revenue__c.AccountName2__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
     <name>MX Contracts Balance Brought For</name>
     <params>
         <name>co</name>
