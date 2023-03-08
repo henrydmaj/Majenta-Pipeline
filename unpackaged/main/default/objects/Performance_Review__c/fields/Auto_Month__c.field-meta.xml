@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Month__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( MONTH(  DATEVALUE(CreatedDate ))  = 1, "January" , 
+IF(MONTH(  DATEVALUE(CreatedDate ))  = 2, "February" , 
+IF(MONTH(  DATEVALUE(CreatedDate ))  = 3, "March" , 
+IF(MONTH(  DATEVALUE(CreatedDate ))  = 4, "April" , 
+IF(MONTH(  DATEVALUE(CreatedDate ))  = 5, "May" , 
+IF(MONTH(  DATEVALUE(CreatedDate ))  = 6, "June" , 
+IF(MONTH(  DATEVALUE(CreatedDate ))  = 7, "July" , 
+IF(MONTH(  DATEVALUE(CreatedDate ))  = 8, "August" , 
+IF(MONTH(  DATEVALUE(CreatedDate ))  = 9, "September" , 
+IF(MONTH(  DATEVALUE(CreatedDate ))  = 10, "October" , 
+IF(MONTH(  DATEVALUE(CreatedDate ))  = 11, "November" , 
+"December")))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Month</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -435,6 +435,11 @@
                 <default>false</default>
                 <label>Special Offer for Mid-Market</label>
             </value>
+            <value>
+                <fullName>Nissan</fullName>
+                <default>false</default>
+                <label>Nissan</label>
+            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>Consultants</controllingFieldValue>
@@ -594,6 +599,10 @@
         <valueSettings>
             <controllingFieldValue>Data Services</controllingFieldValue>
             <valueName>V3P</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Services</controllingFieldValue>
+            <valueName>Nissan</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>PLM</controllingFieldValue>
