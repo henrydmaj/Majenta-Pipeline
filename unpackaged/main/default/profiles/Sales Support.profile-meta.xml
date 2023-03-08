@@ -55,6 +55,26 @@
     <description>IN USE</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceExpiryDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceGrantedDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceHeldPick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceRequiredPick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Timezone__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -565,6 +585,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.IsSecurityClearanceRequired__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.IsTimingPlanProgrammeWorksSupplied__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -981,6 +1006,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.SecondaryLeadSourcePick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.SecurityClearanceRequiredLevelPick__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
