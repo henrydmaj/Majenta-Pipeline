@@ -50,6 +50,11 @@
                 <default>false</default>
                 <label>Construction</label>
             </value>
+            <value>
+                <fullName>MX</fullName>
+                <default>false</default>
+                <label>MX</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

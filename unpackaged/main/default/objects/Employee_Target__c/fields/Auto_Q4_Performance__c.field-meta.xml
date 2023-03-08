@@ -2,9 +2,12 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Auto_Q4_Performance__c</fullName>
     <externalId>false</externalId>
-    <formula>Q4_Actual__c /   Q4_Target_Max__c</formula>
-    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Q4 Performance (Max %)</label>
+    <formula>IF( (ISBLANK(Q4_Target_STRETCH_NB__c)),
+
+(Q4_Actual__c / Q4_Target_Max__c),
+
+(Q4_Actual__c / Q4_Target_STRETCH_NB__c))</formula>
+    <label>Q4 Performance (Max %) (NB)</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>
