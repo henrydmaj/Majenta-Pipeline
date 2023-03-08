@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Q2_Actual__c</fullName>
     <externalId>false</externalId>
-    <label>Q2 Actual</label>
+    <label>Q2 Actual (NB)</label>
     <summarizedField>Opportunity_Target__c.Margin__c</summarizedField>
     <summaryFilterItems>
         <field>Opportunity_Target__c.Quarter__c</field>
@@ -13,6 +13,11 @@
         <field>Opportunity_Target__c.Won__c</field>
         <operation>equals</operation>
         <value>True</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity_Target__c.Type__c</field>
+        <operation>equals</operation>
+        <value>New Business</value>
     </summaryFilterItems>
     <summaryForeignKey>Opportunity_Target__c.Target__c</summaryForeignKey>
     <summaryOperation>sum</summaryOperation>
