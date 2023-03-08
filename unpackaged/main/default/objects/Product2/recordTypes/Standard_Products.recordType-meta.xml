@@ -195,6 +195,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Nissan</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Online Learning Experience for CATIA Composer</fullName>
             <default>false</default>
         </values>
@@ -912,6 +916,10 @@
         </values>
         <values>
             <fullName>Subscription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subscription Hub</fullName>
             <default>false</default>
         </values>
         <values>
