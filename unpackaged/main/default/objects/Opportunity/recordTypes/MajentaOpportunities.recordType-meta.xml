@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>MajentaOpportunities</fullName>
     <active>true</active>
     <businessProcess>Majenta Sales CY14</businessProcess>
@@ -1027,6 +1026,10 @@
         </values>
         <values>
             <fullName>Data Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX</fullName>
             <default>false</default>
         </values>
         <values>

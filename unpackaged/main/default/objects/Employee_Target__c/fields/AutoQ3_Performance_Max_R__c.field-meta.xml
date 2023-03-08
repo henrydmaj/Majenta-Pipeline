@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoQ3_Performance_Max_R__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( (ISBLANK(Q3_Target_STRETCH_R__c)),
+
+(Q3_Actual_R__c / Q3_Target_Max_R__c ),
+
+(Q3_Actual_R__c/ Q3_Target_STRETCH_R__c))</formula>
+    <label>Q3 Performance (Max %) (R)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>
