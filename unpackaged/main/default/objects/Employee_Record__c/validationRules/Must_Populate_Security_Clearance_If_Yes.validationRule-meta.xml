@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Populate_Security_Clearance_If_Yes</fullName>
+    <active>true</active>
+    <description>Security Clearance Held must be populated if Yes is selected for Security Clearance Required</description>
+    <errorConditionFormula>TEXT( SecurityClearanceRequiredPick__c ) = 'YES' &amp;&amp; TEXT( SecurityClearanceHeldPick__c ) = ''</errorConditionFormula>
+    <errorDisplayField>SecurityClearanceHeldPick__c</errorDisplayField>
+    <errorMessage>You must populate Security Clearance Held if you select Yes for Security Clearance Required</errorMessage>
+</ValidationRule>
