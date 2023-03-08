@@ -531,6 +531,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Client__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Company_Given_Marketing_Permission_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -597,6 +602,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Contract_length_in_months__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Contractor__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
