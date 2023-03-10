@@ -59,10 +59,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>enerjyhub_Type__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Online_Sale__c</field>
             </layoutItems>
             <layoutItems>
@@ -100,6 +96,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>SecurityClearanceRequiredLevelPick__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Client__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -178,6 +178,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Support_Contract__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Contractor__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -283,10 +287,6 @@
                 <behavior>Edit</behavior>
                 <field>QualifiedDate__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Client__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -299,10 +299,6 @@
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Contractor__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
