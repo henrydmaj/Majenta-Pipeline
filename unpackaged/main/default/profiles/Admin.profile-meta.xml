@@ -316,6 +316,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustomerSatisfaction__c.Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomerSatisfaction__c.Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomerSatisfaction__c.FeedbackComments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Timezone__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14334,4 +14349,8 @@
         <enabled>true</enabled>
         <name>ViewUserPII</name>
     </userPermissions>
+    <pageAccesses>
+        <apexPage>FORM_CSAT</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
 </Profile>
