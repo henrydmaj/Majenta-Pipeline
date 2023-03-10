@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CSAT</name>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>How did we do?</subject>
+    <textOnly>Dear {{{Recipient.FirstName}}},
+
+I hope this email finds you well. We would like to hear your thoughts on [Insert Topic Here]. Your feedback will help us improve our [product/service/event] and provide a better experience for you and our other customers.
+
+We would be grateful if you could take a few minutes to complete a short survey about your experience with us. The survey should only take about a minute to complete, and your responses will be kept strictly confidential.
+
+Please let us know how we did below:
+
+ &lt; https://majentasolutions--dev.sandbox.my.salesforce-sites.com/csat?r=A&amp;ID=%7B%7B%7BRecipient.Id%7D%7D%7D &gt; 
+
+Happy &lt; https://majentasolutions--dev.sandbox.my.salesforce-sites.com/csat?r=A&amp;ID=%7B%7B%7BRecipient.Id%7D%7D%7D &gt; 
+
+ &lt; https://majentasolutions--dev.sandbox.my.salesforce-sites.com/csat?r=B&amp;ID=%7B%7B%7BRecipient.Id%7D%7D%7D &gt; 
+
+Neither Happy nor unhappy &lt; https://majentasolutions--dev.sandbox.my.salesforce-sites.com/csat?r=B&amp;ID=%7B%7B%7BRecipient.Id%7D%7D%7D &gt; 
+
+ &lt; https://majentasolutions--dev.sandbox.my.salesforce-sites.com/csat?r=C&amp;ID=%7B%7B%7BRecipient.Id%7D%7D%7D &gt; 
+
+Unhappy &lt; https://majentasolutions--dev.sandbox.my.salesforce-sites.com/csat?r=C&amp;ID=%7B%7B%7BRecipient.Id%7D%7D%7D &gt; 
+
+If you have any questions or concerns, please don&apos;t hesitate to reach out to us. We value your feedback and appreciate your time in helping us improve.
+
+Thank you for your support.
+
+Best regards, {{{Sender.Name}}}</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>
