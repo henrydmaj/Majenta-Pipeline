@@ -94,6 +94,10 @@
                 <behavior>Edit</behavior>
                 <field>Client__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>WonComments__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -170,15 +174,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Support_Contract__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Contractor__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>WonComments__c</field>
+                <field>Support_Contract__c</field>
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
