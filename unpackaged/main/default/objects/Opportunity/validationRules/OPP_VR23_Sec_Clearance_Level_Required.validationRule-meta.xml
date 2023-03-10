@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP_VR23_Sec_Clearance_Level_Required</fullName>
+    <active>true</active>
+    <description>A Security Clearance Level must be specified if Security Clearance is Required</description>
+    <errorConditionFormula>ISPICKVAL( IsSecurityClearanceRequired__c , "Yes") &amp;&amp;
+ISBLANK( TEXT(SecurityClearanceRequiredLevelPick__c) )</errorConditionFormula>
+    <errorDisplayField>SecurityClearanceRequiredLevelPick__c</errorDisplayField>
+    <errorMessage>The Security Clearance Level must be specified if Security Clearance is Required [OPP_VR23]</errorMessage>
+</ValidationRule>
