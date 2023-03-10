@@ -55,6 +55,31 @@
     <description>IN USE</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Test_Checkbox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceExpiryDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceGrantedDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceHeldPick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee_Record__c.SecurityClearanceRequiredPick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CustomerSatisfaction__c.Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -285,6 +310,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Client__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Company_Given_Marketing_Permission_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -336,6 +366,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Contract_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Contractor__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -576,6 +611,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.IsInvoiced__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.IsSecurityClearanceRequired__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -996,6 +1036,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.SecondaryLeadSourcePick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.SecurityClearanceRequiredLevelPick__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

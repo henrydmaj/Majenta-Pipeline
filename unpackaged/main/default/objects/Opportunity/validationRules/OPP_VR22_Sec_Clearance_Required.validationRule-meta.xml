@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP_VR22_Sec_Clearance_Required</fullName>
+    <active>true</active>
+    <description>Security Clearance must be specified if the Opp Division is Construction and the Solution Type is Information Management</description>
+    <errorConditionFormula>ISPICKVAL(Division__c, "Construction") &amp;&amp;
+ISPICKVAL(SolutionType__c, "Information Management") &amp;&amp;
+ISBLANK(TEXT(IsSecurityClearanceRequired__c))</errorConditionFormula>
+    <errorDisplayField>IsSecurityClearanceRequired__c</errorDisplayField>
+    <errorMessage>Security Clearance Required must be specified for this type of Opportunity [OPP_VR22]</errorMessage>
+</ValidationRule>
