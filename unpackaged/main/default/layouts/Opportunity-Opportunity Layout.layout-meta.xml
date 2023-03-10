@@ -103,6 +103,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Contractor__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>WonComments__c</field>
             </layoutItems>
         </layoutColumns>
@@ -178,10 +182,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>JLR_3DX_Enablement__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Contractor__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
