@@ -2,8 +2,11 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>All</fullName>
     <columns>NAME</columns>
-    <columns>Quarter_Targets_Total_Targets__c</columns>
-    <columns>Auto_Quarter_Targets_Total_Targets_Max__c</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>notEqual</operation>
+        <value>Sharon's 2023 Target</value>
+    </filters>
     <label>All</label>
 </ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP_VR24_Client_Or_Contractor_Required</fullName>
+    <active>true</active>
+    <description>Either Client or Contractor must be populated for a Construction Opportunity</description>
+    <errorConditionFormula>TEXT(Division__c) = "Construction" &amp;&amp;
+TEXT(SolutionType__c) = "Information Management" &amp;&amp;
+AND(ISBLANK( Client__c ), ISBLANK( Contractor__c ))</errorConditionFormula>
+    <errorDisplayField>Client__c</errorDisplayField>
+    <errorMessage>You must populate either the Client or the Contractor field for this type of Opportunity [OPP_VR24]</errorMessage>
+</ValidationRule>

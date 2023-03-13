@@ -192,6 +192,11 @@
         <label>CONFIRMED ATTENDANCE</label>
     </standardValue>
     <standardValue>
+        <fullName>Connected</fullName>
+        <default>false</default>
+        <label>Connected</label>
+    </standardValue>
+    <standardValue>
         <fullName>Contacted</fullName>
         <default>false</default>
         <label>Contacted</label>

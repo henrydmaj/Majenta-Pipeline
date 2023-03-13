@@ -11,7 +11,7 @@
         <filterItems>
             <field>Account.Type</field>
             <operation>equals</operation>
-            <value>Supplier</value>
+            <value>Supplier, Majenta Supplier</value>
         </filterItems>
         <filterItems>
             <field>Account.Name</field>
