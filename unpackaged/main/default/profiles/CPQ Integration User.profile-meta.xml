@@ -2,6 +2,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Test_Checkbox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Employee_Record__c.SecurityClearanceExpiryDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -18,6 +23,21 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Employee_Record__c.SecurityClearanceRequiredPick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomerSatisfaction__c.Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomerSatisfaction__c.Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomerSatisfaction__c.FeedbackComments__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

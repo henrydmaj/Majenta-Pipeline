@@ -1,0 +1,47 @@
+<!--<apex:page showHeader="false" lightningStyleSheets="true">
+<flow:interview name="FORM_NPSCreation"/>
+</apex:page>-->
+<apex:page showHeader="false" lightningStyleSheets="true" >
+   <html>
+      <head>
+         <apex:includeLightning />
+      </head>
+      <apex:slds /> 
+      <body class="slds-scope">
+       <div style="width:50%; border: 1px; border-radius:25px; box-shadow: 1px 2px 10px 1px grey; margin-left:25%; margin-right:25%; Margin-top:10%; padding-top:15px; padding-bottom: 15px;">
+          <div id="flowContainer" />
+        </div>
+         <script>
+            var statusChange = function (event) {
+               if(event.getParam("status") === "FINISHED") {
+                  // Control what happens when the interview finishes
+ 
+                  var outputVariables = event.getParam("outputVariables");
+                  var key;
+                  for(key in outputVariables) {
+                    if(outputVariables[key].name === "myOutput") {
+                        // Do something with an output variable
+                     }
+                  }
+               }
+            };
+            $Lightning.use("c:lightningOutApp", function() {
+               // Create the flow component and set the onstatuschange attribute
+               $Lightning.createComponent("lightning:flow", {"onstatuschange":statusChange},
+                  "flowContainer",
+                  function (component) {
+                     // Set the input variables
+                     var inputVariables = [
+                        { name : 'rating', type : 'String', value : '{!$CurrentPage.parameters.rating}'}
+                     ];
+                     
+                     // Start an interview in the flowContainer div, and 
+                     // initializes the input variables.
+                     component.startFlow("FORM_CSAT_Feedback",inputVariables);
+                  }
+               );
+            });
+         </script>
+      </body>
+   </html>
+</apex:page>
