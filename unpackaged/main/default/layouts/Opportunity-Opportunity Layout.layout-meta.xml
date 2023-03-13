@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <customButtons>Mail_Merge</customButtons>
     <excludeButtons>Clone</excludeButtons>
     <excludeButtons>DeepClone</excludeButtons>
@@ -280,6 +279,10 @@
                 <behavior>Edit</behavior>
                 <field>QualifiedDate__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsSecurityClearanceRequired__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -292,6 +295,10 @@
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SecurityClearanceRequiredLevelPick__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
