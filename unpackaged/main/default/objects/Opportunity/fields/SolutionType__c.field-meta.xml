@@ -1026,11 +1026,6 @@
                 <default>false</default>
                 <label>Content Creation Support Child Opportunity</label>
             </value>
-            <value>
-                <fullName>BIM</fullName>
-                <default>false</default>
-                <label>BIM</label>
-            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>Dassault</controllingFieldValue>
