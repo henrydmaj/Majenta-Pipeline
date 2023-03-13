@@ -27,27 +27,6 @@
                 <identifier>force_highlightsPanel1</identifier>
             </componentInstance>
         </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>flowLayout</name>
-                    <value>oneColumn</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>flowName</name>
-                    <value>FORM_HR_Induction</value>
-                </componentInstanceProperties>
-                <componentName>flowruntime:interview</componentName>
-                <identifier>flowruntime_interview</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.OnboardingStatusAuto__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>In Progress</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </componentInstance>
-        </itemInstances>
         <name>header</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -158,78 +137,6 @@
             </componentInstance>
         </itemInstances>
         <name>Facet-06496c62-0d0e-40e0-abe9-74dce22f3943</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.SecurityClearanceRequiredPick__c</fieldItem>
-                <identifier>RecordSecurityClearanceRequiredPick_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.SecurityClearanceGrantedDate__c</fieldItem>
-                <identifier>RecordSecurityClearanceGrantedDate_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-f25db546-8fdb-479e-a816-19475e475764</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.SecurityClearanceHeldPick__c</fieldItem>
-                <identifier>RecordSecurityClearanceHeldPick_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.SecurityClearanceExpiryDate__c</fieldItem>
-                <identifier>RecordSecurityClearanceExpiryDate_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-adacef9e-5ea9-48ad-9dcb-6f43c88bcc44</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-f25db546-8fdb-479e-a816-19475e475764</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column22</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-adacef9e-5ea9-48ad-9dcb-6f43c88bcc44</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column23</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-d9a48581-d369-449e-b997-8cf9227d746c</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -496,38 +403,28 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Start_Date__c</fieldItem>
-                <identifier>RecordStart_Date_cField1</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Leaving_Date__c</fieldItem>
-                <identifier>RecordLeaving_Date_cField1</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>readonly</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Years_at_Majenta__c</fieldItem>
-                <identifier>RecordYears_at_Majenta_cField1</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.Email_Address_Company__c</fieldItem>
                 <identifier>RecordEmail_Address_Company_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Business_Landline__c</fieldItem>
+                <identifier>RecordBusiness_Landline_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Business_Mobile__c</fieldItem>
+                <identifier>RecordBusiness_Mobile_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-811d72e8-6dc6-49a6-a54d-5d1c8f3f99a3</name>
@@ -552,6 +449,33 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Consultant_Company_Name__c</fieldItem>
                 <identifier>RecordConsultant_Company_Name_cField1</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Employee_Type__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Consultant</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Place_of_Work__c</fieldItem>
+                <identifier>RecordPlace_of_Work_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Start_Date__c</fieldItem>
+                <identifier>RecordStart_Date_cField1</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -570,8 +494,18 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Place_of_Work__c</fieldItem>
-                <identifier>RecordPlace_of_Work_cField</identifier>
+                <fieldItem>Record.Leaving_Date__c</fieldItem>
+                <identifier>RecordLeaving_Date_cField1</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>readonly</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Years_at_Majenta__c</fieldItem>
+                <identifier>RecordYears_at_Majenta_cField1</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-314f1014-f22b-4461-b8af-364ab91f850f</name>
@@ -773,118 +707,6 @@
             </componentInstance>
         </itemInstances>
         <name>Facet-d5af8dff-ef51-4f6f-9ff4-1d187209dc92</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.IsCompleteMeetTeams__c</fieldItem>
-                <identifier>RecordIsCompleteMeetTeams_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.IsCompleteSalesforceTraining__c</fieldItem>
-                <identifier>RecordIsCompleteSalesforceTraining_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.IsCompleteMXTraining__c</fieldItem>
-                <identifier>RecordIsCompleteMXTraining_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.IsCompleteRoleTraining__c</fieldItem>
-                <identifier>RecordIsCompleteRoleTraining_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-05b53caa-bfca-4bf2-b9ff-03380b795a24</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.IsCompleteCompanyHeadshots__c</fieldItem>
-                <identifier>RecordIsCompleteCompanyHeadshots_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.IsCompleteGeneralInduction__c</fieldItem>
-                <identifier>RecordIsCompleteGeneralInduction_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.IsCompleteHealth_Safety__c</fieldItem>
-                <identifier>RecordIsCompleteHealth_Safety_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.IsCompleteHRForms__c</fieldItem>
-                <identifier>RecordIsCompleteHRForms_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-07c31cdd-9ad2-4746-a7e9-3de0169b6c5a</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-05b53caa-bfca-4bf2-b9ff-03380b795a24</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column20</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-07c31cdd-9ad2-4746-a7e9-3de0169b6c5a</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column21</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-babd5d9a-6d16-4e2d-8d06-98b6bd770de2</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -1268,6 +1090,118 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.IsCompleteMeetTeams__c</fieldItem>
+                <identifier>RecordIsCompleteMeetTeams_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.IsCompleteSalesforceTraining__c</fieldItem>
+                <identifier>RecordIsCompleteSalesforceTraining_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.IsCompleteMXTraining__c</fieldItem>
+                <identifier>RecordIsCompleteMXTraining_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.IsCompleteRoleTraining__c</fieldItem>
+                <identifier>RecordIsCompleteRoleTraining_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-9577b647-c421-445a-a29a-9693f067d890</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.IsCompleteCompanyHeadshots__c</fieldItem>
+                <identifier>RecordIsCompleteCompanyHeadshots_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.IsCompleteGeneralInduction__c</fieldItem>
+                <identifier>RecordIsCompleteGeneralInduction_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.IsCompleteHealth_Safety__c</fieldItem>
+                <identifier>RecordIsCompleteHealth_Safety_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.IsCompleteHRForms__c</fieldItem>
+                <identifier>RecordIsCompleteHRForms_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-891b5f93-b41e-4252-beb7-ad966628c3be</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-9577b647-c421-445a-a29a-9693f067d890</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column21</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-891b5f93-b41e-4252-beb7-ad966628c3be</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column23</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-31b642f4-834a-4ecb-b181-815e19071752</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
                     <value>readonly</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.CreatedById</fieldItem>
@@ -1319,6 +1253,63 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>flowLayout</name>
+                    <value>oneColumn</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>flowName</name>
+                    <value>FORM_HR_Induction</value>
+                </componentInstanceProperties>
+                <componentName>flowruntime:interview</componentName>
+                <identifier>flowruntime_interview2</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.OnboardingStatusAuto__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>In Progress</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>FrameBackgroundColour</name>
+                    <value>ffffff</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>FrameBorderColour</name>
+                    <value>ffffff</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>HelpRecordId</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>ListensTo</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>LogContextInteraction</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PositioningGroup</name>
+                    <value>Employee Record - Details</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PositioningRole</name>
+                    <value>Help Cue</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>UXTheme</name>
+                    <value>Light</value>
+                </componentInstanceProperties>
+                <componentName>iahelp:IHPosDetect</componentName>
+                <identifier>iahelp_IHPosDetect</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>columns</name>
                     <value>Facet-06496c62-0d0e-40e0-abe9-74dce22f3943</value>
                 </componentInstanceProperties>
@@ -1344,33 +1335,6 @@
                         <leftValue>{!Record.User_is_Owner__c}</leftValue>
                         <operator>EQUAL</operator>
                         <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>columns</name>
-                    <value>Facet-d9a48581-d369-449e-b997-8cf9227d746c</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>label</name>
-                    <value>Security Clearance</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:fieldSection</componentName>
-                <identifier>flexipage_fieldSection11</identifier>
-                <visibilityRule>
-                    <booleanFilter>1 AND 2</booleanFilter>
-                    <criteria>
-                        <leftValue>{!Record.SecurityClearanceRequiredPick__c}</leftValue>
-                        <operator>NE</operator>
-                        <rightValue>Yes</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!Record.SecurityClearanceRequiredPick__c}</leftValue>
-                        <operator>NE</operator>
-                        <rightValue>No</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
@@ -1492,20 +1456,6 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>columns</name>
-                    <value>Facet-babd5d9a-6d16-4e2d-8d06-98b6bd770de2</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>label</name>
-                    <value>Onboarding Tasks</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:fieldSection</componentName>
-                <identifier>flexipage_fieldSection10</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>columns</name>
                     <value>Facet-99332adc-5673-4161-9993-7caa71e279be</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
@@ -1564,6 +1514,20 @@
                         <rightValue>true</rightValue>
                     </criteria>
                 </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-31b642f4-834a-4ecb-b181-815e19071752</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>Onboarding Tasks</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:fieldSection</componentName>
+                <identifier>flexipage_fieldSection10</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -1693,8 +1657,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Holiday_For_ChristmasAuto__c</fieldItem>
-                <identifier>RecordHoliday_For_ChristmasAuto_cField1</identifier>
+                <fieldItem>Record.HolidayForXmas__c</fieldItem>
+                <identifier>RecordHolidayForXmas_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1745,6 +1709,42 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>FrameBackgroundColour</name>
+                    <value>ffffff</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>FrameBorderColour</name>
+                    <value>ffffff</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>HelpRecordId</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>ListensTo</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>LogContextInteraction</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PositioningGroup</name>
+                    <value>Employee Record - Holidays</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PositioningRole</name>
+                    <value>Help Cue</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>UXTheme</name>
+                    <value>Light</value>
+                </componentInstanceProperties>
+                <componentName>iahelp:IHPosDetect</componentName>
+                <identifier>iahelp_IHPosDetect2</identifier>
+            </componentInstance>
+        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -1947,6 +1947,42 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>FrameBackgroundColour</name>
+                    <value>ffffff</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>FrameBorderColour</name>
+                    <value>ffffff</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>HelpRecordId</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>ListensTo</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>LogContextInteraction</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PositioningGroup</name>
+                    <value>Employee Record - Absences</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PositioningRole</name>
+                    <value>Help Cue</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>UXTheme</name>
+                    <value>Light</value>
+                </componentInstanceProperties>
+                <componentName>iahelp:IHPosDetect</componentName>
+                <identifier>iahelp_IHPosDetect3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>columns</name>
                     <value>Facet-52329ddd-366b-4930-92d8-f259660b0106</value>
                 </componentInstanceProperties>
@@ -2059,15 +2095,79 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>FrameBackgroundColour</name>
+                    <value>ffffff</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>FrameBorderColour</name>
+                    <value>ffffff</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>HelpRecordId</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>ListensTo</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>LogContextInteraction</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PositioningGroup</name>
+                    <value>Employee Record - Documents</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PositioningRole</name>
+                    <value>Help Cue</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>UXTheme</name>
+                    <value>Light</value>
+                </componentInstanceProperties>
+                <componentName>iahelp:IHPosDetect</componentName>
+                <identifier>iahelp_IHPosDetect4</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>decorate</name>
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>richTextValue</name>
-                    <value>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://majentasolutions.lightning.force.com/lightning/r/ContentDocument/0694K00000FfASWQA3/view&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;strong&gt;Company Handbook&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</value>
+                    <value>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://majentasolutions.lightning.force.com/lightning/r/ContentDocument/0694K00000FfASWQA3/view&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(220, 0, 126); font-size: 20px;&quot;&gt;&lt;strong&gt;Company Handbook&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
                 <identifier>flexipage_richText3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://majentasolutions.lightning.force.com/lightning/r/ContentDocument/0694K00000JGTZhQAP/view&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(220, 0, 126); font-size: 20px;&quot;&gt;&lt;strong&gt;Blank Expenses Schedule &lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText4</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://majentasolutions.lightning.force.com/lightning/r/ContentDocument/0694K00000JnxnzQAB/view&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(220, 0, 126); font-size: 20px;&quot;&gt;&lt;strong&gt;Health and Safety Handbook&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText5</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -2110,6 +2210,414 @@
             </componentInstance>
         </itemInstances>
         <name>Facet-f80ca09a-1055-4153-9c81-69785b752c89</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Job_Title__c</fieldItem>
+                <identifier>RecordJob_Title_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Qualified__c</fieldItem>
+                <identifier>RecordQualified_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-202a851d-aa98-42e4-aaa0-90a6bed13bdf</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Date_Reviewed__c</fieldItem>
+                <identifier>RecordDate_Reviewed_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Next_Review_Date__c</fieldItem>
+                <identifier>RecordNext_Review_Date_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Notes_Review__c</fieldItem>
+                <identifier>RecordNotes_Review_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-d85ec6f2-e028-4e81-b0ad-79fc3e02060d</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-202a851d-aa98-42e4-aaa0-90a6bed13bdf</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column22</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-d85ec6f2-e028-4e81-b0ad-79fc3e02060d</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column20</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-8df265c6-37bb-4649-8e89-08cf7e9eef8c</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>FrameBackgroundColour</name>
+                    <value>ffffff</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>FrameBorderColour</name>
+                    <value>ffffff</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>HelpRecordId</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>ListensTo</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>LogContextInteraction</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PositioningGroup</name>
+                    <value>Employee Record - Skills</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PositioningRole</name>
+                    <value>Help Cue</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>UXTheme</name>
+                    <value>Light</value>
+                </componentInstanceProperties>
+                <componentName>iahelp:IHPosDetect</componentName>
+                <identifier>iahelp_IHPosDetect5</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>flowLayout</name>
+                    <value>oneColumn</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>flowName</name>
+                    <value>Add_Skills_To_Employee_Record</value>
+                </componentInstanceProperties>
+                <componentName>flowruntime:interview</componentName>
+                <identifier>flowruntime_interview</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-8df265c6-37bb-4649-8e89-08cf7e9eef8c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>Does the employee have the relevant qualifications and experience for their role?</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:fieldSection</componentName>
+                <identifier>flexipage_fieldSection11</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>actionNames</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>adminFilters</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>RECORDTYPE|EQUALS|[&quot;Education&quot;]</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>maxRecordsToDisplay</name>
+                    <value>30</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Employee_Record__c.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>Skills__r</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListDisplayType</name>
+                    <value>ADVGRID</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListFieldAliases</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>NAME</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Completed_Date__c</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Status__c</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListLabel</name>
+                    <value>Education</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>sortFieldAlias</name>
+                    <value>__DEFAULT__</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>sortFieldOrder</name>
+                    <value>Default</value>
+                </componentInstanceProperties>
+                <componentName>lst:dynamicRelatedList</componentName>
+                <identifier>lst_dynamicRelatedList</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>actionNames</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>adminFilters</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>RECORDTYPE|EQUALS|[&quot;Qualification&quot;]</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>maxRecordsToDisplay</name>
+                    <value>30</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Employee_Record__c.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>Skills__r</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListDisplayType</name>
+                    <value>ADVGRID</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListFieldAliases</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>NAME</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Completed_Date__c</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Status__c</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListLabel</name>
+                    <value>Qualifications</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>sortFieldAlias</name>
+                    <value>__DEFAULT__</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>sortFieldOrder</name>
+                    <value>Default</value>
+                </componentInstanceProperties>
+                <componentName>lst:dynamicRelatedList</componentName>
+                <identifier>lst_dynamicRelatedList3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>actionNames</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>adminFilters</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>RECORDTYPE|EQUALS|[&quot;Experience&quot;]</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>maxRecordsToDisplay</name>
+                    <value>30</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Employee_Record__c.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>Skills__r</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListDisplayType</name>
+                    <value>ADVGRID</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListFieldAliases</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>NAME</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Completed_Date__c</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Years_of_Experience__c</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListLabel</name>
+                    <value>Experience</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>sortFieldAlias</name>
+                    <value>__DEFAULT__</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>sortFieldOrder</name>
+                    <value>Default</value>
+                </componentInstanceProperties>
+                <componentName>lst:dynamicRelatedList</componentName>
+                <identifier>lst_dynamicRelatedList2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-f2f76557-ab26-4a91-acf9-13b67893ffc6</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Employee_Record__c.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>Targets__r</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>ADVGRID</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>cacheAge</name>
+                    <value>1440</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>reportName</name>
+                    <value>X2023_Q1_Target_gys</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showRefreshButton</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>cacheAge</name>
+                    <value>1440</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>reportName</name>
+                    <value>Q1_2023_Renewals_Target_eyi</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showRefreshButton</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-e2ffb12d-ddc4-4dc6-b6ff-b44ea612ce7d</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -2171,6 +2679,34 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>flexipage_tab</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-f2f76557-ab26-4a91-acf9-13b67893ffc6</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Skills</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab4</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-e2ffb12d-ddc4-4dc6-b6ff-b44ea612ce7d</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Coming Soon</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab5</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-7ed53370-3154-4ba8-a23b-e03d41ad89b9</name>
