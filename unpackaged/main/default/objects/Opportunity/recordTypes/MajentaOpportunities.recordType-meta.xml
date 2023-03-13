@@ -2715,10 +2715,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Owner Operator</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>PLM Express_CATIA V5 PLM Express Edition 3 _On_Premise</fullName>
             <default>false</default>
         </values>
