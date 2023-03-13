@@ -39,25 +39,7 @@
         <label>Account Name</label>
         <locationX>1252</locationX>
         <locationY>620</locationY>
-        <defaultConnector>
-            <targetReference>Find_Target_Record_for_Opportunity_Owner</targetReference>
-        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>enerjyhub_Transferred_Opportunities</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.AccountId</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>0014K00000SU7H5QAL</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Find_Target_Record_for_enerjyhub_Opportunity_Owner</targetReference>
-            </connector>
-            <label>enerjyhub Transferred Opportunities</label>
-        </rules>
         <rules>
             <name>XylemAccount</name>
             <conditionLogic>and</conditionLogic>
@@ -68,10 +50,39 @@
                     <stringValue>0014K00000NHycJQAT</stringValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>$Record.SolutionType__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Content Creation Drawdown Contract</stringValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>Find_Xylem_Target_Record</targetReference>
             </connector>
             <label>Xylem</label>
+        </rules>
+        <rules>
+            <name>Opportunity</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AccountId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>0014K00000SU7H5QAL</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.AccountId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>0014K00000NHycJQAT</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Find_Target_Record_for_Opportunity_Owner</targetReference>
+            </connector>
+            <label>Opportunity</label>
         </rules>
     </decisions>
     <decisions>
@@ -79,9 +90,6 @@
         <label>Does an Opportunity Target Record Exist?</label>
         <locationX>1007</locationX>
         <locationY>1152</locationY>
-        <defaultConnector>
-            <targetReference>Copy_1_of_Create_Opportunity_Target_Record</targetReference>
-        </defaultConnector>
         <defaultConnectorLabel>Default</defaultConnectorLabel>
         <rules>
             <name>Copy_1_of_Yes</name>
@@ -134,7 +142,7 @@
             <name>Copy_2_of_Yes</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Find_Target_Record_for_Opportunity_Owner.Id</leftValueReference>
+                <leftValueReference>Find_Xylem_Target_Record.Id</leftValueReference>
                 <operator>IsNull</operator>
                 <rightValue>
                     <booleanValue>false</booleanValue>
@@ -147,63 +155,10 @@
         </rules>
     </decisions>
     <decisions>
-        <name>Copy_2_of_Does_an_Opportunity_Target_Record_Exist</name>
-        <label>Does an Opportunity Target Record Exist?</label>
-        <locationX>167</locationX>
-        <locationY>1175</locationY>
-        <defaultConnector>
-            <targetReference>Create_enerjyhub_Opportunity_Target_Record</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default</defaultConnectorLabel>
-        <rules>
-            <name>Copy_4_of_Yes</name>
-            <conditionLogic>or</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Id</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <elementReference>Find_Opportunity_Target_Record.Opportunity__r.Id</elementReference>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Update_enerjyhub_Opportunity_Target_Record</targetReference>
-            </connector>
-            <label>Yes</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Copy_2_of_Does_Target_Record_Exist</name>
-        <label>Does Target Record Exist?</label>
-        <locationX>336</locationX>
-        <locationY>1171</locationY>
-        <defaultConnector>
-            <targetReference>Email_Alert</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>No</defaultConnectorLabel>
-        <rules>
-            <name>Copy_3_of_Yes</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Find_Target_Record_for_enerjyhub_Opportunity_Owner.Id</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Copy_2_of_Does_an_Opportunity_Target_Record_Exist</targetReference>
-            </connector>
-            <label>Yes</label>
-        </rules>
-    </decisions>
-    <decisions>
         <name>Does_an_Opportunity_Target_Record_Exist</name>
         <label>Does an Opportunity Target Record Exist?</label>
         <locationX>1876</locationX>
         <locationY>1155</locationY>
-        <defaultConnector>
-            <targetReference>Create_Opportunity_Target_Record</targetReference>
-        </defaultConnector>
         <defaultConnectorLabel>Default</defaultConnectorLabel>
         <rules>
             <name>Yes</name>
@@ -370,66 +325,10 @@ IF( OR (MONTH({!$Record.CloseDate}) = 7 , MONTH({!$Record.CloseDate}) = 8, MONTH
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
     <recordCreates>
-        <name>Create_enerjyhub_Opportunity_Target_Record</name>
-        <label>Create enerjyhub Opportunity Target Record</label>
-        <locationX>304</locationX>
-        <locationY>1380</locationY>
-        <inputAssignments>
-            <field>CurrencyIsoCode</field>
-            <value>
-                <elementReference>$Record.CurrencyIsoCode</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Division__c</field>
-            <value>
-                <elementReference>$Record.Division__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Margin__c</field>
-            <value>
-                <elementReference>$Record.Margin__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Opportunity__c</field>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Quarter__c</field>
-            <value>
-                <elementReference>Quarter</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Target__c</field>
-            <value>
-                <elementReference>Find_Target_Record_for_enerjyhub_Opportunity_Owner.Id</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Type__c</field>
-            <value>
-                <elementReference>New_or_Renewal</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Won__c</field>
-            <value>
-                <elementReference>$Record.IsWon</elementReference>
-            </value>
-        </inputAssignments>
-        <object>Opportunity_Target__c</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordCreates>
-    <recordCreates>
         <name>Create_Opportunity_Target_Record</name>
         <label>Create Opportunity Target Record</label>
-        <locationX>1983</locationX>
-        <locationY>1459</locationY>
+        <locationX>2059</locationX>
+        <locationY>1458</locationY>
         <inputAssignments>
             <field>CurrencyIsoCode</field>
             <value>
@@ -503,34 +402,6 @@ IF( OR (MONTH({!$Record.CloseDate}) = 7 , MONTH({!$Record.CloseDate}) = 8, MONTH
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
-        <name>Find_Target_Record_for_enerjyhub_Opportunity_Owner</name>
-        <label>Find Target Record for enerjyhub Opportunity Owner</label>
-        <locationX>1014</locationX>
-        <locationY>971</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Copy_2_of_Does_Target_Record_Exist</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Auto_Employee_Name__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>$Record.Opportunity_Owner__c</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>Auto_Year__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>YearofOpportunityCloseDate</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>Employee_Target__c</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
         <name>Find_Target_Record_for_Opportunity_Owner</name>
         <label>Find Target Record for Opportunity Owner</label>
         <locationX>1505</locationX>
@@ -539,7 +410,7 @@ IF( OR (MONTH({!$Record.CloseDate}) = 7 , MONTH({!$Record.CloseDate}) = 8, MONTH
         <connector>
             <targetReference>Does_Target_Record_Exist</targetReference>
         </connector>
-        <filterLogic>(NOT (3)) AND (1) AND (2)</filterLogic>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>Auto_Owner_Id__c</field>
             <operator>EqualTo</operator>
@@ -552,13 +423,6 @@ IF( OR (MONTH({!$Record.CloseDate}) = 7 , MONTH({!$Record.CloseDate}) = 8, MONTH
             <operator>EqualTo</operator>
             <value>
                 <elementReference>YearofOpportunityCloseDate</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>Name</field>
-            <operator>Contains</operator>
-            <value>
-                <stringValue>Xylem</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -641,63 +505,6 @@ IF( OR (MONTH({!$Record.CloseDate}) = 7 , MONTH({!$Record.CloseDate}) = 8, MONTH
             <field>Target__c</field>
             <value>
                 <elementReference>Find_Xylem_Target_Record.Id</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Type__c</field>
-            <value>
-                <elementReference>New_or_Renewal</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Won__c</field>
-            <value>
-                <elementReference>$Record.IsWon</elementReference>
-            </value>
-        </inputAssignments>
-        <object>Opportunity_Target__c</object>
-    </recordUpdates>
-    <recordUpdates>
-        <name>Update_enerjyhub_Opportunity_Target_Record</name>
-        <label>Update enerjyhub Opportunity Target Record</label>
-        <locationX>50</locationX>
-        <locationY>1399</locationY>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>Find_Opportunity_Target_Record.Id</elementReference>
-            </value>
-        </filters>
-        <inputAssignments>
-            <field>CurrencyIsoCode</field>
-            <value>
-                <elementReference>$Record.CurrencyIsoCode</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Division__c</field>
-            <value>
-                <elementReference>$Record.Division__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Margin__c</field>
-            <value>
-                <elementReference>$Record.Margin__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Quarter__c</field>
-            <value>
-                <elementReference>Quarter</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Target__c</field>
-            <value>
-                <elementReference>Find_Target_Record_for_enerjyhub_Opportunity_Owner.Id</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -831,12 +638,12 @@ IF( OR (MONTH({!$Record.CloseDate}) = 7 , MONTH({!$Record.CloseDate}) = 8, MONTH
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>Email_Alert_No_Target_Record</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>Salesforce could not find a target record for the following opportunity: {!$Record.Name}
 
-View here: https://majentasolutions--uat.sandbox.lightning.force.com/lightning/r/Opportunity/{!$Record.Id}/view</text>
+View here: https://majentasolutions.lightning.force.com/lightning/r/Opportunity/{!$Record.Id}/view</text>
     </textTemplates>
 </Flow>

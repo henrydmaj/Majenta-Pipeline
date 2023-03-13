@@ -2336,6 +2336,9 @@
         <layout>Pay_Rise__c-Pay Rise Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Performance_Review__c-Performance Review Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>PersonAccount-Person Account Layout</layout>
         <recordType>PersonAccount.MajentaPersonAccount</recordType>
     </layoutAssignments>
