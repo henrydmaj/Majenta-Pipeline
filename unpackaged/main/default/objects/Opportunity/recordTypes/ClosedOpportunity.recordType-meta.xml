@@ -1032,6 +1032,10 @@
             <fullName>EnerjyHub</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>MX</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>ExecutiveAdvocacyPick__c</picklist>

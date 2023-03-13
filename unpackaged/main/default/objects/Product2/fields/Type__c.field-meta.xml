@@ -59,6 +59,11 @@
                 <default>false</default>
                 <label>Subscription</label>
             </value>
+            <value>
+                <fullName>Subscription Hub</fullName>
+                <default>false</default>
+                <label>Subscription Hub</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
